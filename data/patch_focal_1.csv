@@ -1,0 +1,16 @@
+focal,patch_focal,treatment
+.8,A,social
+:6,B,isolated
+:0,C,social
+.5,D,social
+.9,E,isolated
+.7,F,isolated
+.2,G,social
+.3,H,social
+.6,I,isolated
+.1,J,social
+:1,K,isolated
+.0,L,isolated
+",9",E,isolated
+5.,D,social
+6.,I,isolated
