@@ -27,12 +27,20 @@ ggplot(data = male_data, aes(x = treatment, y = avoid_success_rate)) +
        geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
        scale_color_nejm() + ylab("Female evasion success rate") + ylim(0, 1)
 
+## Proportion of mounts that were females attempted to evade
+# Probably the worse measure
+ggplot(data = male_data, aes(x = treatment, y = prop_attempt_avoid)) +
+  geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
+  scale_color_nejm() + 
+  ylab("Proportion of mounts directed at females where females attempted to evade") + 
+  ylim(0, 1)
+
 ## Proportion of mounts that were avoided by females
 # Probably the worse measure
 ggplot(data = male_data, aes(x = treatment, y = prop_avoided)) +
        geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
        scale_color_nejm() + 
-       ylab("Proportion of mounts directed at females \n that they attempted to evade") + 
+       ylab("Proportion of mounts directed at females that were evaded") + 
        ylim(0, 1)
 
 ## Proportion of mounts where males had a choice that were aborted
@@ -55,7 +63,4 @@ ggplot(data = male_data, aes(x = treatment, y = prop_success_female_only)) +
        geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
        scale_color_nejm() + ylab("Proportion of female moutns that resulted in insemination") + ylim(0, 1)
 
-ggplot(data = male_data, aes(x = treatment, y = abort_rate)) +
-  geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-  scale_color_nejm() + ylab("Mount abort rate") + ylim(0, 1)
 
