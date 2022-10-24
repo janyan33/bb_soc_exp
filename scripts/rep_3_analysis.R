@@ -77,8 +77,8 @@ func_matrix_to_igraph <- function(matrix, mode, behaviour){
   V(igraph)$color <- ifelse(V(igraph)$treatment == "female", "sandybrown", 
                             ifelse(V(igraph)$treatment == "social", "deepskyblue4", "lightblue1"))
   V(igraph)$label.color <- "black"
-  V(igraph)$size <- strength
-  E(igraph)$width <- E(igraph)$weight
+  V(igraph)$size <- strength*5
+  E(igraph)$width <- E(igraph)$weight*3
   plot(igraph, edge.color = "dimgrey")
   return(igraph)
 }
@@ -88,5 +88,5 @@ mount_network <- func_matrix_to_igraph(mount_matrix, mode = "undirected", behavi
 insem_network <- func_matrix_to_igraph(insem_matrix, mode = "undirected", behaviour = "insemination")
 
 
-tkplot(mount_network)
+tkplot(insem_network)
 
