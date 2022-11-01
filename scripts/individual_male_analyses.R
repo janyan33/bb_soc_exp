@@ -9,10 +9,10 @@ library(ggsci)
 library(netdiffuseR)
 
 My_Theme = theme(
-  axis.title.x = element_text(size = 16),
-  axis.text.x = element_text(size = 14),
-  axis.title.y = element_text(size = 16), 
-  axis.text.y = element_text(size = 16))
+  axis.title.x = element_text(size = 20),
+  axis.text.x = element_text(size = 18),
+  axis.title.y = element_text(size = 20), 
+  axis.text.y = element_text(size = 20))
 
 ## Load data in
 male_data <- read.csv("data/combined_individual_data.csv") %>% 
@@ -36,7 +36,7 @@ ggplot(data = male_data, aes(x = treatment, y = prop_attempt_avoid)) +
   ylim(0, 1)
 
 ## Proportion of mounts that were avoided by females
-# Probably the worse measure
+# Probably the worse measureS
 ggplot(data = male_data, aes(x = treatment, y = prop_avoided)) +
        geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
        scale_color_nejm() + 
@@ -61,7 +61,7 @@ ggplot(data = male_data, aes(x = treatment, y = prop_successful)) +
 ## Proportion of mounts directed at females that led to insemination
 ggplot(data = male_data, aes(x = treatment, y = prop_success_female_only)) +
        geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-       scale_color_nejm() + ylab("Proportion of female moutns that resulted in insemination") + ylim(0, 1)
+       scale_color_nejm() + ylab("Proportion of female mounts that resulted in insemination") + ylim(0, 1)
 
 ggplot(data = male_data, aes(x = treatment, y = inseminations)) +
   geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
