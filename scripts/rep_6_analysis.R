@@ -55,7 +55,7 @@ func_insem_mat <- function(all_data) {
 ## Creating a function that turns data into edgelists and then into mount matrices
 func_mount_mat <- function(all_data) {
   all_data <- all_data %>% 
-    filter(behaviour == "insemination")# | behaviour == "mount") %>% 
+    filter(behaviour == "insemination"| behaviour == "mount") %>% 
     #filter(day == Day) %>% 
     select(c(patch_focal, patch_partner)) %>% 
     mutate(edge_weight = 1)
@@ -83,15 +83,15 @@ func_matrix_to_igraph <- function(matrix, mode, behaviour){
   V(igraph)$color <- ifelse(V(igraph)$treatment == "female", "sandybrown", 
                             ifelse(V(igraph)$treatment == "social", "deepskyblue4", "lightblue1"))
   V(igraph)$label.color <- "black"
-  V(igraph)$size <- (strength+0.5)*4 # USE FOR INSEMINATION NETWORKS
-  #V(igraph)$size <- ifelse(V(igraph)$sex == "Female", strength, out_strength) # USE FOR MOUNT NETWORKS
-  E(igraph)$width <- E(igraph)$weight*2
+  #V(igraph)$size <- (strength+0.5)*4 # USE FOR INSEMINATION NETWORKS
+  V(igraph)$size <- ifelse(V(igraph)$sex == "Female", strength, out_strength) # USE FOR MOUNT NETWORKS
+  E(igraph)$width <- E(igraph)$weight
   plot(igraph, edge.color = "dimgrey", edge.arrow.size = 0.3)
   return(igraph)
 }
 
 # GENERATE THE TWO IGRAPH OBJECTS 
-# mount_network <- func_matrix_to_igraph(mount_matrix, mode = "directed", behaviour = "mount")
+mount_network <- func_matrix_to_igraph(mount_matrix, mode = "directed", behaviour = "mount")
 insem_network <- func_matrix_to_igraph(insem_matrix, mode = "directed", behaviour = "insemination")
 
 tkplot(insem_network)
