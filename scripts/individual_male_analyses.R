@@ -65,14 +65,14 @@ ggplot(data = male_data, aes(x = treatment, y = prop_success_female_only)) +
        geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
        scale_color_nejm() + ylab("Proportion of female mounts that resulted in insemination") + ylim(0, 1)
 
-## Number of mounts
+## Number of inseminations
 ggplot(data = male_data, aes(x = treatment, y = inseminations)) +
-  geom_boxplot() + geom_jitter(alpha = 0.2, width = 0.025) + #geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-  scale_color_nejm() + ylab("Number of inseminations")
+  geom_boxplot()+geom_point(aes(color = replicate), size = 3, alpha = 0.5) +
+  scale_color_nejm() + ylab("Number of inseminations") + ylim(0, 10)
 
-## 1) Number of inseminations
+## 1) Number of mounts
 ggplot(data = male_data, aes(x = treatment, y = mounts)) +
-  geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
+  geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.5) + 
   scale_color_nejm() + ylab("Number of mounts")
 
 
