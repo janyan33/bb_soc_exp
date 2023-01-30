@@ -18,7 +18,6 @@ groups_agg <- read.csv("data/aggregations.csv") %>%
 groups_agg_reps <- split(groups_agg, groups_agg$replicate)
 
 #################### VISUALIZING SOCIAL NETWORKS ############################
-
 ## Function for turning group data into igraph objects
 func_igraph <- function(rep_groups){
   group_list <- strsplit(rep_groups$members, " ")
@@ -28,24 +27,35 @@ func_igraph <- function(rep_groups){
   igraph <- graph_from_adjacency_matrix(ibi_matrix, diag = FALSE, weighted = TRUE, mode = "undirected")
   igraph <- set_vertex_attr(igraph, "sex", 
                             value = ifelse(V(igraph)$name %in% LETTERS[1:12], "Male", "Female"))
+  
+  #This chunk is only for R1 who's letter ID assignments are different than the rest
+  #igraph <- set_vertex_attr(igraph, "treatment", 
+  #                          value = ifelse(V(igraph)$name %in% LETTERS[13:24], "female",
+  #                                        ifelse(V(igraph)$name == "A" | V(igraph)$name == "C" | V(igraph)$name == "D" | 
+  #                                                  V(igraph)$name == "G" | V(igraph)$name == "H" | V(igraph)$name == "J",        
+  #                                               "social", "isolated")))
+  
+  igraph <- set_vertex_attr(igraph, "treatment", 
+                            value = ifelse(V(igraph)$name %in% LETTERS[13:24], "female",
+                                          ifelse(V(igraph)$name %in% LETTERS[1:6], "social", "isolated")))
+  
+  V(igraph)$color <- ifelse(V(igraph)$treatment == "female", "sandybrown", 
+                            ifelse(V(igraph)$treatment == "social", "deepskyblue4", "lightblue1"))
   strength <- strength(igraph)
   igraph <- set_vertex_attr(igraph, "strength", value = strength)
+  V(igraph)$size <- V(igraph)$strength*8
+  V(igraph)$label.color <- "black"
+  E(igraph)$width <- E(igraph)$weight*6
+  
   return(igraph)
 }
 
-## Function for visualizing networks
-func_plot_network <- function(igraph_object, node_size){
-  V(igraph_object)$color <- ifelse(V(igraph_object)$sex == "Female", "sandybrown", "skyblue3")
-  V(igraph_object)$size <- V(igraph_object)$strength*node_size
-  V(igraph_object)$label.color <- "white"
-  E(igraph_object)$width <- E(igraph_object)$weight*6
-  plot(igraph_object, edge.color = "dimgrey") #, vertex.label = NA) allows us to turn on/off vertex labels
-}
 
 ## Visualizing aggregation-based networks
 igraph_objects_agg <- func_igraph(groups_agg_reps[[1]])
-rep_2 <- lapply(igraph_objects_agg, node_size = 8, func_plot_network)
+
 
 tkplot(igraph_objects_agg)
+
 
 
