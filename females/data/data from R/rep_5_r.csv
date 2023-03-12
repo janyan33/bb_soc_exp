@@ -1,0 +1,89 @@
+,day,start_time,end_time,focal,partner,partner_avoid...Y.N.,avoid_success...Y.N.,male_abort...Y.N.,behaviour,notes,patch_focal,patch_partner,treatment
+1,1,8:02:17 AM,,",5","9,",y,y,NA,mount,,E,L,social
+2,1,8:02:32 AM,8:03:26 AM,",5","6,",n,NA,n,insemination,,E,K,social
+3,1,8:03:28 AM,8:03:59 AM,",3","0,",n,NA,n,insemination,,D,M,isolated
+4,1,8:07:58 AM,,",2","8,",y,y,NA,mount,,C,P,isolated
+5,1,8:08:33 AM,8:09:20 AM,",2","8,",y,n,n,insemination,,C,P,isolated
+6,1,8:09:53 AM,8:10:41 AM,",5","9,",n,NA,n,insemination,,E,L,social
+7,1,8:10:16 AM,8:10:53 AM,",7","0,",n,NA,n,insemination,,G,M,isolated
+8,1,8:10:32 AM,8:11:18 AM,",0","8,",n,NA,n,insemination,,A,P,isolated
+9,1,8:13:53 AM,,",3","0,",y,y,NA,mount,check footage to see if this was a mount,D,M,isolated
+10,1,8:16:49 AM,,",8","1,",n,NA,n,insemination,,H,N,isolated
+11,1,8:21:15 AM,8:21:47 AM,",0","2,",n,NA,n,insemination,,A,O,isolated
+12,1,8:25:26 AM,,",1","6,",y,y,NA,mount,"90% sure female is 6,",B,K,social
+13,1,8:27:58 AM,,",0","2,",n,NA,y,mount,,A,O,isolated
+14,1,8:42:26 AM,,",1","9,",y,y,NA,mount,,B,L,social
+15,1,8:43:17 AM,8:43:54 AM,",6","0,",n,NA,n,insemination,,F,M,isolated
+16,1,9:04:14 AM,,",1","6,",y,y,NA,mount,,B,K,social
+17,1,9:11:41 AM,,",8","6,",y,y,NA,mount,,H,K,social
+18,1,10:09:30 AM,,",2","9,",y,y,NA,mount,,C,L,social
+19,1,10:09:56 AM,,",2","9,",y,y,NA,mount,,C,L,social
+20,1,10:15:46 AM,,",2","9,",y,y,NA,mount,Lazy mount ran directly at her in the 3 instances,C,L,social
+21,1,10:25:23 AM,10:25:37 AM,",2","9,",n,NA,y,mount,,C,L,social
+22,1,10:29:06 AM,10:29:22 AM,",6","9,",n,NA,y,mount,,F,L,social
+23,1,10:51:27 AM,,",1","4,",y,y,NA,mount,,B,I,social
+24,1,10:53:30 AM,10:55:03 AM,",1","4,",n,n,n,insemination,,B,I,social
+25,1,10:59:25 AM,,",6","9,",n,NA,y,mount,,F,L,social
+26,1,11:22:13 AM,,",8","1,",y,y,NA,mount,,H,N,isolated
+27,1,11:48:37 AM,11:49:01 AM,",2","2,",y,n,y,mount,,C,O,isolated
+28,1,11:55:51 AM,,",6","2,",n,NA,y,mount,,F,O,isolated
+29,1,12:05:26 PM,,",1","9,",n,NA,y,mount,,B,L,social
+30,1,12:34:03 PM,12:35:09 PM,",0","8,",y,n,n,insemination,,A,P,isolated
+31,1,12:39:12 PM,12:39:49 PM,",6","2,",n,NA,n,insemination,,F,O,isolated
+32,1,12:39:26 PM,,",0","5,",n,NA,y,mount,,A,J,social
+33,1,12:43:01 PM,,",2","2,",n,NA,y,mount,,C,O,isolated
+34,1,12:44:43 PM,,",2","5,",n,NA,y,mount,,C,J,social
+35,1,12:47:34 PM,,",2","5,",n,NA,y,mount,,C,J,social
+36,1,12:50:18 PM,,",6","2,",y,y,NA,mount,,F,O,isolated
+37,1,12:52:33 PM,,",6","9,",n,NA,y,mount,,F,L,social
+38,1,12:59:40 PM,1:00:13 PM,",1","5,",n,NA,n,insemination,,B,J,social
+39,1,1:06:27 PM,,",3","5,",n,NA,y,mount,,D,J,social
+40,1,1:08:34 PM,,",1","5,",n,NA,y,mount,,B,J,social
+41,1,1:11:30 PM,1:12:08 PM,",3","5,",n,NA,n,insemination,,D,J,social
+42,1,1:16:28 PM,,",5","9,",y,y,NA,mount,,E,L,social
+43,1,1:21:50 PM,,",6","5,",n,NA,y,mount,,F,J,social
+44,1,1:23:28 PM,,",7","9,",n,NA,y,mount,,G,L,social
+45,1,1:25:16 PM,,",3","2,",n,NA,y,mount,,D,O,isolated
+46,1,1:46:05 PM,,",6","5,",n,NA,y,mount,,F,J,social
+47,1,2:23:45 PM,,",2","2,",y,y,NA,mount,,C,O,isolated
+48,1,3:13:35 PM,3:14:07 PM,",1","5,",y,n,n,insemination,,B,J,social
+49,2,8:09:17 AM,8:09:59 AM,",0","6,",n,NA,n,insemination,,A,K,social
+50,2,8:10:53 AM,,",3","1,",n,NA,y,mount,,D,N,isolated
+51,2,8:12:09 AM,8:12:48 AM,",5","9,",y,n,n,insemination,,E,L,social
+52,2,8:19:47 AM,,",0","6,",y,n,y,mount,,A,K,social
+53,2,9:16:32 AM,,",0","1,",y,y,NA,mount,female pressed against wall,A,N,isolated
+54,2,9:30:37 AM,9:30:54 AM,",7","9,",n,NA,y,mount,,G,L,social
+55,2,9:34:27 AM,,",0","6,",y,y,NA,mount,,A,K,social
+56,2,9:36:50 AM,9:37:20 AM,",8","2,",y,n,n,insemination,,H,O,isolated
+57,2,9:42:19 AM,,",0","8,",y,y,NA,mount,,A,P,isolated
+58,2,9:43:11 AM,,",8","8,",y,n,y,mount,,H,P,isolated
+59,2,9:49:33 AM,,",0","1,",y,y,NA,mount,,A,N,isolated
+60,2,9:50:50 AM,,",3","2,",n,NA,y,mount,,D,O,isolated
+61,2,9:52:55 AM,,",8","1,",n,NA,y,mount,,H,N,isolated
+62,2,10:04:06 AM,10:04:25 AM,",2","2,",n,NA,y,mount,,C,O,isolated
+63,2,10:36:58 AM,10:37:15 AM,",7","9,",n,NA,y,mount,,G,L,social
+64,2,10:42:50 AM,10:42:54 AM,",5","9,",n,NA,y,mount,,E,L,social
+65,2,10:43:25 AM,,",6","5,",y,y,NA,mount,,F,J,social
+66,2,10:47:20 AM,,",6","5,",y,y,NA,mount,,F,J,social
+67,2,11:29:31 AM,11:30:01 AM,",3","0,",y,n,n,insemination,Not sure if met time requirments may be male abort,D,M,isolated
+68,2,11:36:34 AM,,",3","1,",n,NA,y,mount,,D,N,isolated
+69,2,11:58:05 AM,,",1","0,",y,n,y,mount,,B,M,isolated
+70,2,12:14:54 PM,,",1","6,",y,n,y,mount,,B,K,social
+71,2,12:15:18 PM,,",3","6,",y,y,NA,mount,,D,K,social
+72,2,12:16:33 PM,,",8","6,",n,NA,y,mount,,H,K,social
+73,2,12:20:30 PM,,",8","1,",y,n,y,mount,,H,N,isolated
+74,2,12:22:10 PM,,",1","4,",y,y,NA,mount,,B,I,social
+75,2,12:26:03 PM,,",3","1,",n,NA,y,mount,,D,N,isolated
+76,2,12:30:47 PM,,",1","4,",y,n,y,mount,,B,I,social
+77,2,12:39:40 PM,,",2","8,",y,y,NA,mount,,C,P,isolated
+78,2,12:39:41 PM,,",0","8,",y,y,NA,mount,,A,P,isolated
+79,2,12:48:15 PM,,",2","6,",y,y,NA,mount,,C,K,social
+80,2,12:53:00 PM,,",7","1,",y,y,NA,mount,,G,N,isolated
+81,2,1:03:34 PM,1:04:35 PM,",8","2,",n,NA,n,insemination,,H,O,isolated
+82,2,1:05:05 PM,,",6","2,",y,y,NA,mount,,F,O,isolated
+83,2,1:29:19 PM,,",1","1,",n,NA,y,mount,,B,N,isolated
+84,2,1:32:13 PM,,",7","9,",y,y,NA,mount,,G,L,social
+85,2,2:06:40 PM,,",6","2,",n,NA,n,insemination,,F,O,isolated
+86,2,2:11:42 PM,,",8","8,",n,NA,y,mount,,H,P,isolated
+87,2,2:17:20 PM,,",6","1,",y,n,y,mount,,F,N,isolated
+88,2,2:26:28 PM,,",6","9,",n,NA,y,mount,,F,L,social

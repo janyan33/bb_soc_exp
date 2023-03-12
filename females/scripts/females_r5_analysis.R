@@ -20,15 +20,15 @@ My_Theme = theme(
   axis.text.y = element_text(size = 16))
 
 # Load data in
-rep_1_dat <- read.csv("females/data/raw/soc_exp_fem_r1.csv") %>% 
-  filter(behaviour != "TRIAL START")
+rep_5_dat <- read.csv("females/data/raw/soc_exp_fem_r5.csv") %>% 
+  filter(behaviour != "trial start")
 
-patch_table_focals <- read.csv("females/data/patch_tables/patch_focal_f1.csv")
-patch_table_partner <- read.csv("females/data/patch_tables/patch_partner_f1.csv")
+patch_table_focals <- read.csv("females/data/patch_tables/patch_focal_f5.csv")
+patch_table_partner <- read.csv("females/data/patch_tables/patch_partner_f5.csv")
 
-rep_1_dat <- rep_1_dat %>% 
+rep_5_dat <- rep_5_dat %>% 
   left_join(patch_table_focals, by = "focal") %>% 
-  left_join(patch_table_partner, by = "partner")
+  left_join(patch_table_partner, by = "partner") 
 
 ## CREATING MATING AND MOUNTING MATRICES
 ## Creating a function that turns data into edgelists and then into insemination matrices 
@@ -44,7 +44,7 @@ func_insem_mat <- function(all_data) {
 }
 
 ## Creating a function that turns data into edgelists and then into mount matrices
-func_mount_mat <- function(all_data) {
+func_mount_mat <- function(all_data, Day) {
   all_data <- all_data %>% 
     filter(behaviour == "insemination" | behaviour == "mount") %>% 
     select(c(patch_focal, patch_partner)) %>% 
@@ -55,8 +55,8 @@ func_mount_mat <- function(all_data) {
   return(as.matrix(mount_matrix))
 }
 
-insem_matrix <- func_insem_mat(rep_1_dat)
-mount_matrix <- func_mount_mat(rep_1_dat)
+insem_matrix <- func_insem_mat(rep_5_dat)
+mount_matrix <- func_mount_mat(rep_5_dat)
 
 ## FUNCTION TO TURN MATRICES INTO NETWORKS
 func_matrix_to_igraph <- function(matrix, mode, behaviour){
@@ -70,15 +70,13 @@ func_matrix_to_igraph <- function(matrix, mode, behaviour){
   V(igraph)$color <- ifelse(V(igraph)$treatment == "male", "#118ab2", 
                             ifelse(V(igraph)$treatment == "social", "#f77f00", "#f6bd60"))
   V(igraph)$label.color <- "black"
-  V(igraph)$size <- strength*7 # CHANGE MULTIPLIER FOR MOUNT VS. INSEM NETWORKS
+  V(igraph)$size <- strength*5 # CHANGE MULTIPLIER FOR MOUNT VS. INSEM NETWORKS
   E(igraph)$width <- E(igraph)$weight*3
   plot(igraph, edge.color = "dimgrey", edge.arrow.size = 0.3)
   return(igraph)
 }
-
 # GENERATE THE TWO IGRAPH OBJECTS 
-mount_network <- func_matrix_to_igraph(mount_matrix, mode = "undirected", behaviour = "mount")
+mount_network <- func_matrix_to_igraph(mount_matrix, mode = "directed", behaviour = "mount")
 insem_network <- func_matrix_to_igraph(insem_matrix, mode = "undirected", behaviour = "insemination")
-
 
 tkplot(insem_network)

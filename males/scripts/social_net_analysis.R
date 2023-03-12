@@ -12,7 +12,7 @@ library(janitor)
 ##################### INPUTTING AND ORGANIZING DATA #######################
 
 ## Data for aggregation-based networks
-groups_agg <- read.csv("data/aggregations.csv") %>%  
+groups_agg <- read.csv("males/data/aggregations.csv") %>%  
   remove_empty("cols")
 
 groups_agg_reps <- split(groups_agg, groups_agg$replicate)
@@ -29,15 +29,15 @@ func_igraph <- function(rep_groups){
                             value = ifelse(V(igraph)$name %in% LETTERS[1:12], "Male", "Female"))
   
   #This chunk is only for R1 who's letter ID assignments are different than the rest
-  #igraph <- set_vertex_attr(igraph, "treatment", 
-  #                          value = ifelse(V(igraph)$name %in% LETTERS[13:24], "female",
-  #                                        ifelse(V(igraph)$name == "A" | V(igraph)$name == "C" | V(igraph)$name == "D" | 
-  #                                                  V(igraph)$name == "G" | V(igraph)$name == "H" | V(igraph)$name == "J",        
-  #                                               "social", "isolated")))
-  
   igraph <- set_vertex_attr(igraph, "treatment", 
                             value = ifelse(V(igraph)$name %in% LETTERS[13:24], "female",
-                                          ifelse(V(igraph)$name %in% LETTERS[1:6], "social", "isolated")))
+                                          ifelse(V(igraph)$name == "A" | V(igraph)$name == "C" | V(igraph)$name == "D" | 
+                                                    V(igraph)$name == "G" | V(igraph)$name == "H" | V(igraph)$name == "J",        
+                                                 "social", "isolated")))
+  
+  #igraph <- set_vertex_attr(igraph, "treatment", 
+  #                          value = ifelse(V(igraph)$name %in% LETTERS[13:24], "female",
+  #                                        ifelse(V(igraph)$name %in% LETTERS[1:6], "social", "isolated")))
   
   V(igraph)$color <- ifelse(V(igraph)$treatment == "female", "sandybrown", 
                             ifelse(V(igraph)$treatment == "social", "deepskyblue4", "lightblue1"))
@@ -54,6 +54,10 @@ func_igraph <- function(rep_groups){
 ## Visualizing aggregation-based networks
 igraph_objects_agg <- func_igraph(groups_agg_reps[[1]])
 
+
+func_igraph(groups_agg_reps[[1]])
+
+igraph_attributes(igraph_objects_agg)
 
 tkplot(igraph_objects_agg)
 
