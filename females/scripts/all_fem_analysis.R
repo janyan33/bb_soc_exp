@@ -19,7 +19,6 @@ My_Theme = theme(
   axis.title.y = element_text(size = 18), 
   axis.text.y = element_text(size = 18))
 
-
 fem_sum_dat <- read.csv("females/data/fem_summary_data.csv") %>% 
                 filter(day == "both")
 
@@ -37,13 +36,11 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success)) + geom_boxplot
 
 ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations)) + geom_boxplot(outlier.color = NA) +
     geom_jitter(aes(color = replicate), size = 4, alpha = 0.4, width = 0.06, height = 0) + scale_color_nejm() + My_Theme + 
-    ylab("Number of inseminations")
+    ylab("Number of inseminations") + ylim(0, 8)
 
 
+# GLMMs for insem
 
-
-
-# Properly analyse things
 all_fem_data <- read.csv("females/data/all_fem_data.csv", stringsAsFactors = TRUE) %>% 
                 mutate(female_ID = paste(replicate, patch_partner, sep = "_"))
 
