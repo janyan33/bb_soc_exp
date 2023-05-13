@@ -15,7 +15,7 @@ My_Theme = theme(
   axis.text.y = element_text(size = 20))
 
 ## Load data in
-male_data <- read.csv("data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
+male_data <- read.csv("males/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
              filter(day == "both")
 
 male_data$replicate <- as.factor(male_data$replicate)

@@ -19,23 +19,19 @@ My_Theme = theme(
   axis.title.y = element_text(size = 18), 
   axis.text.y = element_text(size = 18))
 
-fem_sum_dat <- read.csv("females/data/fem_summary_data.csv") %>% 
-                filter(day == "both")
+fem_sum_dat <- read.csv("females/data/fem_summary_data.csv")
 
 fem_sum_dat$avoid_success <- as.numeric(fem_sum_dat$avoid_success)
 fem_sum_dat$replicate <- as.factor(fem_sum_dat$replicate)
 fem_sum_dat$treatment <- as.factor(fem_sum_dat$treatment)
 
-ggplot(data = fem_sum_dat, aes(x = treatment, y = prop_avoid)) + geom_boxplot(outlier.color = NA) +
-      geom_point(aes(color = replicate), size = 4, alpha = 0.5) + scale_color_nejm() + ylim(0, 1) + My_Theme + 
+ggplot(data = fem_sum_dat, aes(x = treatment, y = prop_avoid)) + geom_boxplot() + scale_color_nejm() + ylim(0, 1) + My_Theme + 
       ylab("Proportion of mounts females tried to avoid")
 
-ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success)) + geom_boxplot(outlier.color = NA) +
-     geom_point(aes(color = replicate), size = 4, alpha = 0.5) + scale_color_nejm() + ylim(0, 1) + My_Theme + 
+ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success)) + geom_boxplot() + scale_color_nejm() + ylim(0, 1) + My_Theme + 
      ylab("Proportion of mounts sucessfully avoided")
 
-ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations)) + geom_boxplot(outlier.color = NA) +
-    geom_jitter(aes(color = replicate), size = 4, alpha = 0.4, width = 0.06, height = 0) + scale_color_nejm() + My_Theme + 
+ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations)) + geom_boxplot() + scale_color_nejm() + My_Theme + 
     ylab("Number of inseminations") + ylim(0, 8)
 
 
@@ -47,18 +43,18 @@ all_fem_data <- read.csv("females/data/all_fem_data.csv", stringsAsFactors = TRU
 # Convert capital Y to lowercase y in success column
 all_fem_data$success[all_fem_data$success == "Y"] <- "y"
 all_fem_data$success<- droplevels(all_fem_data$success)
-
+all_fem_data$replicate <- as.factor(all_fem_data$replicate)
 
 # Model for number of inseminations
-insem_model <- glmer(data = all_fem_data, behaviour ~ treatment + (1|replicate) + 
-                                                                  (1|replicate:patch_partner) + 
-                                                                  (1|replicate:patch_focal), 
+insem_model <- glmer(data = all_fem_data, behaviour ~ treatment + (1|replicate) +
+                                                                  (1|replicate:patch_partner), 
+                                                                  #(1|replicate:patch_focal), 
                                                                   family = binomial(link = "logit")) 
 summary(insem_model)
 
 # Model for propensity to evade
 evade_data <- all_fem_data %>% 
-              filter(avoid != "NA") 
+              filter(avoid != "NA")
 
 evade_data$avoid[evade_data$avoid == "Y"] <- "y"
 evade_data$avoid[evade_data$avoid == "N"] <- "n"
@@ -77,8 +73,7 @@ success_data <- all_fem_data %>%
 
 success_data$success <- droplevels(success_data$success)
 
-success_model <- glmer(data = success_data, success ~ treatment + (1|replicate) + (1|replicate:patch_partner) +
-                       (1|replicate:patch_focal), 
+success_model <- glmer(data = success_data, success ~ treatment + (1|replicate) + (1|replicate:patch_partner),
                      family = binomial(link = "logit")) 
 
 summary(success_model)

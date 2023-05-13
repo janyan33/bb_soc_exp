@@ -22,6 +22,7 @@ My_Theme = theme(
 fem_sum_dat <- read.csv("females/data/fem_summary_data.csv") %>% 
   filter(day == "both")
 
+
 fem_sum_dat$avoid_success <- as.numeric(fem_sum_dat$avoid_success)
 fem_sum_dat$replicate <- as.factor(fem_sum_dat$replicate)
 fem_sum_dat$treatment <- as.factor(fem_sum_dat$treatment)
@@ -67,7 +68,6 @@ t.test(data = fem_sum_dat, prop_avoid ~ treatment)
 t.test(data = fem_sum_dat, avoid_success ~ treatment)
 
 # Number of inseminations
-t.test(data = fem_sum_dat, inseminations ~ treatment)
-
+t.test(data = fem_sum_dat, inseminations ~ treatment, var.equal = TRUE)
 
 
