@@ -36,7 +36,10 @@ unique(rep_2_dat$patch_focal)
 
 # Add sex column
 rep_2_dat <- rep_2_dat %>% 
-  mutate(partner_sex = ifelse(patch_partner %in% LETTERS[1:8], "male", "female"))
+  mutate(partner_sex = ifelse(patch_partner %in% LETTERS[9:16], "female", "male"))
+
+# Generate csv file with added columns (patch ID and sex of partner)
+write.csv(rep_2_dat, "rep_2_Rdata.csv")
 
 
 ## CREATING MATING AND MOUNTING MATRICES
