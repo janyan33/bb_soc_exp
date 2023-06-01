@@ -1,0 +1,17 @@
+partner,patch_partner,treatment
+"0,",I,female
+"2,",J,female
+"3,",K,female
+"6,",L,female
+"7,",M,female
+"8,",N,female
+"9,",O,female
+"5,",P,female
+",1",A,social
+",5",B,social
+",8",C,social
+",2",D,social
+",9",E,isolated
+",7",F,isolated
+",4",G,isolated
+",0",H,isolated

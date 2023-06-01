@@ -11,6 +11,12 @@ library(janitor)
 library(ggsci)
 library(car)
 
+My_Theme = theme(
+  axis.title.x = element_text(size = 18),
+  axis.text.x = element_text(size = 18),
+  axis.title.y = element_text(size = 18), 
+  axis.text.y = element_text(size = 18))
+
 ##################### INPUTTING AND ORGANIZING DATA #######################
 ## Data for aggregation-based networks
 groups_agg <- read.csv("females/data/aggregations.csv") %>%  
@@ -33,21 +39,21 @@ func_igraph <- function(rep_groups){
                             value = ifelse(V(igraph)$name %in% LETTERS[1:8], "male",
                                            ifelse(V(igraph)$name %in% LETTERS[9:12], "social", "isolated")))
   
-  V(igraph)$color <- ifelse(V(igraph)$treatment == "male", "#118ab2", 
-                            ifelse(V(igraph)$treatment == "social", "#f77f00", "#f6bd60"))
+  V(igraph)$color <- ifelse(V(igraph)$treatment == "male", "#6096ba", 
+                            ifelse(V(igraph)$treatment == "social", "#9e2a2b", "#f8ad9d"))
   strength <- strength(igraph)
   igraph <- set_vertex_attr(igraph, "strength", value = strength)
   V(igraph)$size <- V(igraph)$strength*12
-  V(igraph)$label.color <- "black"
+  V(igraph)$label.color <- NA
   E(igraph)$width <- E(igraph)$weight*6
   
-  return(c(igraph, strength))
+  return(igraph)
 }
 
 
 ## Visualizing aggregation-based networks
-igraph_objects_agg <- func_igraph(groups_agg_reps[[6]])
-func_igraph(groups_agg_reps[[6]])
+igraph_objects_agg <- func_igraph(groups_agg_reps[[4]])
+plot(func_igraph(groups_agg_reps[[4]]))
 
 tkplot(igraph_objects_agg)
 
@@ -58,8 +64,8 @@ fem_all_data <- read.csv("females/data/fem_summary_data.csv") %>%
 
 fem_all_data$replicate <- as.factor(fem_all_data$replicate)
 
-ggplot(data = fem_all_data, aes(x = treatment, y = sna_strength)) + geom_boxplot(outlier.color = NA) +
-  geom_point(size = 3, alpha = 1) + scale_color_nejm()
+ggplot(data = fem_all_data, aes(x = treatment, y = sna_strength, fill = treatment)) + geom_boxplot(alpha = 0.9) +
+       scale_fill_manual(values=c("#f8ad9d", "#9e2a2b")) + ylab("Aggregation network strength") + My_Theme
 
 strength_model <- lm(data = fem_all_data, sna_strength ~ treatment + replicate)
 

@@ -25,14 +25,14 @@ fem_sum_dat$avoid_success <- as.numeric(fem_sum_dat$avoid_success)
 fem_sum_dat$replicate <- as.factor(fem_sum_dat$replicate)
 fem_sum_dat$treatment <- as.factor(fem_sum_dat$treatment)
 
-ggplot(data = fem_sum_dat, aes(x = treatment, y = prop_avoid)) + geom_boxplot() + scale_color_nejm() + ylim(0, 1) + My_Theme + 
-      ylab("Proportion of mounts females tried to avoid")
+ggplot(data = fem_sum_dat, aes(x = treatment, y = prop_avoid, fill = treatment)) + geom_boxplot(alpha = 0.9) + ylim(0, 1) + My_Theme + 
+      ylab("Attempted avoidance rate") + scale_fill_manual(values=c("#f8ad9d", "#9e2a2b"))
 
-ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success)) + geom_boxplot() + scale_color_nejm() + ylim(0, 1) + My_Theme + 
-     ylab("Proportion of mounts sucessfully avoided")
+ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success, fill = treatment)) + geom_boxplot(alpha = 0.9) + ylim(0, 1) + My_Theme + 
+     ylab("Avoidance success rate") + scale_fill_manual(values=c("#f8ad9d", "#9e2a2b"))
 
-ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations)) + geom_boxplot() + scale_color_nejm() + My_Theme + 
-    ylab("Number of inseminations") + ylim(0, 8)
+ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations/2, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + 
+    ylab("Inseminations per day") + ylim(0, 4) + scale_fill_manual(values=c("#f8ad9d", "#9e2a2b"))
 
 
 # GLMMs for insem
