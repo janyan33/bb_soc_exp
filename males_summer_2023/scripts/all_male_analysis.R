@@ -22,5 +22,5 @@ all_male_dat <- read.csv("males_summer_2023/data/male_summary_data.csv") %>%
                 mutate(avoid_success_rate = success_avoid/attempt_avoid) %>% 
                 mutate(abort_rate = aborts/possible_aborts)
 
-ggplot(data = all_male_dat, aes(x = treatment, y = abort_rate, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + ylim(0, 1)
+ggplot(data = all_male_dat, aes(x = treatment, y = avoid_success_rate, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme
 
