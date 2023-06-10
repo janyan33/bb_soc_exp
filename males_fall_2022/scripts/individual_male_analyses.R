@@ -15,7 +15,7 @@ My_Theme = theme(
   axis.text.y = element_text(size = 20))
 
 ## Load data in
-male_data <- read.csv("males/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
+male_data <- read.csv("males_fall_2022/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
              filter(day == "both")
 
 male_data$replicate <- as.factor(male_data$replicate)
@@ -80,7 +80,7 @@ ggplot(data = male_data, aes(x = treatment, y = mounts)) +
 ############################################## MODELLING DATA #########################################################
 
 ####  MALE REJECTION ####
-all_data_reject <- read.csv("data/all_data_combined.csv") %>% 
+all_data_reject <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 
                    filter(male_abort == "y" | male_abort == "n" | male_abort == "Y" | male_abort == "N")
 
 all_data_reject$male_abort[all_data_reject$male_abort == "Y"] <- "y"
@@ -111,7 +111,7 @@ Anova(reject_model)
 
 
 #### FEMALE AVOIDANCE SUCCESS RATE ####
-all_data_avoid <- read.csv("data/all_data_combined.csv") %>% 
+all_data_avoid <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 
                    filter(avoid_success == "y" | avoid_success == "n" | avoid_success == "Y" | avoid_success == "N")
 
 all_data_avoid$avoid_success[all_data_avoid$avoid_success == "Y"] <- "y"
@@ -138,7 +138,7 @@ Anova(avoid_model)
 
 
 #### PROP MALE MOUNT MODEL ####
-all_data_male_mounts <- read.csv("data/all_data_combined.csv") %>% 
+all_data_male_mounts <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 
                         filter(behaviour == "mount" | behaviour == "insemination")
 
 all_data_male_mounts$behaviour <- as.factor(all_data_male_mounts$behaviour)
@@ -163,7 +163,7 @@ Anova(male_model)
 
 #### NUMBER OF INSEMINATIONS ####
 #### Regular linear model ####
-insem_model <- glmer(data = male_data, inseminations ~ treatment + (1|replicate), family = poisson(link = "log"))
+insem_model <- lmer(data = male_data, mounts ~ treatment + (1|replicate)) #family = poisson(link = "log"))
 
 plot(simulateResiduals(insem_model))
 Anova(insem_model)
