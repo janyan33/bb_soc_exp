@@ -24,60 +24,28 @@ male_data$replicate <- as.factor(male_data$replicate)
 ################################## VISUALIZING DATA ############################################## 
 
 ## Plot data
-## 3) Proportion of mounts where females attempted to avoid that were successful
-ggplot(data = male_data, aes(x = treatment, y = avoid_success_rate)) + 
-       geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-       scale_color_nejm() + ylab("Female evasion success rate") + ylim(0, 1)
+## 2) Proportion of mounts directed at other males
+ggplot(data = male_data, aes(x = treatment, y = prop_male, fill = treatment)) + 
+      geom_boxplot() + labs(y = "Male mount rate", x = NULL) + ylim(0, 1) +
+      My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-## Proportion of mounts that were females attempted to evade
-# Probably the worse measure
-ggplot(data = male_data, aes(x = treatment, y = prop_attempt_avoid)) +
-  geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-  scale_color_nejm() + 
-  ylab("Proportion of mounts directed at females where females attempted to evade") + 
-  ylim(0, 1)
+## 2) Proportion of mounts where females attempted to avoid that were successful
+ggplot(data = male_data, aes(x = treatment, y = avoid_success_rate, fill = treatment)) + 
+       geom_boxplot() + labs(y = "Female escape rate", x = NULL) + ylim(0, 1) +
+       My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-## Proportion of mounts that were avoided by females
-# Probably the worse measureS
-ggplot(data = male_data, aes(x = treatment, y = prop_avoided)) +
-       geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-       scale_color_nejm() + 
-       ylab("Proportion of mounts directed at females that were evaded") + 
-       ylim(0, 1)
+## 3) Insemination rate
+ggplot(data = male_data, aes(x = treatment, y = inseminations/2, fill = treatment)) + 
+       geom_boxplot() + labs(y = "Inseminations per day", x = NULL) + 
+       My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-## 2) Proportion of mounts where males had a choice that were aborted
-ggplot(data = male_data, aes(x = treatment, y = abort_rate)) +
-       geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-       scale_color_nejm() + ylab("Male abort rate") + ylim(0, 1)
-
-## 4) Proportion of mounts directed at other males
-ggplot(data = male_data, aes(x = treatment, y = prop_male)) +
-       geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) +
-       scale_color_nejm() + ylab("Proportion of mounts directed at other males") + ylim(0, 1)
-
-## Proportion of all mounts that led to insemination
-ggplot(data = male_data, aes(x = treatment, y = prop_successful)) +
-       geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-       scale_color_nejm() + ylab("Proportion of all mounts that resulted in insemination") + ylim(0, 0.5)
-
-## Proportion of mounts directed at females that led to insemination
-ggplot(data = male_data, aes(x = treatment, y = prop_success_female_only)) +
-       geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.7) + 
-       scale_color_nejm() + ylab("Proportion of female mounts that resulted in insemination") + ylim(0, 1)
-
-## Number of inseminations
-ggplot(data = male_data, aes(x = treatment, y = inseminations)) +
-  geom_boxplot()+geom_point(aes(color = replicate), size = 3, alpha = 0.5) +
-  scale_color_nejm() + ylab("Number of inseminations") + ylim(0, 10)
-
-## 1) Number of mounts
-ggplot(data = male_data, aes(x = treatment, y = mounts)) +
-  geom_boxplot() + geom_point(aes(color = replicate), size = 3, alpha = 0.5) + 
-  scale_color_nejm() + ylab("Number of mounts")
+## 5) Mount rate
+ggplot(data = male_data, aes(x = treatment, y = mounts/2, fill = treatment)) + 
+       geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
+       My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
 
-
-############################################## MODELLING DATA #########################################################
+############################################## MODELS #########################################################
 
 ####  MALE REJECTION ####
 all_data_reject <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 

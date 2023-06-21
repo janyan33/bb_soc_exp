@@ -8,73 +8,82 @@ library(igraph)
 library(ggsci)
 library(netdiffuseR)
 
-#  Script that allows igraph plots to change arrow size
-source("arrow_hack/igraphplot2.R")
-environment(plot.igraph2) <- asNamespace('igraph')
-environment(igraph.Arrows2) <- asNamespace('igraph')
-
 My_Theme = theme(
   axis.title.x = element_text(size = 18),
   axis.text.x = element_text(size = 18),
   axis.title.y = element_text(size = 18), 
   axis.text.y = element_text(size = 18))
 
-fem_sum_dat <- read.csv("females/data/fem_summary_data.csv")
+## Loading data in 
+fem_sum_dat <- read.csv("females/data/fem_summary_data.csv") %>% 
+               filter(day == "both") %>% 
+               mutate(insem_rate = inseminations/2)
 
 fem_sum_dat$avoid_success <- as.numeric(fem_sum_dat$avoid_success)
 fem_sum_dat$replicate <- as.factor(fem_sum_dat$replicate)
 fem_sum_dat$treatment <- as.factor(fem_sum_dat$treatment)
 
+
+######################################### FIGURES ###############################################
+### 1) Attempted avoidance rate
 ggplot(data = fem_sum_dat, aes(x = treatment, y = prop_avoid, fill = treatment)) + geom_boxplot(alpha = 0.9) + ylim(0, 1) + My_Theme + 
-      ylab("Attempted avoidance rate") + scale_fill_manual(values=c("#f8ad9d", "#9e2a2b"))
+      labs(y = "Attempted avoidance rate", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
 
+
+### 2) Avoidance success rate
 ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success, fill = treatment)) + geom_boxplot(alpha = 0.9) + ylim(0, 1) + My_Theme + 
-     ylab("Avoidance success rate") + scale_fill_manual(values=c("#f8ad9d", "#9e2a2b"))
-
-ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations/2, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + 
-    ylab("Inseminations per day") + ylim(0, 4) + scale_fill_manual(values=c("#f8ad9d", "#9e2a2b"))
+      labs(y = "Avoidance success rate", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
 
 
-# GLMMs for insem
+#### 3) Insemination rate
+ggplot(data = fem_sum_dat, aes(x = treatment, y = insem_rate, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + 
+       labs(y = "Inseminations per day", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
 
+
+#################################### ANALYSES ###########################################
+##### 3) Insemination rate (number of inseminations per day) #####
+insem_model <- lmer(data = fem_sum_dat, insem_rate ~ treatment + (1|replicate))
+
+plot(simulateResiduals(insem_model))
+Anova(insem_model)
+
+##### 1) Attempted avoidance rate #####
 all_fem_data <- read.csv("females/data/all_fem_data.csv", stringsAsFactors = TRUE) %>% 
-                mutate(female_ID = paste(replicate, patch_partner, sep = "_"))
+                mutate(female_ID = paste(replicate, patch_partner, sep = "_")) %>% 
+                filter(avoid != "NA") # removes 1/779 entries where we didn't catch the female's reponse bc it was during break
 
-# Convert capital Y to lowercase y in success column
-all_fem_data$success[all_fem_data$success == "Y"] <- "y"
-all_fem_data$success<- droplevels(all_fem_data$success)
+all_fem_data$avoid[all_fem_data$avoid == "Y"] <- "y" # turns upper to lowercase
+all_fem_data$avoid[all_fem_data$avoid == "N"] <- "n" # turns upper to lowercase
+all_fem_data$avoid <- droplevels(all_fem_data$avoid) # drops leftover extra factor level
 all_fem_data$replicate <- as.factor(all_fem_data$replicate)
 
-# Model for number of inseminations
-insem_model <- glmer(data = all_fem_data, behaviour ~ treatment + (1|replicate) +
-                                                                  (1|replicate:patch_partner), 
-                                                                  #(1|replicate:patch_focal), 
-                                                                  family = binomial(link = "logit")) 
-summary(insem_model)
+# Model
+attempt_model <- glmer(data = all_fem_data, avoid ~ treatment + (1|replicate) + 
+                              (1|replicate:patch_partner) +
+                              (1|replicate:patch_focal), 
+                              family = binomial(link = "logit")) 
 
-# Model for propensity to evade
-evade_data <- all_fem_data %>% 
-              filter(avoid != "NA")
+plot(simulateResiduals(attempt_model))
+summary(attempt_model)
+Anova(attempt_model)
 
-evade_data$avoid[evade_data$avoid == "Y"] <- "y"
-evade_data$avoid[evade_data$avoid == "N"] <- "n"
-evade_data$avoid <- droplevels(evade_data$avoid)
-
-
-evade_model <- glmer(data = evade_data, avoid ~ treatment + (1|replicate) + (1|replicate:patch_partner) +
-                            (1|replicate:patch_focal), 
-                          family = binomial(link = "logit")) 
-summary(evade_model)
-
-
-# Model for avoidance success rate
+##### 2) Avoidance success rate #####
 success_data <- all_fem_data %>% 
-                filter(success != "NA")
+                filter(success != "NA") # filter for only data where females attempted to avoid
 
-success_data$success <- droplevels(success_data$success)
+success_data$success[success_data$success == "Y"] <- "y" # turns upper to lowercase
+success_data$success[success_data$success == "N"] <- "n" # turns upper to lowercase
 
+success_data$success<- droplevels(success_data$success) # drops leftover extra factor level
+
+# Model
 success_model <- glmer(data = success_data, success ~ treatment + (1|replicate) + (1|replicate:patch_partner),
+                      #(1|replicate:patch_focal),
                      family = binomial(link = "logit")) 
 
+plot(simulateResiduals(success_model))
+
 summary(success_model)
+Anova(success_model)
+
 

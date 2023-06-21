@@ -12,7 +12,7 @@ library(janitor)
 ##################### INPUTTING AND ORGANIZING DATA #######################
 
 ## Data for aggregation-based networks
-groups_agg <- read.csv("males/data/aggregations.csv") %>%  
+groups_agg <- read.csv("males_fall_2022/data/aggregations.csv") %>%  
   remove_empty("cols")
 
 groups_agg_reps <- split(groups_agg, groups_agg$replicate)

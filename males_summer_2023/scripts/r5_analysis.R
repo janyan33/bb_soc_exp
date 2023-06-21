@@ -20,26 +20,26 @@ My_Theme = theme(
   axis.text.y = element_text(size = 16))
 
 # Load data in
-rep_4_dat <- read.csv("males_summer_2023/data/soc_exp_male_r4.csv") %>% 
+rep_5_dat <- read.csv("males_summer_2023/data/soc_exp_male_r5.csv") %>% 
   filter(behaviour != "trial start")
 
-patch_table_focals <- read.csv("males_summer_2023/data/patch_tables/patch_focal_r4.csv")
-patch_table_partner <- read.csv("males_summer_2023/data/patch_tables/patch_partner_r4.csv")
+patch_table_focals <- read.csv("males_summer_2023/data/patch_tables/patch_focal_r5.csv")
+patch_table_partner <- read.csv("males_summer_2023/data/patch_tables/patch_partner_r5.csv")
 
 # Change number IDs to letter IDs
-rep_4_dat <- rep_4_dat %>% 
+rep_5_dat <- rep_5_dat %>% 
   left_join(patch_table_focals, by = "focal") %>% 
   left_join(patch_table_partner, by = "partner")
 
 # Looking for typos
-unique(rep_4_dat$patch_partner)
+unique(rep_5_dat$patch_partner)
 
 # Add sex column
-rep_4_dat <- rep_4_dat %>% 
+rep_5_dat <- rep_5_dat %>% 
   mutate(partner_sex = ifelse(patch_partner %in% LETTERS[9:16], "female", "male"))
 
 # Generate csv file with added columns (patch ID and sex of partner)
-write.csv(rep_4_dat, "rep_4_Rdata.csv")
+#write.csv(rep_5_dat, "rep_5_Rdata.csv")
 
 ## CREATING MATING AND MOUNTING MATRICES
 ## Creating a function that turns data into edgelists and then into insemination matrices 
@@ -66,8 +66,8 @@ func_mount_mat <- function(all_data) {
   return(as.matrix(mount_matrix))
 }
 
-insem_matrix <- func_insem_mat(rep_4_dat)
-mount_matrix <- func_mount_mat(rep_4_dat)
+insem_matrix <- func_insem_mat(rep_5_dat)
+mount_matrix <- func_mount_mat(rep_5_dat)
 
 ## FUNCTION TO TURN MATRICES INTO NETWORKS
 func_matrix_to_igraph <- function(matrix, mode, behaviour){
@@ -84,9 +84,9 @@ func_matrix_to_igraph <- function(matrix, mode, behaviour){
   V(igraph)$color <- ifelse(V(igraph)$treatment == "female", "sandybrown", 
                             ifelse(V(igraph)$treatment == "social", "deepskyblue4", "lightblue1"))
   V(igraph)$label.color <- "black"
-  V(igraph)$size <- strength*5 # USE FOR INSEMINATION NETWORKS
-  #V(igraph)$size <- ifelse(V(igraph)$sex == "Female", 15, out_strength/2) # USE FOR MOUNT NETWORKS
-  E(igraph)$width <- E(igraph)$weight
+  #V(igraph)$size <- strength*5 # USE FOR INSEMINATION NETWORKS
+  V(igraph)$size <- ifelse(V(igraph)$sex == "Female", 15, out_strength/2) # USE FOR MOUNT NETWORKS
+  E(igraph)$width <- E(igraph)$weight/3
   plot(igraph, edge.color = "dimgrey", edge.arrow.size = 0.3)
   return(igraph)
 }
@@ -95,7 +95,9 @@ func_matrix_to_igraph <- function(matrix, mode, behaviour){
 mount_network <- func_matrix_to_igraph(mount_matrix, mode = "directed", behaviour = "mount")
 insem_network <- func_matrix_to_igraph(insem_matrix, mode = "undirected", behaviour = "insemination")
 
-tkplot(insem_network)
+tkplot(mount_network)
+
+
 
 
 
