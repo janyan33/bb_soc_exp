@@ -347,7 +347,7 @@ replicate,day,start_time,end_time,behaviour,focal,partner,partner_avoid...Y.N.,a
 1,2,2:21:55 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
 1,2,2:24:55 PM,,mount,:0,9,y,y,NA,,C,social,V,female,
 1,2,2:25:16 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
-1,2,2:26:39 PM,,mount,:0,7,y,NA,y,,C,social,T,female,
+1,2,2:26:39 PM,,mount,:0,7,y,n,y,,C,social,T,female,
 1,2,1:15:16 PM,,mount,:0,0.1,n,,,,C,social,J,male,
 1,2,1:47:16 PM,,mount,:0,0,,,,,C,social,L,male,
 1,2,2:34:55 PM,,mount,:0,:6,,,,,C,social,B,male,
