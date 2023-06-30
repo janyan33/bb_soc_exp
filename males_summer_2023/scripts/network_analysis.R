@@ -17,6 +17,8 @@ My_Theme = theme(
   axis.title.y = element_text(size = 18), 
   axis.text.y = element_text(size = 18))
 
+## Script for visualizing social networks based on all (same and opposite-sex associations)
+
 ##################### INPUTTING AND ORGANIZING DATA #######################
 ## Data for aggregation-based networks
 groups_agg <- read.csv("males_summer_2023/data/aggregations_by_shelter.csv") %>%  
@@ -47,90 +49,21 @@ func_igraph <- function(rep_groups){
   strength <- strength(igraph)
   igraph <- set_vertex_attr(igraph, "strength", value = strength)
   V(igraph)$size <- V(igraph)$strength*12
-  V(igraph)$label.color <- NA
+  V(igraph)$label.color <- "black"
   E(igraph)$width <- E(igraph)$weight*6
-  
-  ## Test bipartite
-  V(igraph)$type <- V(igraph)$sex == "Male"
   
   return(igraph)
 }
 
 
 ## Visualizing aggregation-based networks
-igraph_objects_agg <- func_igraph(groups_agg_reps[[4]])
-plot(func_igraph(groups_agg_reps[[4]]))
-
-
-
-
-
-bipartite.projection(igraph_objects_agg)
-
-
-
-
-
-
-
-
-## BIPARTITE NETWORKS
-assoc_mat_1 <- read.csv("males_summer_2023/networks/assoc_mat_r1.csv", row.names = 1)
-assoc_mat_1 <- as.matrix(assoc_mat_1)
-
-
-bi_graph_1 <- graph_from_adjacency_matrix(assoc_mat_1, diag = FALSE, weighted = TRUE, mode = "undirected")
-
-bi_graph_1 <- set_vertex_attr(bi_graph_1, "sex", 
-                          value = ifelse(V(bi_graph_1)$name %in% LETTERS[1:8], "Male", "Female"))
-
-bi_graph_1 <- set_vertex_attr(bi_graph_1, "treatment", 
-                          value = ifelse(V(bi_graph_1)$name %in% LETTERS[1:4], "social",
-                                         ifelse(V(bi_graph_1)$name %in% LETTERS[5:8], "isolated", "female")))
-
-V(bi_graph_1)$color <- ifelse(V(bi_graph_1)$treatment == "social", "blue", 
-                          ifelse(V(bi_graph_1)$treatment == "isolated", "lightblue", "yellow"))
-
-bi_graph_1 <- set_vertex_attr(bi_graph_1, "strength", value = strength(bi_graph_1))
-V(bi_graph_1)$size <- V(bi_graph_1)$strength*15
-
-
-plot(bi_graph_1)
-tkplot(bi_graph_1)
-
-
-
-write.csv(assoc_matrix_1, "assoc_mat_r1.csv")
-
-
-assoc_mat_1 <- read.csv("males_summer_2023/networks/assoc_mat_r1.csv", row.names = 1)
-assoc_mat_1 <- as.matrix(assoc_mat_1)
-
-
-plotweb(assoc_mat_1, labsize = 3, col.high = "blue", col.low = "sandybrown")
-
-
-
-
-
-
-
-##################
+igraph_objects_agg <- func_igraph(groups_agg_reps[[5]])
 plot(func_igraph(groups_agg_reps[[1]]))
-
 tkplot(igraph_objects_agg)
 
 
-######### STRENGTH ANALYSES ############
-fem_all_data <- read.csv("females/data/fem_summary_data.csv") %>% 
-  filter(day == "both")
+## Turning igraphs into adjacency matrices
+#assoc_mat <- as.matrix(as_adjacency_matrix(igraph_objects_agg, attr = "weight"))
 
-fem_all_data$replicate <- as.factor(fem_all_data$replicate)
+#write.csv(assoc_mat, "assoc_mat_r6.csv")
 
-ggplot(data = fem_all_data, aes(x = treatment, y = sna_strength, fill = treatment)) + geom_boxplot(alpha = 0.9) +
-  scale_fill_manual(values=c("#f8ad9d", "#9e2a2b")) + ylab("Aggregation network strength") + My_Theme
-
-strength_model <- lm(data = fem_all_data, sna_strength ~ treatment + replicate)
-
-plot(strength_model)
-Anova(strength_model)
