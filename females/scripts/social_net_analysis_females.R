@@ -19,7 +19,7 @@ My_Theme = theme(
 
 ##################### INPUTTING AND ORGANIZING DATA #######################
 ## Data for aggregation-based networks
-groups_agg <- read.csv("females/data/aggregations.csv") %>%  
+groups_agg <- read.csv("females/data/aggregations_by_shelter_fems.csv") %>%  
   remove_empty("cols")
 
 groups_agg_reps <- split(groups_agg, groups_agg$replicate)
@@ -52,10 +52,20 @@ func_igraph <- function(rep_groups){
 
 
 ## Visualizing aggregation-based networks
-igraph_objects_agg <- func_igraph(groups_agg_reps[[4]])
-plot(func_igraph(groups_agg_reps[[4]]))
+igraph_objects_agg <- func_igraph(groups_agg_reps[[6]])
+plot(func_igraph(groups_agg_reps[[6]]))
 
 tkplot(igraph_objects_agg)
+
+strength(igraph_objects_agg)
+
+## Turning igraphs into adjacency matrices
+assoc_mat <- as.matrix(as_adjacency_matrix(igraph_objects_agg, attr = "weight"))
+
+write.csv(assoc_mat, "assoc_mat_r6.csv")
+
+
+
 
 
 ######### STRENGTH ANALYSES ############

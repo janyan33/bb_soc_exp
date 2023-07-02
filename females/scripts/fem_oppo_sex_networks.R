@@ -1,0 +1,75 @@
+## setwd("C:/Users/janya/Desktop/R/bb_soc_exp")
+
+library(tidyverse)
+library(asnipe)
+library(igraph)
+library(ggplot2); theme_set(theme_classic())
+library(lme4)
+library(glmmTMB)
+library(assortnet)
+library(janitor)
+library(ggsci)
+library(car)
+
+My_Theme = theme(
+  axis.title.x = element_text(size = 18),
+  axis.text.x = element_text(size = 18),
+  axis.title.y = element_text(size = 18), 
+  axis.text.y = element_text(size = 18))
+
+
+####### LOADING OPPOSITE-SEX ASSOCIATION MATRICES IN
+assoc_mat_1 <- as.matrix(read.csv("females/data/assoc_mat_r1_fem.csv", row.names = 1))
+assoc_mat_2 <- as.matrix(read.csv("females/data/assoc_mat_r2_fem.csv", row.names = 1))
+assoc_mat_3 <- as.matrix(read.csv("females/data/assoc_mat_r3_fem.csv", row.names = 1))
+assoc_mat_4 <- as.matrix(read.csv("females/data/assoc_mat_r4_fem.csv", row.names = 1))
+assoc_mat_5 <- as.matrix(read.csv("females/data/assoc_mat_r5_fem.csv", row.names = 1))
+assoc_mat_6 <- as.matrix(read.csv("females/data/assoc_mat_r6_fem.csv", row.names = 1))
+
+assoc_matrices <- list(assoc_mat_1, assoc_mat_2, assoc_mat_3, assoc_mat_4, assoc_mat_5, assoc_mat_6) # Combine matrices into one list
+
+
+## FUNCTION TO TURN MATRICES INTO NETWORK FIGURES
+func_oppo_network <- function(assoc_mat){
+  
+# Turn matrix into igraph object 
+  igraph <- graph_from_adjacency_matrix(assoc_mat, diag = FALSE, weighted = TRUE, mode = "undirected")
+  
+# Assign igraph attributes
+  igraph <- set_vertex_attr(igraph, "sex", 
+                            value = ifelse(V(igraph)$name %in% LETTERS[1:8], "male", "female"))
+  
+  igraph <- set_vertex_attr(igraph, "treatment", 
+                            value = ifelse(V(igraph)$name %in% LETTERS[1:8], "male",
+                                           ifelse(V(igraph)$name %in% LETTERS[9:12], "social", "isolated")))
+  
+  igraph <- set_vertex_attr(igraph, "strength", value = strength(igraph))
+  
+# Customize plots
+  V(igraph)$color <- ifelse(V(igraph)$treatment == "social", "red", 
+                            ifelse(V(igraph)$treatment == "isolated", "orange", "gray85"))
+  
+  V(igraph)$names<- FALSE
+  V(igraph)$size <- V(igraph)$strength*12
+  E(igraph)$width <- E(igraph)$weight*10
+  E(igraph)$color <- "dimgray"
+  
+  
+  return(igraph)
+}
+
+igraph_list <- lapply(assoc_matrices, func_oppo_network)
+plot(igraph_list[[6]], vertex.label = NA)
+
+tkplot(igraph_list[[6]], vertex.label = NA)
+
+# Export strength values
+strength(igraph_list[[1]])
+
+
+
+
+
+
+
+

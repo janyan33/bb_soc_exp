@@ -80,12 +80,14 @@ plot(simulateResiduals(avoid_model))
 summary(avoid_model)
 
 ## 3) Insemination rate (inseminations per day)
-insem_model <- lmer(data = male_sum_dat, oppo_sex_strength ~ treatment + (1|replicate))
+insem_model <- glmer(data = male_sum_dat, oppo_sex_strength ~ treatment + (1|replicate))
 
 plot(simulateResiduals(insem_model))
 Anova(insem_model)
 
-
+### OPPOSITE-SEX STRENGTH CORRELATION WITH INSEMINATION SUCCESS
+ggplot(data = male_sum_dat, aes(y = insem_rate, x = oppo_sex_strength)) + geom_point() + 
+      geom_smooth(method = "lm")
 
 
 
