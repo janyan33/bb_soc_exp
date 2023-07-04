@@ -37,6 +37,14 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success, fill = treatmen
 ggplot(data = fem_sum_dat, aes(x = treatment, y = insem_rate, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + 
        labs(y = "Inseminations per day", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
 
+#### 4) Opposite-sex association matrices
+ggplot(data = fem_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + 
+       labs(y = "Opposite-sex association strength", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
+
+
+
+
+
 ######################################### ANALYSES ##############################################
 ##### 3) Insemination rate (number of inseminations per day) #####
 insem_model <- lmer(data = fem_sum_dat, insem_rate ~ treatment + (1|replicate))

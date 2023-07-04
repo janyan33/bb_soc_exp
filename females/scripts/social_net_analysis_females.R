@@ -10,6 +10,7 @@ library(assortnet)
 library(janitor)
 library(ggsci)
 library(car)
+library(DHARMa)
 
 My_Theme = theme(
   axis.title.x = element_text(size = 18),
@@ -52,8 +53,8 @@ func_igraph <- function(rep_groups){
 
 
 ## Visualizing aggregation-based networks
-igraph_objects_agg <- func_igraph(groups_agg_reps[[6]])
-plot(func_igraph(groups_agg_reps[[6]]))
+igraph_objects_agg <- func_igraph(groups_agg_reps[[1]])
+plot(func_igraph(groups_agg_reps[[1]]))
 
 tkplot(igraph_objects_agg)
 
@@ -64,23 +65,6 @@ assoc_mat <- as.matrix(as_adjacency_matrix(igraph_objects_agg, attr = "weight"))
 
 write.csv(assoc_mat, "assoc_mat_r6.csv")
 
-
-
-
-
-######### STRENGTH ANALYSES ############
-fem_all_data <- read.csv("females/data/fem_summary_data.csv") %>% 
-                filter(day == "both")
-
-fem_all_data$replicate <- as.factor(fem_all_data$replicate)
-
-ggplot(data = fem_all_data, aes(x = treatment, y = sna_strength, fill = treatment)) + geom_boxplot(alpha = 0.9) +
-       scale_fill_manual(values=c("#f8ad9d", "#9e2a2b")) + ylab("Aggregation network strength") + My_Theme
-
-strength_model <- lm(data = fem_all_data, sna_strength ~ treatment + replicate)
-
-plot(strength_model)
-Anova(strength_model)
 
 
 

@@ -63,4 +63,4 @@ plot(igraph_list[[6]], vertex.label = NA)
 
 tkplot(igraph_list[[6]], vertex.label = NA)
 
-strength(igraph_list[[1]])
+strength(igraph_list[[6]])

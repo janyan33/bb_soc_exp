@@ -46,27 +46,49 @@ func_oppo_network <- function(assoc_mat){
   igraph <- set_vertex_attr(igraph, "strength", value = strength(igraph))
   
 # Customize plots
-  V(igraph)$color <- ifelse(V(igraph)$treatment == "social", "red", 
-                            ifelse(V(igraph)$treatment == "isolated", "orange", "gray85"))
+  V(igraph)$color <- ifelse(V(igraph)$treatment == "social", "#e6722a", 
+                            ifelse(V(igraph)$treatment == "isolated", "#facc8f", "gray85"))
   
   V(igraph)$names<- FALSE
   V(igraph)$size <- V(igraph)$strength*12
   E(igraph)$width <- E(igraph)$weight*10
   E(igraph)$color <- "dimgray"
   
-  
   return(igraph)
 }
 
 igraph_list <- lapply(assoc_matrices, func_oppo_network)
-plot(igraph_list[[6]], vertex.label = NA)
+plot(igraph_list[[1]], vertex.label = NA)
 
-tkplot(igraph_list[[6]], vertex.label = NA)
+tkplot(igraph_list[[4]], vertex.label = NA)
 
 # Export strength values
-strength(igraph_list[[1]])
+strength(igraph_list[[4]])
+
+######### STRENGTH ANALYSES ############
+fem_all_data <- read.csv("females/data/fem_summary_data.csv") %>% 
+  filter(day == "both")
+
+fem_all_data$replicate <- as.factor(fem_all_data$replicate)
+
+ggplot(data = fem_all_data, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + geom_boxplot(alpha = 0.9) +
+  scale_fill_manual(values=c("#f8ad9d", "#9e2a2b")) + ylab("Aggregation network strength") + My_Theme
+
+strength_model <- lmer(data = fem_all_data, oppo_sex_strength ~ treatment + (1|replicate))
+
+plot(simulateResiduals(strength_model))
+Anova(strength_model)
+
+############################################################################################
+ggplot(data = fem_all_data, aes(x = oppo_sex_strength, y = inseminations)) + geom_point() + geom_smooth(method = "lm") 
 
 
+oppo_sex_dat <- read.csv("oppo_sex_strength.csv") %>% 
+                filter(sex == "male")
+
+ggplot(data = oppo_sex_dat, aes(x = opposite_sex_strength, y = inseminations)) + geom_smooth(method = "lm") + geom_point()
+
+summary(lm(data = oppo_sex_dat, inseminations ~ opposite_sex_strength))
 
 
 
