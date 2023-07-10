@@ -84,14 +84,17 @@ ggplot(data = fem_all_data, aes(x = oppo_sex_strength, y = inseminations)) + geo
 
 
 oppo_sex_dat <- read.csv("oppo_sex_strength.csv") %>% 
-                filter(sex == "male")
+                filter(sex == "male") 
 
 ggplot(data = oppo_sex_dat, aes(x = opposite_sex_strength, y = inseminations)) + geom_smooth(method = "lm") + geom_point()
 
-summary(lm(data = oppo_sex_dat, inseminations ~ opposite_sex_strength))
+oppo_sex_dat$replicate <- as.factor(oppo_sex_dat$replicate)
+oppo_sex_dat$experiment <- as.factor(oppo_sex_dat$experiment)
 
+mod <- glmer(data = oppo_sex_dat, inseminations ~ oppo_sex_degree + (1|experiment:replicate), family = poisson())
 
+plot(simulateResiduals(mod))
 
-
+Anova(mod)
 
 

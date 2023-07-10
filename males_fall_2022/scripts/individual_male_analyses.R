@@ -44,12 +44,24 @@ ggplot(data = male_data, aes(x = treatment, y = mount_rate, fill = treatment)) +
        geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
+## 6) Opposite sex networks
+ggplot(data = male_data, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + 
+  geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
+  My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
+
+
+
+## Cor graph
+ggplot(data = male_data, aes(x = oppo_sex_strength, y = insem_rate)) + geom_point() + geom_smooth(method = "lm")
+
+
+
 
 ################################## MODELS #########################################################
 ## 1) Proportion of mounts directed at other males
 all_data_male_mounts <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 
                         filter(behaviour == "mount" | behaviour == "insemination")  # removes one data-entry where behaviour was "other"
-    
+                       
 all_data_male_mounts$behaviour <- as.factor(all_data_male_mounts$behaviour)
 all_data_male_mounts$partner_sex <- as.factor(all_data_male_mounts$partner_sex)
 

@@ -34,7 +34,7 @@ func_igraph <- function(rep_groups){
   ibi_matrix <- ibi_matrix[order(rownames(ibi_matrix)) , order(colnames(ibi_matrix))] # alphabetical order
   igraph <- graph_from_adjacency_matrix(ibi_matrix, diag = FALSE, weighted = TRUE, mode = "undirected")
   igraph <- set_vertex_attr(igraph, "sex", 
-                            value = ifelse(V(igraph)$name %in% LETTERS[1:12], "Male", "Female"))
+                            value = ifelse(V(igraph)$name %in% LETTERS[1:8], "Male", "Female"))
 
   igraph <- set_vertex_attr(igraph, "treatment", 
                             value = ifelse(V(igraph)$name %in% LETTERS[1:8], "male",
