@@ -49,12 +49,13 @@ ggplot(data = male_data, aes(x = treatment, y = oppo_sex_strength, fill = treatm
   geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
   My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-
-
 ## Cor graph
 ggplot(data = male_data, aes(x = oppo_sex_strength, y = insem_rate)) + geom_point() + geom_smooth(method = "lm")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8088595b0d25930cfe798cb80a877176af592290
 ################################## MODELS #########################################################
 ## 1) Proportion of mounts directed at other males
 all_data_male_mounts <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 

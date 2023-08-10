@@ -10,6 +10,7 @@ library(assortnet)
 library(janitor)
 library(ggsci)
 library(car)
+library(DHARMa)
 
 My_Theme = theme(
   axis.title.x = element_text(size = 18),
@@ -84,17 +85,26 @@ ggplot(data = fem_all_data, aes(x = oppo_sex_strength, y = inseminations)) + geo
 
 
 oppo_sex_dat <- read.csv("oppo_sex_strength.csv") %>% 
-                filter(sex == "male") 
+                filter(sex == "male")# %>% 
+               # unite(exp_rep, c("experiment", "replicate"))
 
+<<<<<<< HEAD
 ggplot(data = oppo_sex_dat, aes(x = oppo_sex_degree, y = inseminations)) + geom_smooth(method = "lm") + geom_point()
+=======
+ggplot(data = oppo_sex_dat, aes(x = opposite_sex_strength, y = inseminations, color = experiment)) +
+       geom_smooth(method = "lm", se = FALSE, size = 3) + geom_point()
+>>>>>>> 8088595b0d25930cfe798cb80a877176af592290
 
 oppo_sex_dat$replicate <- as.factor(oppo_sex_dat$replicate)
 oppo_sex_dat$experiment <- as.factor(oppo_sex_dat$experiment)
+oppo_sex_dat$exp_rep <- as.factor(oppo_sex_dat$exp_rep)
 
-mod <- glmer(data = oppo_sex_dat, inseminations ~ oppo_sex_degree + (1|experiment:replicate), family = poisson())
+
+mod <- glmer(data = oppo_sex_dat, inseminations ~ oppo_sex_degree + (1|experiment/replicate), family = poisson)
 
 plot(simulateResiduals(mod))
 
+testDispersion(mod)
+summary(mod)
 Anova(mod)
-
 
