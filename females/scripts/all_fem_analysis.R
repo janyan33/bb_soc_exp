@@ -42,14 +42,12 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = trea
        labs(y = "Opposite-sex association strength", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
 
 
-
-
-
 ######################################### ANALYSES ##############################################
 ##### 3) Insemination rate (number of inseminations per day) #####
 insem_model <- lmer(data = fem_sum_dat, insem_rate ~ treatment + (1|replicate))
 
 plot(simulateResiduals(insem_model))
+summary(insem_model)
 Anova(insem_model)
 
 ##### 1) Attempted avoidance rate #####
