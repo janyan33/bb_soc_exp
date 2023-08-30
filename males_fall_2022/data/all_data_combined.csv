@@ -1,1481 +1,1481 @@
-replicate,day,start_time,end_time,behaviour,focal,partner,partner_avoid...Y.N.,avoid_success,male_abort,Notes,patch_focal,treatment,patch_partner,partner_sex,
-1,1,8:45:51 AM,,insemination,0,4,n,NA,n,,L,isolated,Q,female,
-1,1,8:50:13 AM,,insemination,0,1,y,n,n,,L,isolated,N,female,
-1,1,9:06:01 AM,,insemination,0,8,n,NA,n,,L,isolated,U,female,
-1,1,8:48:48 AM,,mount,0,1,y,y,NA,,L,isolated,N,female,
-1,1,8:49:53 AM,,mount,0,1,y,y,NA,,L,isolated,N,female,
-1,1,8:53:50 AM,,mount,0,unknown female,y,y,NA,,L,isolated,NA,female,
-1,1,9:08:55 AM,,mount,0,9,n,NA,y,,L,isolated,V,female,
-1,1,9:14:01 AM,,mount,0,1,y,y,NA,,L,isolated,N,female,
-1,1,9:16:55 AM,,mount,0,8,y,y,NA,,L,isolated,U,female,
-1,1,9:21:44 AM,,mount,0,7,y,y,NA,,L,isolated,T,female,
-1,1,9:23:12 AM,,mount,0,7,y,y,NA,,L,isolated,T,female,
-1,1,10:45:03 AM,,mount,0,4,y,y,NA,,L,isolated,Q,female,
-1,1,10:45:44 AM,,mount,0,9,y,n,y,,L,isolated,V,female,
-1,1,10:47:10 AM,,mount,0,9,n,NA,y,,L,isolated,V,female,
-1,1,10:50:54 AM,,mount,0,0,n,,y,,L,isolated,M,female,
-1,1,11:14:17 AM,,mount,0,0:00,y,y,NA,,L,isolated,W,female,
-1,1,11:17:19 AM,,mount,0,0:00,y,y,NA,,L,isolated,W,female,
-1,1,11:19:40 AM,,mount,0,7,n,NA,y,,L,isolated,T,female,
-1,1,11:26:45 AM,,mount,0,0,n,NA,y,,L,isolated,M,female,
-1,1,11:27:12 AM,,mount,0,0:00,n,NA,y,,L,isolated,W,female,
-1,1,1:09:57 PM,,mount,0,4,y,y,NA,,L,isolated,Q,female,
-1,1,10:49:54 AM,,mount,0,0.6,,,,,L,isolated,I,male,
-1,1,12:51:48 PM,,mount,0,0.7,,,,,L,isolated,F,male,
-1,1,2:22:47 PM,,mount,0,0.5,,,,,L,isolated,D,male,
-1,1,2:24:34 PM,,mount,0,0.8,,,,,L,isolated,A,male,
-1,1,2:25:39 PM,,mount,0,0.8,,,,,L,isolated,A,male,
-1,1,2:26:29 PM,,mount,0,0.8,,,,,L,isolated,A,male,
-1,2,11:22:00 AM,,mount,0,0.6,,,,,L,isolated,I,male,
-1,2,1:35:24 PM,,insemination,0,3,n,NA,,,L,isolated,P,female,
-1,2,1:23:09 PM,,mount,0,1:00,y,y,NA,,L,isolated,X,female,
-1,2,1:31:38 PM,,mount,0,6,n,NA,y,,L,isolated,S,female,
-1,2,1:39:47 PM,,mount,0,6,n,NA,y,,L,isolated,S,female,
-1,2,1:40:07 PM,,mount,0,6,n,NA,y,,L,isolated,S,female,
-1,2,1:45:23 PM,,mount,0,6,n,NA,y,,L,isolated,S,female,
-1,2,2:42:53 PM,,mount,0,7,n,NA,y,,L,isolated,T,female,
-1,2,2:46:06 PM,,mount,0,9,n,NA,y,,L,isolated,V,female,
-1,2,2:51:33 PM,,mount,0,6,n,NA,y,,L,isolated,S,female,
-1,2,12:21:16 PM,,mount,0,0.5,,,,,L,isolated,D,male,
-1,2,12:48:43 PM,,mount,0,0.5,,,,,L,isolated,D,male,
-1,2,1:38:52 PM,,mount,0,6:00,n,NA,y,,L,isolated,B,male,
-1,2,2:25:55 PM,,mount,0,0.1,,,,,L,isolated,J,male,
-1,2,2:29:19 PM,,mount,0,0.1,,,,,L,isolated,J,male,
-1,2,2:48:21 PM,,mount,0,0.9,,,,,L,isolated,E,male,
-1,1,8:05:58 AM,,insemination,0.1,9,n,NA,n,,J,social,V,female,
-1,1,8:28:50 AM,,insemination,0.1,7,n,NA,n,,J,social,T,female,
-1,1,2:42:40 PM,,insemination,0.1,8,n,NA,n,,J,social,U,female,
-1,1,3:45:06 PM,,insemination,0.1,8,n,NA,n,,J,social,U,female,
-1,1,8:10:28 AM,,mount,0.1,0,y,y,NA,,J,social,M,female,
-1,1,8:12:00 AM,,mount,0.1,0,n,NA,y,,J,social,M,female,
-1,1,8:50:45 AM,,mount,0.1,7,y,y,NA,,J,social,T,female,
-1,1,9:18:32 AM,,mount,0.1,0:00,y,y,NA,,J,social,W,female,
-1,1,11:28:02 AM,,mount,0.1,0:00,n,NA,y,,J,social,W,female,
-1,1,11:42:59 AM,,mount,0.1,6,n,NA,y,,J,social,S,female,
-1,1,2:32:09 PM,,mount,0.1,0,n,NA,y,,J,social,M,female,
-1,1,2:33:20 PM,,mount,0.1,7,y,y,NA,,J,social,T,female,
-1,1,2:39:30 PM,,mount,0.1,3,y,y,NA,,J,social,P,female,
-1,1,2:41:59 PM,,mount,0.1,8,y,n,y,,J,social,U,female,
-1,1,9:01:29 AM,,mount,0.1,0.3,,,,,J,social,H,male,
-1,1,9:20:38 AM,,mount,0.1,0.3,,,,,J,social,H,male,
-1,1,11:34:48 AM,,mount,0.1,0.6,,,,,J,social,I,male,
-1,1,11:56:40 AM,,mount,0.1,:6,,,,,J,social,B,male,
-1,2,12:43:35 PM,,mount,0.1,9,y,y,NA,,J,social,V,female,
-1,2,2:26:24 PM,,mount,0.1,0,,,,,J,social,L,male,
-1,2,2:37:00 PM,,mount,0.1,0,,,,,J,social,L,male,
-1,1,8:01:40 AM,,insemination,0.3,5,n,NA,n,,H,social,R,female,
-1,1,11:28:25 AM,11:29:56 AM,insemination,0.3,1:00,y,n,n,,H,social,X,female,
-1,1,8:15:05 AM,,mount,0.3,6,n,NA,y,,H,social,S,female,
-1,1,8:33:19 AM,,mount,0.3,4,y,y,NA,weird delayed resistance,H,social,Q,female,
-1,1,9:07:31 AM,,mount,0.3,0:00,y,y,NA,,H,social,W,female,
-1,1,9:10:17 AM,,mount,0.3,0,n,NA,y,,H,social,M,female,
-1,1,9:23:48 AM,,mount,0.3,7,y,y,NA,,H,social,T,female,
-1,1,9:24:57 AM,,mount,0.3,1,y,y,NA,,H,social,N,female,
-1,1,9:27:02 AM,,mount,0.3,9,y,y,NA,,H,social,V,female,
-1,1,9:27:52 AM,,mount,0.3,1,n,NA,y,,H,social,N,female,
-1,1,9:29:07 AM,,mount,0.3,4,y,n,y,,H,social,Q,female,
-1,1,9:37:44 AM,,mount,0.3,9,y,n,y,,H,social,V,female,
-1,1,10:02:00 AM,,mount,0.3,0:00,n,NA,y,,H,social,W,female,
-1,1,10:18:35 AM,,mount,0.3,0,n,NA,y,,H,social,M,female,
-1,1,10:49:26 AM,,mount,0.3,7,y,y,NA,,H,social,T,female,
-1,1,11:08:26 AM,,mount,0.3,5,y,y,NA,,H,social,R,female,
-1,1,11:33:18 AM,,mount,0.3,6,y,y,NA,,H,social,S,female,
-1,1,11:36:33 AM,,mount,0.3,7,y,y,NA,,H,social,T,female,
-1,1,9:25:29 AM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,1,9:25:47 AM,,mount,0.3,:1,,,,,H,social,K,male,
-1,1,10:15:30 AM,,mount,0.3,0.7,,,,,H,social,F,male,
-1,1,1:49:58 PM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,2,9:50:12 AM,,mount,0.3,7,n,NA,y,,H,social,T,female,
-1,2,10:24:05 AM,,mount,0.3,7,n,NA,y,,H,social,T,female,
-1,2,11:42:44 AM,,mount,0.3,7,n,NA,y,,H,social,T,female,
-1,2,9:49:56 AM,,mount,0.3,:1,,,,,H,social,K,male,
-1,2,11:37:31 AM,,mount,0.3,:1,,,,,H,social,K,male,
-1,2,11:37:55 AM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,2,11:42:32 AM,,mount,0.3,0.8,,,,,H,social,A,male,
-1,2,12:25:45 PM,,mount,0.3,3,y,y,NA,,H,social,P,female,
-1,2,1:47:49 PM,,mount,0.3,0:00,n,NA,y,,H,social,W,female,
-1,2,1:48:41 PM,,mount,0.3,0:00,n,NA,y,,H,social,W,female,
-1,2,11:44:30 AM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,2,1:28:03 PM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,2,1:52:39 PM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,2,3:34:18 PM,,mount,0.3,0.2,,,,,H,social,G,male,
-1,1,8:00:00 AM,8:02:50 AM,insemination,0.5,0,n,NA,n,,D,social,M,female,
-1,1,8:35:55 AM,,mount,0.5,3,y,y,NA,,D,social,P,female,
-1,1,8:38:03 AM,,mount,0.5,3,y,n,y,,D,social,P,female,
-1,1,3:28:05 PM,,mount,0.5,4,n,NA,y,,D,social,Q,female,
-1,1,8:04:50 AM,,mount,0.5,0.6,,,,,D,social,I,male,
-1,1,8:21:05 AM,,mount,0.5,0.8,,,,,D,social,A,male,
-1,1,9:21:10 AM,,mount,0.5,0.8,,,,,D,social,A,male,
-1,1,12:12:38 PM,,mount,0.5,0.6,,,,,D,social,I,male,
-1,1,1:16:23 PM,,mount,0.5,0,,,,,D,social,L,male,
-1,1,2:50:53 PM,,mount,0.5,0,,,,,D,social,L,male,
-1,2,10:46:59 AM,,insemination,0.5,8,y,n,n,,D,social,U,female,
-1,2,9:35:54 AM,,mount,0.5,0,n,NA,y,was small and in a large aggregation,D,social,M,female,
-1,2,10:13:43 AM,,mount,0.5,8,n,NA,y,,D,social,U,female,
-1,2,10:17:01 AM,,mount,0.5,0,n,NA,y,,D,social,M,female,
-1,2,10:31:09 AM,,mount,0.5,6,n,NA,y,,D,social,S,female,
-1,2,10:46:13 AM,,mount,0.5,8,y,n,y,,D,social,U,female,
-1,2,10:46:27 AM,,mount,0.5,8,y,y,NA,,D,social,U,female,
-1,2,1:29:57 PM,,mount,0.5,2,n,NA,y,,D,social,O,female,
-1,2,1:33:13 PM,,mount,0.5,8,n,NA,y,,D,social,U,female,
-1,2,1:34:21 PM,,mount,0.5,0:00,n,NA,y,,D,social,W,female,
-1,2,1:36:11 PM,,mount,0.5,1:00,n,NA,y,,D,social,X,female,
-1,2,1:37:33 PM,,mount,0.5,8,n,NA,y,,D,social,U,female,
-1,2,2:35:08 PM,,mount,0.5,0:00,n,NA,y,,D,social,W,female,
-1,2,2:49:00 PM,,mount,0.5,"6,",n,NA,y,,D,social,S,female,
-1,2,2:50:53 PM,,mount,0.5,7,n,NA,y,,D,social,T,female,
-1,2,3:30:03 PM,,mount,0.5,7,n,NA,y,,D,social,T,female,
-1,2,12:53:52 PM,,mount,5,0,n,NA,y,,D,social,M,female,
-1,2,10:31:02 AM,,mount,0.5,0.8,,,,,D,social,A,male,
-1,2,10:33:37 AM,,mount,0.5,0.6,,,,,D,social,I,male,
-1,2,11:00:46 AM,,mount,0.5,0.7,,,,,D,social,F,male,
-1,2,12:23:01 PM,,mount,0.5,0,,,,,D,social,L,male,
-1,2,12:48:23 PM,,mount,0.5,0.6,,,,,D,social,I,male,
-1,2,12:48:36 PM,,mount,0.5,0,,,,,D,social,L,male,
-1,2,1:19:10 PM,,mount,0.5,0.5,,,,,D,social,D,male,
-1,2,1:25:46 PM,,mount,0.5,0.7,,,,,D,social,F,male,
-1,1,8:34:31 AM,,insemination,0.6,4,n,NA,n,,I,isolated,Q,female,
-1,1,10:20:58 AM,10:21:55 AM,insemination,0.6,0:00,n,NA,n,,I,isolated,W,female,
-1,1,11:15:05 AM,,insemination,0.6,9,n,NA,n,,I,isolated,V,female,
-1,1,10:22:47 AM,,mount,0.6,0,n,NA,y,,I,isolated,M,female,
-1,1,10:23:31 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female,
-1,1,10:25:03 AM,,mount,0.6,0:00,y,n,y,,I,isolated,W,female,
-1,1,10:25:19 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female,
-1,1,10:29:25 AM,,mount,0.6,0:00,y,y,NA,,I,isolated,W,female,
-1,1,10:29:43 AM,,mount,0.6,0;,y,n,y,,I,isolated,W,female,
-1,1,10:33:15 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female,
-1,1,10:35:26 AM,,mount,0.6,0,n,NA,n,,I,isolated,M,female,
-1,1,10:41:31 AM,,mount,0.6,0,n,NA,y,,I,isolated,M,female,
-1,1,10:52:11 AM,,mount,0.6,0,n,,y,,I,isolated,M,female,
-1,1,11:31:24 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female,
-1,1,11:39:41 AM,,mount,0.6,4,y,n,y,,I,isolated,Q,female,
-1,1,8:04:51 AM,,mount,0.6,0.5,,,,,I,isolated,D,male,
-1,1,8:07:02 AM,,mount,0.6,0.3,,,,,I,isolated,H,male,
-1,1,8:07:56 AM,,mount,0.6,:6,,,,,I,isolated,B,male,
-1,1,8:16:09 AM,,mount,0.6,0.3,,,,,I,isolated,H,male,
-1,1,8:25:29 AM,,mount,0.6,0.3,,,,,I,isolated,H,male,
-1,1,8:37:05 AM,,mount,0.6,0.3,,,,,I,isolated,H,male,
-1,1,9:37:57 AM,,mount,0.6,:6,,,,,I,isolated,B,male,
-1,1,10:25:48 AM,,mount,0.6,0.2,,,,,I,isolated,G,male,
-1,1,10:37:02 AM,,mount,0.6,0.9,,,,,I,isolated,E,male,
-1,1,10:46:09 AM,,mount,0.6,0.2,,,,,I,isolated,G,male,
-1,1,10:50:22 AM,,mount,0.6,:0,,,,,I,isolated,C,male,
-1,1,11:20:02 AM,,mount,0.6,0.9,,,,,I,isolated,E,male,
-1,1,11:24:45 AM,,mount,0.6,0.1,,,,,I,isolated,J,male,
-1,1,11:49:27 AM,,mount,0.6,0.1,,,,,I,isolated,J,male,
-1,2,11:31:29 AM,,mount,0.6,0,y,n,y,,I,isolated,M,female,
-1,2,10:31:40 AM,,mount,0.6,0.5,n,NA,y,,I,isolated,D,male,
-1,2,10:47:38 AM,,mount,0.6,0.5,,,,,I,isolated,D,male,
-1,2,11:21:22 AM,,mount,0.6,0.5,,,,,I,isolated,D,male,
-1,2,12:24:40 PM,,mount,0.6,"6,",n,NA,y,,I,isolated,S,female,
-1,2,1:11:54 PM,,mount,0.6,6,n,NA,y,,I,isolated,S,female,
-1,2,1:19:09 PM,,mount,0.6,6,n,NA,y,,I,isolated,S,female,
-1,2,1:32:22 PM,,mount,0.6,6,n,NA,y,,I,isolated,S,female,
-1,2,2:23:17 PM,,mount,0.6,0,n,NA,y,,I,isolated,M,female,
-1,2,12:19:00 PM,,mount,0.6,0.7,,,,,I,isolated,F,male,
-1,2,1:14:41 PM,,mount,0.6,0.5,,,,,I,isolated,D,male,
-1,2,1:18:39 PM,,mount,0.6,0.7,,,,,I,isolated,F,male,
-1,2,1:18:40 PM,,mount,0.6,0.5,,,,,I,isolated,D,male,
-1,2,1:33:53 PM,,mount,0.6,0.2,,,,,I,isolated,G,male,
-1,2,2:39:39 PM,,mount,0.6,0.7,,,,,I,isolated,F,male,
-1,1,8:29:51 AM,,insemination,0.7,5,y,n,n,,F,isolated,R,female,
-1,1,8:39:25 AM,,insemination,0.7,7,y,n,n,,F,isolated,T,female,
-1,1,9:11:00 AM,,insemination,0.7,0:00,n,NA,n,,F,isolated,W,female,
-1,1,9:35:28 AM,,insemination,0.7,0,n,NA,n,,F,isolated,M,female,
-1,1,11:56:34 AM,,insemination,0.7,0,n,NA,n,,F,isolated,M,female,
-1,1,8:26:10 AM,,mount,0.7,7,y,y,NA,,F,isolated,T,female,
-1,1,8:26:35 AM,,mount,0.7,6,y,y,NA,,F,isolated,S,female,
-1,1,8:36:14 AM,,mount,0.7,5,y,y,NA,,F,isolated,R,female,
-1,1,8:36:51 AM,,mount,0.7,5,y,n,y,,F,isolated,R,female,
-1,1,8:40:31 AM,,mount,0.7,7,y,n,y,,F,isolated,T,female,
-1,1,8:42:45 AM,,mount,0.7,0.2,,,, mounted him during insem,F,isolated,G,male,
-1,1,8:44:03 AM,,mount,0.7,4,y,y,NA,,F,isolated,Q,female,
-1,1,8:48:03 AM,,mount,0.7,0,n,NA,y,,F,isolated,M,female,
-1,1,8:49:35 AM,,mount,0.7,0,y,n,y,,F,isolated,M,female,
-1,1,9:16:25 AM,,mount,0.7,0,y,y,NA,,F,isolated,M,female,
-1,1,9:53:20 AM,,mount,0.7,0:00,y,n,y,,F,isolated,W,female,
-1,1,9:54:46 AM,,mount,0.7,4,n,NA,y,,F,isolated,Q,female,
-1,1,10:04:00 AM,,mount,0.7,0:00,n,NA,y,,F,isolated,W,female,
-1,1,11:01:03 AM,,mount,0.7,7,y,y,NA,,F,isolated,T,female,
-1,1,11:39:11 AM,,mount,0.7,4,y,y,NA,,F,isolated,Q,female,
-1,1,11:45:45 AM,,mount,0.7,0,n,NA,y,,F,isolated,M,female,
-1,1,8:01:14 AM,,mount,0.7,0.6,,,,,F,isolated,I,male,
-1,1,8:06:57 AM,,mount,0.7,:0,,,,,F,isolated,C,male,
-1,1,8:23:44 AM,,mount,0.7,0.1,,,,,F,isolated,J,male,
-1,1,8:24:00 AM,,mount,0.7,0.2,,,,,F,isolated,G,male,
-1,1,8:25:49 AM,,mount,0.7,:1,,,,,F,isolated,K,male,
-1,1,8:52:29 AM,,mount,0.7,0.1,,,,,F,isolated,J,male,
-1,1,9:05:51 AM,,mount,0.7,:1,,,,,F,isolated,K,male,
-1,1,8:05:11 AM,,mount,0.7,0.1,,,,,F,isolated,J,male,
-1,1,9:30:02 AM,,mount,0.7,0.3,,,,,F,isolated,H,male,
-1,1,10:14:42 AM,,mount,0.7,:1,,,,,F,isolated,K,male,
-1,1,10:18:25 AM,,mount,0.7,:1,,,,,F,isolated,K,male,
-1,1,12:51:17 PM,,mount,0.7,0,,,,,F,isolated,L,male,
-1,2,8:32:27 AM,8:35:36 AM,insemination,0.7,6,n,NA,n,,F,isolated,S,female,
-1,2,10:47:52 AM,,mount,0.7,0.6,,,,,F,isolated,I,male,
-1,2,10:47:55 AM,,mount,0.7,0.5,,,,,F,isolated,D,male,
-1,2,1:32:47 PM,,mount,0.7,6,n,NA,y,,F,isolated,S,female,
-1,2,12:18:47 PM,,mount,0.7,0,,,,,F,isolated,L,male,
-1,2,1:14:53 PM,,mount,0.7,0.6,,,,,F,isolated,I,male,
-1,2,1:18:22 PM,,mount,0.7,0.5,,,,,F,isolated,D,male,
-1,2,1:20:09 PM,,mount,0.7,0.5,,,,,F,isolated,D,male,
-1,2,1:35:42 PM,,mount,0.7,0.6,,,,,F,isolated,I,male,
-1,2,2:23:53 PM,,mount,0.7,0.6,,,,,F,isolated,I,male,
-1,1,8:00:07 AM,8:02:44 AM,insemination,0.8,3,n,NA,n,,A,social,P,female,
-1,1,2:23:59 PM,,insemination,0.8,3,n,NA,y,,A,social,P,female,
-1,1,12:00:00 AM,,insemination,0.8,7,y,n,NA,,A,social,T,female,
-1,1,2:29:19 PM,,mount,0.8,7,y,y,NA,,A,social,T,female,
-1,1,2:30:05 PM,,mount,0.8,6,n,NA,y,,A,social,S,female,
-1,1,2:30:36 PM,,mount,0.8,0,n,NA,y,,A,social,M,female,
-1,1,3:23:05 PM,,mount,0.8,3,n,NA,y,,A,social,P,female,
-1,1,8:10:42 AM,,mount,0.8,0.5,,,,,A,social,D,male,
-1,1,9:35:17 AM,,mount,0.8,0.5,,,,,A,social,D,male,
-1,1,2:21:54 PM,,mount,0.8,0.5,,,,,A,social,D,male,
-1,1,2:22:48 PM,,mount,0.8,0,,,,,A,social,L,male,
-1,1,2:35:29 PM,,mount,0.8,0.1,,,,,A,social,J,male,
-1,1,3:56:25 PM,,mount,0.8,0.2,,,,,A,social,G,male,
-1,2,11:44:54 AM,11:47:35 AM,insemination,0.8,7,n,NA,n,,A,social,T,female,
-1,2,11:51:58 AM,11:52:56 AM,insemination,0.8,7,n,NA,y,,A,social,T,female,
-1,2,2:00:54 PM,,insemination,0.8,7,n,NA,n,,A,social,T,female,
-1,2,12:23:30 PM,,mount,0.8,1:00,n,NA,y,,A,social,X,female,
-1,1,8:03:19 AM,8:04:05 AM,insemination,0.9,5,n,NA,n,,E,isolated,R,female,
-1,1,8:08:45 AM,,insemination,0.9,7,n,NA,n,,E,isolated,T,female,
-1,1,8:14:56 AM,,insemination,0.9,0,n,NA,n,,E,isolated,M,female,
-1,1,8:19:57 AM,,insemination,0.9,0,n,NA,n,short insemination,E,isolated,M,female,
-1,1,8:23:02 AM,,insemination,0.9,4,n,NA,n,,E,isolated,Q,female,
-1,1,8:31:20 AM,8:33:01 AM,insemination,0.9,6,n,NA,n,,E,isolated,S,female,
-1,1,10:45:09 AM,,insemination,0.9,8,n,NA,n,,E,isolated,U,female,
-1,1,8:11:04 AM,,mount,0.9,6,y,y,NA,,E,isolated,S,female,
-1,1,8:11:27 AM,,mount,0.9,7,n,NA,y,,E,isolated,T,female,
-1,1,8:12:22 AM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,8:28:26 AM,,mount,0.9,1,n,NA,y,,E,isolated,N,female,
-1,1,8:36:09 AM,,mount,0.9,1,y,n,y,,E,isolated,N,female,
-1,1,8:40:15 AM,,mount,0.9,1,n,NA,y,,E,isolated,N,female,
-1,1,8:40:45 AM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,9:19:16 AM,,mount,0.9,8,n,NA,y,,E,isolated,U,female,
-1,1,10:08:46 AM,,mount,0.9,4,y,y,NA,,E,isolated,Q,female,
-1,1,11:29:28 AM,,mount,0.9,6,n,NA,y,,E,isolated,S,female,
-1,1,11:30:11 AM,,mount,0.9,6,n,NA,y,,E,isolated,S,female,
-1,1,11:46:32 AM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,11:46:59 AM,,mount,0.9,1;,y,y,NA,,E,isolated,X,female,
-1,1,12:03:20 PM,,mount,0.9,9,y,n,y,,E,isolated,V,female,
-1,1,12:12:00 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female,
-1,1,12:13:17 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,12:21:20 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,12:22:34 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,12:23:48 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,12:29:15 PM,,mount,0.9,4,y,y,NA,,E,isolated,Q,female,
-1,1,12:33:25 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female,
-1,1,12:34:38 PM,,mount,0.9,4,y,y,NA,,E,isolated,Q,female,
-1,1,12:37:22 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female,
-1,1,12:39:52 PM,,mount,0.9,4,n,NA,y,,E,isolated,Q,female,
-1,1,12:40:56 PM,,mount,0.9,9,y,y,NA,,E,isolated,V,female,
-1,1,12:43:32 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,12:45:04 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female,
-1,1,12:45:54 PM,,mount,0.9,4,n,NA,y,,E,isolated,Q,female,
-1,1,12:48:32 PM,,mount,0.9,4,n,NA,y,,E,isolated,Q,female,
-1,1,12:50:47 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female,
-1,1,1:00:43 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,1:19:44 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,1:26:40 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female,
-1,1,1:28:32 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,1:29:56 PM,,mount,0.9,8,n,NA,y,,E,isolated,U,female,
-1,1,1:30:59 PM,,mount,0.9,8,n,NA,y,,E,isolated,U,female,
-1,1,1:35:54 PM,.,mount,0.9,8,n,NA,y,,E,isolated,U,female,
-1,1,1:37:41 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,1:44:42 PM,,mount,0.9,1:00,y,y,NA,,E,isolated,X,female,
-1,1,1:51:17 PM,,mount,0.9,8,y,y,NA,,E,isolated,U,female,
-1,1,2:02:23 PM,,mount,0.9,5,y,y,NA,,E,isolated,R,female,
-1,1,2:04:07 PM,,mount,0.9,5,n,NA,y,,E,isolated,R,female,
-1,1,2:13:34 PM,,mount,0.9,6,n,NA,y,,E,isolated,S,female,
-1,1,2:36:48 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female,
-1,1,3:19:05 PM,,mount,0.9,0:00,y,y,NA,,E,isolated,W,female,
-1,1,3:25:37 PM,,mount,0.9,6,n,NA,y,,E,isolated,S,female,
-1,1,3:45:08 PM,,mount,0.9,1,n,NA,y,,E,isolated,N,female,
-1,1,3:46:29 PM,,mount,0.9,5,n,NA,y,,E,isolated,R,female,
-1,1,8:01:13 AM,,mount,0.9,0.6,,,,,E,isolated,I,male,
-1,1,8:01:12 AM,,mount,0.9,0.6,,,,,E,isolated,I,male,
-1,1,8:06:26 AM,,mount,0.9,0.3,,,,,E,isolated,H,male,
-1,1,8:13:40 AM,,mount,0.9,0.1,,,,,E,isolated,J,male,
-1,1,8:19:21 AM,,mount,0.9,0.2,,,,during insem,E,isolated,G,male,
-1,1,8:48:27 AM,,mount,0.9,0,,,,,E,isolated,L,male,
-1,1,9:23:35 AM,,mount,0.9,0,,,,,E,isolated,L,male,
-1,1,10:24:18 AM,,mount,0.9,0.3,,,,,E,isolated,H,male,
-1,1,11:03:49 AM,,mount,0.9,0.1,,,,,E,isolated,J,male,
-1,1,11:13:06 AM,,mount,0.9,0,,,,,E,isolated,L,male,
-1,1,11:18:51 AM,,mount,0.9,0.1,,,,,E,isolated,J,male,
-1,1,11:24:24 AM,,mount,0.9,0.1,,,,,E,isolated,J,male,
-1,1,11:27:29 AM,,mount,0.9,",.6",,,,,E,isolated,I,male,
-1,1,11:38:12 AM,,mount,0.9,0.7,,,,,E,isolated,F,male,
-1,1,11:41:37 AM,,mount,0.9,0.6,,,,,E,isolated,I,male,
-1,1,11:48:42 AM,,mount,0.9,0.6,,,,,E,isolated,I,male,
-1,1,1:17:28 PM,,mount,0.9,0,y,y,NA,,E,isolated,L,male,
-1,1,1:28:31 PM,,mount,0.9,0.2,,,,,E,isolated,G,male,
-1,1,2:10:50 PM,,mount,0.9,0.9,y,y,NA,,E,isolated,E,male,
-1,1,2:18:07 PM,,mount,0.9,0.6,y,n,y,,E,isolated,I,male,
-1,1,2:28:29 PM,,mount,0.9,0.8,,,,,E,isolated,A,male,
-1,1,11:21:33 AM,,mount,",9",7,n,NA,y,,E,isolated,T,female,
-1,2,11:50:05 AM,,insemination,0.9,4,n,NA,n,,E,isolated,Q,female,
-1,2,12:13:26 PM,,mount,0.9,1:00,y,y,NA,,E,isolated,X,female,
-1,2,1:26:18 PM,,mount,0.5,0.7,,,,,D,social,F,male,
-1,2,12:53:52 PM,,mount,6,5,,,,,I,isolated,R,female,
-1,2,2:28:37 PM,,mount,0.9,7,y,n,y,,E,isolated,T,female,
-1,1,8:00:00 AM,,insemination,:0,6,n,NA,n,,C,social,S,female,
-1,1,8:05:36 AM,,insemination,:0,7,y,n,NA,,C,social,T,female,
-1,1,2:24:40 PM,,mount,:0,7,n,NA,y,,C,social,T,female,
-1,1,11:07:54 AM,,mount,:0,0.2,,,,,C,social,G,male,
-1,1,1:27:57 PM,,mount,:0,0.2,,,,,C,social,G,male,
-1,1,8:04:18 AM,,other,:0,,,,,,C,social,NA,female,
-1,2,1:39:19 PM,,mount,:0,9,n,NA,y,,C,social,V,female,
-1,2,12:28:11 PM,12:30:41 PM,insemination,:0,1:00,n,NA,n,,C,social,X,female,
-1,2,2:14:15 PM,2:15:08 PM,insemination,:0,7,n,NA,n,,C,social,T,female,
-1,2,12:34:09 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
-1,2,12:55:15 PM,,mount,:0,1:00,y,n,y,,C,social,X,female,
-1,2,1:08:56 PM,,mount,:0,8,n,NA,y,,C,social,U,female,
-1,2,1:12:56 PM,,mount,:0,9,n,NA,y,,C,social,V,female,
-1,2,1:23:25 PM,,mount,:0,6,n,NA,y,,C,social,S,female,
-1,2,1:26:01 PM,,mount,:0,0:00,n,NA,y,,C,social,W,female,
-1,2,1:28:23 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
-1,2,1:29:12 PM,,mount,:0,0:00,n,NA,y,,C,social,W,female,
-1,2,1:30:30 PM,,mount,:0,6,n,NA,y,,C,social,S,female,
-1,2,1:31:21 PM,,mount,:0,0:00,n,NA,y,,C,social,W,female,
-1,2,1:41:12 PM,,mount,:0,8,n,NA,n,,C,social,U,female,
-1,2,2:01:47 PM,,mount,:0,3,n,NA,y,,C,social,P,female,
-1,2,2:08:04 PM,,mount,:0,8,n,NA,y,,C,social,U,female,
-1,2,2:09:32 PM,,mount,:0,7,n,NA,y,,C,social,T,female,
-1,2,2:18:41 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
-1,2,2:21:55 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
-1,2,2:24:55 PM,,mount,:0,9,y,y,NA,,C,social,V,female,
-1,2,2:25:16 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female,
-1,2,2:26:39 PM,,mount,:0,7,y,n,y,,C,social,T,female,
-1,2,1:15:16 PM,,mount,:0,0.1,n,,,,C,social,J,male,
-1,2,1:47:16 PM,,mount,:0,0,,,,,C,social,L,male,
-1,2,2:34:55 PM,,mount,:0,:6,,,,,C,social,B,male,
-1,1,8:22:10 AM,,insemination,:1,0,y,n,NA,,K,isolated,M,female,
-1,1,8:32:23 AM,,insemination,:1,0,y,n,n,,K,isolated,M,female,
-1,1,9:02:23 AM,,insemination,:1,0:00,n,NA,n,,K,isolated,W,female,
-1,1,1:08:19 PM,,insemination,:1,7,y,n,n,,K,isolated,T,female,
-1,1,8:07:25 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female,
-1,1,8:10:32 AM,,mount,:1,0,y,y,NA,,K,isolated,M,female,
-1,1,8:21:11 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female,
-1,1,8:26:05 AM,,mount,:1,7,y,y,NA,,K,isolated,T,female,
-1,1,8:26:35 AM,,mount,:1,6,y,y,NA,,K,isolated,S,female,
-1,1,8:44:48 AM,,mount,:1,9,y,y,NA,,K,isolated,V,female,
-1,1,8:48:20 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female,
-1,1,10:53:18 AM,,mount,:1,7,y,n,y,,K,isolated,T,female,
-1,1,11:25:12 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female,
-1,1,11:38:28 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female,
-1,1,12:19:00 PM,,mount,:1,0,y,y,NA,,K,isolated,M,female,
-1,1,12:23:12 PM,,mount,:1,7,y,y,NA,,K,isolated,T,female,
-1,1,8:16:40 AM,,mount,:1,0.1,,,,,K,isolated,J,male,
-1,1,8:19:22 AM,,mount,:1,0.2,,,,during insem,K,isolated,G,male,
-1,1,9:18:25 AM,,mount,:1,0.7,,,,,K,isolated,F,male,
-1,1,10:20:03 AM,,mount,:1,0.3,,,,,K,isolated,H,male,
-1,1,10:38:12 AM,,mount,:1,0.6,,,,,K,isolated,I,male,
-1,2,11:40:00 AM,,insemination,:1,7,y,n,n,,K,isolated,T,female,
-1,2,1:50:35 PM,,mount,:1,7,y,y,NA,,K,isolated,T,female,
-1,1,8:03:03 AM,8:05:11 AM,insemination,:6,2,n,NA,n,,B,isolated,O,female,
-1,1,8:12:37 AM,,insemination,:6,6,n,NA,n,male position was weir,B,isolated,S,female,
-1,1,8:32:37 AM,,insemination,:6,4,n,NA,n,,B,isolated,Q,female,
-1,1,2:07:12 PM,,insemination,:6,5,n,NA,y,,B,isolated,R,female,
-1,1,3:08:28 PM,,insemination,:6,7,y,n,n,,B,isolated,T,female,
-1,1,3:14:17 PM,3:15:11 PM,insemination,:6,3,n,NA,n,,B,isolated,P,female,
-1,1,8:15:50 AM,,mount,:6,6,n,NA,y,,B,isolated,S,female,
-1,1,10:34:26 AM,,mount,:6,0,n,NA,y,,B,isolated,M,female,
-1,1,11:51:46 AM,,mount,:6,2,y,y,NA,refusal stance,B,isolated,O,female,
-1,1,12:32:04 PM,,mount,:6,0,n,NA,y,,B,isolated,M,female,
-1,1,1:36:42 PM,,mount,:6,1,n,NA,y,,B,isolated,N,female,
-1,1,1:46:46 PM,,mount,:6,6,n,NA,y,,B,isolated,S,female,
-1,1,3:26:11 PM,,mount,:6,9,n,NA,y,,B,isolated,V,female,
-1,1,8:00:23 AM,,mount,:6,0.1,,,,,B,isolated,J,male,
-1,1,8:00:24 AM,,mount,:6,0.1,,,,,B,isolated,J,male,
-1,1,8:16:17 AM,,mount,:6,0.3,,,,,B,isolated,H,male,
-1,1,8:25:39 AM,,mount,:6,0.6,,,,,B,isolated,I,male,
-1,1,8:30:13 AM,,mount,:6,0.6,,,,,B,isolated,I,male,
-1,1,8:37:22 AM,,mount,:6,0.6,,,,,B,isolated,I,male,
-1,1,8:51:40 AM,,mount,:6,0.3,,,,,B,isolated,H,male,
-1,1,8:51:54 AM,,mount,:6,0.3,,,,,B,isolated,H,male,
-1,1,10:04:53 AM,,mount,:6,0.6,,,,,B,isolated,I,male,
-1,1,11:56:34 AM,,mount,:6,0.1,,,,,B,isolated,J,male,
-1,1,3:34:17 PM,,mount,:6,0.8,,,,,B,isolated,A,male,
-1,2,9:41:59 AM,,insemination,:6,3,n,NA,n,,B,isolated,P,female,
-1,2,10:42:44 AM,10:44:44 AM,insemination,:6,3,y,n,n,,B,isolated,P,female,
-1,2,9:48:12 AM,,mount,:6,"3,",n,,,,B,isolated,NA,female,
-1,2,11:39:28 AM,,mount,:6,3,y,n,y,,B,isolated,P,female,
-1,2,11:20:06 AM,,mount,:6,0.3,n,NA,y,,B,isolated,H,male,
-1,2,2:30:53 PM,,mount,:6,0:00,n,NA,y,,B,isolated,W,female,
-1,2,2:35:57 PM,,mount,:6,0:00,n,NA,y,,B,isolated,W,female,
-1,2,2:53:18 PM,,mount,:6,0:00,n,NA,y,,B,isolated,W,female,
-1,2,2:34:31 PM,,mount,:6,:0,,,,,B,isolated,C,male,
-2,1,8:32:15 AM,8:34:45 AM,insemination,",0","2,",n,NA,n,,F,social,O,female,
-2,1,11:08:19 AM,,mount,",0",1:00,y,n,y,,F,social,X,female,
-2,1,11:19:36 AM,,mount,",0","3,",n,NA,y,,F,social,P,female,
-2,1,12:20:12 PM,,mount,",0","3,",n,NA,y,,F,social,P,female,
-2,1,1:23:42 PM,,mount,",0","3,",y,n,y,,F,social,P,female,
-2,1,2:11:55 PM,,mount,",0","3,",y,n,y,,F,social,P,female,
-2,1,2:21:35 PM,,mount,",0","3,",y,y,NA,,F,social,P,female,
-2,1,2:23:38 PM,,mount,",0","3,",y,n,y,,F,social,P,female,
-2,1,8:17:47 AM,,mount,",0",:9,,,,,F,social,H,male,
-2,1,8:26:39 AM,,mount,",0",:9,,,,,F,social,H,male,
-2,1,2:06:33 PM,,mount,",0",",4",,,,,F,social,I,male,
-2,1,2:12:35 PM,,mount,",0",:9,,,,,F,social,H,male,
-2,2,12:12:53 PM,,insemination,",0","8,",y,n,n,,F,social,U,female,
-2,2,1:43:49 PM,1:44:15 PM,insemination,",0",1:00,n,NA,n,too short?,F,social,X,female,
-2,2,11:37:02 AM,,mount,",0","0,",y,y,NA,,F,social,M,female,
-2,2,12:11:17 PM,,mount,",0","8,",n,NA,y,,F,social,U,female,
-2,2,12:12:19 PM,,mount,",0","8,",y,y,NA,,F,social,U,female,
-2,2,12:27:30 PM,,mount,",0",0:00,y,y,NA,,F,social,W,female,
-2,2,1:17:18 PM,,mount,",0","0,",y,n,y,,F,social,M,female,
-2,2,11:40:09 AM,,mount,",0",:9,,,,,F,social,H,male,
-2,2,12:01:37 PM,,mount,",0",:9,,,,,F,social,H,male,
-2,2,1:21:34 PM,,mount,",0",:9,,,,,F,social,H,male,
-2,1,9:21:51 AM,9:22:40 AM,insemination,",2","6,",n,NA,n,,E,social,S,female,
-2,1,8:01:50 AM,,mount,",2",",5",,,,"while ,8 was inseminating 9,",E,social,K,male,
-2,1,9:28:08 AM,,mount,",2",",4",,,,,E,social,I,male,
-2,2,9:51:27 AM,,mount,",2",",8",,,,,E,social,L,male,
-2,2,10:45:46 AM,,mount,",2",",8",,,,,E,social,L,male,
-2,2,12:35:26 PM,,mount,",2",",9",,,,,E,social,D,male,
-2,2,1:04:25 PM,,mount,",2",",9",,,,,E,social,D,male,
-2,2,1:38:27 PM,,mount,",2",",9",,,,,E,social,D,male,
-2,2,1:40:40 PM,,mount,",2",",9",,,,,E,social,D,male,
-2,2,2:41:09 PM,,mount,",2",",8",,,,,E,social,L,male,
-2,1,8:36:30 AM,8:36:57 AM,insemination,",3","2,",n,NA,n,,J,isolated,O,female,
-2,1,9:03:00 AM,9:05:20 AM,insemination,",3",1:00,y,n,n,,J,isolated,X,female,
-2,1,8:41:38 AM,,mount,",3","2,",n,NA,y,,J,isolated,O,female,
-2,1,9:13:29 AM,,mount,",3",1:00,y,n,y,,J,isolated,X,female,
-2,1,9:18:58 AM,,mount,",3",1:00,n,NA,y,,J,isolated,X,female,
-2,1,9:49:50 AM,,mount,",3",1:00,n,NA,y,,J,isolated,X,female,
-2,1,8:02:28 AM,,mount,",3",",7",,,,,J,isolated,A,male,
-2,1,8:06:22 AM,,mount,",3",",9",,,,,J,isolated,D,male,
-2,1,8:14:02 AM,,mount,",3",",9",,,,,J,isolated,D,male,
-2,1,8:18:20 AM,,mount,",3",",7",,,,,J,isolated,A,male,
-2,1,8:18:21 AM,,mount,",3",:9,,,,,J,isolated,H,male,
-2,1,8:25:43 AM,,mount,",3",:9,,,,,J,isolated,H,male,
-2,1,8:25:55 AM,,mount,",3",:9,,,,,J,isolated,H,male,
-2,1,8:43:14 AM,,mount,",3",",6",,,,,J,isolated,B,male,
-2,2,11:24:38 AM,11:25:30 AM,insemination,",3",0:00,n,NA,n,,J,isolated,W,female,
-2,2,1:10:17 PM,,insemination,",3","8,",y,n,n,,J,isolated,U,female,
-2,2,1:17:51 PM,1:18:59 PM,insemination,",3","8,",y,n,n,,J,isolated,U,female,
-2,2,1:26:02 PM,1:27:39 PM,insemination,",3","8,",y,n,n,,J,isolated,U,female,
-2,2,11:22:24 AM,,mount,",3",0:00,y,y,NA,refusal stance,J,isolated,W,female,
-2,2,1:22:48 PM,,mount,",3",1:00,y,y,NA,,J,isolated,X,female,
-2,2,11:16:13 AM,,mount,",3",",6",,,,,J,isolated,B,male,
-2,2,11:33:00 AM,,mount,",3",",6",,,,,J,isolated,B,male,
-2,2,12:20:10 PM,,mount,",3",",6",,,,,J,isolated,B,male,
-2,2,12:20:37 PM,,mount,",3",",6",,,,,J,isolated,B,male,
-2,1,8:00:31 AM,8:09:31 AM,insemination,",4","7,",n,NA,n,,I,isolated,T,female,
-2,1,8:22:42 AM,8:24:00 AM,insemination,",4",1:00,n,NA,n,,I,isolated,X,female,
-2,1,9:00:53 AM,9:07:02 AM,insemination,",4","6,",n,NA,n,,I,isolated,S,female,
-2,1,11:54:13 AM,11:55:26 AM,insemination,",4","3,",y,n,n,,I,isolated,P,female,
-2,1,1:18:29 PM,1:19:24 PM,insemination,",4","3,",y,n,n,,I,isolated,P,female,
-2,1,8:35:40 AM,,mount,",4","8,",n,NA,y,,I,isolated,U,female,
-2,1,8:36:07 AM,,mount,",4","8,",y,n,y,,I,isolated,U,female,
-2,1,12:44:57 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female,
-2,1,12:52:00 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female,
-2,1,1:24:34 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female,
-2,1,2:20:28 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female,
-2,1,2:20:56 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female,
-2,1,2:21:37 PM,,mount,",4","3,",y,y,NA,,I,isolated,P,female,
-2,1,2:32:54 PM,,mount,",4","9,",n,NA,y,,I,isolated,V,female,
-2,1,2:39:54 PM,,mount,",4","3,",y,y,NA,,I,isolated,P,female,
-2,1,3:21:19 PM,,mount,",4","3,",y,y,NA,,I,isolated,P,female,
-2,1,8:15:04 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,1,8:27:06 AM,,mount,",4",:9,,,,,I,isolated,H,male,
-2,1,8:28:52 AM,,mount,",4",:9,,,,"while :9 was on 8,",I,isolated,H,male,
-2,1,8:31:30 AM,,mount,",4",:9,,,,"while :9 was on 8,",I,isolated,H,male,
-2,1,8:32:57 AM,,mount,",4",:9,,,,"while :9 was on 8,",I,isolated,H,male,
-2,1,8:54:41 AM,,mount,",4",",9",,,,"forced ,9 off 5,",I,isolated,D,male,
-2,1,9:22:03 AM,,mount,",4",",2",,,,"while ,2 was mounting 6,",I,isolated,E,male,
-2,1,9:29:18 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,1,9:30:00 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,1,10:50:02 AM,,mount,",4",:9,,,,,I,isolated,H,male,
-2,1,10:50:58 AM,,mount,",4",:9,,,,,I,isolated,H,male,
-2,1,12:16:45 PM,,mount,",4",:9,,,,,I,isolated,H,male,
-2,1,2:40:24 PM,,mount,",4",",0",,,,,I,isolated,F,male,
-2,2,3:42:57 PM,3:44:07 PM,insemination,",4","9,",y,n,n,,I,isolated,V,female,
-2,2,11:44:38 AM,,mount,",4",2,n,NA,y,,I,isolated,NA,female,
-2,2,9:55:02 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,2,10:14:55 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,2,11:30:03 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,2,11:44:15 AM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,2,1:37:17 PM,,mount,",4",",2",,,,,I,isolated,E,male,
-2,2,2:41:18 PM,,mount,",4",",9",,,,,I,isolated,D,male,
-2,1,8:11:23 AM,8:13:11 AM,insemination,",5","4,",n,NA,n,,K,isolated,Q,female,
-2,1,8:52:32 AM,8:53:45 AM,insemination,",5",1:00,y,n,n,,K,isolated,X,female,
-2,1,8:17:35 AM,,mount,",5","3,",n,NA,y,,K,isolated,P,female,
-2,1,8:31:02 AM,,mount,",5",1:00,y,y,NA,,K,isolated,X,female,
-2,1,9:39:19 AM,,mount,",5","0,",y,y,NA,,K,isolated,M,female,
-2,1,1:01:13 PM,,mount,",5",0:00,y,n,y,,K,isolated,W,female,
-2,1,1:03:27 PM,,mount,",5","0,",n,NA,y,,K,isolated,M,female,
-2,1,1:05:40 PM,,mount,",5",0:00,y,n,y,,K,isolated,W,female,
-2,1,8:01:50 AM,,mount,",5",",8",,,,,K,isolated,L,male,
-2,1,8:02:29 AM,,mount,",5",",2",,,,,K,isolated,E,male,
-2,1,8:09:15 AM,,mount,",5",",0",,,,,K,isolated,F,male,
-2,1,8:10:48 AM,,mount,",5",:1,,,,,K,isolated,C,male,
-2,1,8:10:57 AM,,mount,",5",",8",,,,,K,isolated,L,male,
-2,1,8:11:15 AM,,mount,",5",:1,,,,,K,isolated,C,male,
-2,1,8:16:09 AM,,mount,",5",",8",,,,while on :7,K,isolated,L,male,
-2,1,8:22:21 AM,,mount,",5",",8",,,,,K,isolated,L,male,
-2,1,8:48:18 AM,,mount,",5",:7,,,,,K,isolated,G,male,
-2,1,8:49:14 AM,,mount,",5",:7,,,,,K,isolated,G,male,
-2,2,1:33:47 PM,,mount,",5",0:00,y,n,y,attempted to press to wall,K,isolated,W,female,
-2,2,1:54:52 PM,,mount,",5","2,",y,y,NA,,K,isolated,O,female,
-2,2,12:42:58 PM,,mount,",5",",8",,,,,K,isolated,L,male,
-2,2,12:43:29 PM,,mount,",5",",8",,,,,K,isolated,L,male,
-2,2,1:28:05 PM,,mount,",5",",9",,,,,K,isolated,D,male,
-2,2,1:36:07 PM,,mount,",5",",2",,,,,K,isolated,E,male,
-2,1,8:06:00 AM,8:07:33 AM,insemination,",6","1,",n,NA,n,,B,social,N,female,
-2,1,9:35:45 AM,,mount,",6","0,",y,y,NA,,B,social,M,female,
-2,1,9:37:11 AM,,mount,",6","0,",y,y,NA,,B,social,M,female,
-2,1,10:06:46 AM,,mount,",6",1:00,y,y,NA,,B,social,X,female,
-2,2,2:13:39 PM,2:14:30 PM,insemination,",6",1:00,y,n,n,,B,social,X,female,
-2,2,12:21:43 PM,,mount,",6",0:00,y,y,NA,,B,social,W,female,
-2,2,2:21:41 PM,,mount,",6",1:00,y,y,NA,,B,social,X,female,
-2,2,2:28:18 PM,,mount,",6",0:00,y,y,NA,,B,social,W,female,
-2,2,3:41:28 PM,,mount,",6","0,",y,y,NA,,B,social,M,female,
-2,2,3:45:19 PM,,mount,",6","7,",y,y,NA,,B,social,T,female,
-2,2,11:19:15 AM,,mount,",6",",3",,,,,B,social,J,male,
-2,2,1:12:33 PM,,mount,",6",",3",,,,"while ,3 was mounted on 8, ??",B,social,J,male,
-2,2,3:48:43 PM,,mount,",6",:1,,,,,B,social,C,male,
-2,1,1:06:13 PM,,insemination,",7","6,",n,NA,n,,A,social,S,female,
-2,1,3:02:28 PM,,insemination,",7","5,",n,NA,n,,A,social,R,female,
-2,1,2:29:03 PM,,mount,",7","6,",y,n,y,,A,social,S,female,
-2,1,11:20:11 AM,,mount,",7",",5",,,,,A,social,K,male,
-2,1,11:21:15 AM,,mount,",7",",8",,,,,A,social,L,male,
-2,2,12:30:36 PM,12:31:01 PM,insemination,",7","0,",y,n,n,not super long,A,social,M,female,
-2,2,2:09:12 PM,2:10:30 PM,insemination,",7","5,",n,NA,n,,A,social,R,female,
-2,2,12:37:08 PM,,mount,",7","1,",n,NA,y,,A,social,N,female,
-2,2,1:44:44 PM,,mount,",7","1,",n,NA,y,,A,social,N,female,
-2,1,8:01:09 AM,8:02:26 AM,insemination,",8","9,",n,NA,n,,L,isolated,V,female,
-2,1,8:06:59 AM,8:08:46 AM,insemination,",8",1:00,n,NA,n,,L,isolated,X,female,
-2,1,3:23:32 PM,3:24:20 PM,insemination,",8","3,",n,NA,n,,L,isolated,P,female,
-2,1,8:31:20 AM,,mount,",8","9,",y,y,NA,,L,isolated,V,female,
-2,1,8:47:41 AM,,mount,",8","3,",y,y,NA,,L,isolated,P,female,
-2,1,11:42:47 AM,,mount,",8","9,",n,NA,y,,L,isolated,V,female,
-2,1,1:38:38 PM,,mount,",8","4,",y,y,NA,,L,isolated,Q,female,
-2,1,8:01:08 AM,,mount,",8",",0",,,,,L,isolated,F,male,
-2,1,8:16:08 AM,,mount,",8",:7,,,,"whie :7 was on 4,",L,isolated,G,male,
-2,1,8:22:14 AM,,mount,",8",",5",,,,,L,isolated,K,male,
-2,1,8:48:09 AM,,mount,",8",:7,,,,,L,isolated,G,male,
-2,1,11:20:34 AM,,mount,",8",",7",,,,,L,isolated,A,male,
-2,1,11:38:23 AM,,mount,",8",:1,,,,,L,isolated,C,male,
-2,1,1:06:02 PM,,mount,",8",",9",,,,,L,isolated,D,male,
-2,1,1:09:32 PM,,mount,",8",:7,,,,,L,isolated,G,male,
-2,1,1:45:11 PM,,mount,",8",:7,,,,,L,isolated,G,male,
-2,2,1:29:48 PM,1:31:17 PM,insemination,",8",0:00,y,n,n,,L,isolated,W,female,
-2,2,11:07:39 AM,,mount,",8",",2",,,,,L,isolated,E,male,
-2,2,12:43:51 PM,,mount,",8",",2",,,,,L,isolated,E,male,
-2,2,2:42:52 PM,,mount,",8",",4",,,,,L,isolated,I,male,
-2,2,3:37:45 PM,,mount,",8",",2",,,,,L,isolated,E,male,
-2,1,12:20:36 PM,,insemination,:1,"9,",y,n,n,,C,social,V,female,
-2,1,1:45:13 PM,,mount,:1,1:00,y,n,y,,C,social,X,female,
-2,1,3:07:17 PM,,mount,:1,"6,",n,NA,y,,C,social,S,female,
-2,1,8:11:49 AM,,mount,:1,",8",,,,,C,social,L,male,
-2,1,12:19:12 PM,,mount,:1,",8",,,,,C,social,L,male,
-2,1,12:22:57 PM,,mount,:1,",7",,,,,C,social,A,male,
-2,2,12:34:03 PM,12:35:18 PM,insemination,:1,"9,",y,n,n,,C,social,V,female,
-2,2,3:44:34 PM,,mount,:1,0:00,y,n,y,,C,social,W,female,
-2,2,2:47:48 PM,,mount,:1,",8",,,,,C,social,L,male,
-2,2,3:24:49 PM,,mount,:1,:7,,,,,C,social,G,male,
-2,1,8:01:08 AM,,insemination,:7,"0,",n,NA,n,,G,isolated,M,female,
-2,1,8:15:46 AM,8:18:05 AM,insemination,:7,"4,",n,NA,n,,G,isolated,Q,female,
-2,1,8:26:06 AM,8:39:53 AM,insemination,:7,"3,",n,NA,n,,G,isolated,P,female,
-2,1,8:13:22 AM,,mount,:7,"0,",n,NA,y,,G,isolated,M,female,
-2,1,8:21:40 AM,,mount,:7,1:00,y,y,NA,,G,isolated,X,female,
-2,1,8:48:01 AM,,mount,:7,",8",,,,,G,isolated,L,male,
-2,1,9:25:55 AM,,mount,:7,",5",,,,,G,isolated,K,male,
-2,1,1:07:46 PM,,mount,:7,",8",,,,,G,isolated,L,male,
-2,1,1:08:32 PM,,mount,:7,",8",,,,,G,isolated,L,male,
-2,1,1:42:28 PM,,mount,:7,",8",,,,,G,isolated,L,male,
-2,2,3:23:44 PM,3:24:22 PM,insemination,:7,"9,",y,n,n,,G,isolated,V,female,
-2,2,1:28:13 PM,,mount,:7,0:00,y,y,NA,,G,isolated,W,female,
-2,2,1:35:08 PM,,mount,:7,0:00,y,y,NA,,G,isolated,W,female,
-2,2,3:04:11 PM,,mount,:7,"9,",n,NA,y,,G,isolated,V,female,
-2,2,3:31:28 PM,,mount,:7,"6,",y,n,y,,G,isolated,S,female,
-2,2,10:49:25 AM,,mount,:7,",5",,,,,G,isolated,K,male,
-2,2,12:42:18 PM,,mount,:7,",8",,,,,G,isolated,L,male,
-2,1,8:05:37 AM,8:06:56 AM,insemination,:9,"0,",n,NA,n,,H,isolated,M,female,
-2,1,8:28:19 AM,8:34:00 AM,insemination,:9,"8,",n,NA,n,,H,isolated,U,female,
-2,1,8:12:18 AM,,mount,:9,"0,",n,NA,y,,H,isolated,M,female,
-2,1,12:30:31 PM,,mount,:9,"3,",n,NA,y,,H,isolated,P,female,
-2,1,12:32:51 PM,,mount,:9,"3,",n,NA,y,cusp of maybe insemination -15s,H,isolated,P,female,
-2,1,1:24:32 PM,,mount,:9,"3,",y,y,NA,,H,isolated,P,female,
-2,1,8:02:29 AM,,mount,:9,",8",,,,"while ,5 was oon ,8",H,isolated,L,male,
-2,1,8:03:46 AM,,mount,:9,",8",,,,,H,isolated,L,male,
-2,1,8:09:23 AM,,mount,:9,",5",,,,,H,isolated,K,male,
-2,1,8:11:59 AM,,mount,:9,",9",,,,,H,isolated,D,male,
-2,1,8:16:43 AM,,mount,:9,",0",,,,,H,isolated,F,male,
-2,1,8:22:30 AM,,mount,:9,",7",,,,,H,isolated,A,male,
-2,1,9:28:45 AM,,mount,:9,",9",,,,"while ,9 is on 5,",H,isolated,D,male,
-2,1,12:30:24 PM,,mount,:9,",9",,,,,H,isolated,D,male,
-2,1,1:42:38 PM,,mount,:9,",4",,,,,H,isolated,I,male,
-2,2,10:31:30 AM,,mount,:9,"9,",y,y,NA,,H,isolated,V,female,
-2,2,10:32:17 AM,,mount,:9,"8,",n,NA,y,,H,isolated,U,female,
-2,2,11:37:17 AM,,mount,:9,"0,",y,y,NA,,H,isolated,M,female,
-2,2,11:36:28 AM,,mount,:9,",0",y,y,NA,,H,isolated,F,male,
-2,2,12:14:13 PM,,mount,:9,",0",,,,,H,isolated,F,male,
-3,1,8:01:17 AM,,mount,",1",",0",,,,,J,isolated,H,male,
-3,1,8:01:32 AM,,mount,",5",:7,,,,,K,isolated,B,male,
-3,1,8:02:02 AM,,mount,",9",:1,,,,,A,social,I,male,
-3,1,8:03:51 AM,8:06:02 AM,insemination,",1","7,",n,NA,n,,J,isolated,T,female,
-3,1,8:04:16 AM,8:05:57 AM,insemination,",4","0,",n,NA,n,,F,social,M,female,
-3,1,8:04:34 AM,,mount,",7",:7,,,,,G,isolated,B,male,
-3,1,8:06:44 AM,,mount,",2",",3",,,,,L,isolated,C,male,
-3,1,8:06:54 AM,,mount,",2",",3",,,,,L,isolated,C,male,
-3,1,8:07:53 AM,,insemination,",0","3,",n,NA,n,,H,isolated,P,female,
-3,1,8:08:18 AM,,mount,",1","2,",y,y,NA,,J,isolated,O,female,
-3,1,8:08:26 AM,,mount,",8",",6",,,,,E,social,D,male,
-3,1,8:09:24 AM,,mount,",7",:7,,,,,G,isolated,B,male,
-3,1,8:10:26 AM,,mount,",0","6,",y,y,NA,,H,isolated,S,female,
-3,1,8:13:55 AM,,mount,",9",:1,,,,,A,social,I,male,
-3,1,8:14:13 AM,,mount,",1","5,",n,NA,y,,J,isolated,R,female,
-3,1,8:14:49 AM,8:18:27 AM,insemination,",1","5,",n,NA,n,,J,isolated,R,female,
-3,1,8:15:41 AM,,mount,",7",:7,,,,,G,isolated,B,male,
-3,1,8:16:19 AM,,mount,:1,",9",,,,,I,isolated,A,male,
-3,1,8:19:10 AM,,mount,",2",",8",,,,,L,isolated,E,male,
-3,1,8:21:22 AM,,mount,",5",",8",,,,,K,isolated,E,male,
-3,1,8:21:32 AM,,mount,",5",",8",,,,,K,isolated,E,male,
-3,1,8:21:39 AM,,mount,",1","7,",y,y,NA,,J,isolated,T,female,
-3,1,8:23:39 AM,8:27:31 AM,insemination,",0","2,",n,NA,n,,H,isolated,O,female,
-3,1,8:25:11 AM,,mount,",9",:1,,,,,A,social,I,male,
-3,1,8:32:23 AM,,mount,",8",",5",,,,,E,social,K,male,
-3,1,8:32:37 AM,,mount,",3",",8",,,,,C,social,E,male,
-3,1,8:32:53 AM,,mount,",5",",3",,,,,K,isolated,C,male,
-3,1,8:42:22 AM,,mount,:7,",7",,,,,B,social,G,male,
-3,1,8:42:29 AM,,mount,",7",:7,,,,,G,isolated,B,male,
-3,1,8:43:03 AM,8:44:40 AM,insemination,",0","6,",n,NA,n,,H,isolated,S,female,
-3,1,8:43:45 AM,,mount,:7,",7",,,,,B,social,G,male,
-3,1,8:46:16 AM,,mount,:7,",7",,,,,B,social,G,male,
-3,1,8:54:03 AM,,mount,",0","7,",y,y,NA,,H,isolated,T,female,
-3,1,9:13:55 AM,,mount,",6","0,",y,y,NA,,D,social,M,female,
-3,1,9:16:29 AM,9:17:25 AM,insemination,:1,"2,",y,n,n,,I,isolated,O,female,
-3,1,9:19:56 AM,,mount,:1,",9",,,,,I,isolated,A,male,
-3,1,9:20:11 AM,,insemination,",9","2,",n,NA,n,,A,social,O,female,
-3,1,9:21:52 AM,,mount,",7","0,",y,y,NA,,G,isolated,M,female,
-3,1,9:23:22 AM,,mount,",2","0,",y,y,NA,,L,isolated,M,female,
-3,1,9:27:17 AM,,mount,:1,"2,",y,y,NA,,I,isolated,O,female,
-3,1,9:29:03 AM,,insemination,",5","1,",n,NA,n,,K,isolated,N,female,
-3,1,9:30:17 AM,,mount,:7,"0,",y,y,NA,,B,social,M,female,
-3,1,9:30:36 AM,,mount,",3",",8",,,,,C,social,E,male,
-3,1,9:30:55 AM,,mount,",8",",5",,,,"while ,5 was inseminating 1,",E,social,K,male,
-3,1,9:36:01 AM,,mount,",3",",5",,,,,C,social,K,male,
-3,1,9:39:36 AM,9:40:00 AM,insemination,",9","2,",y,n,n,,A,social,O,female,
-3,1,9:41:35 AM,,mount,",7",:7,,,,,G,isolated,B,male,
-3,1,9:47:21 AM,9:49:52 AM,insemination,",7","2,",n,NA,n,,G,isolated,O,female,
-3,1,9:54:58 AM,,mount,",3","9,",n,NA,y,,C,social,V,female,
-3,1,10:09:20 AM,,mount,",1","6,",n,NA,y,,J,isolated,S,female,
-3,1,10:09:55 AM,,mount,",0","6,",n,NA,y,,H,isolated,S,female,
-3,1,10:15:27 AM,,mount,",5","9,",n,NA,y,,K,isolated,V,female,
-3,1,10:15:44 AM,,mount,",5",",3",,,,,K,isolated,C,male,
-3,1,10:18:50 AM,,mount,",7",:7,,,,,G,isolated,B,male,
-3,1,10:20:51 AM,,mount,;7,",7",,,,,B,social,G,male,
-3,1,10:22:18 AM,,mount,",7",;7,,,,,G,isolated,B,male,
-3,1,10:22:40 AM,,mount,;7,",7",,,,,B,social,G,male,
-3,1,10:23:37 AM,,mount,",2",;1,,,,,L,isolated,NA,female,
-3,1,10:25:07 AM,,mount,",7",;7,,,,,G,isolated,B,male,
-3,1,10:26:58 AM,,mount,;7,",7",,,,,B,social,G,male,
-3,1,10:29:27 AM,,mount,",7",;7,,,,,G,isolated,B,male,
-3,1,10:31:57 AM,,mount,",3",;7,,,,,C,social,B,male,
-3,1,10:31:57 AM,,mount,",5",",3",,,,,K,isolated,C,male,
-3,1,10:33:22 AM,,mount,",8",;7,,,,,E,social,B,male,
-3,1,10:37:04 AM,,mount,;7,",5",,,,,B,social,K,male,
-3,1,10:38:32 AM,,mount,",5",;7,,,,,K,isolated,B,male,
-3,1,10:44:01 AM,10:49:22 AM,insemination,",7",1;,n,NA,n,,G,isolated,NA,female,
-3,1,10:53:47 AM,,mount,",3","6,",y,n,y,weird sideways  mount,C,social,S,female,
-3,1,11:05:05 AM,,mount,",8",",3",,,,,E,social,C,male,
-3,1,11:09:36 AM,,mount,",5","0,",n,NA,y,,K,isolated,M,female,
-3,1,11:30:35 AM,,mount,",5",:7,,,,,K,isolated,B,male,
-3,1,11:39:39 AM,,mount,:1,",2",,,,,I,isolated,L,male,
-3,1,12:00:54 PM,,mount,",8",1:00,n,NA,y,,E,social,X,female,
-3,1,12:01:34 PM,12:02:10 PM,insemination,",8","6,",y,n,n,,E,social,S,female,
-3,1,12:30:31 PM,,mount,",8","6,",n,NA,y,,E,social,S,female,
-3,1,12:34:36 PM,,mount,:1,",0",,,,,I,isolated,H,male,
-3,1,12:35:25 PM,,mount,",5",",8",,,,,K,isolated,E,male,
-3,1,12:35:45 PM,,mount,",8",:7,,,,,E,social,B,male,
-3,1,12:47:17 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,1,12:47:44 PM,,mount,",5","6,",y,n,y,,K,isolated,S,female,
-3,1,12:48:44 PM,,mount,",3",",5",,,,,C,social,K,male,
-3,1,12:49:03 PM,,mount,",5","6,",y,n,y,,K,isolated,S,female,
-3,1,12:49:07 PM,,mount,",3","6,",y,n,y,,C,social,S,female,
-3,1,12:50:20 PM,,mount,",2","0,",y,n,y,,L,isolated,M,female,
-3,1,12:53:08 PM,12:54:23 PM,insemination,:1,"0,",n,NA,n,,I,isolated,M,female,
-3,1,12:54:45 PM,12:55:33 PM,insemination,",2","6,",n,NA,n,,L,isolated,S,female,
-3,1,1:34:41 PM,,mount,",8",",3",,,,,E,social,C,male,
-3,1,1:38:38 PM,,mount,",8",",3",,,,,E,social,C,male,
-3,1,1:38:45 PM,,mount,",3","0,",y,y,NA,,C,social,M,female,
-3,1,1:39:18 PM,1:40:27 PM,insemination,",8","4,",y,n,n,,E,social,Q,female,
-3,1,1:41:00 PM,,mount,",5",:7,,,,,K,isolated,B,male,
-3,1,1:41:28 PM,,mount,",5",",8",,,,,K,isolated,E,male,
-3,1,1:47:41 PM,,mount,:7,"6,",y,y,NA,,B,social,S,female,
-3,1,1:54:03 PM,,mount,",5",0:00,y,n,y,,K,isolated,W,female,
-3,1,1:54:34 PM,1:55:02 PM,insemination,",3","9,",y,n,n,,C,social,V,female,
-3,1,2:10:28 PM,,mount,",3",",5",,,,,C,social,K,male,
-3,1,2:18:13 PM,,mount,",0","5,",n,NA,y,,H,isolated,R,female,
-3,1,2:29:29 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,1,2:29:47 PM,,mount,:1,",2",,,,,I,isolated,L,male,
-3,1,2:43:05 PM,,mount,",5","7,",y,n,y,,K,isolated,T,female,
-3,1,2:45:29 PM,,mount,",5",",8",,,,,K,isolated,E,male,
-3,1,2:46:15 PM,,mount,",5",",8",,,,,K,isolated,E,male,
-3,1,2:48:05 PM,,mount,:7,"4,",y,n,y,,B,social,Q,female,
-3,1,2:49:00 PM,,mount,",8",",3",,,,,E,social,C,male,
-3,1,3:09:15 PM,,mount,",3","6,",y,n,y,,C,social,S,female,
-3,1,3:09:56 PM,,mount,",3","6,",n,NA,y,,C,social,S,female,
-3,1,3:25:20 PM,,mount,",5",",3",,,,,K,isolated,C,male,
-3,1,3:28:19 PM,,mount,",5","6,",y,y,NA,,K,isolated,S,female,
-3,1,3:28:22 PM,,mount,",5","6,",y,n,y,,K,isolated,S,female,
-3,1,3:28:47 PM,,mount,",8","6,",n,NA,y,,E,social,S,female,
-3,1,3:29:54 PM,,mount,",3","8,",n,NA,y,,C,social,U,female,
-3,1,3:31:01 PM,,mount,",5",",7",,,,,K,isolated,G,male,
-3,1,3:36:23 PM,,mount,:1,"0,",y,n,y,,I,isolated,M,female,
-3,1,3:37:07 PM,,mount,:1,",2",,,,,I,isolated,L,male,
-3,1,3:39:23 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,1,3:40:31 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,1,3:44:50 PM,,mount,",0",",5",n,NA,y,,H,isolated,K,male,
-3,2,9:18:38 AM,,mount,",9",",2",,,,,A,social,L,male,
-3,2,9:18:49 AM,,mount,",2",",9",,,,,L,isolated,A,male,
-3,2,9:55:00 AM,,insemination,:7,"6,",n,NA,n,,B,social,S,female,
-3,2,10:46:08 AM,,mount,",5",:7,,,,,K,isolated,B,male,
-3,2,10:46:53 AM,,mount,",5",:7,,,,,K,isolated,B,male,
-3,2,10:48:37 AM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,2,10:53:49 AM,,mount,",5",",3",,,,,K,isolated,C,male,
-3,2,11:32:31 AM,11:32:57 AM,insemination,",4","4,",n,NA,n,,F,social,Q,female,
-3,2,11:34:29 AM,,mount,",6",",4",,,,,D,social,F,male,
-3,2,12:06:19 PM,,mount,",1","5,",y,y,NA,,J,isolated,R,female,
-3,2,12:11:33 PM,,mount,",1","5,",n,NA,y,,J,isolated,R,female,
-3,2,12:16:46 PM,,mount,",4","4,",y,y,NA,,F,social,Q,female,
-3,2,12:21:26 PM,,mount,:1,"0,",y,y,NA,,I,isolated,M,female,
-3,2,12:22:14 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,2,12:22:14 PM,,mount,:1,",9",,,,,I,isolated,A,male,
-3,2,12:33:59 PM,12:34:41 PM,insemination,:1,"0,",n,NA,n,,I,isolated,M,female,
-3,2,12:34:01 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,2,12:34:45 PM,,mount,",9",:1,,,,,A,social,I,male,
-3,2,12:52:31 PM,,mount,",2",",9",,,,,L,isolated,A,male,
-3,2,1:15:20 PM,,mount,",5",",3",,,,,K,isolated,C,male,
-3,2,1:15:53 PM,,mount,",3","0,",y,y,NA,,C,social,M,female,
-3,2,1:15:59 PM,1:16:27 PM,insemination,",3","8,",n,NA,n,,C,social,U,female,
-3,2,1:24:02 PM,,mount,",8","0,",y,y,NA,,E,social,M,female,
-3,2,1:24:29 PM,,mount,",8","0,",y,n,y,,E,social,M,female,
-3,2,1:27:18 PM,,mount,",8","0,",y,y,NA,,E,social,M,female,
-3,2,1:41:08 PM,,mount,",3","2,",y,y,NA,,C,social,O,female,
-3,2,1:41:33 PM,,mount,",3","8,",n,NA,y,,C,social,U,female,
-3,2,2:20:26 PM,,insemination,",0","5,",n,NA,n,,H,isolated,R,female,
-3,2,2:30:16 PM,,mount,",2",:1,,,,,L,isolated,I,male,
-3,2,2:30:29 PM,,mount,",9",",2",,,,,A,social,L,male,
-3,2,2:32:30 PM,,mount,",1","5,",y,y,NA,,J,isolated,R,female,
-3,2,2:35:18 PM,,mount,",0","5,",y,y,NA,,H,isolated,R,female,
-3,2,2:38:42 PM,,mount,",2",",9",,,,,L,isolated,A,male,
-3,2,2:38:57 PM,,mount,",4",",6",,,,,F,social,D,male,
-3,2,3:09:25 PM,,mount,",8","8,",n,NA,y,,E,social,U,female,
-3,2,3:12:55 PM,,mount,:7,"8,",y,y,NA,,B,social,U,female,
-3,2,3:20:35 PM,,mount,",3","8,",y,y,NA,,C,social,U,female,
-3,2,3:35:28 PM,,mount,",3",:7,,,,,C,social,B,male,
-3,2,3:39:38 PM,,mount,:7,",3",,,,,B,social,C,male,
-3,2,3:39:54 PM,,mount,",3","8,",y,y,NA,,C,social,U,female,
-4,1,8:01:13 AM,,mount,",8",",0",,,,,F,social,G,male,
-4,1,8:01:15 AM,,mount,",0",",8",,,,,G,isolated,F,male,
-4,1,8:01:25 AM,8:03:31 AM,insemination,",1",1:00,n,NA,n,,J,isolated,X,female,
-4,1,8:01:41 AM,8:03:27 AM,insemination,",6","3,",n,NA,n,,C,social,P,female,
-4,1,8:01:56 AM,,mount,:0,",4",,,,,K,isolated,I,male,
-4,1,8:01:57 AM,,mount,",7",:0,,,,,A,social,K,male,
-4,1,8:02:39 AM,,mount,",4",",4",,,,,I,isolated,I,male,
-4,1,8:02:40 AM,,mount,:0,",7",,,,,K,isolated,A,male,
-4,1,8:02:40 AM,,mount,:0,",0",,,,,K,isolated,G,male,
-4,1,8:02:41 AM,,mount,",7",",0",,,,,A,social,G,male,
-4,1,8:02:45 AM,,mount,:1,"8,",y,y,NA,,D,social,U,female,
-4,1,8:03:04 AM,8:06:07 AM,insemination,:1,"2,",n,NA,n,,D,social,O,female,
-4,1,8:03:43 AM,,mount,",8",",3",,,,,F,social,L,male,
-4,1,8:03:50 AM,,mount,",1","6,",y,y,NA,,J,isolated,S,female,
-4,1,8:04:15 AM,,mount,",8","0,",n,NA,y,,F,social,M,female,
-4,1,8:04:41 AM,8:06:08 AM,insemination,",9",0:00,n,NA,n,,H,isolated,W,female,
-4,1,8:05:02 AM,8:07:02 AM,insemination,",4",1:00,n,NA,n,,I,isolated,X,female,
-4,1,8:05:20 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,8:05:44 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,8:06:39 AM,8:07:39 AM,insemination,",7","2,",n,NA,n,,A,social,O,female,
-4,1,8:07:22 AM,8:10:21 AM,insemination,:1,"8,",n,NA,n,,D,social,U,female,
-4,1,8:07:41 AM,8:10:28 AM,insemination,:0,"2,",y,n,n,,K,isolated,O,female,
-4,1,8:07:59 AM,8:10:21 AM,insemination,",0","7,",n,NA,n,,G,isolated,T,female,
-4,1,8:09:04 AM,,mount,",1","3,",y,y,NA,,J,isolated,P,female,
-4,1,8:09:11 AM,8:10:47 AM,insemination,",6","6,",n,NA,n,,C,social,S,female,
-4,1,8:09:46 AM,,mount,",9",",0",,,,,H,isolated,G,male,
-4,1,8:10:00 AM,8:11:41 AM,insemination,",3","5,",n,NA,n,,L,isolated,R,female,
-4,1,8:10:30 AM,8:11:27 AM,insemination,",7",0:00,n,NA,n,,A,social,W,female,
-4,1,8:11:04 AM,,mount,",8",",5",,,,,F,social,B,male,
-4,1,8:11:48 AM,,mount,",4",1:00,y,y,NA,,I,isolated,X,female,
-4,1,8:12:17 AM,,mount,",5","0,",y,y,NA,,B,social,M,female,
-4,1,8:12:31 AM,8:13:24 AM,insemination,:0,"7,",n,NA,n,,K,isolated,T,female,
-4,1,8:13:29 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,8:14:33 AM,8:16:08 AM,insemination,",9","1,",n,NA,n,,H,isolated,N,female,
-4,1,8:14:48 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,8:17:14 AM,,mount,",8","5,",y,y,NA,,F,social,R,female,
-4,1,8:17:26 AM,,mount,",6",",1",,,,,C,social,J,male,
-4,1,8:17:32 AM,,mount,:0,"3,",y,y,NA,,K,isolated,P,female,
-4,1,8:17:50 AM,,insemination,",8","5,",n,NA,n,,F,social,R,female,
-4,1,8:18:26 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,8:19:50 AM,,mount,:1,"2,",y,n,y,,D,social,O,female,
-4,1,8:20:06 AM,,mount,",6",",1",,,,,C,social,J,male,
-4,1,8:20:19 AM,,mount,:0,"3,",y,y,NA,,K,isolated,P,female,
-4,1,8:25:06 AM,,mount,",6",",1",,,,,C,social,J,male,
-4,1,8:27:03 AM,,mount,:0,1:00,y,n,y,,K,isolated,X,female,
-4,1,8:27:15 AM,,mount,:1,"8,",y,y,NA,,D,social,U,female,
-4,1,8:27:40 AM,,mount,",4",0:00,y,y,NA,,I,isolated,W,female,
-4,1,8:27:55 AM,,mount,:0,"9,",y,y,NA,,K,isolated,V,female,
-4,1,8:28:07 AM,8:31:21 AM,insemination,",0","9,",y,n,n,,G,isolated,V,female,
-4,1,8:28:19 AM,,mount,",9",",0",,,,"while ,0 was on 9,",H,isolated,G,male,
-4,1,8:28:46 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,8:29:11 AM,8:30:08 AM,insemination,",3","2,",n,NA,n,,L,isolated,O,female,
-4,1,8:29:47 AM,8:31:11 AM,insemination,:0,"4,",n,NA,n,,K,isolated,Q,female,
-4,1,8:31:24 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,8:32:06 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,8:32:15 AM,8:34:13 AM,insemination,",5","0,",n,NA,n,,B,social,M,female,
-4,1,8:32:40 AM,,mount,",0",",9",,,,,G,isolated,H,male,
-4,1,8:33:20 AM,,mount,",9",:0,,,,":0 is still on 4,",H,isolated,K,male,
-4,1,8:36:12 AM,,mount,",6","7,",y,y,NA,,C,social,T,female,
-4,1,8:38:07 AM,8:38:51 AM,insemination,:1,"8,",n,NA,n,,D,social,U,female,
-4,1,8:39:54 AM,,mount,",1","6,",y,y,NA,,J,isolated,S,female,
-4,1,8:40:12 AM,,insemination,",0","9,",n,NA,n,,G,isolated,V,female,
-4,1,8:40:55 AM,,mount,",4","2,",y,y,NA,,I,isolated,O,female,
-4,1,8:42:22 AM,,mount,",3","0,",y,y,NA,,L,isolated,M,female,
-4,1,8:43:04 AM,,mount,",8","0,",y,y,NA,,F,social,M,female,
-4,1,8:46:33 AM,,mount,",8",1:00,y,y,NA,,F,social,X,female,
-4,1,8:46:55 AM,,mount,",3",1:00,y,y,NA,,L,isolated,X,female,
-4,1,8:48:42 AM,,mount,:1,"7,",y,n,y,,D,social,T,female,
-4,1,8:49:28 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,8:50:07 AM,,mount,",3",",8",,,,,L,isolated,F,male,
-4,1,8:51:27 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,8:51:38 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,8:52:11 AM,,mount,:1,"7,",y,y,NA,,D,social,T,female,
-4,1,8:52:33 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,8:53:12 AM,,mount,",3",",8",,,,,L,isolated,F,male,
-4,1,8:53:33 AM,,mount,:1,"7,",y,y,NA,,D,social,T,female,
-4,1,8:54:17 AM,,mount,",6",",1",,,,,C,social,J,male,
-4,1,8:54:22 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,9:00:04 AM,9:01:05 AM,insemination,:1,"7,",n,NA,n,,D,social,T,female,
-4,1,9:03:03 AM,,mount,:1,"2,",y,y,NA,,D,social,O,female,
-4,1,9:09:37 AM,,insemination,",1","6,",n,NA,n,,J,isolated,S,female,
-4,1,9:09:45 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,9:10:44 AM,,mount,:1,"7,",y,y,NA,,D,social,T,female,
-4,1,9:12:31 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female,
-4,1,9:13:50 AM,,mount,",1","9,",y,y,NA,,J,isolated,V,female,
-4,1,9:15:30 AM,,mount,",7",:1,,,,,A,social,D,male,
-4,1,9:15:44 AM,,mount,:1,",7",,,,,D,social,A,male,
-4,1,9:15:49 AM,,mount,",0",0:00,y,y,NA,,G,isolated,W,female,
-4,1,9:17:11 AM,,mount,",3","9,",y,y,NA,,L,isolated,V,female,
-4,1,9:17:12 AM,,mount,",8",1:00,y,y,NA,,F,social,X,female,
-4,1,9:18:31 AM,,mount,:1,",7",,,,,D,social,A,male,
-4,1,9:18:43 AM,,mount,",7",:1,,,,,A,social,D,male,
-4,1,9:18:45 AM,,mount,",7",:1,,,,,A,social,D,male,
-4,1,9:21:32 AM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female,
-4,1,9:21:49 AM,,mount,:0,"2,",n,NA,y,,K,isolated,O,female,
-4,1,9:21:52 AM,,mount,:1,1:00,n,NA,y,,D,social,X,female,
-4,1,9:29:54 AM,,mount,",4","7,",y,y,NA,,I,isolated,T,female,
-4,1,9:33:48 AM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female,
-4,1,9:35:20 AM,,mount,:0,0:00,y,y,NA,,K,isolated,W,female,
-4,1,9:38:33 AM,,mount,:0,0:00,n,NA,y,,K,isolated,W,female,
-4,1,9:40:20 AM,,mount,:0,0:00,n,NA,y,,K,isolated,W,female,
-4,1,9:48:09 AM,9:48:53 AM,insemination,",0",1:00,y,n,n,,G,isolated,X,female,
-4,1,9:48:38 AM,,mount,",8",",5",,,,,F,social,B,male,
-4,1,9:49:05 AM,,mount,",3",",8",,,,,L,isolated,F,male,
-4,1,9:53:32 AM,,insemination,",4","1,",n,NA,n,,I,isolated,N,female,
-4,1,9:54:25 AM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female,
-4,1,10:05:37 AM,,mount,:0,0:00,n,NA,y,,K,isolated,W,female,
-4,1,10:09:55 AM,,mount,",4",0;,y,y,NA,,I,isolated,NA,female,
-4,1,10:11:58 AM,,mount,",4","1,",y,y,n,refusal stance,I,isolated,N,female,
-4,1,10:16:34 AM,,mount,",7","0,",n,NA,y,,A,social,M,female,
-4,1,10:17:17 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,10:19:16 AM,,mount,;0,"7,",n,NA,y,,K,isolated,T,female,
-4,1,10:19:56 AM,,mount,;0,0;,n,NA,y,,K,isolated,NA,female,
-4,1,10:29:11 AM,,mount,;0,"7,",n,NA,y,,K,isolated,T,female,
-4,1,10:36:05 AM,,mount,",4","7,",y,y,NA,,I,isolated,T,female,
-4,1,10:39:39 AM,,mount,",4","7,",y,y,NA,,I,isolated,T,female,
-4,1,10:53:12 AM,,mount,;0,",0",,,,,K,isolated,G,male,
-4,1,10:54:00 AM,,mount,",0",;0,,,,,G,isolated,K,male,
-4,1,10:54:25 AM,,mount,;0,",0",,,,,K,isolated,G,male,
-4,1,11:11:09 AM,,mount,",3","8,",n,NA,y,,L,isolated,U,female,
-4,1,11:11:35 AM,,mount,",5",",3",,,,,B,social,L,male,
-4,1,11:13:28 AM,,mount,",1","6,",n,NA,y,,J,isolated,S,female,
-4,1,11:44:15 AM,,mount,:1,",2",,,,,D,social,E,male,
-4,1,11:48:59 AM,,mount,",4",0:00,y,y,n,female pressed right against wall,I,isolated,W,female,
-4,1,11:51:16 AM,,mount,",1","6,",y,n,y,,J,isolated,S,female,
-4,1,12:02:13 PM,,mount,",5",",3",,,,,B,social,L,male,
-4,1,12:05:10 PM,12:07:19 PM,insemination,",0","4,",y,n,n,,G,isolated,Q,female,
-4,1,12:09:49 PM,,mount,",8",",7",,,,,F,social,A,male,
-4,1,12:11:27 PM,,mount,",8",",7",,,,,F,social,A,male,
-4,1,12:16:01 PM,,mount,",5",",3",,,,,B,social,L,male,
-4,1,12:25:27 PM,,mount,",3",",7",,,,,L,isolated,A,male,
-4,1,12:25:58 PM,,mount,",8","0,",y,y,NA,,F,social,M,female,
-4,1,12:27:42 PM,,mount,",2",:1,,,,,E,social,D,male,
-4,1,12:29:34 PM,,mount,",8","0,",y,n,y,,F,social,M,female,
-4,1,12:36:12 PM,,mount,",4",0:00,y,y,NA,,I,isolated,W,female,
-4,1,12:36:47 PM,12:38:40 PM,insemination,",4",0:00,y,n,n,sideways kind of lots of avoidance from female,I,isolated,W,female,
-4,1,12:38:49 PM,,mount,",9","3,",n,NA,y,,H,isolated,P,female,
-4,1,12:39:38 PM,,mount,",9","3,",y,y,NA,,H,isolated,P,female,
-4,1,12:43:10 PM,,mount,",3",",7",,,,,L,isolated,A,male,
-4,1,12:45:35 PM,,mount,:0,"3,",y,y,NA,,K,isolated,P,female,
-4,1,12:47:57 PM,,mount,",0","3,",y,y,NA,,G,isolated,P,female,
-4,1,12:54:00 PM,,mount,",0","3,",y,y,NA,,G,isolated,P,female,
-4,1,12:54:07 PM,,mount,:0,"4,",y,y,NA,,K,isolated,Q,female,
-4,1,1:09:38 PM,,mount,",2","4,",y,y,NA,,E,social,Q,female,
-4,1,1:09:57 PM,,mount,",2","4,",y,y,NA,,E,social,Q,female,
-4,1,1:10:27 PM,,mount,",4",0:00,n,NA,y,female pressed right against wall,I,isolated,W,female,
-4,1,1:13:23 PM,,mount,",1","8,",y,n,y,female pressed right against wall,J,isolated,U,female,
-4,1,1:14:55 PM,,mount,:1,0:00,y,y,NA,,D,social,W,female,
-4,1,1:18:13 PM,1:18:39 PM,insemination,",6","8,",n,NA,n,,C,social,U,female,
-4,1,1:23:59 PM,,mount,:1,0:00,y,y,NA,,D,social,W,female,
-4,1,1:24:25 PM,,mount,:1,"7,",y,y,NA,,D,social,T,female,
-4,1,1:25:43 PM,,mount,",4","1,",y,n,y,,I,isolated,N,female,
-4,1,1:26:42 PM,,mount,",5","6,",y,y,NA,,B,social,S,female,
-4,1,1:32:41 PM,,mount,",4","3,",n,NA,y,,I,isolated,P,female,
-4,1,1:39:11 PM,,insemination,",2",0:00,y,n,n,"the female kind of successfully avoided, looks like she got away mid insemination",E,social,W,female,
-4,1,1:40:03 PM,1:40:55 PM,insemination,",4","7,",n,NA,n,,I,isolated,T,female,
-4,1,1:49:28 PM,,mount,",5",",3",,,,,B,social,L,male,
-4,1,1:49:32 PM,,mount,",8",",5",,,,,F,social,B,male,
-4,1,1:49:33 PM,,mount,",8",",5",,,,,F,social,B,male,
-4,1,1:49:53 PM,,mount,",5","5,",y,n,y,,B,social,R,female,
-4,1,1:51:38 PM,,mount,",8","3,",n,NA,y,,F,social,P,female,
-4,1,1:52:49 PM,,mount,",3","3,",y,y,NA,,L,isolated,P,female,
-4,1,1:53:48 PM,,mount,",3","3,",y,y,NA,,L,isolated,P,female,
-4,1,1:54:58 PM,,mount,",8","3,",n,NA,y,,F,social,P,female,
-4,1,2:03:21 PM,,mount,",3","5,",y,n,y,,L,isolated,R,female,
-4,1,2:09:35 PM,,mount,",6",",1",,,,,C,social,J,male,
-4,1,2:12:39 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,2:13:46 PM,,mount,",5","6,",y,n,y,,B,social,S,female,
-4,1,2:15:09 PM,,mount,",2","0,",y,y,NA,,E,social,M,female,
-4,1,2:21:26 PM,,mount,:0,0:00,y,y,NA,,K,isolated,W,female,
-4,1,2:22:18 PM,,mount,",5","5,",y,y,NA,,B,social,R,female,
-4,1,2:22:32 PM,,mount,",8","5,",y,y,NA,,F,social,R,female,
-4,1,2:22:36 PM,,insemination,",8","5,",n,NA,n,,F,social,R,female,
-4,1,2:28:28 PM,,mount,",4",",2",,,,,I,isolated,E,male,
-4,1,2:28:54 PM,,mount,",3","3,",n,NA,y,,L,isolated,P,female,
-4,1,2:34:27 PM,,mount,",2","0,",n,NA,y,,E,social,M,female,
-4,1,2:35:09 PM,,mount,",4",",2",,,,,I,isolated,E,male,
-4,1,2:35:23 PM,,mount,",4","0,",n,NA,y,,I,isolated,M,female,
-4,1,2:40:46 PM,,mount,",8","5,",n,NA,y,,F,social,R,female,
-4,1,2:43:03 PM,,mount,",9","0,",n,NA,y,,H,isolated,M,female,
-4,1,2:52:04 PM,,mount,",3","5,",n,NA,y,,L,isolated,R,female,
-4,1,3:09:12 PM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female,
-4,1,3:14:49 PM,,mount,",3","5,",n,NA,y,,L,isolated,R,female,
-4,1,3:17:10 PM,,mount,",3","5,",n,NA,y,,L,isolated,R,female,
-4,1,3:17:12 PM,,mount,",5",",3",,,,,B,social,L,male,
-4,1,3:21:01 PM,,mount,;0,",0",,,,,K,isolated,G,male,
-4,1,3:24:30 PM,,mount,",6","2,",n,NA,y,,C,social,O,female,
-4,1,3:26:02 PM,,mount,",2","0,",n,NA,y,,E,social,M,female,
-4,1,3:30:27 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,1,3:31:24 PM,,mount,",1","2,",y,y,NA,,J,isolated,O,female,
-4,1,3:41:25 PM,,mount,",8","3,",n,NA,y,,F,social,P,female,
-4,1,3:42:52 PM,,mount,",8","3,",n,NA,y,,F,social,P,female,
-4,1,3:47:04 PM,,mount,",3","9,",n,NA,y,,L,isolated,V,female,
-4,1,3:48:43 PM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,8:26:54 AM,,mount,",6","2,",n,NA,y,,C,social,O,female,
-4,2,9:23:02 AM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,9:28:34 AM,,mount,",4",",2",,,,,I,isolated,E,male,
-4,2,9:32:02 AM,,mount,",2",",4",,,,,E,social,I,male,
-4,2,9:32:17 AM,,mount,",4",",2",,,,,I,isolated,E,male,
-4,2,9:32:55 AM,,mount,",6","8,",n,NA,y,,C,social,U,female,
-4,2,9:45:40 AM,,mount,",6","2,",y,y,NA,,C,social,O,female,
-4,2,10:34:43 AM,,mount,",8",",3",,,,,F,social,L,male,
-4,2,11:16:16 AM,,mount,",3",",8",,,,,L,isolated,F,male,
-4,2,11:25:14 AM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,11:36:56 AM,,mount,",2","6,",y,y,NA,,E,social,S,female,
-4,2,11:45:31 AM,,mount,",4",",2",,,,,I,isolated,E,male,
-4,2,11:49:10 AM,11:50:20 AM,insemination,",6","8,",n,NA,n,,C,social,U,female,
-4,2,11:50:52 AM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,2,12:08:05 PM,12:09:52 PM,insemination,:0,"7,",n,NA,n,,K,isolated,T,female,
-4,2,12:17:06 PM,,mount,",6","8,",y,n,y,,C,social,U,female,
-4,2,12:17:41 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,2,12:18:05 PM,,insemination,",1","8,",y,n,n,,J,isolated,U,female,
-4,2,12:28:21 PM,,mount,:1,",9",,,,,D,social,H,male,
-4,2,12:29:10 PM,12:29:50 PM,insemination,",8","9,",n,NA,n,,F,social,V,female,
-4,2,12:30:21 PM,,mount,",0",",8",,,,,G,isolated,F,male,
-4,2,12:34:22 PM,,mount,",3",0:00,y,y,NA,,L,isolated,W,female,
-4,2,12:34:48 PM,,mount,",5",",3",,,,,B,social,L,male,
-4,2,12:34:51 PM,,mount,",3",",5",,,,,L,isolated,B,male,
-4,2,12:34:53 PM,,mount,",8",",0",,,,,F,social,G,male,
-4,2,12:34:56 PM,,mount,",5",0:00,y,y,NA,,B,social,W,female,
-4,2,12:38:08 PM,,mount,",0",",3",,,,,G,isolated,L,male,
-4,2,12:38:28 PM,,mount,",3",",0",,,,,L,isolated,G,male,
-4,2,12:40:07 PM,,mount,",3",",0",,,,,L,isolated,G,male,
-4,2,12:40:33 PM,,mount,",7",",3",,,,,A,social,L,male,
-4,2,12:41:16 PM,,mount,",5",0:00,y,y,NA,,B,social,W,female,
-4,2,12:41:21 PM,,mount,",3",",0",,,,,L,isolated,G,male,
-4,2,12:41:30 PM,,mount,",7",0:00,y,y,NA,,A,social,W,female,
-4,2,12:47:23 PM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,12:48:19 PM,,mount,",5",",8",,,,,B,social,F,male,
-4,2,12:51:42 PM,,mount,",7",",0",,,,,A,social,G,male,
-4,2,12:52:18 PM,,mount,",5",",3",,,,,B,social,L,male,
-4,2,12:54:44 PM,,mount,",9",:1,,,,,H,isolated,D,male,
-4,2,1:04:55 PM,,mount,",0",",7",,,,,G,isolated,A,male,
-4,2,1:07:30 PM,,insemination,",5",0:00,Y,N,N,,B,social,W,female,
-4,2,1:32:34 PM,,mount,",4","7,",N,NA,Y,,I,isolated,T,female,
-4,2,1:34:42 PM,,mount,",2","7,",Y,n,y,,E,social,T,female,
-4,2,1:37:07 PM,,mount,",5",",8",,,,,B,social,F,male,
-4,2,2:11:02 PM,2:11:44 PM,insemination,:0,"8,",n,NA,n,,K,isolated,U,female,
-4,2,2:18:27 PM,,mount,",4",",2",,,,,I,isolated,E,male,
-4,2,2:24:35 PM,2:25:11 PM,insemination,:1,"9,",n,NA,n,,D,social,V,female,
-4,2,2:25:36 PM,,mount,",3",",8",,,,,L,isolated,F,male,
-4,2,2:34:05 PM,,mount,:1,",",n,NA,y,NEED TO EXCLUDE FROM NETWORK BECASE WE DON'T KNOW THE FEMALE,D,social,NA,female,
-4,2,2:38:16 PM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,2:39:16 PM,,mount,",3",0:00,n,NA,y,,L,isolated,W,female,
-4,2,2:39:33 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,2,3:19:16 PM,,mount,:0,"6,",y,n,y,,K,isolated,S,female,
-4,2,3:23:15 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,2,3:24:25 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,2,3:24:29 PM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,3:37:45 PM,,mount,",6",",1",,,,,C,social,J,male,
-4,2,3:38:28 PM,,mount,",1",1:00,y,n,y,,J,isolated,X,female,
-4,2,3:39:31 PM,,mount,",1",",6",,,,,J,isolated,C,male,
-4,2,3:39:56 PM,3:40:38 PM,insemination,",1",1:00,y,n,n,,J,isolated,X,female,
-4,2,3:42:33 PM,,mount,",6","2,",y,n,y,,C,social,O,female,
-5,1,8:10:30 AM,8:11:02 AM,insemination,",0","4,",y,n,n,,A,social,Q,NA,female
-5,1,9:38:01 AM,,mount,",0","2,",y,n,n,,A,social,O,NA,female
-5,1,1:29:52 PM,1:30:42 PM,insemination,",4",1:00,y,n,n,,D,social,X,NA,female
-5,1,12:39:39 PM,12:40:06 PM,insemination,",6","4,",y,n,n,,H,isolated,Q,NA,female
-5,1,8:02:24 AM,8:04:36 AM,insemination,",7",1:00,n,NA,n,,L,isolated,X,NA,female
-5,1,12:31:18 PM,12:32:42 PM,insemination,",1","0,",y,n,,,C,social,M,NA,female
-5,1,2:53:11 PM,,mount,",3",4:00,n,NA,y,,G,isolated,W,NA,female
-5,1,8:19:44 AM,,mount,",5",4:00,n,NA,y,,E,social,W,NA,female
-5,1,9:12:37 AM,9:13:11 AM,insemination,",8",4:00,n,NA,n,,J,isolated,W,NA,female
-5,1,12:37:52 PM,,mount,",8",4:00,,,,,J,isolated,W,NA,female
-5,1,8:07:40 AM,,insemination,:7,4:00,n,NA,n,,B,social,W,NA,female
-5,1,8:50:15 AM,8:51:09 AM,insemination,:7,4:00,n,NA,n,,B,social,W,NA,female
-5,1,8:09:13 AM,,mount,",1","3,",y,y,NA,,C,social,P,NA,female
-5,1,8:35:16 AM,,mount,",3",7:00,n,NA,y,,G,isolated,N,NA,female
-5,1,8:36:41 AM,8:37:41 AM,insemination,",3",7:00,n,NA,n,,G,isolated,N,NA,female
-5,1,11:25:40 AM,,mount,",3",7:00,n,NA,y,,G,isolated,N,NA,female
-5,1,1:39:48 PM,1:41:23 PM,insemination,",6","7,",y,n,n,,H,isolated,T,NA,female
-5,1,11:40:30 AM,11:42:40 AM,insemination,",6","8,",y,n,n,,H,isolated,U,NA,female
-5,1,11:46:31 AM,11:47:01 AM,insemination,",6","8,",y,n,n,,H,isolated,U,NA,female
-5,1,1:54:30 PM,,mount,",6","8,",y,n,y,,H,isolated,U,NA,female
-5,1,2:50:00 PM,,mount,",6",7:00,n,NA,y,,H,isolated,N,NA,female
-5,1,2:34:25 PM,,mount,",6","6,",n,NA,y,,H,isolated,S,NA,female
-5,1,8:51:39 AM,,mount,",8",",0",,,,,J,isolated,A,NA,male
-5,1,11:36:49 AM,,mount,",8",",5",,,,,J,isolated,E,NA,male
-5,1,2:31:50 PM,,mount,:1,"6,",n,NA,y,,K,isolated,S,NA,female
-5,1,1:44:48 PM,,mount,",6","7,",n,NA,y,,H,isolated,T,NA,female
-5,1,8:05:51 AM,,mount,:1,",0",,,,,K,isolated,A,NA,male
-5,1,10:12:46 AM,,mount,",4",",0",,,,,D,social,A,NA,male
-5,1,10:34:00 AM,,mount,",4",",0",,,,,D,social,A,NA,male
-5,1,11:38:05 AM,,mount,",4",",0",,,,,D,social,A,NA,male
-5,1,11:38:27 AM,,mount,",4",",0",,,,,D,social,A,NA,male
-5,1,12:43:31 PM,,mount,",4",",0",,,,,D,social,A,NA,male
-5,1,8:37:24 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:38:07 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:39:59 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:44:55 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:45:11 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:46:11 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:46:52 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:49:04 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,10:10:17 AM,,mount,",7",",0",,,,,L,isolated,A,NA,male
-5,1,8:45:17 AM,,mount,",8",",7",,,,,J,isolated,L,NA,male
-5,1,8:05:27 AM,,mount,",9",",0",,,,,F,social,A,NA,male
-5,1,8:22:14 AM,,mount,",9",",0",,,,,F,social,A,NA,male
-5,1,9:39:03 AM,,mount,:0,",0",,,,,I,isolated,A,NA,male
-5,1,9:39:51 AM,,mount,:0,",0",,,,,I,isolated,A,NA,male
-5,1,10:07:06 AM,,mount,:0,",0",,,,,I,isolated,A,NA,male
-5,1,10:09:07 AM,,mount,:0,",0",,,,,I,isolated,A,NA,male
-5,1,8:41:50 AM,,mount,:1,",0",,,,,K,isolated,A,NA,male
-5,1,8:44:04 AM,,mount,:1,",0",,,,,K,isolated,A,NA,male
-5,1,8:44:27 AM,,mount,:1,",0",,,,,K,isolated,A,NA,male
-5,1,8:46:42 AM,,mount,:1,",0",,,,,K,isolated,A,NA,male
-5,1,8:49:43 AM,,mount,:1,",0",,,,,K,isolated,A,NA,male
-5,1,12:19:50 PM,,mount,:1,",6",,,,,K,isolated,H,NA,male
-5,1,,,mount,",3",",1",,,,Jack accidentally deleted the time and saved,G,isolated,C,NA,male
-5,1,3:18:51 PM,,mount,",3","0,",n,NA,y,,G,isolated,M,NA,female
-5,1,1:21:04 PM,1:21:45 PM,insemination,",1","6,",n,NA,n,,C,social,S,NA,female
-5,1,8:35:40 AM,8:36:04 AM,insemination,",1","7,",y,n,n,,C,social,T,NA,female
-5,1,9:23:29 AM,,mount,",7",",4",,,,,L,isolated,D,NA,male
-5,1,8:16:16 AM,,mount,",0","4,",y,n,y,,A,social,Q,NA,female
-5,1,8:03:45 AM,8:04:50 AM,insemination,",1","9,",n,NA,n,,C,social,V,NA,female
-5,1,8:48:19 AM,,mount,",8",",7",,,,,J,isolated,L,NA,male
-5,1,8:06:50 AM,,mount,:0,",5",,,,,I,isolated,E,NA,male
-5,1,12:21:31 PM,,mount,:0,",5",,,,,I,isolated,E,NA,male
-5,1,9:17:58 AM,,mount,:0,",7",,,,,I,isolated,L,NA,male
-5,1,9:18:40 AM,,mount,:0,",7",,,,,I,isolated,L,NA,male
-5,1,10:42:09 AM,,mount,:7,",5",,,,,B,social,E,NA,male
-5,1,2:49:28 PM,,mount,:7,",5",,,,,B,social,E,NA,male
-5,2,10:17:58 AM,,mount,:7,",5",,,,,B,social,E,NA,male
-5,2,2:14:50 PM,,mount,:7,",5",,,,,B,social,E,NA,male
-5,1,8:02:38 AM,,mount,:1,",7",,,,"while ,7 on 1:",K,isolated,L,NA,male
-5,1,1:51:47 PM,,mount,",6",1:00,n,,y,,H,isolated,X,NA,female
-5,1,8:18:02 AM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,8:19:02 AM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,11:51:51 AM,,mount,",9",",7",,,,,F,social,L,NA,male
-5,1,8:09:30 AM,,mount,",9",",8",,,,"while ,8 on 7,",F,social,J,NA,male
-5,1,9:19:05 AM,,mount,:0,",7",,,,,I,isolated,L,NA,male
-5,1,10:46:46 AM,,mount,:0,",7",,,,,I,isolated,L,NA,male
-5,1,11:34:36 AM,,mount,:0,",8",,,,,I,isolated,J,NA,male
-5,1,12:39:18 PM,,mount,:0,",8",,,,,I,isolated,J,NA,male
-5,1,8:47:15 AM,,mount,:1,",7",,,,,K,isolated,L,NA,male
-5,1,8:05:33 AM,,mount,:1,",9",,,,,K,isolated,F,NA,male
-5,1,8:20:45 AM,,mount,",0","8,",y,n,y,,A,social,U,NA,female
-5,1,10:37:49 AM,,mount,",5",",8",,,,,E,social,J,NA,male
-5,1,11:19:48 AM,,mount,",5",",8",,,,,E,social,J,NA,male
-5,1,8:30:17 AM,,mount,",7",",8",,,,,L,isolated,J,NA,male
-5,1,8:30:57 AM,,mount,",7",",8",,,,,L,isolated,J,NA,male
-5,1,9:10:17 AM,,mount,",7",",8",,,,,L,isolated,J,NA,male
-5,1,8:00:45 AM,,mount,",7",:1,,,,,L,isolated,K,NA,male
-5,1,8:18:49 AM,,mount,",9",",8",,,,,F,social,J,NA,male
-5,1,8:05:56 AM,,mount,",9",:1,,,,,F,social,K,NA,male
-5,1,8:22:27 AM,,mount,",9",:1,,,,,F,social,K,NA,male
-5,1,8:01:02 AM,,insemination,",9","4,",n,NA,n,,F,social,Q,NA,female
-5,1,9:14:19 AM,,mount,:0,:1,,,,"while :1 was on 8,",I,isolated,K,NA,male
-5,1,9:18:14 AM,,mount,:0,:1,,,,,I,isolated,K,NA,male
-5,1,8:04:52 AM,,mount,",4",",9",,,,,D,social,F,NA,male
-5,1,8:05:00 AM,,mount,",4",",9",,,,,D,social,F,NA,male
-5,1,8:47:01 AM,,mount,",7",:1,,,,,L,isolated,K,NA,male
-5,1,8:24:40 AM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,2:31:20 PM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,3:41:51 PM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,3:42:10 PM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,3:42:56 PM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,1,1:53:30 PM,,mount,",8",:0,,,,,J,isolated,I,NA,male
-5,1,8:01:18 AM,,insemination,",8","3,",n,NA,n,,J,isolated,P,NA,female
-5,1,8:06:17 AM,,insemination,",8","7,",n,NA,n,,J,isolated,T,NA,female
-5,1,8:06:26 AM,,mount,:1,",9",,,,,K,isolated,F,NA,male
-5,1,8:23:02 AM,,mount,:1,",9",,,,,K,isolated,F,NA,male
-5,1,9:30:36 AM,,mount,:1,:0,,,,,K,isolated,I,NA,male
-5,1,1:18:36 PM,,mount,",0","4,",n,NA,y,,A,social,Q,NA,female
-5,1,11:34:54 AM,,mount,",5",:0,,,,,E,social,I,NA,male
-5,1,11:41:15 AM,,mount,",5",:0,,,,,E,social,I,NA,male
-5,1,12:51:30 PM,,mount,",5",:1,,,,,E,social,K,NA,male
-5,1,8:19:12 AM,,mount,",8","8,",n,NA,y,,J,isolated,U,NA,female
-5,1,11:46:04 AM,,mount,:1,"4,",y,y,NA,,K,isolated,Q,NA,female
-5,1,3:17:05 PM,,mount,:7,:0,,,,,B,social,I,NA,male
-5,2,9:13:29 AM,,mount,:7,:0,,,,,B,social,I,NA,male
-5,2,10:17:43 AM,,mount,:7,:0,,,,,B,social,I,NA,male
-5,1,8:17:14 AM,,mount,",0","8,",n,NA,y,,A,social,U,NA,female
-5,1,8:26:48 AM,,mount,",0","8,",n,NA,y,,A,social,U,NA,female
-5,1,9:34:57 AM,,mount,",0","2,",y,y,NA,,A,social,O,NA,female
-5,1,8:36:33 AM,,mount,",5",:7,,,,,E,social,B,NA,male
-5,1,10:17:04 AM,,mount,",6",",7",,,,,H,isolated,L,NA,male
-5,1,9:26:37 AM,,mount,",6",:1,,,,,H,isolated,K,NA,male
-5,1,12:21:03 PM,,mount,",6",:1,,,,,H,isolated,K,NA,male
-5,2,1:46:43 PM,1:47:43 PM,insemination,",6","8,",y,n,n,,H,isolated,U,NA,female
-5,1,8:48:11 AM,,mount,",7",:1,,,,,L,isolated,K,NA,male
-5,1,9:18:56 AM,,mount,",7",:1,,,,,L,isolated,K,NA,male
-5,1,1:02:58 PM,,mount,",7","0,",y,y,NA,,L,isolated,M,NA,female
-5,1,9:20:27 AM,,mount,",7","2,",y,y,NA,,L,isolated,O,NA,female
-5,1,8:11:41 AM,,mount,",9","4,",y,n,y,,F,social,Q,NA,female
-5,1,8:16:44 AM,,mount,",9","4,",n,NA,y,,F,social,Q,NA,female
-5,1,9:18:35 AM,,mount,:0,:1,,,,,I,isolated,K,NA,male
-5,1,9:19:49 AM,,mount,:0,:1,,,,,I,isolated,K,NA,male
-5,1,9:24:35 AM,,mount,:0,:1,,,,,I,isolated,K,NA,male
-5,1,9:28:03 AM,,mount,:0,:1,,,,,I,isolated,K,NA,male
-5,1,9:09:20 AM,,mount,:0,"2,",n,NA,y,,I,isolated,O,NA,female
-5,1,9:10:03 AM,,mount,:0,"2,",y,n,y,,I,isolated,O,NA,female
-5,1,8:51:12 AM,,mount,",5",:7,,,,,E,social,B,NA,male
-5,1,11:54:41 AM,11:55:14 AM,insemination,",5","4,",y,n,n,,E,social,Q,NA,female
-5,1,3:15:21 PM,,mount,",5","6,",n,NA,y,,E,social,S,NA,female
-5,2,11:14:08 AM,11:15:08 AM,insemination,",6","8,",n,NA,n,,H,isolated,U,NA,female
-5,1,11:21:56 AM,,mount,",1","9,",n,NA,y,,C,social,V,NA,female
-5,1,3:19:20 PM,,mount,",3","0,",n,NA,y,,G,isolated,M,NA,female
-5,1,8:03:54 AM,,insemination,",3","2,",n,NA,n,,G,isolated,O,NA,female
-5,1,10:24:34 AM,10:26:10 AM,insemination,",7","2,",n,NA,n,,L,isolated,O,NA,female
-5,1,8:13:31 AM,,mount,",0","4,",y,y,NA,,A,social,Q,NA,female
-5,1,8:03:35 AM,,mount,",0","8,",y,y,NA,,A,social,U,NA,female
-5,1,8:08:13 AM,,insemination,",3","5,",n,NA,n,,G,isolated,R,NA,female
-5,1,10:31:20 AM,,mount,",7","2,",y,y,NA,,L,isolated,O,NA,female
-5,1,10:35:42 AM,,mount,",7","2,",y,y,NA,,L,isolated,O,NA,female
-5,1,9:07:11 AM,,mount,",7","4,",n,NA,y,,L,isolated,Q,NA,female
-5,1,10:16:31 AM,10:17:23 AM,insemination,",7","5,",n,NA,n,,L,isolated,R,NA,female
-5,1,9:19:34 AM,,mount,:0,"2,",y,y,NA,,I,isolated,O,NA,female
-5,1,9:24:19 AM,,mount,:0,"2,",y,y,NA,,I,isolated,O,NA,female
-5,1,9:38:37 AM,,mount,:0,"2,",y,n,y,,I,isolated,O,NA,female
-5,1,9:53:44 AM,,mount,:0,"2,",y,y,NA,,I,isolated,O,NA,female
-5,1,11:32:29 AM,,mount,:0,"2,",y,n,y,,I,isolated,O,NA,female
-5,1,12:50:46 PM,,mount,:0,"2,",n,NA,y,,I,isolated,O,NA,female
-5,1,9:45:03 AM,9:46:24 AM,insemination,:0,"3,",n,NA,n,,I,isolated,P,NA,female
-5,1,9:04:45 AM,9:06:03 AM,insemination,:0,"4,",n,NA,n,,I,isolated,Q,NA,female
-5,2,9:45:46 AM,,mount,",1",4:00,y,y,NA,,C,social,W,NA,female
-5,2,2:04:26 PM,2:05:45 PM,insemination,",1",7:00,n,NA,n,,C,social,N,NA,female
-5,1,8:28:18 AM,,mount,",8","8,",n,NA,y,,J,isolated,U,NA,female
-5,1,3:16:41 PM,3:17:16 PM,insemination,:0,"6,",n,NA,n,,I,isolated,S,NA,female
-5,2,9:03:17 AM,,mount,:7,"3,",n,NA,y,,B,social,P,NA,female
-5,2,9:20:34 AM,,mount,:7,"3,",n,NA,y,,B,social,P,NA,female
-5,1,8:05:07 AM,,mount,",0",",5",,,,,A,social,E,NA,male
-5,1,8:46:05 AM,,mount,",0",",8",,,,,A,social,J,NA,male
-5,1,9:50:47 AM,,mount,",0",:0,,,,,A,social,I,NA,male
-5,1,8:03:27 AM,,mount,",0",:1,,,,,A,social,K,NA,male
-5,1,10:16:22 AM,,mount,",4","5,",n,NA,y,,D,social,R,NA,female
-5,2,11:18:17 AM,,mount,",4","4,",y,y,NA,refusal stance,D,social,Q,NA,female
-5,2,12:29:33 PM,,mount,",5",:0,,,,,E,social,I,NA,male
-5,2,8:50:52 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,NA,female
-5,1,1:10:49 PM,1:11:57 PM,insemination,",7","7,",y,n,,,L,isolated,T,NA,female
-5,1,8:13:09 AM,,mount,",9","5,",y,y,NA,,F,social,R,NA,female
-5,1,1:17:19 PM,,mount,",9","7,",y,y,NA,,F,social,T,NA,female
-5,1,1:11:45 PM,,mount,",9","8,",y,y,NA,,F,social,U,NA,female
-5,1,9:13:43 AM,,mount,:0,"8,",y,n,y,,I,isolated,U,NA,female
-5,1,8:23:23 AM,,mount,:1,"7,",y,y,NA,,K,isolated,T,NA,female
-5,1,8:35:05 AM,,mount,",3","6,",n,NA,y,,G,isolated,S,NA,female
-5,2,11:22:28 AM,11:23:43 AM,insemination,",4","4,",n,NA,n,"Weird sideways mating, could be considered same event as above, weird position for a while but I think it was a proper insemination by the end",D,social,Q,NA,female
-5,1,8:52:46 AM,,mount,",7","8,",y,n,y,,L,isolated,U,NA,female
-5,1,1:25:42 PM,,mount,",9","8,",y,y,NA,,F,social,U,NA,female
-5,1,1:33:23 PM,,mount,",9","8,",y,y,NA,pressed right side to wall,F,social,U,NA,female
-5,2,2:10:53 PM,,mount,",1",",3",,,,,C,social,G,NA,male
-5,1,10:19:00 AM,10:19:59 AM,insemination,",3","6,",n,NA,n,,G,isolated,S,NA,female
-5,1,11:44:48 AM,,mount,",3","6,",n,NA,y,,G,isolated,S,NA,female
-5,1,11:47:39 AM,,mount,",3","6,",n,NA,y,,G,isolated,S,NA,female
-5,1,12:03:01 PM,,mount,",3","6,",y,n,y,,G,isolated,S,NA,female
-5,1,1:06:18 PM,,mount,",3","6,",n,NA,y,,G,isolated,S,NA,female
-5,1,8:35:40 AM,,mount,",3","7,",n,NA,y,,G,isolated,T,NA,female
-5,2,10:13:23 AM,,mount,",5",:7,,,,,E,social,B,NA,male
-5,2,2:18:39 PM,,mount,",5","6,",y,n,y,,E,social,S,NA,female
-5,2,12:45:44 PM,,mount,",7",",8",,,,,L,isolated,J,NA,male
-5,2,12:34:42 PM,,mount,",8",7:00,y,n,y,,J,isolated,N,NA,female
-5,2,12:31:54 PM,,mount,",9",",7",,,,,F,social,L,NA,male
-5,2,12:36:41 PM,,mount,",9",",8",,,,,F,social,J,NA,male
-5,1,9:14:52 AM,,mount,:0,"8,",n,NA,y,,I,isolated,U,NA,female
-5,2,10:14:40 AM,,mount,:0,",5",,,,,I,isolated,E,NA,male
-5,2,2:16:21 PM,,mount,:7,"6,",y,n,y,,B,social,S,NA,female
-5,2,2:38:43 PM,,mount,",1",",3",,,,,C,social,G,NA,male
-5,2,10:31:06 AM,,mount,",1",",5",,,,,C,social,E,NA,male
-5,1,8:40:08 AM,,mount,",3","9,",y,y,NA,,G,isolated,V,NA,female
-5,2,9:47:36 AM,,mount,",3",",1",,,,,G,isolated,C,NA,male
-5,2,9:07:29 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,NA,female
-5,2,10:19:32 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,NA,female
-5,2,12:40:31 PM,,mount,",7",",9",,,,,L,isolated,F,NA,male
-5,2,12:34:56 PM,,mount,",8",7:00,y,n,y,,J,isolated,N,NA,female
-5,2,12:37:04 PM,,mount,",9",",8",,,,,F,social,J,NA,male
-5,1,8:10:13 AM,8:12:14 AM,insemination,:1,"8,",n,NA,n,,K,isolated,U,NA,female
-5,1,8:06:31 AM,,mount,",0",:1,,,,,A,social,K,NA,male
-5,1,9:18:45 AM,,mount,",0",:1,,,,,A,social,K,NA,male
-5,2,12:55:48 PM,12:56:44 PM,insemination,",0",1:00,y,n,n,,A,social,X,NA,female
-5,2,1:38:39 PM,1:39:14 PM,insemination,",0",1:00,n,NA,n,,A,social,X,NA,female
-5,2,2:46:08 PM,2:46:35 PM,insemination,",0","8,",n,NA,n,,A,social,U,NA,female
-5,2,11:08:37 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,NA,female
-5,2,11:24:52 AM,,mount,",6","8,",n,NA,y,,H,isolated,U,NA,female
-5,2,11:21:10 AM,,mount,",6",7:00,y,y,n,,H,isolated,N,NA,female
-5,2,1:25:21 PM,,mount,",6",:7,Y,Y,NA,,H,isolated,B,NA,male
-5,2,1:25:40 PM,,mount,",6","8,",Y,Y,NA,pressed right side to wall,H,isolated,U,NA,female
-5,2,11:13:50 AM,,mount,",6",:1,,,,,H,isolated,K,NA,male
-5,2,12:00:00 AM,,mount,",6",:1,,,,,H,isolated,K,NA,male
-5,2,1:34:18 PM,1:34:44 PM,insemination,",7","6,",y,n,n,,L,isolated,S,NA,female
-5,2,2:30:31 PM,,mount,",8",",9",,,,,J,isolated,F,NA,male
-5,2,11:55:17 AM,,mount,",8","6,",n,NA,y,,J,isolated,S,NA,female
-5,2,2:12:23 PM,,mount,",9","5,",n,NA,y,,F,social,R,NA,female
-5,2,12:26:28 PM,12:27:13 PM,insemination,",9","6,",n,NA,n,,F,social,S,NA,female
-5,2,1:17:38 PM,,mount,",9","6,",Y,Y,NA,,F,social,S,NA,female
-5,2,12:31:00 PM,,mount,:0,",5",,,,,I,isolated,E,NA,male
-5,2,2:13:15 PM,,mount,:0,"6,",y,n,y,,I,isolated,S,NA,female
-5,1,8:52:39 AM,,mount,:1,"8,",y,y,NA,,K,isolated,U,NA,female
-5,1,9:13:52 AM,9:14:33 AM,insemination,:1,"8,",n,NA,n,,K,isolated,U,NA,female
-5,1,9:32:24 AM,,mount,:1,"8,",y,y,NA,,K,isolated,U,NA,female
-5,2,2:21:19 PM,2:22:13 PM,insemination,:1,7:00,y,n,n,,K,isolated,N,NA,female
-5,2,9:54:01 AM,,mount,",1","3,",,,,,C,social,P,NA,female
-5,2,2:41:43 PM,2:42:28 PM,insemination,",1","7,",y,n,n,,C,social,T,NA,female
-5,2,10:30:28 AM,,mount,",1","9,",n,NA,y,,C,social,V,NA,female
-5,2,9:52:50 AM,,mount,",3","7,",n,NA,y,,G,isolated,T,NA,female
-6,1,7:00:36 AM,,mount,",8",",3",,,,,I,isolated,F,male,
-6,1,7:00:45 AM,7:02:01 AM,insemination,",7","6,",y,n,n,,A,social,S,female,
-6,1,7:01:00 AM,,insemination,:0,"8,",n,NA,n,,L,isolated,U,female,
-6,1,7:01:12 AM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,1,7:01:23 AM,7:02:49 AM,insemination,",0","0,",n,NA,n,"male is acting strange, staying on female",D,social,M,female,
-6,1,7:02:10 AM,7:03:57 AM,insemination,",8",3:00,n,NA,n,stayed on female a long time,I,isolated,P,female,
-6,1,7:03:22 AM,,insemination,",5","6,",n,NA,n,,H,isolated,S,female,
-6,1,7:03:39 AM,,mount,",1",:1,,,,,B,social,J,male,
-6,1,7:05:13 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,7:05:43 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,7:05:51 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,7:06:19 AM,,mount,",2",",9",,,,"while ,9 is on ,6",E,social,G,male,
-6,1,7:06:26 AM,,mount,",9",",6",,,,,G,isolated,K,male,
-6,1,7:06:31 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,7:06:38 AM,7:09:48 AM,insemination,",7","7,",n,NA,n,,A,social,T,female,
-6,1,7:07:30 AM,,mount,:1,",0",,,,"while ,0 is on 0,",J,isolated,D,male,
-6,1,7:08:06 AM,,mount,",5",",1",,,,,H,isolated,B,male,
-6,1,7:08:10 AM,7:09:46 AM,insemination,",5",0:00,n,NA,n,,H,isolated,X,female,
-6,1,7:08:41 AM,,mount,:0,"8,",y,y,NA,,L,isolated,U,female,
-6,1,7:09:49 AM,,mount,",1",",7",,,,,B,social,A,male,
-6,1,7:10:40 AM,,insemination,",8",3:00,n,NA,n,,I,isolated,P,female,
-6,1,7:11:28 AM,,insemination,",1","9,",n,NA,n,,B,social,V,female,
-6,1,7:12:35 AM,,mount,",8","4,",y,n,y,,I,isolated,Q,female,
-6,1,7:13:04 AM,,mount,",8","5,",n,NA,y,,I,isolated,R,female,
-6,1,7:15:40 AM,,mount,",6",",2",,,,,K,isolated,E,male,
-6,1,7:18:49 AM,,mount,",8","4,",n,NA,y,,I,isolated,Q,female,
-6,1,7:19:00 AM,,mount,",8",3:00,n,NA,y,,I,isolated,P,female,
-6,1,7:21:10 AM,,mount,:0,"8,",n,NA,y,,L,isolated,U,female,
-6,1,7:21:38 AM,7:23:20 AM,insemination,:0,"8,",n,NA,n,,L,isolated,U,female,
-6,1,7:22:29 AM,,mount,",5","6,",y,n,y,,H,isolated,S,female,
-6,1,7:22:58 AM,,mount,",8","5,",n,NA,y,,I,isolated,R,female,
-6,1,7:23:08 AM,,mount,",8",3:00,y,y,NA,,I,isolated,P,female,
-6,1,7:23:22 AM,,mount,",8","2,",y,y,NA,,I,isolated,O,female,
-6,1,7:23:29 AM,,mount,",8","2,",n,NA,y,,I,isolated,O,female,
-6,1,7:23:41 AM,7:24:51 AM,insemination,",3","2,",n,NA,n,,F,social,O,female,
-6,1,7:24:52 AM,,mount,",8","2,",y,n,y,,I,isolated,O,female,
-6,1,7:25:30 AM,,mount,",8","5,",y,n,y,,I,isolated,R,female,
-6,1,7:25:59 AM,,mount,",3","5,",n,NA,y,,F,social,R,female,
-6,1,7:26:10 AM,,mount,",3","5,",n,NA,y,,F,social,R,female,
-6,1,7:26:59 AM,,mount,",5",0:00,n,NA,y,,H,isolated,X,female,
-6,1,7:27:32 AM,,insemination,",8","4,",y,n,n,,I,isolated,Q,female,
-6,1,7:27:42 AM,7:28:45 AM,insemination,",1",0:00,n,NA,n,,B,social,X,female,
-6,1,7:28:46 AM,,mount,",1",",5",,,,,B,social,H,male,
-6,1,7:29:03 AM,7:29:24 AM,insemination,",5",0:00,n,NA,n,,H,isolated,X,female,
-6,1,7:29:31 AM,,mount,:1,"0,",y,y,NA,,J,isolated,M,female,
-6,1,7:32:28 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,7:33:24 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female,
-6,1,7:33:32 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,7:33:39 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female,
-6,1,7:33:49 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female,
-6,1,7:33:53 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female,
-6,1,7:35:34 AM,,mount,",7",",1",,,,,A,social,B,male,
-6,1,7:36:24 AM,,mount,",7",0:00,y,n,y,,A,social,X,female,
-6,1,7:36:36 AM,,mount,",3","5,",n,NA,y,,F,social,R,female,
-6,1,7:36:54 AM,,insemination,",6",0:00,y,n,n,,K,isolated,X,female,
-6,1,7:38:05 AM,7:38:29 AM,insemination,:0,"8,",n,NA,n,,L,isolated,U,female,
-6,1,7:42:04 AM,7:43:02 AM,insemination,",3","5,",n,NA,n,,F,social,R,female,
-6,1,7:42:38 AM,,mount,",5","7,",n,NA,y,,H,isolated,T,female,
-6,1,7:42:44 AM,,mount,",7",",5",,,,"while ,5 on female",A,social,H,male,
-6,1,7:42:50 AM,,mount,",1",",7",,,,,B,social,A,male,
-6,1,7:43:11 AM,,mount,",1","7,",n,NA,y,,B,social,T,female,
-6,1,7:43:22 AM,,mount,",6",",2",,,,,K,isolated,E,male,
-6,1,7:44:53 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,1,7:45:34 AM,,mount,",2",0:00,n,NA,y,,E,social,X,female,
-6,1,7:45:47 AM,,mount,",9",0:00,n,NA,y,,G,isolated,X,female,
-6,1,7:45:57 AM,,mount,",8","6,",n,NA,y,,I,isolated,S,female,
-6,1,7:47:08 AM,,mount,",0",0:00,n,NA,y,,D,social,X,female,
-6,1,7:51:34 AM,,mount,:0,"8,",n,NA,y,,L,isolated,U,female,
-6,1,7:51:48 AM,,mount,",9",",6",,,,,G,isolated,K,male,
-6,1,7:51:56 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,1,7:52:12 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,7:52:19 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,7:52:23 AM,7:53:08 AM,insemination,:0,"8,",y,n,n,,L,isolated,U,female,
-6,1,8:05:22 AM,,mount,",1",",7",,,,,B,social,A,male,
-6,1,8:10:31 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,1,8:12:52 AM,,mount,:1,"9,",n,NA,y,,J,isolated,V,female,
-6,1,8:16:14 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,8:19:02 AM,,mount,",8",",3",,,,,I,isolated,F,male,
-6,1,8:20:27 AM,,mount,",9",",6",,,,,G,isolated,K,male,
-6,1,8:20:32 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,1,8:25:25 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,8:34:07 AM,,mount,",6",0:00,y,y,NA,,K,isolated,X,female,
-6,1,8:37:28 AM,,mount,",8",",3",,,,,I,isolated,F,male,
-6,1,8:38:48 AM,8:39:43 AM,insemination,",8","5,",n,NA,n,,I,isolated,R,female,
-6,1,8:43:49 AM,,mount,",5",",7",n,NA,y,,H,isolated,A,male,
-6,1,8:47:19 AM,,mount,",5","7,",n,NA,y,,H,isolated,T,female,
-6,1,8:47:25 AM,,mount,",7",",5",,,,"while ,5 on 7,",A,social,H,male,
-6,1,8:47:45 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,8:48:00 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,8:48:07 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,8:51:00 AM,,mount,",8",0:00,y,n,y,,I,isolated,X,female,
-6,1,9:04:27 AM,9:04:53 AM,insemination,:0,"8,",n,NA,y,,L,isolated,U,female,
-6,1,9:10:46 AM,,mount,",5",",1",,,,,H,isolated,B,male,
-6,1,9:22:02 AM,,mount,",9",",6",,,,,G,isolated,K,male,
-6,1,9:29:49 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,1,9:30:04 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,9:30:32 AM,,mount,",8","4,",n,NA,y,,I,isolated,Q,female,
-6,1,9:31:40 AM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,9:32:23 AM,,mount,",6",0:00,n,NA,y,"possibly insemination, weird position, I don’t think so though",K,isolated,X,female,
-6,1,9:36:13 AM,,mount,",5",",1",,,,,H,isolated,B,male,
-6,1,9:36:45 AM,,mount,",1",",7",,,,,B,social,A,male,
-6,1,9:59:52 AM,,mount,",5","7,",y,n,y,,H,isolated,T,female,
-6,1,10:15:16 AM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,10:22:55 AM,,mount,",1","7,",n,NA,y,,B,social,T,female,
-6,1,10:23:18 AM,,mount,",5",",1",,,,,H,isolated,B,male,
-6,1,10:23:56 AM,,mount,",5",",1",,,,,H,isolated,B,male,
-6,1,10:47:50 AM,,mount,",3","5,",n,NA,y,,F,social,R,female,
-6,1,11:52:09 AM,,mount,",5","7,",N,NA,Y,,H,isolated,T,female,
-6,1,11:52:27 AM,,mount,",1",",5",,,,,B,social,H,male,
-6,1,12:05:59 PM,,mount,",1","7,",N,NA,Y,,B,social,T,female,
-6,1,12:06:30 PM,,mount,",7",",1",,,,,A,social,B,male,
-6,1,12:08:06 PM,,mount,",7",",1",,,,,A,social,B,male,
-6,1,12:09:31 PM,,mount,",7","7,",N,NA,Y,,A,social,T,female,
-6,1,12:29:07 PM,,mount,",5","7,",n,NA,y,,H,isolated,T,female,
-6,1,12:31:38 PM,,mount,",5","7,",n,NA,y,,H,isolated,T,female,
-6,1,12:36:28 PM,,mount,",2",",9",,,,,E,social,G,male,
-6,1,12:37:39 PM,12:38:04 PM,insemination,:1,"0,",n,NA,n,,J,isolated,M,female,
-6,1,12:40:23 PM,,insemination,",2","2,",n,NA,n,,E,social,O,female,
-6,1,12:40:59 PM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,12:41:22 PM,12:41:42 PM,insemination,",9","2,",n,NA,n,,G,isolated,O,female,
-6,1,12:42:36 PM,,mount,",1",",5",,,,,B,social,H,male,
-6,1,12:43:34 PM,,mount,",1",",7",,,,,B,social,A,male,
-6,1,12:43:42 PM,,mount,",7","7,",n,NA,y,,A,social,T,female,
-6,1,12:45:59 PM,,mount,",5","7,",y,n,y,,H,isolated,T,female,
-6,1,12:51:03 PM,,mount,",2",",6",,,,,E,social,K,male,
-6,1,12:54:11 PM,,mount,",5","7,",n,NA,y,,H,isolated,T,female,
-6,1,1:01:30 PM,,mount,",8",3:00,y,n,y,,I,isolated,P,female,
-6,1,1:06:59 PM,,mount,",8","5,",n,NA,y,,I,isolated,R,female,
-6,1,1:12:53 PM,,mount,",7",",5",,,,,A,social,H,male,
-6,1,1:18:59 PM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,1:19:17 PM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,1:20:31 PM,,mount,",8",3:00,n,NA,y,,I,isolated,P,female,
-6,1,1:25:30 PM,1:25:59 PM,insemination,",6","5,",n,NA,,,K,isolated,R,female,
-6,1,1:32:34 PM,,mount,",2",",6",,,,,E,social,K,male,
-6,1,1:33:52 PM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,1:44:16 PM,,mount,",5",",7",,,,,H,isolated,A,male,
-6,1,1:47:52 PM,1:48:37 PM,insemination,",7",1:00,n,NA,,,A,social,W,female,
-6,1,2:37:59 PM,,mount,",2","5,",y,y,NA,,E,social,R,female,
-6,1,2:38:22 PM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,2,7:11:33 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,2,7:31:41 AM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,2,7:37:20 AM,,mount,",6",",2",,,,,K,isolated,E,male,
-6,2,7:37:22 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,2,8:24:00 AM,8:25:41 AM,insemination,:0,"9,",n,NA,n,,L,isolated,V,female,
-6,2,8:40:36 AM,,mount,",4",",3",,,,,C,social,F,male,
-6,2,8:40:53 AM,,mount,:0,",4",,,,,L,isolated,C,male,
-6,2,8:53:24 AM,8:54:36 AM,insemination,",7","1,",Y,N,N,80% sure of IDs this was in big cluster,A,social,N,female,
-6,2,9:07:10 AM,,mount,",0",",7",,,,,D,social,A,male,
-6,2,9:10:29 AM,,mount,",3",",4",,,,,F,social,C,male,
-6,2,9:11:13 AM,,mount,",4",",3",,,,,C,social,F,male,
-6,2,9:11:36 AM,9:12:30 AM,insemination,",3","9,",y,n,n,,F,social,V,female,
-6,2,9:12:11 AM,,mount,:0,",4",,,,,L,isolated,C,male,
-6,2,9:12:47 AM,,mount,",4",",3",,,,"interrupted above insemination of ,3 on 9,",C,social,F,male,
-6,2,9:13:26 AM,9:14:31 AM,insemination,:0,"6,",y,n,n,,L,isolated,S,female,
-6,2,9:14:02 AM,,mount,",4",",3",,,,,C,social,F,male,
-6,2,9:15:20 AM,,mount,:0,",4",,,,,L,isolated,C,male,
-6,2,9:25:08 AM,,mount,",7",",0",,,,,A,social,D,male,
-6,2,9:25:25 AM,,mount,",4",:0,,,,,C,social,L,male,
-6,2,9:26:07 AM,,mount,",4","9,",y,y,NA,,C,social,V,female,
-6,2,9:31:54 AM,9:32:52 AM,insemination,:0,"9,",y,n,n,,L,isolated,V,female,
-6,2,9:49:29 AM,9:49:57 AM,insemination,",4","9,",y,n,n,,C,social,V,female,
-6,2,10:13:43 AM,,mount,",1","2,",n,NA,y,,B,social,O,female,
-6,2,10:20:03 AM,,mount,",1","2,",n,NA,y,,B,social,O,female,
-6,2,10:31:13 AM,,mount,:1,3:00,n,NA,y,,J,isolated,P,female,
-6,2,11:09:48 AM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,2,11:14:04 AM,,mount,",6",",2",,,,,K,isolated,E,male,
-6,2,11:21:29 AM,,mount,:0,"9,",n,NA,y,,L,isolated,V,female,
-6,2,11:21:49 AM,,mount,",5",",1",,,,,H,isolated,B,male,
-6,2,11:21:58 AM,,mount,",1",",5",,,,,B,social,H,male,
-6,2,11:22:51 AM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,2,11:23:02 AM,,mount,",5","7,",n,NA,y,,H,isolated,T,female,
-6,2,11:33:26 AM,,mount,",5","7,",n,NA,y,"7, is moving with difficulty, I think that she might have an injured leg",H,isolated,T,female,
-6,2,11:34:02 AM,,mount,",2",",9",,,,,E,social,G,male,
-6,2,11:40:21 AM,,mount,",9",",6",,,,,G,isolated,K,male,
-6,2,11:40:50 AM,,mount,",4","9,",n,NA,y,,C,social,V,female,
-6,2,11:43:22 AM,,mount,",4","9,",n,NA,y,,C,social,V,female,
-6,2,11:43:42 AM,11:44:59 AM,insemination,",2","5,",y,n,n,,E,social,R,female,
-6,2,11:44:17 AM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,2,11:45:16 AM,,mount,",6","5,",n,NA,y,,K,isolated,R,female,
-6,2,11:46:54 AM,,mount,",6",",2",,,,,K,isolated,E,male,
-6,2,11:51:28 AM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,2,11:52:48 AM,,mount,",2",",6",,,,,E,social,K,male,
-6,2,11:53:26 AM,,mount,",9",",2",,,,,G,isolated,E,male,
-6,2,12:00:17 PM,,mount,:1,"0,",n,NA,y,,J,isolated,M,female,
-6,2,12:05:59 PM,,mount,",9",",5",,,,,G,isolated,H,male,
-6,2,12:12:39 PM,,mount,",7","9,",,,,,A,social,V,female,
-6,2,12:15:39 PM,,mount,",1","7,",,,,,B,social,T,female,
-6,2,12:22:51 PM,,mount,",4","8,",n,NA,y,,C,social,U,female,
-6,2,12:23:28 PM,,mount,",2",",9",,,,,E,social,G,male,
-6,2,12:24:40 PM,,mount,",3",",4",,,,,F,social,C,male,
-6,2,12:27:22 PM,,mount,",9",",6",,,,,G,isolated,K,male,
-6,2,12:27:56 PM,,mount,",6",",9",,,,,K,isolated,G,male,
-6,2,12:32:00 PM,,mount,",3","8,",y,y,NA,,F,social,U,female,
-6,2,12:39:01 PM,12:41:19 PM,insemination,:0,"5,",n,NA,,,L,isolated,R,female,
-6,2,1:12:02 PM,,mount,",3","8,",n,NA,y,,F,social,U,female,
-6,2,1:15:22 PM,,mount,",3","8,",n,NA,y,,F,social,U,female,
-6,2,1:15:37 PM,,mount,",4",",3",,,,,C,social,F,male,
-6,2,1:17:48 PM,,mount,",0","0,",n,NA,y,,D,social,M,female,
-6,2,1:21:07 PM,,mount,",4","5,",y,y,NA,,C,social,R,female,
-6,2,1:22:07 PM,,mount,",3",",4",,,,,F,social,C,male,
-6,2,1:31:29 PM,,mount,",4",",3",,,,,C,social,F,male,
-6,2,1:34:55 PM,,mount,",3",",4",,,,,F,social,C,male,
-6,2,1:47:51 PM,,mount,",9","4,",y,y,NA,,G,isolated,Q,female,
-6,2,1:56:07 PM,,mount,",8",",7",,,,,I,isolated,A,male,
-6,2,2:04:35 PM,,mount,",8",",7",,,,,I,isolated,A,male,
-6,2,2:14:39 PM,,mount,",8",",7",,,,,I,isolated,A,male,
-6,2,2:24:48 PM,,mount,",8",",7",,,,,I,isolated,A,male,
-6,2,2:29:54 PM,,mount,",7",",8",,,,,A,social,I,male,
-6,2,2:30:06 PM,,mount,",7",",8",,,,,A,social,I,male,
-6,2,2:30:56 PM,,mount,",8",",7",,,,,I,isolated,A,male,
-6,2,2:31:12 PM,2:31:40 PM,insemination,",3","4,",n,NA,n,,F,social,Q,female,
-6,2,2:31:47 PM,,mount,",4",",3",,,,"while on 4,",C,social,F,male,
-6,2,2:48:51 PM,,mount,",8",",7",,,,,I,isolated,A,male,
-6,2,2:49:06 PM,,mount,",8",",7",,,,,I,isolated,A,male,
+replicate,day,start_time,end_time,behaviour,focal,partner,partner_avoid...Y.N.,avoid_success,male_abort,Notes,patch_focal,treatment,patch_partner,partner_sex
+1,1,8:45:51 AM,,insemination,0,4,n,NA,n,,L,isolated,Q,female
+1,1,8:50:13 AM,,insemination,0,1,y,n,n,,L,isolated,N,female
+1,1,9:06:01 AM,,insemination,0,8,n,NA,n,,L,isolated,U,female
+1,1,8:48:48 AM,,mount,0,1,y,y,NA,,L,isolated,N,female
+1,1,8:49:53 AM,,mount,0,1,y,y,NA,,L,isolated,N,female
+1,1,8:53:50 AM,,mount,0,unknown female,y,y,NA,,L,isolated,NA,female
+1,1,9:08:55 AM,,mount,0,9,n,NA,y,,L,isolated,V,female
+1,1,9:14:01 AM,,mount,0,1,y,y,NA,,L,isolated,N,female
+1,1,9:16:55 AM,,mount,0,8,y,y,NA,,L,isolated,U,female
+1,1,9:21:44 AM,,mount,0,7,y,y,NA,,L,isolated,T,female
+1,1,9:23:12 AM,,mount,0,7,y,y,NA,,L,isolated,T,female
+1,1,10:45:03 AM,,mount,0,4,y,y,NA,,L,isolated,Q,female
+1,1,10:45:44 AM,,mount,0,9,y,n,y,,L,isolated,V,female
+1,1,10:47:10 AM,,mount,0,9,n,NA,y,,L,isolated,V,female
+1,1,10:50:54 AM,,mount,0,0,n,,y,,L,isolated,M,female
+1,1,11:14:17 AM,,mount,0,0:00,y,y,NA,,L,isolated,W,female
+1,1,11:17:19 AM,,mount,0,0:00,y,y,NA,,L,isolated,W,female
+1,1,11:19:40 AM,,mount,0,7,n,NA,y,,L,isolated,T,female
+1,1,11:26:45 AM,,mount,0,0,n,NA,y,,L,isolated,M,female
+1,1,11:27:12 AM,,mount,0,0:00,n,NA,y,,L,isolated,W,female
+1,1,1:09:57 PM,,mount,0,4,y,y,NA,,L,isolated,Q,female
+1,1,10:49:54 AM,,mount,0,0.6,,,,,L,isolated,I,male
+1,1,12:51:48 PM,,mount,0,0.7,,,,,L,isolated,F,male
+1,1,2:22:47 PM,,mount,0,0.5,,,,,L,isolated,D,male
+1,1,2:24:34 PM,,mount,0,0.8,,,,,L,isolated,A,male
+1,1,2:25:39 PM,,mount,0,0.8,,,,,L,isolated,A,male
+1,1,2:26:29 PM,,mount,0,0.8,,,,,L,isolated,A,male
+1,2,11:22:00 AM,,mount,0,0.6,,,,,L,isolated,I,male
+1,2,1:35:24 PM,,insemination,0,3,n,NA,,,L,isolated,P,female
+1,2,1:23:09 PM,,mount,0,1:00,y,y,NA,,L,isolated,X,female
+1,2,1:31:38 PM,,mount,0,6,n,NA,y,,L,isolated,S,female
+1,2,1:39:47 PM,,mount,0,6,n,NA,y,,L,isolated,S,female
+1,2,1:40:07 PM,,mount,0,6,n,NA,y,,L,isolated,S,female
+1,2,1:45:23 PM,,mount,0,6,n,NA,y,,L,isolated,S,female
+1,2,2:42:53 PM,,mount,0,7,n,NA,y,,L,isolated,T,female
+1,2,2:46:06 PM,,mount,0,9,n,NA,y,,L,isolated,V,female
+1,2,2:51:33 PM,,mount,0,6,n,NA,y,,L,isolated,S,female
+1,2,12:21:16 PM,,mount,0,0.5,,,,,L,isolated,D,male
+1,2,12:48:43 PM,,mount,0,0.5,,,,,L,isolated,D,male
+1,2,1:38:52 PM,,mount,0,6:00,n,NA,y,,L,isolated,B,male
+1,2,2:25:55 PM,,mount,0,0.1,,,,,L,isolated,J,male
+1,2,2:29:19 PM,,mount,0,0.1,,,,,L,isolated,J,male
+1,2,2:48:21 PM,,mount,0,0.9,,,,,L,isolated,E,male
+1,1,8:05:58 AM,,insemination,0.1,9,n,NA,n,,J,social,V,female
+1,1,8:28:50 AM,,insemination,0.1,7,n,NA,n,,J,social,T,female
+1,1,2:42:40 PM,,insemination,0.1,8,n,NA,n,,J,social,U,female
+1,1,3:45:06 PM,,insemination,0.1,8,n,NA,n,,J,social,U,female
+1,1,8:10:28 AM,,mount,0.1,0,y,y,NA,,J,social,M,female
+1,1,8:12:00 AM,,mount,0.1,0,n,NA,y,,J,social,M,female
+1,1,8:50:45 AM,,mount,0.1,7,y,y,NA,,J,social,T,female
+1,1,9:18:32 AM,,mount,0.1,0:00,y,y,NA,,J,social,W,female
+1,1,11:28:02 AM,,mount,0.1,0:00,n,NA,y,,J,social,W,female
+1,1,11:42:59 AM,,mount,0.1,6,n,NA,y,,J,social,S,female
+1,1,2:32:09 PM,,mount,0.1,0,n,NA,y,,J,social,M,female
+1,1,2:33:20 PM,,mount,0.1,7,y,y,NA,,J,social,T,female
+1,1,2:39:30 PM,,mount,0.1,3,y,y,NA,,J,social,P,female
+1,1,2:41:59 PM,,mount,0.1,8,y,n,y,,J,social,U,female
+1,1,9:01:29 AM,,mount,0.1,0.3,,,,,J,social,H,male
+1,1,9:20:38 AM,,mount,0.1,0.3,,,,,J,social,H,male
+1,1,11:34:48 AM,,mount,0.1,0.6,,,,,J,social,I,male
+1,1,11:56:40 AM,,mount,0.1,:6,,,,,J,social,B,male
+1,2,12:43:35 PM,,mount,0.1,9,y,y,NA,,J,social,V,female
+1,2,2:26:24 PM,,mount,0.1,0,,,,,J,social,L,male
+1,2,2:37:00 PM,,mount,0.1,0,,,,,J,social,L,male
+1,1,8:01:40 AM,,insemination,0.3,5,n,NA,n,,H,social,R,female
+1,1,11:28:25 AM,11:29:56 AM,insemination,0.3,1:00,y,n,n,,H,social,X,female
+1,1,8:15:05 AM,,mount,0.3,6,n,NA,y,,H,social,S,female
+1,1,8:33:19 AM,,mount,0.3,4,y,y,NA,weird delayed resistance,H,social,Q,female
+1,1,9:07:31 AM,,mount,0.3,0:00,y,y,NA,,H,social,W,female
+1,1,9:10:17 AM,,mount,0.3,0,n,NA,y,,H,social,M,female
+1,1,9:23:48 AM,,mount,0.3,7,y,y,NA,,H,social,T,female
+1,1,9:24:57 AM,,mount,0.3,1,y,y,NA,,H,social,N,female
+1,1,9:27:02 AM,,mount,0.3,9,y,y,NA,,H,social,V,female
+1,1,9:27:52 AM,,mount,0.3,1,n,NA,y,,H,social,N,female
+1,1,9:29:07 AM,,mount,0.3,4,y,n,y,,H,social,Q,female
+1,1,9:37:44 AM,,mount,0.3,9,y,n,y,,H,social,V,female
+1,1,10:02:00 AM,,mount,0.3,0:00,n,NA,y,,H,social,W,female
+1,1,10:18:35 AM,,mount,0.3,0,n,NA,y,,H,social,M,female
+1,1,10:49:26 AM,,mount,0.3,7,y,y,NA,,H,social,T,female
+1,1,11:08:26 AM,,mount,0.3,5,y,y,NA,,H,social,R,female
+1,1,11:33:18 AM,,mount,0.3,6,y,y,NA,,H,social,S,female
+1,1,11:36:33 AM,,mount,0.3,7,y,y,NA,,H,social,T,female
+1,1,9:25:29 AM,,mount,0.3,0.2,,,,,H,social,G,male
+1,1,9:25:47 AM,,mount,0.3,:1,,,,,H,social,K,male
+1,1,10:15:30 AM,,mount,0.3,0.7,,,,,H,social,F,male
+1,1,1:49:58 PM,,mount,0.3,0.2,,,,,H,social,G,male
+1,2,9:50:12 AM,,mount,0.3,7,n,NA,y,,H,social,T,female
+1,2,10:24:05 AM,,mount,0.3,7,n,NA,y,,H,social,T,female
+1,2,11:42:44 AM,,mount,0.3,7,n,NA,y,,H,social,T,female
+1,2,9:49:56 AM,,mount,0.3,:1,,,,,H,social,K,male
+1,2,11:37:31 AM,,mount,0.3,:1,,,,,H,social,K,male
+1,2,11:37:55 AM,,mount,0.3,0.2,,,,,H,social,G,male
+1,2,11:42:32 AM,,mount,0.3,0.8,,,,,H,social,A,male
+1,2,12:25:45 PM,,mount,0.3,3,y,y,NA,,H,social,P,female
+1,2,1:47:49 PM,,mount,0.3,0:00,n,NA,y,,H,social,W,female
+1,2,1:48:41 PM,,mount,0.3,0:00,n,NA,y,,H,social,W,female
+1,2,11:44:30 AM,,mount,0.3,0.2,,,,,H,social,G,male
+1,2,1:28:03 PM,,mount,0.3,0.2,,,,,H,social,G,male
+1,2,1:52:39 PM,,mount,0.3,0.2,,,,,H,social,G,male
+1,2,3:34:18 PM,,mount,0.3,0.2,,,,,H,social,G,male
+1,1,8:00:00 AM,8:02:50 AM,insemination,0.5,0,n,NA,n,,D,social,M,female
+1,1,8:35:55 AM,,mount,0.5,3,y,y,NA,,D,social,P,female
+1,1,8:38:03 AM,,mount,0.5,3,y,n,y,,D,social,P,female
+1,1,3:28:05 PM,,mount,0.5,4,n,NA,y,,D,social,Q,female
+1,1,8:04:50 AM,,mount,0.5,0.6,,,,,D,social,I,male
+1,1,8:21:05 AM,,mount,0.5,0.8,,,,,D,social,A,male
+1,1,9:21:10 AM,,mount,0.5,0.8,,,,,D,social,A,male
+1,1,12:12:38 PM,,mount,0.5,0.6,,,,,D,social,I,male
+1,1,1:16:23 PM,,mount,0.5,0,,,,,D,social,L,male
+1,1,2:50:53 PM,,mount,0.5,0,,,,,D,social,L,male
+1,2,10:46:59 AM,,insemination,0.5,8,y,n,n,,D,social,U,female
+1,2,9:35:54 AM,,mount,0.5,0,n,NA,y,was small and in a large aggregation,D,social,M,female
+1,2,10:13:43 AM,,mount,0.5,8,n,NA,y,,D,social,U,female
+1,2,10:17:01 AM,,mount,0.5,0,n,NA,y,,D,social,M,female
+1,2,10:31:09 AM,,mount,0.5,6,n,NA,y,,D,social,S,female
+1,2,10:46:13 AM,,mount,0.5,8,y,n,y,,D,social,U,female
+1,2,10:46:27 AM,,mount,0.5,8,y,y,NA,,D,social,U,female
+1,2,1:29:57 PM,,mount,0.5,2,n,NA,y,,D,social,O,female
+1,2,1:33:13 PM,,mount,0.5,8,n,NA,y,,D,social,U,female
+1,2,1:34:21 PM,,mount,0.5,0:00,n,NA,y,,D,social,W,female
+1,2,1:36:11 PM,,mount,0.5,1:00,n,NA,y,,D,social,X,female
+1,2,1:37:33 PM,,mount,0.5,8,n,NA,y,,D,social,U,female
+1,2,2:35:08 PM,,mount,0.5,0:00,n,NA,y,,D,social,W,female
+1,2,2:49:00 PM,,mount,0.5,"6,",n,NA,y,,D,social,S,female
+1,2,2:50:53 PM,,mount,0.5,7,n,NA,y,,D,social,T,female
+1,2,3:30:03 PM,,mount,0.5,7,n,NA,y,,D,social,T,female
+1,2,12:53:52 PM,,mount,5,0,n,NA,y,,D,social,M,female
+1,2,10:31:02 AM,,mount,0.5,0.8,,,,,D,social,A,male
+1,2,10:33:37 AM,,mount,0.5,0.6,,,,,D,social,I,male
+1,2,11:00:46 AM,,mount,0.5,0.7,,,,,D,social,F,male
+1,2,12:23:01 PM,,mount,0.5,0,,,,,D,social,L,male
+1,2,12:48:23 PM,,mount,0.5,0.6,,,,,D,social,I,male
+1,2,12:48:36 PM,,mount,0.5,0,,,,,D,social,L,male
+1,2,1:19:10 PM,,mount,0.5,0.5,,,,,D,social,D,male
+1,2,1:25:46 PM,,mount,0.5,0.7,,,,,D,social,F,male
+1,1,8:34:31 AM,,insemination,0.6,4,n,NA,n,,I,isolated,Q,female
+1,1,10:20:58 AM,10:21:55 AM,insemination,0.6,0:00,n,NA,n,,I,isolated,W,female
+1,1,11:15:05 AM,,insemination,0.6,9,n,NA,n,,I,isolated,V,female
+1,1,10:22:47 AM,,mount,0.6,0,n,NA,y,,I,isolated,M,female
+1,1,10:23:31 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female
+1,1,10:25:03 AM,,mount,0.6,0:00,y,n,y,,I,isolated,W,female
+1,1,10:25:19 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female
+1,1,10:29:25 AM,,mount,0.6,0:00,y,y,NA,,I,isolated,W,female
+1,1,10:29:43 AM,,mount,0.6,0;,y,n,y,,I,isolated,W,female
+1,1,10:33:15 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female
+1,1,10:35:26 AM,,mount,0.6,0,n,NA,n,,I,isolated,M,female
+1,1,10:41:31 AM,,mount,0.6,0,n,NA,y,,I,isolated,M,female
+1,1,10:52:11 AM,,mount,0.6,0,n,,y,,I,isolated,M,female
+1,1,11:31:24 AM,,mount,0.6,0:00,n,NA,y,,I,isolated,W,female
+1,1,11:39:41 AM,,mount,0.6,4,y,n,y,,I,isolated,Q,female
+1,1,8:04:51 AM,,mount,0.6,0.5,,,,,I,isolated,D,male
+1,1,8:07:02 AM,,mount,0.6,0.3,,,,,I,isolated,H,male
+1,1,8:07:56 AM,,mount,0.6,:6,,,,,I,isolated,B,male
+1,1,8:16:09 AM,,mount,0.6,0.3,,,,,I,isolated,H,male
+1,1,8:25:29 AM,,mount,0.6,0.3,,,,,I,isolated,H,male
+1,1,8:37:05 AM,,mount,0.6,0.3,,,,,I,isolated,H,male
+1,1,9:37:57 AM,,mount,0.6,:6,,,,,I,isolated,B,male
+1,1,10:25:48 AM,,mount,0.6,0.2,,,,,I,isolated,G,male
+1,1,10:37:02 AM,,mount,0.6,0.9,,,,,I,isolated,E,male
+1,1,10:46:09 AM,,mount,0.6,0.2,,,,,I,isolated,G,male
+1,1,10:50:22 AM,,mount,0.6,:0,,,,,I,isolated,C,male
+1,1,11:20:02 AM,,mount,0.6,0.9,,,,,I,isolated,E,male
+1,1,11:24:45 AM,,mount,0.6,0.1,,,,,I,isolated,J,male
+1,1,11:49:27 AM,,mount,0.6,0.1,,,,,I,isolated,J,male
+1,2,11:31:29 AM,,mount,0.6,0,y,n,y,,I,isolated,M,female
+1,2,10:31:40 AM,,mount,0.6,0.5,n,NA,y,,I,isolated,D,male
+1,2,10:47:38 AM,,mount,0.6,0.5,,,,,I,isolated,D,male
+1,2,11:21:22 AM,,mount,0.6,0.5,,,,,I,isolated,D,male
+1,2,12:24:40 PM,,mount,0.6,"6,",n,NA,y,,I,isolated,S,female
+1,2,1:11:54 PM,,mount,0.6,6,n,NA,y,,I,isolated,S,female
+1,2,1:19:09 PM,,mount,0.6,6,n,NA,y,,I,isolated,S,female
+1,2,1:32:22 PM,,mount,0.6,6,n,NA,y,,I,isolated,S,female
+1,2,2:23:17 PM,,mount,0.6,0,n,NA,y,,I,isolated,M,female
+1,2,12:19:00 PM,,mount,0.6,0.7,,,,,I,isolated,F,male
+1,2,1:14:41 PM,,mount,0.6,0.5,,,,,I,isolated,D,male
+1,2,1:18:39 PM,,mount,0.6,0.7,,,,,I,isolated,F,male
+1,2,1:18:40 PM,,mount,0.6,0.5,,,,,I,isolated,D,male
+1,2,1:33:53 PM,,mount,0.6,0.2,,,,,I,isolated,G,male
+1,2,2:39:39 PM,,mount,0.6,0.7,,,,,I,isolated,F,male
+1,1,8:29:51 AM,,insemination,0.7,5,y,n,n,,F,isolated,R,female
+1,1,8:39:25 AM,,insemination,0.7,7,y,n,n,,F,isolated,T,female
+1,1,9:11:00 AM,,insemination,0.7,0:00,n,NA,n,,F,isolated,W,female
+1,1,9:35:28 AM,,insemination,0.7,0,n,NA,n,,F,isolated,M,female
+1,1,11:56:34 AM,,insemination,0.7,0,n,NA,n,,F,isolated,M,female
+1,1,8:26:10 AM,,mount,0.7,7,y,y,NA,,F,isolated,T,female
+1,1,8:26:35 AM,,mount,0.7,6,y,y,NA,,F,isolated,S,female
+1,1,8:36:14 AM,,mount,0.7,5,y,y,NA,,F,isolated,R,female
+1,1,8:36:51 AM,,mount,0.7,5,y,n,y,,F,isolated,R,female
+1,1,8:40:31 AM,,mount,0.7,7,y,n,y,,F,isolated,T,female
+1,1,8:42:45 AM,,mount,0.7,0.2,,,, mounted him during insem,F,isolated,G,male
+1,1,8:44:03 AM,,mount,0.7,4,y,y,NA,,F,isolated,Q,female
+1,1,8:48:03 AM,,mount,0.7,0,n,NA,y,,F,isolated,M,female
+1,1,8:49:35 AM,,mount,0.7,0,y,n,y,,F,isolated,M,female
+1,1,9:16:25 AM,,mount,0.7,0,y,y,NA,,F,isolated,M,female
+1,1,9:53:20 AM,,mount,0.7,0:00,y,n,y,,F,isolated,W,female
+1,1,9:54:46 AM,,mount,0.7,4,n,NA,y,,F,isolated,Q,female
+1,1,10:04:00 AM,,mount,0.7,0:00,n,NA,y,,F,isolated,W,female
+1,1,11:01:03 AM,,mount,0.7,7,y,y,NA,,F,isolated,T,female
+1,1,11:39:11 AM,,mount,0.7,4,y,y,NA,,F,isolated,Q,female
+1,1,11:45:45 AM,,mount,0.7,0,n,NA,y,,F,isolated,M,female
+1,1,8:01:14 AM,,mount,0.7,0.6,,,,,F,isolated,I,male
+1,1,8:06:57 AM,,mount,0.7,:0,,,,,F,isolated,C,male
+1,1,8:23:44 AM,,mount,0.7,0.1,,,,,F,isolated,J,male
+1,1,8:24:00 AM,,mount,0.7,0.2,,,,,F,isolated,G,male
+1,1,8:25:49 AM,,mount,0.7,:1,,,,,F,isolated,K,male
+1,1,8:52:29 AM,,mount,0.7,0.1,,,,,F,isolated,J,male
+1,1,9:05:51 AM,,mount,0.7,:1,,,,,F,isolated,K,male
+1,1,8:05:11 AM,,mount,0.7,0.1,,,,,F,isolated,J,male
+1,1,9:30:02 AM,,mount,0.7,0.3,,,,,F,isolated,H,male
+1,1,10:14:42 AM,,mount,0.7,:1,,,,,F,isolated,K,male
+1,1,10:18:25 AM,,mount,0.7,:1,,,,,F,isolated,K,male
+1,1,12:51:17 PM,,mount,0.7,0,,,,,F,isolated,L,male
+1,2,8:32:27 AM,8:35:36 AM,insemination,0.7,6,n,NA,n,,F,isolated,S,female
+1,2,10:47:52 AM,,mount,0.7,0.6,,,,,F,isolated,I,male
+1,2,10:47:55 AM,,mount,0.7,0.5,,,,,F,isolated,D,male
+1,2,1:32:47 PM,,mount,0.7,6,n,NA,y,,F,isolated,S,female
+1,2,12:18:47 PM,,mount,0.7,0,,,,,F,isolated,L,male
+1,2,1:14:53 PM,,mount,0.7,0.6,,,,,F,isolated,I,male
+1,2,1:18:22 PM,,mount,0.7,0.5,,,,,F,isolated,D,male
+1,2,1:20:09 PM,,mount,0.7,0.5,,,,,F,isolated,D,male
+1,2,1:35:42 PM,,mount,0.7,0.6,,,,,F,isolated,I,male
+1,2,2:23:53 PM,,mount,0.7,0.6,,,,,F,isolated,I,male
+1,1,8:00:07 AM,8:02:44 AM,insemination,0.8,3,n,NA,n,,A,social,P,female
+1,1,2:23:59 PM,,insemination,0.8,3,n,NA,y,,A,social,P,female
+1,1,12:00:00 AM,,insemination,0.8,7,y,n,NA,,A,social,T,female
+1,1,2:29:19 PM,,mount,0.8,7,y,y,NA,,A,social,T,female
+1,1,2:30:05 PM,,mount,0.8,6,n,NA,y,,A,social,S,female
+1,1,2:30:36 PM,,mount,0.8,0,n,NA,y,,A,social,M,female
+1,1,3:23:05 PM,,mount,0.8,3,n,NA,y,,A,social,P,female
+1,1,8:10:42 AM,,mount,0.8,0.5,,,,,A,social,D,male
+1,1,9:35:17 AM,,mount,0.8,0.5,,,,,A,social,D,male
+1,1,2:21:54 PM,,mount,0.8,0.5,,,,,A,social,D,male
+1,1,2:22:48 PM,,mount,0.8,0,,,,,A,social,L,male
+1,1,2:35:29 PM,,mount,0.8,0.1,,,,,A,social,J,male
+1,1,3:56:25 PM,,mount,0.8,0.2,,,,,A,social,G,male
+1,2,11:44:54 AM,11:47:35 AM,insemination,0.8,7,n,NA,n,,A,social,T,female
+1,2,11:51:58 AM,11:52:56 AM,insemination,0.8,7,n,NA,y,,A,social,T,female
+1,2,2:00:54 PM,,insemination,0.8,7,n,NA,n,,A,social,T,female
+1,2,12:23:30 PM,,mount,0.8,1:00,n,NA,y,,A,social,X,female
+1,1,8:03:19 AM,8:04:05 AM,insemination,0.9,5,n,NA,n,,E,isolated,R,female
+1,1,8:08:45 AM,,insemination,0.9,7,n,NA,n,,E,isolated,T,female
+1,1,8:14:56 AM,,insemination,0.9,0,n,NA,n,,E,isolated,M,female
+1,1,8:19:57 AM,,insemination,0.9,0,n,NA,n,short insemination,E,isolated,M,female
+1,1,8:23:02 AM,,insemination,0.9,4,n,NA,n,,E,isolated,Q,female
+1,1,8:31:20 AM,8:33:01 AM,insemination,0.9,6,n,NA,n,,E,isolated,S,female
+1,1,10:45:09 AM,,insemination,0.9,8,n,NA,n,,E,isolated,U,female
+1,1,8:11:04 AM,,mount,0.9,6,y,y,NA,,E,isolated,S,female
+1,1,8:11:27 AM,,mount,0.9,7,n,NA,y,,E,isolated,T,female
+1,1,8:12:22 AM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,8:28:26 AM,,mount,0.9,1,n,NA,y,,E,isolated,N,female
+1,1,8:36:09 AM,,mount,0.9,1,y,n,y,,E,isolated,N,female
+1,1,8:40:15 AM,,mount,0.9,1,n,NA,y,,E,isolated,N,female
+1,1,8:40:45 AM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,9:19:16 AM,,mount,0.9,8,n,NA,y,,E,isolated,U,female
+1,1,10:08:46 AM,,mount,0.9,4,y,y,NA,,E,isolated,Q,female
+1,1,11:29:28 AM,,mount,0.9,6,n,NA,y,,E,isolated,S,female
+1,1,11:30:11 AM,,mount,0.9,6,n,NA,y,,E,isolated,S,female
+1,1,11:46:32 AM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,11:46:59 AM,,mount,0.9,1;,y,y,NA,,E,isolated,X,female
+1,1,12:03:20 PM,,mount,0.9,9,y,n,y,,E,isolated,V,female
+1,1,12:12:00 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female
+1,1,12:13:17 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,12:21:20 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,12:22:34 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,12:23:48 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,12:29:15 PM,,mount,0.9,4,y,y,NA,,E,isolated,Q,female
+1,1,12:33:25 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female
+1,1,12:34:38 PM,,mount,0.9,4,y,y,NA,,E,isolated,Q,female
+1,1,12:37:22 PM,,mount,0.9,0,n,NA,y,,E,isolated,M,female
+1,1,12:39:52 PM,,mount,0.9,4,n,NA,y,,E,isolated,Q,female
+1,1,12:40:56 PM,,mount,0.9,9,y,y,NA,,E,isolated,V,female
+1,1,12:43:32 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,12:45:04 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female
+1,1,12:45:54 PM,,mount,0.9,4,n,NA,y,,E,isolated,Q,female
+1,1,12:48:32 PM,,mount,0.9,4,n,NA,y,,E,isolated,Q,female
+1,1,12:50:47 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female
+1,1,1:00:43 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,1:19:44 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,1:26:40 PM,,mount,0.9,9,n,NA,y,,E,isolated,V,female
+1,1,1:28:32 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,1:29:56 PM,,mount,0.9,8,n,NA,y,,E,isolated,U,female
+1,1,1:30:59 PM,,mount,0.9,8,n,NA,y,,E,isolated,U,female
+1,1,1:35:54 PM,.,mount,0.9,8,n,NA,y,,E,isolated,U,female
+1,1,1:37:41 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,1:44:42 PM,,mount,0.9,1:00,y,y,NA,,E,isolated,X,female
+1,1,1:51:17 PM,,mount,0.9,8,y,y,NA,,E,isolated,U,female
+1,1,2:02:23 PM,,mount,0.9,5,y,y,NA,,E,isolated,R,female
+1,1,2:04:07 PM,,mount,0.9,5,n,NA,y,,E,isolated,R,female
+1,1,2:13:34 PM,,mount,0.9,6,n,NA,y,,E,isolated,S,female
+1,1,2:36:48 PM,,mount,0.9,1:00,n,NA,y,,E,isolated,X,female
+1,1,3:19:05 PM,,mount,0.9,0:00,y,y,NA,,E,isolated,W,female
+1,1,3:25:37 PM,,mount,0.9,6,n,NA,y,,E,isolated,S,female
+1,1,3:45:08 PM,,mount,0.9,1,n,NA,y,,E,isolated,N,female
+1,1,3:46:29 PM,,mount,0.9,5,n,NA,y,,E,isolated,R,female
+1,1,8:01:13 AM,,mount,0.9,0.6,,,,,E,isolated,I,male
+1,1,8:01:12 AM,,mount,0.9,0.6,,,,,E,isolated,I,male
+1,1,8:06:26 AM,,mount,0.9,0.3,,,,,E,isolated,H,male
+1,1,8:13:40 AM,,mount,0.9,0.1,,,,,E,isolated,J,male
+1,1,8:19:21 AM,,mount,0.9,0.2,,,,during insem,E,isolated,G,male
+1,1,8:48:27 AM,,mount,0.9,0,,,,,E,isolated,L,male
+1,1,9:23:35 AM,,mount,0.9,0,,,,,E,isolated,L,male
+1,1,10:24:18 AM,,mount,0.9,0.3,,,,,E,isolated,H,male
+1,1,11:03:49 AM,,mount,0.9,0.1,,,,,E,isolated,J,male
+1,1,11:13:06 AM,,mount,0.9,0,,,,,E,isolated,L,male
+1,1,11:18:51 AM,,mount,0.9,0.1,,,,,E,isolated,J,male
+1,1,11:24:24 AM,,mount,0.9,0.1,,,,,E,isolated,J,male
+1,1,11:27:29 AM,,mount,0.9,",.6",,,,,E,isolated,I,male
+1,1,11:38:12 AM,,mount,0.9,0.7,,,,,E,isolated,F,male
+1,1,11:41:37 AM,,mount,0.9,0.6,,,,,E,isolated,I,male
+1,1,11:48:42 AM,,mount,0.9,0.6,,,,,E,isolated,I,male
+1,1,1:17:28 PM,,mount,0.9,0,y,y,NA,,E,isolated,L,male
+1,1,1:28:31 PM,,mount,0.9,0.2,,,,,E,isolated,G,male
+1,1,2:10:50 PM,,mount,0.9,0.9,y,y,NA,,E,isolated,E,male
+1,1,2:18:07 PM,,mount,0.9,0.6,y,n,y,,E,isolated,I,male
+1,1,2:28:29 PM,,mount,0.9,0.8,,,,,E,isolated,A,male
+1,1,11:21:33 AM,,mount,",9",7,n,NA,y,,E,isolated,T,female
+1,2,11:50:05 AM,,insemination,0.9,4,n,NA,n,,E,isolated,Q,female
+1,2,12:13:26 PM,,mount,0.9,1:00,y,y,NA,,E,isolated,X,female
+1,2,1:26:18 PM,,mount,0.5,0.7,,,,,D,social,F,male
+1,2,12:53:52 PM,,mount,6,5,,,,,I,isolated,R,female
+1,2,2:28:37 PM,,mount,0.9,7,y,n,y,,E,isolated,T,female
+1,1,8:00:00 AM,,insemination,:0,6,n,NA,n,,C,social,S,female
+1,1,8:05:36 AM,,insemination,:0,7,y,n,NA,,C,social,T,female
+1,1,2:24:40 PM,,mount,:0,7,n,NA,y,,C,social,T,female
+1,1,11:07:54 AM,,mount,:0,0.2,,,,,C,social,G,male
+1,1,1:27:57 PM,,mount,:0,0.2,,,,,C,social,G,male
+1,1,8:04:18 AM,,other,:0,,,,,,C,social,NA,female
+1,2,1:39:19 PM,,mount,:0,9,n,NA,y,,C,social,V,female
+1,2,12:28:11 PM,12:30:41 PM,insemination,:0,1:00,n,NA,n,,C,social,X,female
+1,2,2:14:15 PM,2:15:08 PM,insemination,:0,7,n,NA,n,,C,social,T,female
+1,2,12:34:09 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female
+1,2,12:55:15 PM,,mount,:0,1:00,y,n,y,,C,social,X,female
+1,2,1:08:56 PM,,mount,:0,8,n,NA,y,,C,social,U,female
+1,2,1:12:56 PM,,mount,:0,9,n,NA,y,,C,social,V,female
+1,2,1:23:25 PM,,mount,:0,6,n,NA,y,,C,social,S,female
+1,2,1:26:01 PM,,mount,:0,0:00,n,NA,y,,C,social,W,female
+1,2,1:28:23 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female
+1,2,1:29:12 PM,,mount,:0,0:00,n,NA,y,,C,social,W,female
+1,2,1:30:30 PM,,mount,:0,6,n,NA,y,,C,social,S,female
+1,2,1:31:21 PM,,mount,:0,0:00,n,NA,y,,C,social,W,female
+1,2,1:41:12 PM,,mount,:0,8,n,NA,n,,C,social,U,female
+1,2,2:01:47 PM,,mount,:0,3,n,NA,y,,C,social,P,female
+1,2,2:08:04 PM,,mount,:0,8,n,NA,y,,C,social,U,female
+1,2,2:09:32 PM,,mount,:0,7,n,NA,y,,C,social,T,female
+1,2,2:18:41 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female
+1,2,2:21:55 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female
+1,2,2:24:55 PM,,mount,:0,9,y,y,NA,,C,social,V,female
+1,2,2:25:16 PM,,mount,:0,1:00,n,NA,y,,C,social,X,female
+1,2,2:26:39 PM,,mount,:0,7,y,n,y,,C,social,T,female
+1,2,1:15:16 PM,,mount,:0,0.1,n,,,,C,social,J,male
+1,2,1:47:16 PM,,mount,:0,0,,,,,C,social,L,male
+1,2,2:34:55 PM,,mount,:0,:6,,,,,C,social,B,male
+1,1,8:22:10 AM,,insemination,:1,0,y,n,NA,,K,isolated,M,female
+1,1,8:32:23 AM,,insemination,:1,0,y,n,n,,K,isolated,M,female
+1,1,9:02:23 AM,,insemination,:1,0:00,n,NA,n,,K,isolated,W,female
+1,1,1:08:19 PM,,insemination,:1,7,y,n,n,,K,isolated,T,female
+1,1,8:07:25 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female
+1,1,8:10:32 AM,,mount,:1,0,y,y,NA,,K,isolated,M,female
+1,1,8:21:11 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female
+1,1,8:26:05 AM,,mount,:1,7,y,y,NA,,K,isolated,T,female
+1,1,8:26:35 AM,,mount,:1,6,y,y,NA,,K,isolated,S,female
+1,1,8:44:48 AM,,mount,:1,9,y,y,NA,,K,isolated,V,female
+1,1,8:48:20 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female
+1,1,10:53:18 AM,,mount,:1,7,y,n,y,,K,isolated,T,female
+1,1,11:25:12 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female
+1,1,11:38:28 AM,,mount,:1,0,n,NA,y,,K,isolated,M,female
+1,1,12:19:00 PM,,mount,:1,0,y,y,NA,,K,isolated,M,female
+1,1,12:23:12 PM,,mount,:1,7,y,y,NA,,K,isolated,T,female
+1,1,8:16:40 AM,,mount,:1,0.1,,,,,K,isolated,J,male
+1,1,8:19:22 AM,,mount,:1,0.2,,,,during insem,K,isolated,G,male
+1,1,9:18:25 AM,,mount,:1,0.7,,,,,K,isolated,F,male
+1,1,10:20:03 AM,,mount,:1,0.3,,,,,K,isolated,H,male
+1,1,10:38:12 AM,,mount,:1,0.6,,,,,K,isolated,I,male
+1,2,11:40:00 AM,,insemination,:1,7,y,n,n,,K,isolated,T,female
+1,2,1:50:35 PM,,mount,:1,7,y,y,NA,,K,isolated,T,female
+1,1,8:03:03 AM,8:05:11 AM,insemination,:6,2,n,NA,n,,B,isolated,O,female
+1,1,8:12:37 AM,,insemination,:6,6,n,NA,n,male position was weir,B,isolated,S,female
+1,1,8:32:37 AM,,insemination,:6,4,n,NA,n,,B,isolated,Q,female
+1,1,2:07:12 PM,,insemination,:6,5,n,NA,y,,B,isolated,R,female
+1,1,3:08:28 PM,,insemination,:6,7,y,n,n,,B,isolated,T,female
+1,1,3:14:17 PM,3:15:11 PM,insemination,:6,3,n,NA,n,,B,isolated,P,female
+1,1,8:15:50 AM,,mount,:6,6,n,NA,y,,B,isolated,S,female
+1,1,10:34:26 AM,,mount,:6,0,n,NA,y,,B,isolated,M,female
+1,1,11:51:46 AM,,mount,:6,2,y,y,NA,refusal stance,B,isolated,O,female
+1,1,12:32:04 PM,,mount,:6,0,n,NA,y,,B,isolated,M,female
+1,1,1:36:42 PM,,mount,:6,1,n,NA,y,,B,isolated,N,female
+1,1,1:46:46 PM,,mount,:6,6,n,NA,y,,B,isolated,S,female
+1,1,3:26:11 PM,,mount,:6,9,n,NA,y,,B,isolated,V,female
+1,1,8:00:23 AM,,mount,:6,0.1,,,,,B,isolated,J,male
+1,1,8:00:24 AM,,mount,:6,0.1,,,,,B,isolated,J,male
+1,1,8:16:17 AM,,mount,:6,0.3,,,,,B,isolated,H,male
+1,1,8:25:39 AM,,mount,:6,0.6,,,,,B,isolated,I,male
+1,1,8:30:13 AM,,mount,:6,0.6,,,,,B,isolated,I,male
+1,1,8:37:22 AM,,mount,:6,0.6,,,,,B,isolated,I,male
+1,1,8:51:40 AM,,mount,:6,0.3,,,,,B,isolated,H,male
+1,1,8:51:54 AM,,mount,:6,0.3,,,,,B,isolated,H,male
+1,1,10:04:53 AM,,mount,:6,0.6,,,,,B,isolated,I,male
+1,1,11:56:34 AM,,mount,:6,0.1,,,,,B,isolated,J,male
+1,1,3:34:17 PM,,mount,:6,0.8,,,,,B,isolated,A,male
+1,2,9:41:59 AM,,insemination,:6,3,n,NA,n,,B,isolated,P,female
+1,2,10:42:44 AM,10:44:44 AM,insemination,:6,3,y,n,n,,B,isolated,P,female
+1,2,9:48:12 AM,,mount,:6,"3,",n,,,,B,isolated,NA,female
+1,2,11:39:28 AM,,mount,:6,3,y,n,y,,B,isolated,P,female
+1,2,11:20:06 AM,,mount,:6,0.3,n,NA,y,,B,isolated,H,male
+1,2,2:30:53 PM,,mount,:6,0:00,n,NA,y,,B,isolated,W,female
+1,2,2:35:57 PM,,mount,:6,0:00,n,NA,y,,B,isolated,W,female
+1,2,2:53:18 PM,,mount,:6,0:00,n,NA,y,,B,isolated,W,female
+1,2,2:34:31 PM,,mount,:6,:0,,,,,B,isolated,C,male
+2,1,8:32:15 AM,8:34:45 AM,insemination,",0","2,",n,NA,n,,F,social,O,female
+2,1,11:08:19 AM,,mount,",0",1:00,y,n,y,,F,social,X,female
+2,1,11:19:36 AM,,mount,",0","3,",n,NA,y,,F,social,P,female
+2,1,12:20:12 PM,,mount,",0","3,",n,NA,y,,F,social,P,female
+2,1,1:23:42 PM,,mount,",0","3,",y,n,y,,F,social,P,female
+2,1,2:11:55 PM,,mount,",0","3,",y,n,y,,F,social,P,female
+2,1,2:21:35 PM,,mount,",0","3,",y,y,NA,,F,social,P,female
+2,1,2:23:38 PM,,mount,",0","3,",y,n,y,,F,social,P,female
+2,1,8:17:47 AM,,mount,",0",:9,,,,,F,social,H,male
+2,1,8:26:39 AM,,mount,",0",:9,,,,,F,social,H,male
+2,1,2:06:33 PM,,mount,",0",",4",,,,,F,social,I,male
+2,1,2:12:35 PM,,mount,",0",:9,,,,,F,social,H,male
+2,2,12:12:53 PM,,insemination,",0","8,",y,n,n,,F,social,U,female
+2,2,1:43:49 PM,1:44:15 PM,insemination,",0",1:00,n,NA,n,too short?,F,social,X,female
+2,2,11:37:02 AM,,mount,",0","0,",y,y,NA,,F,social,M,female
+2,2,12:11:17 PM,,mount,",0","8,",n,NA,y,,F,social,U,female
+2,2,12:12:19 PM,,mount,",0","8,",y,y,NA,,F,social,U,female
+2,2,12:27:30 PM,,mount,",0",0:00,y,y,NA,,F,social,W,female
+2,2,1:17:18 PM,,mount,",0","0,",y,n,y,,F,social,M,female
+2,2,11:40:09 AM,,mount,",0",:9,,,,,F,social,H,male
+2,2,12:01:37 PM,,mount,",0",:9,,,,,F,social,H,male
+2,2,1:21:34 PM,,mount,",0",:9,,,,,F,social,H,male
+2,1,9:21:51 AM,9:22:40 AM,insemination,",2","6,",n,NA,n,,E,social,S,female
+2,1,8:01:50 AM,,mount,",2",",5",,,,"while ,8 was inseminating 9,",E,social,K,male
+2,1,9:28:08 AM,,mount,",2",",4",,,,,E,social,I,male
+2,2,9:51:27 AM,,mount,",2",",8",,,,,E,social,L,male
+2,2,10:45:46 AM,,mount,",2",",8",,,,,E,social,L,male
+2,2,12:35:26 PM,,mount,",2",",9",,,,,E,social,D,male
+2,2,1:04:25 PM,,mount,",2",",9",,,,,E,social,D,male
+2,2,1:38:27 PM,,mount,",2",",9",,,,,E,social,D,male
+2,2,1:40:40 PM,,mount,",2",",9",,,,,E,social,D,male
+2,2,2:41:09 PM,,mount,",2",",8",,,,,E,social,L,male
+2,1,8:36:30 AM,8:36:57 AM,insemination,",3","2,",n,NA,n,,J,isolated,O,female
+2,1,9:03:00 AM,9:05:20 AM,insemination,",3",1:00,y,n,n,,J,isolated,X,female
+2,1,8:41:38 AM,,mount,",3","2,",n,NA,y,,J,isolated,O,female
+2,1,9:13:29 AM,,mount,",3",1:00,y,n,y,,J,isolated,X,female
+2,1,9:18:58 AM,,mount,",3",1:00,n,NA,y,,J,isolated,X,female
+2,1,9:49:50 AM,,mount,",3",1:00,n,NA,y,,J,isolated,X,female
+2,1,8:02:28 AM,,mount,",3",",7",,,,,J,isolated,A,male
+2,1,8:06:22 AM,,mount,",3",",9",,,,,J,isolated,D,male
+2,1,8:14:02 AM,,mount,",3",",9",,,,,J,isolated,D,male
+2,1,8:18:20 AM,,mount,",3",",7",,,,,J,isolated,A,male
+2,1,8:18:21 AM,,mount,",3",:9,,,,,J,isolated,H,male
+2,1,8:25:43 AM,,mount,",3",:9,,,,,J,isolated,H,male
+2,1,8:25:55 AM,,mount,",3",:9,,,,,J,isolated,H,male
+2,1,8:43:14 AM,,mount,",3",",6",,,,,J,isolated,B,male
+2,2,11:24:38 AM,11:25:30 AM,insemination,",3",0:00,n,NA,n,,J,isolated,W,female
+2,2,1:10:17 PM,,insemination,",3","8,",y,n,n,,J,isolated,U,female
+2,2,1:17:51 PM,1:18:59 PM,insemination,",3","8,",y,n,n,,J,isolated,U,female
+2,2,1:26:02 PM,1:27:39 PM,insemination,",3","8,",y,n,n,,J,isolated,U,female
+2,2,11:22:24 AM,,mount,",3",0:00,y,y,NA,refusal stance,J,isolated,W,female
+2,2,1:22:48 PM,,mount,",3",1:00,y,y,NA,,J,isolated,X,female
+2,2,11:16:13 AM,,mount,",3",",6",,,,,J,isolated,B,male
+2,2,11:33:00 AM,,mount,",3",",6",,,,,J,isolated,B,male
+2,2,12:20:10 PM,,mount,",3",",6",,,,,J,isolated,B,male
+2,2,12:20:37 PM,,mount,",3",",6",,,,,J,isolated,B,male
+2,1,8:00:31 AM,8:09:31 AM,insemination,",4","7,",n,NA,n,,I,isolated,T,female
+2,1,8:22:42 AM,8:24:00 AM,insemination,",4",1:00,n,NA,n,,I,isolated,X,female
+2,1,9:00:53 AM,9:07:02 AM,insemination,",4","6,",n,NA,n,,I,isolated,S,female
+2,1,11:54:13 AM,11:55:26 AM,insemination,",4","3,",y,n,n,,I,isolated,P,female
+2,1,1:18:29 PM,1:19:24 PM,insemination,",4","3,",y,n,n,,I,isolated,P,female
+2,1,8:35:40 AM,,mount,",4","8,",n,NA,y,,I,isolated,U,female
+2,1,8:36:07 AM,,mount,",4","8,",y,n,y,,I,isolated,U,female
+2,1,12:44:57 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female
+2,1,12:52:00 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female
+2,1,1:24:34 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female
+2,1,2:20:28 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female
+2,1,2:20:56 PM,,mount,",4","3,",y,n,y,,I,isolated,P,female
+2,1,2:21:37 PM,,mount,",4","3,",y,y,NA,,I,isolated,P,female
+2,1,2:32:54 PM,,mount,",4","9,",n,NA,y,,I,isolated,V,female
+2,1,2:39:54 PM,,mount,",4","3,",y,y,NA,,I,isolated,P,female
+2,1,3:21:19 PM,,mount,",4","3,",y,y,NA,,I,isolated,P,female
+2,1,8:15:04 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,1,8:27:06 AM,,mount,",4",:9,,,,,I,isolated,H,male
+2,1,8:28:52 AM,,mount,",4",:9,,,,"while :9 was on 8,",I,isolated,H,male
+2,1,8:31:30 AM,,mount,",4",:9,,,,"while :9 was on 8,",I,isolated,H,male
+2,1,8:32:57 AM,,mount,",4",:9,,,,"while :9 was on 8,",I,isolated,H,male
+2,1,8:54:41 AM,,mount,",4",",9",,,,"forced ,9 off 5,",I,isolated,D,male
+2,1,9:22:03 AM,,mount,",4",",2",,,,"while ,2 was mounting 6,",I,isolated,E,male
+2,1,9:29:18 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,1,9:30:00 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,1,10:50:02 AM,,mount,",4",:9,,,,,I,isolated,H,male
+2,1,10:50:58 AM,,mount,",4",:9,,,,,I,isolated,H,male
+2,1,12:16:45 PM,,mount,",4",:9,,,,,I,isolated,H,male
+2,1,2:40:24 PM,,mount,",4",",0",,,,,I,isolated,F,male
+2,2,3:42:57 PM,3:44:07 PM,insemination,",4","9,",y,n,n,,I,isolated,V,female
+2,2,11:44:38 AM,,mount,",4",2,n,NA,y,,I,isolated,NA,female
+2,2,9:55:02 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,2,10:14:55 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,2,11:30:03 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,2,11:44:15 AM,,mount,",4",",9",,,,,I,isolated,D,male
+2,2,1:37:17 PM,,mount,",4",",2",,,,,I,isolated,E,male
+2,2,2:41:18 PM,,mount,",4",",9",,,,,I,isolated,D,male
+2,1,8:11:23 AM,8:13:11 AM,insemination,",5","4,",n,NA,n,,K,isolated,Q,female
+2,1,8:52:32 AM,8:53:45 AM,insemination,",5",1:00,y,n,n,,K,isolated,X,female
+2,1,8:17:35 AM,,mount,",5","3,",n,NA,y,,K,isolated,P,female
+2,1,8:31:02 AM,,mount,",5",1:00,y,y,NA,,K,isolated,X,female
+2,1,9:39:19 AM,,mount,",5","0,",y,y,NA,,K,isolated,M,female
+2,1,1:01:13 PM,,mount,",5",0:00,y,n,y,,K,isolated,W,female
+2,1,1:03:27 PM,,mount,",5","0,",n,NA,y,,K,isolated,M,female
+2,1,1:05:40 PM,,mount,",5",0:00,y,n,y,,K,isolated,W,female
+2,1,8:01:50 AM,,mount,",5",",8",,,,,K,isolated,L,male
+2,1,8:02:29 AM,,mount,",5",",2",,,,,K,isolated,E,male
+2,1,8:09:15 AM,,mount,",5",",0",,,,,K,isolated,F,male
+2,1,8:10:48 AM,,mount,",5",:1,,,,,K,isolated,C,male
+2,1,8:10:57 AM,,mount,",5",",8",,,,,K,isolated,L,male
+2,1,8:11:15 AM,,mount,",5",:1,,,,,K,isolated,C,male
+2,1,8:16:09 AM,,mount,",5",",8",,,,while on :7,K,isolated,L,male
+2,1,8:22:21 AM,,mount,",5",",8",,,,,K,isolated,L,male
+2,1,8:48:18 AM,,mount,",5",:7,,,,,K,isolated,G,male
+2,1,8:49:14 AM,,mount,",5",:7,,,,,K,isolated,G,male
+2,2,1:33:47 PM,,mount,",5",0:00,y,n,y,attempted to press to wall,K,isolated,W,female
+2,2,1:54:52 PM,,mount,",5","2,",y,y,NA,,K,isolated,O,female
+2,2,12:42:58 PM,,mount,",5",",8",,,,,K,isolated,L,male
+2,2,12:43:29 PM,,mount,",5",",8",,,,,K,isolated,L,male
+2,2,1:28:05 PM,,mount,",5",",9",,,,,K,isolated,D,male
+2,2,1:36:07 PM,,mount,",5",",2",,,,,K,isolated,E,male
+2,1,8:06:00 AM,8:07:33 AM,insemination,",6","1,",n,NA,n,,B,social,N,female
+2,1,9:35:45 AM,,mount,",6","0,",y,y,NA,,B,social,M,female
+2,1,9:37:11 AM,,mount,",6","0,",y,y,NA,,B,social,M,female
+2,1,10:06:46 AM,,mount,",6",1:00,y,y,NA,,B,social,X,female
+2,2,2:13:39 PM,2:14:30 PM,insemination,",6",1:00,y,n,n,,B,social,X,female
+2,2,12:21:43 PM,,mount,",6",0:00,y,y,NA,,B,social,W,female
+2,2,2:21:41 PM,,mount,",6",1:00,y,y,NA,,B,social,X,female
+2,2,2:28:18 PM,,mount,",6",0:00,y,y,NA,,B,social,W,female
+2,2,3:41:28 PM,,mount,",6","0,",y,y,NA,,B,social,M,female
+2,2,3:45:19 PM,,mount,",6","7,",y,y,NA,,B,social,T,female
+2,2,11:19:15 AM,,mount,",6",",3",,,,,B,social,J,male
+2,2,1:12:33 PM,,mount,",6",",3",,,,"while ,3 was mounted on 8, ??",B,social,J,male
+2,2,3:48:43 PM,,mount,",6",:1,,,,,B,social,C,male
+2,1,1:06:13 PM,,insemination,",7","6,",n,NA,n,,A,social,S,female
+2,1,3:02:28 PM,,insemination,",7","5,",n,NA,n,,A,social,R,female
+2,1,2:29:03 PM,,mount,",7","6,",y,n,y,,A,social,S,female
+2,1,11:20:11 AM,,mount,",7",",5",,,,,A,social,K,male
+2,1,11:21:15 AM,,mount,",7",",8",,,,,A,social,L,male
+2,2,12:30:36 PM,12:31:01 PM,insemination,",7","0,",y,n,n,not super long,A,social,M,female
+2,2,2:09:12 PM,2:10:30 PM,insemination,",7","5,",n,NA,n,,A,social,R,female
+2,2,12:37:08 PM,,mount,",7","1,",n,NA,y,,A,social,N,female
+2,2,1:44:44 PM,,mount,",7","1,",n,NA,y,,A,social,N,female
+2,1,8:01:09 AM,8:02:26 AM,insemination,",8","9,",n,NA,n,,L,isolated,V,female
+2,1,8:06:59 AM,8:08:46 AM,insemination,",8",1:00,n,NA,n,,L,isolated,X,female
+2,1,3:23:32 PM,3:24:20 PM,insemination,",8","3,",n,NA,n,,L,isolated,P,female
+2,1,8:31:20 AM,,mount,",8","9,",y,y,NA,,L,isolated,V,female
+2,1,8:47:41 AM,,mount,",8","3,",y,y,NA,,L,isolated,P,female
+2,1,11:42:47 AM,,mount,",8","9,",n,NA,y,,L,isolated,V,female
+2,1,1:38:38 PM,,mount,",8","4,",y,y,NA,,L,isolated,Q,female
+2,1,8:01:08 AM,,mount,",8",",0",,,,,L,isolated,F,male
+2,1,8:16:08 AM,,mount,",8",:7,,,,"whie :7 was on 4,",L,isolated,G,male
+2,1,8:22:14 AM,,mount,",8",",5",,,,,L,isolated,K,male
+2,1,8:48:09 AM,,mount,",8",:7,,,,,L,isolated,G,male
+2,1,11:20:34 AM,,mount,",8",",7",,,,,L,isolated,A,male
+2,1,11:38:23 AM,,mount,",8",:1,,,,,L,isolated,C,male
+2,1,1:06:02 PM,,mount,",8",",9",,,,,L,isolated,D,male
+2,1,1:09:32 PM,,mount,",8",:7,,,,,L,isolated,G,male
+2,1,1:45:11 PM,,mount,",8",:7,,,,,L,isolated,G,male
+2,2,1:29:48 PM,1:31:17 PM,insemination,",8",0:00,y,n,n,,L,isolated,W,female
+2,2,11:07:39 AM,,mount,",8",",2",,,,,L,isolated,E,male
+2,2,12:43:51 PM,,mount,",8",",2",,,,,L,isolated,E,male
+2,2,2:42:52 PM,,mount,",8",",4",,,,,L,isolated,I,male
+2,2,3:37:45 PM,,mount,",8",",2",,,,,L,isolated,E,male
+2,1,12:20:36 PM,,insemination,:1,"9,",y,n,n,,C,social,V,female
+2,1,1:45:13 PM,,mount,:1,1:00,y,n,y,,C,social,X,female
+2,1,3:07:17 PM,,mount,:1,"6,",n,NA,y,,C,social,S,female
+2,1,8:11:49 AM,,mount,:1,",8",,,,,C,social,L,male
+2,1,12:19:12 PM,,mount,:1,",8",,,,,C,social,L,male
+2,1,12:22:57 PM,,mount,:1,",7",,,,,C,social,A,male
+2,2,12:34:03 PM,12:35:18 PM,insemination,:1,"9,",y,n,n,,C,social,V,female
+2,2,3:44:34 PM,,mount,:1,0:00,y,n,y,,C,social,W,female
+2,2,2:47:48 PM,,mount,:1,",8",,,,,C,social,L,male
+2,2,3:24:49 PM,,mount,:1,:7,,,,,C,social,G,male
+2,1,8:01:08 AM,,insemination,:7,"0,",n,NA,n,,G,isolated,M,female
+2,1,8:15:46 AM,8:18:05 AM,insemination,:7,"4,",n,NA,n,,G,isolated,Q,female
+2,1,8:26:06 AM,8:39:53 AM,insemination,:7,"3,",n,NA,n,,G,isolated,P,female
+2,1,8:13:22 AM,,mount,:7,"0,",n,NA,y,,G,isolated,M,female
+2,1,8:21:40 AM,,mount,:7,1:00,y,y,NA,,G,isolated,X,female
+2,1,8:48:01 AM,,mount,:7,",8",,,,,G,isolated,L,male
+2,1,9:25:55 AM,,mount,:7,",5",,,,,G,isolated,K,male
+2,1,1:07:46 PM,,mount,:7,",8",,,,,G,isolated,L,male
+2,1,1:08:32 PM,,mount,:7,",8",,,,,G,isolated,L,male
+2,1,1:42:28 PM,,mount,:7,",8",,,,,G,isolated,L,male
+2,2,3:23:44 PM,3:24:22 PM,insemination,:7,"9,",y,n,n,,G,isolated,V,female
+2,2,1:28:13 PM,,mount,:7,0:00,y,y,NA,,G,isolated,W,female
+2,2,1:35:08 PM,,mount,:7,0:00,y,y,NA,,G,isolated,W,female
+2,2,3:04:11 PM,,mount,:7,"9,",n,NA,y,,G,isolated,V,female
+2,2,3:31:28 PM,,mount,:7,"6,",y,n,y,,G,isolated,S,female
+2,2,10:49:25 AM,,mount,:7,",5",,,,,G,isolated,K,male
+2,2,12:42:18 PM,,mount,:7,",8",,,,,G,isolated,L,male
+2,1,8:05:37 AM,8:06:56 AM,insemination,:9,"0,",n,NA,n,,H,isolated,M,female
+2,1,8:28:19 AM,8:34:00 AM,insemination,:9,"8,",n,NA,n,,H,isolated,U,female
+2,1,8:12:18 AM,,mount,:9,"0,",n,NA,y,,H,isolated,M,female
+2,1,12:30:31 PM,,mount,:9,"3,",n,NA,y,,H,isolated,P,female
+2,1,12:32:51 PM,,mount,:9,"3,",n,NA,y,cusp of maybe insemination -15s,H,isolated,P,female
+2,1,1:24:32 PM,,mount,:9,"3,",y,y,NA,,H,isolated,P,female
+2,1,8:02:29 AM,,mount,:9,",8",,,,"while ,5 was oon ,8",H,isolated,L,male
+2,1,8:03:46 AM,,mount,:9,",8",,,,,H,isolated,L,male
+2,1,8:09:23 AM,,mount,:9,",5",,,,,H,isolated,K,male
+2,1,8:11:59 AM,,mount,:9,",9",,,,,H,isolated,D,male
+2,1,8:16:43 AM,,mount,:9,",0",,,,,H,isolated,F,male
+2,1,8:22:30 AM,,mount,:9,",7",,,,,H,isolated,A,male
+2,1,9:28:45 AM,,mount,:9,",9",,,,"while ,9 is on 5,",H,isolated,D,male
+2,1,12:30:24 PM,,mount,:9,",9",,,,,H,isolated,D,male
+2,1,1:42:38 PM,,mount,:9,",4",,,,,H,isolated,I,male
+2,2,10:31:30 AM,,mount,:9,"9,",y,y,NA,,H,isolated,V,female
+2,2,10:32:17 AM,,mount,:9,"8,",n,NA,y,,H,isolated,U,female
+2,2,11:37:17 AM,,mount,:9,"0,",y,y,NA,,H,isolated,M,female
+2,2,11:36:28 AM,,mount,:9,",0",y,y,NA,,H,isolated,F,male
+2,2,12:14:13 PM,,mount,:9,",0",,,,,H,isolated,F,male
+3,1,8:01:17 AM,,mount,",1",",0",,,,,J,isolated,H,male
+3,1,8:01:32 AM,,mount,",5",:7,,,,,K,isolated,B,male
+3,1,8:02:02 AM,,mount,",9",:1,,,,,A,social,I,male
+3,1,8:03:51 AM,8:06:02 AM,insemination,",1","7,",n,NA,n,,J,isolated,T,female
+3,1,8:04:16 AM,8:05:57 AM,insemination,",4","0,",n,NA,n,,F,social,M,female
+3,1,8:04:34 AM,,mount,",7",:7,,,,,G,isolated,B,male
+3,1,8:06:44 AM,,mount,",2",",3",,,,,L,isolated,C,male
+3,1,8:06:54 AM,,mount,",2",",3",,,,,L,isolated,C,male
+3,1,8:07:53 AM,,insemination,",0","3,",n,NA,n,,H,isolated,P,female
+3,1,8:08:18 AM,,mount,",1","2,",y,y,NA,,J,isolated,O,female
+3,1,8:08:26 AM,,mount,",8",",6",,,,,E,social,D,male
+3,1,8:09:24 AM,,mount,",7",:7,,,,,G,isolated,B,male
+3,1,8:10:26 AM,,mount,",0","6,",y,y,NA,,H,isolated,S,female
+3,1,8:13:55 AM,,mount,",9",:1,,,,,A,social,I,male
+3,1,8:14:13 AM,,mount,",1","5,",n,NA,y,,J,isolated,R,female
+3,1,8:14:49 AM,8:18:27 AM,insemination,",1","5,",n,NA,n,,J,isolated,R,female
+3,1,8:15:41 AM,,mount,",7",:7,,,,,G,isolated,B,male
+3,1,8:16:19 AM,,mount,:1,",9",,,,,I,isolated,A,male
+3,1,8:19:10 AM,,mount,",2",",8",,,,,L,isolated,E,male
+3,1,8:21:22 AM,,mount,",5",",8",,,,,K,isolated,E,male
+3,1,8:21:32 AM,,mount,",5",",8",,,,,K,isolated,E,male
+3,1,8:21:39 AM,,mount,",1","7,",y,y,NA,,J,isolated,T,female
+3,1,8:23:39 AM,8:27:31 AM,insemination,",0","2,",n,NA,n,,H,isolated,O,female
+3,1,8:25:11 AM,,mount,",9",:1,,,,,A,social,I,male
+3,1,8:32:23 AM,,mount,",8",",5",,,,,E,social,K,male
+3,1,8:32:37 AM,,mount,",3",",8",,,,,C,social,E,male
+3,1,8:32:53 AM,,mount,",5",",3",,,,,K,isolated,C,male
+3,1,8:42:22 AM,,mount,:7,",7",,,,,B,social,G,male
+3,1,8:42:29 AM,,mount,",7",:7,,,,,G,isolated,B,male
+3,1,8:43:03 AM,8:44:40 AM,insemination,",0","6,",n,NA,n,,H,isolated,S,female
+3,1,8:43:45 AM,,mount,:7,",7",,,,,B,social,G,male
+3,1,8:46:16 AM,,mount,:7,",7",,,,,B,social,G,male
+3,1,8:54:03 AM,,mount,",0","7,",y,y,NA,,H,isolated,T,female
+3,1,9:13:55 AM,,mount,",6","0,",y,y,NA,,D,social,M,female
+3,1,9:16:29 AM,9:17:25 AM,insemination,:1,"2,",y,n,n,,I,isolated,O,female
+3,1,9:19:56 AM,,mount,:1,",9",,,,,I,isolated,A,male
+3,1,9:20:11 AM,,insemination,",9","2,",n,NA,n,,A,social,O,female
+3,1,9:21:52 AM,,mount,",7","0,",y,y,NA,,G,isolated,M,female
+3,1,9:23:22 AM,,mount,",2","0,",y,y,NA,,L,isolated,M,female
+3,1,9:27:17 AM,,mount,:1,"2,",y,y,NA,,I,isolated,O,female
+3,1,9:29:03 AM,,insemination,",5","1,",n,NA,n,,K,isolated,N,female
+3,1,9:30:17 AM,,mount,:7,"0,",y,y,NA,,B,social,M,female
+3,1,9:30:36 AM,,mount,",3",",8",,,,,C,social,E,male
+3,1,9:30:55 AM,,mount,",8",",5",,,,"while ,5 was inseminating 1,",E,social,K,male
+3,1,9:36:01 AM,,mount,",3",",5",,,,,C,social,K,male
+3,1,9:39:36 AM,9:40:00 AM,insemination,",9","2,",y,n,n,,A,social,O,female
+3,1,9:41:35 AM,,mount,",7",:7,,,,,G,isolated,B,male
+3,1,9:47:21 AM,9:49:52 AM,insemination,",7","2,",n,NA,n,,G,isolated,O,female
+3,1,9:54:58 AM,,mount,",3","9,",n,NA,y,,C,social,V,female
+3,1,10:09:20 AM,,mount,",1","6,",n,NA,y,,J,isolated,S,female
+3,1,10:09:55 AM,,mount,",0","6,",n,NA,y,,H,isolated,S,female
+3,1,10:15:27 AM,,mount,",5","9,",n,NA,y,,K,isolated,V,female
+3,1,10:15:44 AM,,mount,",5",",3",,,,,K,isolated,C,male
+3,1,10:18:50 AM,,mount,",7",:7,,,,,G,isolated,B,male
+3,1,10:20:51 AM,,mount,;7,",7",,,,,B,social,G,male
+3,1,10:22:18 AM,,mount,",7",;7,,,,,G,isolated,B,male
+3,1,10:22:40 AM,,mount,;7,",7",,,,,B,social,G,male
+3,1,10:23:37 AM,,mount,",2",;1,,,,,L,isolated,NA,female
+3,1,10:25:07 AM,,mount,",7",;7,,,,,G,isolated,B,male
+3,1,10:26:58 AM,,mount,;7,",7",,,,,B,social,G,male
+3,1,10:29:27 AM,,mount,",7",;7,,,,,G,isolated,B,male
+3,1,10:31:57 AM,,mount,",3",;7,,,,,C,social,B,male
+3,1,10:31:57 AM,,mount,",5",",3",,,,,K,isolated,C,male
+3,1,10:33:22 AM,,mount,",8",;7,,,,,E,social,B,male
+3,1,10:37:04 AM,,mount,;7,",5",,,,,B,social,K,male
+3,1,10:38:32 AM,,mount,",5",;7,,,,,K,isolated,B,male
+3,1,10:44:01 AM,10:49:22 AM,insemination,",7",1;,n,NA,n,,G,isolated,NA,female
+3,1,10:53:47 AM,,mount,",3","6,",y,n,y,weird sideways  mount,C,social,S,female
+3,1,11:05:05 AM,,mount,",8",",3",,,,,E,social,C,male
+3,1,11:09:36 AM,,mount,",5","0,",n,NA,y,,K,isolated,M,female
+3,1,11:30:35 AM,,mount,",5",:7,,,,,K,isolated,B,male
+3,1,11:39:39 AM,,mount,:1,",2",,,,,I,isolated,L,male
+3,1,12:00:54 PM,,mount,",8",1:00,n,NA,y,,E,social,X,female
+3,1,12:01:34 PM,12:02:10 PM,insemination,",8","6,",y,n,n,,E,social,S,female
+3,1,12:30:31 PM,,mount,",8","6,",n,NA,y,,E,social,S,female
+3,1,12:34:36 PM,,mount,:1,",0",,,,,I,isolated,H,male
+3,1,12:35:25 PM,,mount,",5",",8",,,,,K,isolated,E,male
+3,1,12:35:45 PM,,mount,",8",:7,,,,,E,social,B,male
+3,1,12:47:17 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,1,12:47:44 PM,,mount,",5","6,",y,n,y,,K,isolated,S,female
+3,1,12:48:44 PM,,mount,",3",",5",,,,,C,social,K,male
+3,1,12:49:03 PM,,mount,",5","6,",y,n,y,,K,isolated,S,female
+3,1,12:49:07 PM,,mount,",3","6,",y,n,y,,C,social,S,female
+3,1,12:50:20 PM,,mount,",2","0,",y,n,y,,L,isolated,M,female
+3,1,12:53:08 PM,12:54:23 PM,insemination,:1,"0,",n,NA,n,,I,isolated,M,female
+3,1,12:54:45 PM,12:55:33 PM,insemination,",2","6,",n,NA,n,,L,isolated,S,female
+3,1,1:34:41 PM,,mount,",8",",3",,,,,E,social,C,male
+3,1,1:38:38 PM,,mount,",8",",3",,,,,E,social,C,male
+3,1,1:38:45 PM,,mount,",3","0,",y,y,NA,,C,social,M,female
+3,1,1:39:18 PM,1:40:27 PM,insemination,",8","4,",y,n,n,,E,social,Q,female
+3,1,1:41:00 PM,,mount,",5",:7,,,,,K,isolated,B,male
+3,1,1:41:28 PM,,mount,",5",",8",,,,,K,isolated,E,male
+3,1,1:47:41 PM,,mount,:7,"6,",y,y,NA,,B,social,S,female
+3,1,1:54:03 PM,,mount,",5",0:00,y,n,y,,K,isolated,W,female
+3,1,1:54:34 PM,1:55:02 PM,insemination,",3","9,",y,n,n,,C,social,V,female
+3,1,2:10:28 PM,,mount,",3",",5",,,,,C,social,K,male
+3,1,2:18:13 PM,,mount,",0","5,",n,NA,y,,H,isolated,R,female
+3,1,2:29:29 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,1,2:29:47 PM,,mount,:1,",2",,,,,I,isolated,L,male
+3,1,2:43:05 PM,,mount,",5","7,",y,n,y,,K,isolated,T,female
+3,1,2:45:29 PM,,mount,",5",",8",,,,,K,isolated,E,male
+3,1,2:46:15 PM,,mount,",5",",8",,,,,K,isolated,E,male
+3,1,2:48:05 PM,,mount,:7,"4,",y,n,y,,B,social,Q,female
+3,1,2:49:00 PM,,mount,",8",",3",,,,,E,social,C,male
+3,1,3:09:15 PM,,mount,",3","6,",y,n,y,,C,social,S,female
+3,1,3:09:56 PM,,mount,",3","6,",n,NA,y,,C,social,S,female
+3,1,3:25:20 PM,,mount,",5",",3",,,,,K,isolated,C,male
+3,1,3:28:19 PM,,mount,",5","6,",y,y,NA,,K,isolated,S,female
+3,1,3:28:22 PM,,mount,",5","6,",y,n,y,,K,isolated,S,female
+3,1,3:28:47 PM,,mount,",8","6,",n,NA,y,,E,social,S,female
+3,1,3:29:54 PM,,mount,",3","8,",n,NA,y,,C,social,U,female
+3,1,3:31:01 PM,,mount,",5",",7",,,,,K,isolated,G,male
+3,1,3:36:23 PM,,mount,:1,"0,",y,n,y,,I,isolated,M,female
+3,1,3:37:07 PM,,mount,:1,",2",,,,,I,isolated,L,male
+3,1,3:39:23 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,1,3:40:31 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,1,3:44:50 PM,,mount,",0",",5",n,NA,y,,H,isolated,K,male
+3,2,9:18:38 AM,,mount,",9",",2",,,,,A,social,L,male
+3,2,9:18:49 AM,,mount,",2",",9",,,,,L,isolated,A,male
+3,2,9:55:00 AM,,insemination,:7,"6,",n,NA,n,,B,social,S,female
+3,2,10:46:08 AM,,mount,",5",:7,,,,,K,isolated,B,male
+3,2,10:46:53 AM,,mount,",5",:7,,,,,K,isolated,B,male
+3,2,10:48:37 AM,,mount,",2",:1,,,,,L,isolated,I,male
+3,2,10:53:49 AM,,mount,",5",",3",,,,,K,isolated,C,male
+3,2,11:32:31 AM,11:32:57 AM,insemination,",4","4,",n,NA,n,,F,social,Q,female
+3,2,11:34:29 AM,,mount,",6",",4",,,,,D,social,F,male
+3,2,12:06:19 PM,,mount,",1","5,",y,y,NA,,J,isolated,R,female
+3,2,12:11:33 PM,,mount,",1","5,",n,NA,y,,J,isolated,R,female
+3,2,12:16:46 PM,,mount,",4","4,",y,y,NA,,F,social,Q,female
+3,2,12:21:26 PM,,mount,:1,"0,",y,y,NA,,I,isolated,M,female
+3,2,12:22:14 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,2,12:22:14 PM,,mount,:1,",9",,,,,I,isolated,A,male
+3,2,12:33:59 PM,12:34:41 PM,insemination,:1,"0,",n,NA,n,,I,isolated,M,female
+3,2,12:34:01 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,2,12:34:45 PM,,mount,",9",:1,,,,,A,social,I,male
+3,2,12:52:31 PM,,mount,",2",",9",,,,,L,isolated,A,male
+3,2,1:15:20 PM,,mount,",5",",3",,,,,K,isolated,C,male
+3,2,1:15:53 PM,,mount,",3","0,",y,y,NA,,C,social,M,female
+3,2,1:15:59 PM,1:16:27 PM,insemination,",3","8,",n,NA,n,,C,social,U,female
+3,2,1:24:02 PM,,mount,",8","0,",y,y,NA,,E,social,M,female
+3,2,1:24:29 PM,,mount,",8","0,",y,n,y,,E,social,M,female
+3,2,1:27:18 PM,,mount,",8","0,",y,y,NA,,E,social,M,female
+3,2,1:41:08 PM,,mount,",3","2,",y,y,NA,,C,social,O,female
+3,2,1:41:33 PM,,mount,",3","8,",n,NA,y,,C,social,U,female
+3,2,2:20:26 PM,,insemination,",0","5,",n,NA,n,,H,isolated,R,female
+3,2,2:30:16 PM,,mount,",2",:1,,,,,L,isolated,I,male
+3,2,2:30:29 PM,,mount,",9",",2",,,,,A,social,L,male
+3,2,2:32:30 PM,,mount,",1","5,",y,y,NA,,J,isolated,R,female
+3,2,2:35:18 PM,,mount,",0","5,",y,y,NA,,H,isolated,R,female
+3,2,2:38:42 PM,,mount,",2",",9",,,,,L,isolated,A,male
+3,2,2:38:57 PM,,mount,",4",",6",,,,,F,social,D,male
+3,2,3:09:25 PM,,mount,",8","8,",n,NA,y,,E,social,U,female
+3,2,3:12:55 PM,,mount,:7,"8,",y,y,NA,,B,social,U,female
+3,2,3:20:35 PM,,mount,",3","8,",y,y,NA,,C,social,U,female
+3,2,3:35:28 PM,,mount,",3",:7,,,,,C,social,B,male
+3,2,3:39:38 PM,,mount,:7,",3",,,,,B,social,C,male
+3,2,3:39:54 PM,,mount,",3","8,",y,y,NA,,C,social,U,female
+4,1,8:01:13 AM,,mount,",8",",0",,,,,F,social,G,male
+4,1,8:01:15 AM,,mount,",0",",8",,,,,G,isolated,F,male
+4,1,8:01:25 AM,8:03:31 AM,insemination,",1",1:00,n,NA,n,,J,isolated,X,female
+4,1,8:01:41 AM,8:03:27 AM,insemination,",6","3,",n,NA,n,,C,social,P,female
+4,1,8:01:56 AM,,mount,:0,",4",,,,,K,isolated,I,male
+4,1,8:01:57 AM,,mount,",7",:0,,,,,A,social,K,male
+4,1,8:02:39 AM,,mount,",4",",4",,,,,I,isolated,I,male
+4,1,8:02:40 AM,,mount,:0,",7",,,,,K,isolated,A,male
+4,1,8:02:40 AM,,mount,:0,",0",,,,,K,isolated,G,male
+4,1,8:02:41 AM,,mount,",7",",0",,,,,A,social,G,male
+4,1,8:02:45 AM,,mount,:1,"8,",y,y,NA,,D,social,U,female
+4,1,8:03:04 AM,8:06:07 AM,insemination,:1,"2,",n,NA,n,,D,social,O,female
+4,1,8:03:43 AM,,mount,",8",",3",,,,,F,social,L,male
+4,1,8:03:50 AM,,mount,",1","6,",y,y,NA,,J,isolated,S,female
+4,1,8:04:15 AM,,mount,",8","0,",n,NA,y,,F,social,M,female
+4,1,8:04:41 AM,8:06:08 AM,insemination,",9",0:00,n,NA,n,,H,isolated,W,female
+4,1,8:05:02 AM,8:07:02 AM,insemination,",4",1:00,n,NA,n,,I,isolated,X,female
+4,1,8:05:20 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,8:05:44 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,8:06:39 AM,8:07:39 AM,insemination,",7","2,",n,NA,n,,A,social,O,female
+4,1,8:07:22 AM,8:10:21 AM,insemination,:1,"8,",n,NA,n,,D,social,U,female
+4,1,8:07:41 AM,8:10:28 AM,insemination,:0,"2,",y,n,n,,K,isolated,O,female
+4,1,8:07:59 AM,8:10:21 AM,insemination,",0","7,",n,NA,n,,G,isolated,T,female
+4,1,8:09:04 AM,,mount,",1","3,",y,y,NA,,J,isolated,P,female
+4,1,8:09:11 AM,8:10:47 AM,insemination,",6","6,",n,NA,n,,C,social,S,female
+4,1,8:09:46 AM,,mount,",9",",0",,,,,H,isolated,G,male
+4,1,8:10:00 AM,8:11:41 AM,insemination,",3","5,",n,NA,n,,L,isolated,R,female
+4,1,8:10:30 AM,8:11:27 AM,insemination,",7",0:00,n,NA,n,,A,social,W,female
+4,1,8:11:04 AM,,mount,",8",",5",,,,,F,social,B,male
+4,1,8:11:48 AM,,mount,",4",1:00,y,y,NA,,I,isolated,X,female
+4,1,8:12:17 AM,,mount,",5","0,",y,y,NA,,B,social,M,female
+4,1,8:12:31 AM,8:13:24 AM,insemination,:0,"7,",n,NA,n,,K,isolated,T,female
+4,1,8:13:29 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,8:14:33 AM,8:16:08 AM,insemination,",9","1,",n,NA,n,,H,isolated,N,female
+4,1,8:14:48 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,8:17:14 AM,,mount,",8","5,",y,y,NA,,F,social,R,female
+4,1,8:17:26 AM,,mount,",6",",1",,,,,C,social,J,male
+4,1,8:17:32 AM,,mount,:0,"3,",y,y,NA,,K,isolated,P,female
+4,1,8:17:50 AM,,insemination,",8","5,",n,NA,n,,F,social,R,female
+4,1,8:18:26 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,8:19:50 AM,,mount,:1,"2,",y,n,y,,D,social,O,female
+4,1,8:20:06 AM,,mount,",6",",1",,,,,C,social,J,male
+4,1,8:20:19 AM,,mount,:0,"3,",y,y,NA,,K,isolated,P,female
+4,1,8:25:06 AM,,mount,",6",",1",,,,,C,social,J,male
+4,1,8:27:03 AM,,mount,:0,1:00,y,n,y,,K,isolated,X,female
+4,1,8:27:15 AM,,mount,:1,"8,",y,y,NA,,D,social,U,female
+4,1,8:27:40 AM,,mount,",4",0:00,y,y,NA,,I,isolated,W,female
+4,1,8:27:55 AM,,mount,:0,"9,",y,y,NA,,K,isolated,V,female
+4,1,8:28:07 AM,8:31:21 AM,insemination,",0","9,",y,n,n,,G,isolated,V,female
+4,1,8:28:19 AM,,mount,",9",",0",,,,"while ,0 was on 9,",H,isolated,G,male
+4,1,8:28:46 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,8:29:11 AM,8:30:08 AM,insemination,",3","2,",n,NA,n,,L,isolated,O,female
+4,1,8:29:47 AM,8:31:11 AM,insemination,:0,"4,",n,NA,n,,K,isolated,Q,female
+4,1,8:31:24 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,8:32:06 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,8:32:15 AM,8:34:13 AM,insemination,",5","0,",n,NA,n,,B,social,M,female
+4,1,8:32:40 AM,,mount,",0",",9",,,,,G,isolated,H,male
+4,1,8:33:20 AM,,mount,",9",:0,,,,":0 is still on 4,",H,isolated,K,male
+4,1,8:36:12 AM,,mount,",6","7,",y,y,NA,,C,social,T,female
+4,1,8:38:07 AM,8:38:51 AM,insemination,:1,"8,",n,NA,n,,D,social,U,female
+4,1,8:39:54 AM,,mount,",1","6,",y,y,NA,,J,isolated,S,female
+4,1,8:40:12 AM,,insemination,",0","9,",n,NA,n,,G,isolated,V,female
+4,1,8:40:55 AM,,mount,",4","2,",y,y,NA,,I,isolated,O,female
+4,1,8:42:22 AM,,mount,",3","0,",y,y,NA,,L,isolated,M,female
+4,1,8:43:04 AM,,mount,",8","0,",y,y,NA,,F,social,M,female
+4,1,8:46:33 AM,,mount,",8",1:00,y,y,NA,,F,social,X,female
+4,1,8:46:55 AM,,mount,",3",1:00,y,y,NA,,L,isolated,X,female
+4,1,8:48:42 AM,,mount,:1,"7,",y,n,y,,D,social,T,female
+4,1,8:49:28 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,8:50:07 AM,,mount,",3",",8",,,,,L,isolated,F,male
+4,1,8:51:27 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,8:51:38 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,8:52:11 AM,,mount,:1,"7,",y,y,NA,,D,social,T,female
+4,1,8:52:33 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,8:53:12 AM,,mount,",3",",8",,,,,L,isolated,F,male
+4,1,8:53:33 AM,,mount,:1,"7,",y,y,NA,,D,social,T,female
+4,1,8:54:17 AM,,mount,",6",",1",,,,,C,social,J,male
+4,1,8:54:22 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,9:00:04 AM,9:01:05 AM,insemination,:1,"7,",n,NA,n,,D,social,T,female
+4,1,9:03:03 AM,,mount,:1,"2,",y,y,NA,,D,social,O,female
+4,1,9:09:37 AM,,insemination,",1","6,",n,NA,n,,J,isolated,S,female
+4,1,9:09:45 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,9:10:44 AM,,mount,:1,"7,",y,y,NA,,D,social,T,female
+4,1,9:12:31 AM,,mount,:1,"8,",n,NA,y,,D,social,U,female
+4,1,9:13:50 AM,,mount,",1","9,",y,y,NA,,J,isolated,V,female
+4,1,9:15:30 AM,,mount,",7",:1,,,,,A,social,D,male
+4,1,9:15:44 AM,,mount,:1,",7",,,,,D,social,A,male
+4,1,9:15:49 AM,,mount,",0",0:00,y,y,NA,,G,isolated,W,female
+4,1,9:17:11 AM,,mount,",3","9,",y,y,NA,,L,isolated,V,female
+4,1,9:17:12 AM,,mount,",8",1:00,y,y,NA,,F,social,X,female
+4,1,9:18:31 AM,,mount,:1,",7",,,,,D,social,A,male
+4,1,9:18:43 AM,,mount,",7",:1,,,,,A,social,D,male
+4,1,9:18:45 AM,,mount,",7",:1,,,,,A,social,D,male
+4,1,9:21:32 AM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female
+4,1,9:21:49 AM,,mount,:0,"2,",n,NA,y,,K,isolated,O,female
+4,1,9:21:52 AM,,mount,:1,1:00,n,NA,y,,D,social,X,female
+4,1,9:29:54 AM,,mount,",4","7,",y,y,NA,,I,isolated,T,female
+4,1,9:33:48 AM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female
+4,1,9:35:20 AM,,mount,:0,0:00,y,y,NA,,K,isolated,W,female
+4,1,9:38:33 AM,,mount,:0,0:00,n,NA,y,,K,isolated,W,female
+4,1,9:40:20 AM,,mount,:0,0:00,n,NA,y,,K,isolated,W,female
+4,1,9:48:09 AM,9:48:53 AM,insemination,",0",1:00,y,n,n,,G,isolated,X,female
+4,1,9:48:38 AM,,mount,",8",",5",,,,,F,social,B,male
+4,1,9:49:05 AM,,mount,",3",",8",,,,,L,isolated,F,male
+4,1,9:53:32 AM,,insemination,",4","1,",n,NA,n,,I,isolated,N,female
+4,1,9:54:25 AM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female
+4,1,10:05:37 AM,,mount,:0,0:00,n,NA,y,,K,isolated,W,female
+4,1,10:09:55 AM,,mount,",4",0;,y,y,NA,,I,isolated,NA,female
+4,1,10:11:58 AM,,mount,",4","1,",y,y,n,refusal stance,I,isolated,N,female
+4,1,10:16:34 AM,,mount,",7","0,",n,NA,y,,A,social,M,female
+4,1,10:17:17 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,10:19:16 AM,,mount,;0,"7,",n,NA,y,,K,isolated,T,female
+4,1,10:19:56 AM,,mount,;0,0;,n,NA,y,,K,isolated,NA,female
+4,1,10:29:11 AM,,mount,;0,"7,",n,NA,y,,K,isolated,T,female
+4,1,10:36:05 AM,,mount,",4","7,",y,y,NA,,I,isolated,T,female
+4,1,10:39:39 AM,,mount,",4","7,",y,y,NA,,I,isolated,T,female
+4,1,10:53:12 AM,,mount,;0,",0",,,,,K,isolated,G,male
+4,1,10:54:00 AM,,mount,",0",;0,,,,,G,isolated,K,male
+4,1,10:54:25 AM,,mount,;0,",0",,,,,K,isolated,G,male
+4,1,11:11:09 AM,,mount,",3","8,",n,NA,y,,L,isolated,U,female
+4,1,11:11:35 AM,,mount,",5",",3",,,,,B,social,L,male
+4,1,11:13:28 AM,,mount,",1","6,",n,NA,y,,J,isolated,S,female
+4,1,11:44:15 AM,,mount,:1,",2",,,,,D,social,E,male
+4,1,11:48:59 AM,,mount,",4",0:00,y,y,n,female pressed right against wall,I,isolated,W,female
+4,1,11:51:16 AM,,mount,",1","6,",y,n,y,,J,isolated,S,female
+4,1,12:02:13 PM,,mount,",5",",3",,,,,B,social,L,male
+4,1,12:05:10 PM,12:07:19 PM,insemination,",0","4,",y,n,n,,G,isolated,Q,female
+4,1,12:09:49 PM,,mount,",8",",7",,,,,F,social,A,male
+4,1,12:11:27 PM,,mount,",8",",7",,,,,F,social,A,male
+4,1,12:16:01 PM,,mount,",5",",3",,,,,B,social,L,male
+4,1,12:25:27 PM,,mount,",3",",7",,,,,L,isolated,A,male
+4,1,12:25:58 PM,,mount,",8","0,",y,y,NA,,F,social,M,female
+4,1,12:27:42 PM,,mount,",2",:1,,,,,E,social,D,male
+4,1,12:29:34 PM,,mount,",8","0,",y,n,y,,F,social,M,female
+4,1,12:36:12 PM,,mount,",4",0:00,y,y,NA,,I,isolated,W,female
+4,1,12:36:47 PM,12:38:40 PM,insemination,",4",0:00,y,n,n,sideways kind of lots of avoidance from female,I,isolated,W,female
+4,1,12:38:49 PM,,mount,",9","3,",n,NA,y,,H,isolated,P,female
+4,1,12:39:38 PM,,mount,",9","3,",y,y,NA,,H,isolated,P,female
+4,1,12:43:10 PM,,mount,",3",",7",,,,,L,isolated,A,male
+4,1,12:45:35 PM,,mount,:0,"3,",y,y,NA,,K,isolated,P,female
+4,1,12:47:57 PM,,mount,",0","3,",y,y,NA,,G,isolated,P,female
+4,1,12:54:00 PM,,mount,",0","3,",y,y,NA,,G,isolated,P,female
+4,1,12:54:07 PM,,mount,:0,"4,",y,y,NA,,K,isolated,Q,female
+4,1,1:09:38 PM,,mount,",2","4,",y,y,NA,,E,social,Q,female
+4,1,1:09:57 PM,,mount,",2","4,",y,y,NA,,E,social,Q,female
+4,1,1:10:27 PM,,mount,",4",0:00,n,NA,y,female pressed right against wall,I,isolated,W,female
+4,1,1:13:23 PM,,mount,",1","8,",y,n,y,female pressed right against wall,J,isolated,U,female
+4,1,1:14:55 PM,,mount,:1,0:00,y,y,NA,,D,social,W,female
+4,1,1:18:13 PM,1:18:39 PM,insemination,",6","8,",n,NA,n,,C,social,U,female
+4,1,1:23:59 PM,,mount,:1,0:00,y,y,NA,,D,social,W,female
+4,1,1:24:25 PM,,mount,:1,"7,",y,y,NA,,D,social,T,female
+4,1,1:25:43 PM,,mount,",4","1,",y,n,y,,I,isolated,N,female
+4,1,1:26:42 PM,,mount,",5","6,",y,y,NA,,B,social,S,female
+4,1,1:32:41 PM,,mount,",4","3,",n,NA,y,,I,isolated,P,female
+4,1,1:39:11 PM,,insemination,",2",0:00,y,n,n,"the female kind of successfully avoided, looks like she got away mid insemination",E,social,W,female
+4,1,1:40:03 PM,1:40:55 PM,insemination,",4","7,",n,NA,n,,I,isolated,T,female
+4,1,1:49:28 PM,,mount,",5",",3",,,,,B,social,L,male
+4,1,1:49:32 PM,,mount,",8",",5",,,,,F,social,B,male
+4,1,1:49:33 PM,,mount,",8",",5",,,,,F,social,B,male
+4,1,1:49:53 PM,,mount,",5","5,",y,n,y,,B,social,R,female
+4,1,1:51:38 PM,,mount,",8","3,",n,NA,y,,F,social,P,female
+4,1,1:52:49 PM,,mount,",3","3,",y,y,NA,,L,isolated,P,female
+4,1,1:53:48 PM,,mount,",3","3,",y,y,NA,,L,isolated,P,female
+4,1,1:54:58 PM,,mount,",8","3,",n,NA,y,,F,social,P,female
+4,1,2:03:21 PM,,mount,",3","5,",y,n,y,,L,isolated,R,female
+4,1,2:09:35 PM,,mount,",6",",1",,,,,C,social,J,male
+4,1,2:12:39 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,2:13:46 PM,,mount,",5","6,",y,n,y,,B,social,S,female
+4,1,2:15:09 PM,,mount,",2","0,",y,y,NA,,E,social,M,female
+4,1,2:21:26 PM,,mount,:0,0:00,y,y,NA,,K,isolated,W,female
+4,1,2:22:18 PM,,mount,",5","5,",y,y,NA,,B,social,R,female
+4,1,2:22:32 PM,,mount,",8","5,",y,y,NA,,F,social,R,female
+4,1,2:22:36 PM,,insemination,",8","5,",n,NA,n,,F,social,R,female
+4,1,2:28:28 PM,,mount,",4",",2",,,,,I,isolated,E,male
+4,1,2:28:54 PM,,mount,",3","3,",n,NA,y,,L,isolated,P,female
+4,1,2:34:27 PM,,mount,",2","0,",n,NA,y,,E,social,M,female
+4,1,2:35:09 PM,,mount,",4",",2",,,,,I,isolated,E,male
+4,1,2:35:23 PM,,mount,",4","0,",n,NA,y,,I,isolated,M,female
+4,1,2:40:46 PM,,mount,",8","5,",n,NA,y,,F,social,R,female
+4,1,2:43:03 PM,,mount,",9","0,",n,NA,y,,H,isolated,M,female
+4,1,2:52:04 PM,,mount,",3","5,",n,NA,y,,L,isolated,R,female
+4,1,3:09:12 PM,,mount,:0,"7,",y,y,NA,,K,isolated,T,female
+4,1,3:14:49 PM,,mount,",3","5,",n,NA,y,,L,isolated,R,female
+4,1,3:17:10 PM,,mount,",3","5,",n,NA,y,,L,isolated,R,female
+4,1,3:17:12 PM,,mount,",5",",3",,,,,B,social,L,male
+4,1,3:21:01 PM,,mount,;0,",0",,,,,K,isolated,G,male
+4,1,3:24:30 PM,,mount,",6","2,",n,NA,y,,C,social,O,female
+4,1,3:26:02 PM,,mount,",2","0,",n,NA,y,,E,social,M,female
+4,1,3:30:27 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,1,3:31:24 PM,,mount,",1","2,",y,y,NA,,J,isolated,O,female
+4,1,3:41:25 PM,,mount,",8","3,",n,NA,y,,F,social,P,female
+4,1,3:42:52 PM,,mount,",8","3,",n,NA,y,,F,social,P,female
+4,1,3:47:04 PM,,mount,",3","9,",n,NA,y,,L,isolated,V,female
+4,1,3:48:43 PM,,mount,",6",",1",,,,,C,social,J,male
+4,2,8:26:54 AM,,mount,",6","2,",n,NA,y,,C,social,O,female
+4,2,9:23:02 AM,,mount,",6",",1",,,,,C,social,J,male
+4,2,9:28:34 AM,,mount,",4",",2",,,,,I,isolated,E,male
+4,2,9:32:02 AM,,mount,",2",",4",,,,,E,social,I,male
+4,2,9:32:17 AM,,mount,",4",",2",,,,,I,isolated,E,male
+4,2,9:32:55 AM,,mount,",6","8,",n,NA,y,,C,social,U,female
+4,2,9:45:40 AM,,mount,",6","2,",y,y,NA,,C,social,O,female
+4,2,10:34:43 AM,,mount,",8",",3",,,,,F,social,L,male
+4,2,11:16:16 AM,,mount,",3",",8",,,,,L,isolated,F,male
+4,2,11:25:14 AM,,mount,",6",",1",,,,,C,social,J,male
+4,2,11:36:56 AM,,mount,",2","6,",y,y,NA,,E,social,S,female
+4,2,11:45:31 AM,,mount,",4",",2",,,,,I,isolated,E,male
+4,2,11:49:10 AM,11:50:20 AM,insemination,",6","8,",n,NA,n,,C,social,U,female
+4,2,11:50:52 AM,,mount,",1",",6",,,,,J,isolated,C,male
+4,2,12:08:05 PM,12:09:52 PM,insemination,:0,"7,",n,NA,n,,K,isolated,T,female
+4,2,12:17:06 PM,,mount,",6","8,",y,n,y,,C,social,U,female
+4,2,12:17:41 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,2,12:18:05 PM,,insemination,",1","8,",y,n,n,,J,isolated,U,female
+4,2,12:28:21 PM,,mount,:1,",9",,,,,D,social,H,male
+4,2,12:29:10 PM,12:29:50 PM,insemination,",8","9,",n,NA,n,,F,social,V,female
+4,2,12:30:21 PM,,mount,",0",",8",,,,,G,isolated,F,male
+4,2,12:34:22 PM,,mount,",3",0:00,y,y,NA,,L,isolated,W,female
+4,2,12:34:48 PM,,mount,",5",",3",,,,,B,social,L,male
+4,2,12:34:51 PM,,mount,",3",",5",,,,,L,isolated,B,male
+4,2,12:34:53 PM,,mount,",8",",0",,,,,F,social,G,male
+4,2,12:34:56 PM,,mount,",5",0:00,y,y,NA,,B,social,W,female
+4,2,12:38:08 PM,,mount,",0",",3",,,,,G,isolated,L,male
+4,2,12:38:28 PM,,mount,",3",",0",,,,,L,isolated,G,male
+4,2,12:40:07 PM,,mount,",3",",0",,,,,L,isolated,G,male
+4,2,12:40:33 PM,,mount,",7",",3",,,,,A,social,L,male
+4,2,12:41:16 PM,,mount,",5",0:00,y,y,NA,,B,social,W,female
+4,2,12:41:21 PM,,mount,",3",",0",,,,,L,isolated,G,male
+4,2,12:41:30 PM,,mount,",7",0:00,y,y,NA,,A,social,W,female
+4,2,12:47:23 PM,,mount,",6",",1",,,,,C,social,J,male
+4,2,12:48:19 PM,,mount,",5",",8",,,,,B,social,F,male
+4,2,12:51:42 PM,,mount,",7",",0",,,,,A,social,G,male
+4,2,12:52:18 PM,,mount,",5",",3",,,,,B,social,L,male
+4,2,12:54:44 PM,,mount,",9",:1,,,,,H,isolated,D,male
+4,2,1:04:55 PM,,mount,",0",",7",,,,,G,isolated,A,male
+4,2,1:07:30 PM,,insemination,",5",0:00,Y,N,N,,B,social,W,female
+4,2,1:32:34 PM,,mount,",4","7,",N,NA,Y,,I,isolated,T,female
+4,2,1:34:42 PM,,mount,",2","7,",Y,n,y,,E,social,T,female
+4,2,1:37:07 PM,,mount,",5",",8",,,,,B,social,F,male
+4,2,2:11:02 PM,2:11:44 PM,insemination,:0,"8,",n,NA,n,,K,isolated,U,female
+4,2,2:18:27 PM,,mount,",4",",2",,,,,I,isolated,E,male
+4,2,2:24:35 PM,2:25:11 PM,insemination,:1,"9,",n,NA,n,,D,social,V,female
+4,2,2:25:36 PM,,mount,",3",",8",,,,,L,isolated,F,male
+4,2,2:34:05 PM,,mount,:1,",",n,NA,y,NEED TO EXCLUDE FROM NETWORK BECASE WE DON'T KNOW THE FEMALE,D,social,NA,female
+4,2,2:38:16 PM,,mount,",6",",1",,,,,C,social,J,male
+4,2,2:39:16 PM,,mount,",3",0:00,n,NA,y,,L,isolated,W,female
+4,2,2:39:33 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,2,3:19:16 PM,,mount,:0,"6,",y,n,y,,K,isolated,S,female
+4,2,3:23:15 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,2,3:24:25 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,2,3:24:29 PM,,mount,",6",",1",,,,,C,social,J,male
+4,2,3:37:45 PM,,mount,",6",",1",,,,,C,social,J,male
+4,2,3:38:28 PM,,mount,",1",1:00,y,n,y,,J,isolated,X,female
+4,2,3:39:31 PM,,mount,",1",",6",,,,,J,isolated,C,male
+4,2,3:39:56 PM,3:40:38 PM,insemination,",1",1:00,y,n,n,,J,isolated,X,female
+4,2,3:42:33 PM,,mount,",6","2,",y,n,y,,C,social,O,female
+5,1,8:10:30 AM,8:11:02 AM,insemination,",0","4,",y,n,n,,A,social,Q,female
+5,1,9:38:01 AM,,mount,",0","2,",y,n,n,,A,social,O,female
+5,1,1:29:52 PM,1:30:42 PM,insemination,",4",1:00,y,n,n,,D,social,X,female
+5,1,12:39:39 PM,12:40:06 PM,insemination,",6","4,",y,n,n,,H,isolated,Q,female
+5,1,8:02:24 AM,8:04:36 AM,insemination,",7",1:00,n,NA,n,,L,isolated,X,female
+5,1,12:31:18 PM,12:32:42 PM,insemination,",1","0,",y,n,,,C,social,M,female
+5,1,2:53:11 PM,,mount,",3",4:00,n,NA,y,,G,isolated,W,female
+5,1,8:19:44 AM,,mount,",5",4:00,n,NA,y,,E,social,W,female
+5,1,9:12:37 AM,9:13:11 AM,insemination,",8",4:00,n,NA,n,,J,isolated,W,female
+5,1,12:37:52 PM,,mount,",8",4:00,,,,,J,isolated,W,female
+5,1,8:07:40 AM,,insemination,:7,4:00,n,NA,n,,B,social,W,female
+5,1,8:50:15 AM,8:51:09 AM,insemination,:7,4:00,n,NA,n,,B,social,W,female
+5,1,8:09:13 AM,,mount,",1","3,",y,y,NA,,C,social,P,female
+5,1,8:35:16 AM,,mount,",3",7:00,n,NA,y,,G,isolated,N,female
+5,1,8:36:41 AM,8:37:41 AM,insemination,",3",7:00,n,NA,n,,G,isolated,N,female
+5,1,11:25:40 AM,,mount,",3",7:00,n,NA,y,,G,isolated,N,female
+5,1,1:39:48 PM,1:41:23 PM,insemination,",6","7,",y,n,n,,H,isolated,T,female
+5,1,11:40:30 AM,11:42:40 AM,insemination,",6","8,",y,n,n,,H,isolated,U,female
+5,1,11:46:31 AM,11:47:01 AM,insemination,",6","8,",y,n,n,,H,isolated,U,female
+5,1,1:54:30 PM,,mount,",6","8,",y,n,y,,H,isolated,U,female
+5,1,2:50:00 PM,,mount,",6",7:00,n,NA,y,,H,isolated,N,female
+5,1,2:34:25 PM,,mount,",6","6,",n,NA,y,,H,isolated,S,female
+5,1,8:51:39 AM,,mount,",8",",0",,,,,J,isolated,A,male
+5,1,11:36:49 AM,,mount,",8",",5",,,,,J,isolated,E,male
+5,1,2:31:50 PM,,mount,:1,"6,",n,NA,y,,K,isolated,S,female
+5,1,1:44:48 PM,,mount,",6","7,",n,NA,y,,H,isolated,T,female
+5,1,8:05:51 AM,,mount,:1,",0",,,,,K,isolated,A,male
+5,1,10:12:46 AM,,mount,",4",",0",,,,,D,social,A,male
+5,1,10:34:00 AM,,mount,",4",",0",,,,,D,social,A,male
+5,1,11:38:05 AM,,mount,",4",",0",,,,,D,social,A,male
+5,1,11:38:27 AM,,mount,",4",",0",,,,,D,social,A,male
+5,1,12:43:31 PM,,mount,",4",",0",,,,,D,social,A,male
+5,1,8:37:24 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:38:07 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:39:59 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:44:55 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:45:11 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:46:11 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:46:52 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:49:04 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,10:10:17 AM,,mount,",7",",0",,,,,L,isolated,A,male
+5,1,8:45:17 AM,,mount,",8",",7",,,,,J,isolated,L,male
+5,1,8:05:27 AM,,mount,",9",",0",,,,,F,social,A,male
+5,1,8:22:14 AM,,mount,",9",",0",,,,,F,social,A,male
+5,1,9:39:03 AM,,mount,:0,",0",,,,,I,isolated,A,male
+5,1,9:39:51 AM,,mount,:0,",0",,,,,I,isolated,A,male
+5,1,10:07:06 AM,,mount,:0,",0",,,,,I,isolated,A,male
+5,1,10:09:07 AM,,mount,:0,",0",,,,,I,isolated,A,male
+5,1,8:41:50 AM,,mount,:1,",0",,,,,K,isolated,A,male
+5,1,8:44:04 AM,,mount,:1,",0",,,,,K,isolated,A,male
+5,1,8:44:27 AM,,mount,:1,",0",,,,,K,isolated,A,male
+5,1,8:46:42 AM,,mount,:1,",0",,,,,K,isolated,A,male
+5,1,8:49:43 AM,,mount,:1,",0",,,,,K,isolated,A,male
+5,1,12:19:50 PM,,mount,:1,",6",,,,,K,isolated,H,male
+5,1,,,mount,",3",",1",,,,Jack accidentally deleted the time and saved,G,isolated,C,male
+5,1,3:18:51 PM,,mount,",3","0,",n,NA,y,,G,isolated,M,female
+5,1,1:21:04 PM,1:21:45 PM,insemination,",1","6,",n,NA,n,,C,social,S,female
+5,1,8:35:40 AM,8:36:04 AM,insemination,",1","7,",y,n,n,,C,social,T,female
+5,1,9:23:29 AM,,mount,",7",",4",,,,,L,isolated,D,male
+5,1,8:16:16 AM,,mount,",0","4,",y,n,y,,A,social,Q,female
+5,1,8:03:45 AM,8:04:50 AM,insemination,",1","9,",n,NA,n,,C,social,V,female
+5,1,8:48:19 AM,,mount,",8",",7",,,,,J,isolated,L,male
+5,1,8:06:50 AM,,mount,:0,",5",,,,,I,isolated,E,male
+5,1,12:21:31 PM,,mount,:0,",5",,,,,I,isolated,E,male
+5,1,9:17:58 AM,,mount,:0,",7",,,,,I,isolated,L,male
+5,1,9:18:40 AM,,mount,:0,",7",,,,,I,isolated,L,male
+5,1,10:42:09 AM,,mount,:7,",5",,,,,B,social,E,male
+5,1,2:49:28 PM,,mount,:7,",5",,,,,B,social,E,male
+5,2,10:17:58 AM,,mount,:7,",5",,,,,B,social,E,male
+5,2,2:14:50 PM,,mount,:7,",5",,,,,B,social,E,male
+5,1,8:02:38 AM,,mount,:1,",7",,,,"while ,7 on 1:",K,isolated,L,male
+5,1,1:51:47 PM,,mount,",6",1:00,n,,y,,H,isolated,X,female
+5,1,8:18:02 AM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,8:19:02 AM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,11:51:51 AM,,mount,",9",",7",,,,,F,social,L,male
+5,1,8:09:30 AM,,mount,",9",",8",,,,"while ,8 on 7,",F,social,J,male
+5,1,9:19:05 AM,,mount,:0,",7",,,,,I,isolated,L,male
+5,1,10:46:46 AM,,mount,:0,",7",,,,,I,isolated,L,male
+5,1,11:34:36 AM,,mount,:0,",8",,,,,I,isolated,J,male
+5,1,12:39:18 PM,,mount,:0,",8",,,,,I,isolated,J,male
+5,1,8:47:15 AM,,mount,:1,",7",,,,,K,isolated,L,male
+5,1,8:05:33 AM,,mount,:1,",9",,,,,K,isolated,F,male
+5,1,8:20:45 AM,,mount,",0","8,",y,n,y,,A,social,U,female
+5,1,10:37:49 AM,,mount,",5",",8",,,,,E,social,J,male
+5,1,11:19:48 AM,,mount,",5",",8",,,,,E,social,J,male
+5,1,8:30:17 AM,,mount,",7",",8",,,,,L,isolated,J,male
+5,1,8:30:57 AM,,mount,",7",",8",,,,,L,isolated,J,male
+5,1,9:10:17 AM,,mount,",7",",8",,,,,L,isolated,J,male
+5,1,8:00:45 AM,,mount,",7",:1,,,,,L,isolated,K,male
+5,1,8:18:49 AM,,mount,",9",",8",,,,,F,social,J,male
+5,1,8:05:56 AM,,mount,",9",:1,,,,,F,social,K,male
+5,1,8:22:27 AM,,mount,",9",:1,,,,,F,social,K,male
+5,1,8:01:02 AM,,insemination,",9","4,",n,NA,n,,F,social,Q,female
+5,1,9:14:19 AM,,mount,:0,:1,,,,"while :1 was on 8,",I,isolated,K,male
+5,1,9:18:14 AM,,mount,:0,:1,,,,,I,isolated,K,male
+5,1,8:04:52 AM,,mount,",4",",9",,,,,D,social,F,male
+5,1,8:05:00 AM,,mount,",4",",9",,,,,D,social,F,male
+5,1,8:47:01 AM,,mount,",7",:1,,,,,L,isolated,K,male
+5,1,8:24:40 AM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,2:31:20 PM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,3:41:51 PM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,3:42:10 PM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,3:42:56 PM,,mount,",8",",9",,,,,J,isolated,F,male
+5,1,1:53:30 PM,,mount,",8",:0,,,,,J,isolated,I,male
+5,1,8:01:18 AM,,insemination,",8","3,",n,NA,n,,J,isolated,P,female
+5,1,8:06:17 AM,,insemination,",8","7,",n,NA,n,,J,isolated,T,female
+5,1,8:06:26 AM,,mount,:1,",9",,,,,K,isolated,F,male
+5,1,8:23:02 AM,,mount,:1,",9",,,,,K,isolated,F,male
+5,1,9:30:36 AM,,mount,:1,:0,,,,,K,isolated,I,male
+5,1,1:18:36 PM,,mount,",0","4,",n,NA,y,,A,social,Q,female
+5,1,11:34:54 AM,,mount,",5",:0,,,,,E,social,I,male
+5,1,11:41:15 AM,,mount,",5",:0,,,,,E,social,I,male
+5,1,12:51:30 PM,,mount,",5",:1,,,,,E,social,K,male
+5,1,8:19:12 AM,,mount,",8","8,",n,NA,y,,J,isolated,U,female
+5,1,11:46:04 AM,,mount,:1,"4,",y,y,NA,,K,isolated,Q,female
+5,1,3:17:05 PM,,mount,:7,:0,,,,,B,social,I,male
+5,2,9:13:29 AM,,mount,:7,:0,,,,,B,social,I,male
+5,2,10:17:43 AM,,mount,:7,:0,,,,,B,social,I,male
+5,1,8:17:14 AM,,mount,",0","8,",n,NA,y,,A,social,U,female
+5,1,8:26:48 AM,,mount,",0","8,",n,NA,y,,A,social,U,female
+5,1,9:34:57 AM,,mount,",0","2,",y,y,NA,,A,social,O,female
+5,1,8:36:33 AM,,mount,",5",:7,,,,,E,social,B,male
+5,1,10:17:04 AM,,mount,",6",",7",,,,,H,isolated,L,male
+5,1,9:26:37 AM,,mount,",6",:1,,,,,H,isolated,K,male
+5,1,12:21:03 PM,,mount,",6",:1,,,,,H,isolated,K,male
+5,2,1:46:43 PM,1:47:43 PM,insemination,",6","8,",y,n,n,,H,isolated,U,female
+5,1,8:48:11 AM,,mount,",7",:1,,,,,L,isolated,K,male
+5,1,9:18:56 AM,,mount,",7",:1,,,,,L,isolated,K,male
+5,1,1:02:58 PM,,mount,",7","0,",y,y,NA,,L,isolated,M,female
+5,1,9:20:27 AM,,mount,",7","2,",y,y,NA,,L,isolated,O,female
+5,1,8:11:41 AM,,mount,",9","4,",y,n,y,,F,social,Q,female
+5,1,8:16:44 AM,,mount,",9","4,",n,NA,y,,F,social,Q,female
+5,1,9:18:35 AM,,mount,:0,:1,,,,,I,isolated,K,male
+5,1,9:19:49 AM,,mount,:0,:1,,,,,I,isolated,K,male
+5,1,9:24:35 AM,,mount,:0,:1,,,,,I,isolated,K,male
+5,1,9:28:03 AM,,mount,:0,:1,,,,,I,isolated,K,male
+5,1,9:09:20 AM,,mount,:0,"2,",n,NA,y,,I,isolated,O,female
+5,1,9:10:03 AM,,mount,:0,"2,",y,n,y,,I,isolated,O,female
+5,1,8:51:12 AM,,mount,",5",:7,,,,,E,social,B,male
+5,1,11:54:41 AM,11:55:14 AM,insemination,",5","4,",y,n,n,,E,social,Q,female
+5,1,3:15:21 PM,,mount,",5","6,",n,NA,y,,E,social,S,female
+5,2,11:14:08 AM,11:15:08 AM,insemination,",6","8,",n,NA,n,,H,isolated,U,female
+5,1,11:21:56 AM,,mount,",1","9,",n,NA,y,,C,social,V,female
+5,1,3:19:20 PM,,mount,",3","0,",n,NA,y,,G,isolated,M,female
+5,1,8:03:54 AM,,insemination,",3","2,",n,NA,n,,G,isolated,O,female
+5,1,10:24:34 AM,10:26:10 AM,insemination,",7","2,",n,NA,n,,L,isolated,O,female
+5,1,8:13:31 AM,,mount,",0","4,",y,y,NA,,A,social,Q,female
+5,1,8:03:35 AM,,mount,",0","8,",y,y,NA,,A,social,U,female
+5,1,8:08:13 AM,,insemination,",3","5,",n,NA,n,,G,isolated,R,female
+5,1,10:31:20 AM,,mount,",7","2,",y,y,NA,,L,isolated,O,female
+5,1,10:35:42 AM,,mount,",7","2,",y,y,NA,,L,isolated,O,female
+5,1,9:07:11 AM,,mount,",7","4,",n,NA,y,,L,isolated,Q,female
+5,1,10:16:31 AM,10:17:23 AM,insemination,",7","5,",n,NA,n,,L,isolated,R,female
+5,1,9:19:34 AM,,mount,:0,"2,",y,y,NA,,I,isolated,O,female
+5,1,9:24:19 AM,,mount,:0,"2,",y,y,NA,,I,isolated,O,female
+5,1,9:38:37 AM,,mount,:0,"2,",y,n,y,,I,isolated,O,female
+5,1,9:53:44 AM,,mount,:0,"2,",y,y,NA,,I,isolated,O,female
+5,1,11:32:29 AM,,mount,:0,"2,",y,n,y,,I,isolated,O,female
+5,1,12:50:46 PM,,mount,:0,"2,",n,NA,y,,I,isolated,O,female
+5,1,9:45:03 AM,9:46:24 AM,insemination,:0,"3,",n,NA,n,,I,isolated,P,female
+5,1,9:04:45 AM,9:06:03 AM,insemination,:0,"4,",n,NA,n,,I,isolated,Q,female
+5,2,9:45:46 AM,,mount,",1",4:00,y,y,NA,,C,social,W,female
+5,2,2:04:26 PM,2:05:45 PM,insemination,",1",7:00,n,NA,n,,C,social,N,female
+5,1,8:28:18 AM,,mount,",8","8,",n,NA,y,,J,isolated,U,female
+5,1,3:16:41 PM,3:17:16 PM,insemination,:0,"6,",n,NA,n,,I,isolated,S,female
+5,2,9:03:17 AM,,mount,:7,"3,",n,NA,y,,B,social,P,female
+5,2,9:20:34 AM,,mount,:7,"3,",n,NA,y,,B,social,P,female
+5,1,8:05:07 AM,,mount,",0",",5",,,,,A,social,E,male
+5,1,8:46:05 AM,,mount,",0",",8",,,,,A,social,J,male
+5,1,9:50:47 AM,,mount,",0",:0,,,,,A,social,I,male
+5,1,8:03:27 AM,,mount,",0",:1,,,,,A,social,K,male
+5,1,10:16:22 AM,,mount,",4","5,",n,NA,y,,D,social,R,female
+5,2,11:18:17 AM,,mount,",4","4,",y,y,NA,refusal stance,D,social,Q,female
+5,2,12:29:33 PM,,mount,",5",:0,,,,,E,social,I,male
+5,2,8:50:52 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,female
+5,1,1:10:49 PM,1:11:57 PM,insemination,",7","7,",y,n,,,L,isolated,T,female
+5,1,8:13:09 AM,,mount,",9","5,",y,y,NA,,F,social,R,female
+5,1,1:17:19 PM,,mount,",9","7,",y,y,NA,,F,social,T,female
+5,1,1:11:45 PM,,mount,",9","8,",y,y,NA,,F,social,U,female
+5,1,9:13:43 AM,,mount,:0,"8,",y,n,y,,I,isolated,U,female
+5,1,8:23:23 AM,,mount,:1,"7,",y,y,NA,,K,isolated,T,female
+5,1,8:35:05 AM,,mount,",3","6,",n,NA,y,,G,isolated,S,female
+5,2,11:22:28 AM,11:23:43 AM,insemination,",4","4,",n,NA,n,"Weird sideways mating, could be considered same event as above, weird position for a while but I think it was a proper insemination by the end",D,social,Q,female
+5,1,8:52:46 AM,,mount,",7","8,",y,n,y,,L,isolated,U,female
+5,1,1:25:42 PM,,mount,",9","8,",y,y,NA,,F,social,U,female
+5,1,1:33:23 PM,,mount,",9","8,",y,y,NA,pressed right side to wall,F,social,U,female
+5,2,2:10:53 PM,,mount,",1",",3",,,,,C,social,G,male
+5,1,10:19:00 AM,10:19:59 AM,insemination,",3","6,",n,NA,n,,G,isolated,S,female
+5,1,11:44:48 AM,,mount,",3","6,",n,NA,y,,G,isolated,S,female
+5,1,11:47:39 AM,,mount,",3","6,",n,NA,y,,G,isolated,S,female
+5,1,12:03:01 PM,,mount,",3","6,",y,n,y,,G,isolated,S,female
+5,1,1:06:18 PM,,mount,",3","6,",n,NA,y,,G,isolated,S,female
+5,1,8:35:40 AM,,mount,",3","7,",n,NA,y,,G,isolated,T,female
+5,2,10:13:23 AM,,mount,",5",:7,,,,,E,social,B,male
+5,2,2:18:39 PM,,mount,",5","6,",y,n,y,,E,social,S,female
+5,2,12:45:44 PM,,mount,",7",",8",,,,,L,isolated,J,male
+5,2,12:34:42 PM,,mount,",8",7:00,y,n,y,,J,isolated,N,female
+5,2,12:31:54 PM,,mount,",9",",7",,,,,F,social,L,male
+5,2,12:36:41 PM,,mount,",9",",8",,,,,F,social,J,male
+5,1,9:14:52 AM,,mount,:0,"8,",n,NA,y,,I,isolated,U,female
+5,2,10:14:40 AM,,mount,:0,",5",,,,,I,isolated,E,male
+5,2,2:16:21 PM,,mount,:7,"6,",y,n,y,,B,social,S,female
+5,2,2:38:43 PM,,mount,",1",",3",,,,,C,social,G,male
+5,2,10:31:06 AM,,mount,",1",",5",,,,,C,social,E,male
+5,1,8:40:08 AM,,mount,",3","9,",y,y,NA,,G,isolated,V,female
+5,2,9:47:36 AM,,mount,",3",",1",,,,,G,isolated,C,male
+5,2,9:07:29 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,female
+5,2,10:19:32 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,female
+5,2,12:40:31 PM,,mount,",7",",9",,,,,L,isolated,F,male
+5,2,12:34:56 PM,,mount,",8",7:00,y,n,y,,J,isolated,N,female
+5,2,12:37:04 PM,,mount,",9",",8",,,,,F,social,J,male
+5,1,8:10:13 AM,8:12:14 AM,insemination,:1,"8,",n,NA,n,,K,isolated,U,female
+5,1,8:06:31 AM,,mount,",0",:1,,,,,A,social,K,male
+5,1,9:18:45 AM,,mount,",0",:1,,,,,A,social,K,male
+5,2,12:55:48 PM,12:56:44 PM,insemination,",0",1:00,y,n,n,,A,social,X,female
+5,2,1:38:39 PM,1:39:14 PM,insemination,",0",1:00,n,NA,n,,A,social,X,female
+5,2,2:46:08 PM,2:46:35 PM,insemination,",0","8,",n,NA,n,,A,social,U,female
+5,2,11:08:37 AM,,mount,",6",7:00,n,NA,y,,H,isolated,N,female
+5,2,11:24:52 AM,,mount,",6","8,",n,NA,y,,H,isolated,U,female
+5,2,11:21:10 AM,,mount,",6",7:00,y,y,n,,H,isolated,N,female
+5,2,1:25:21 PM,,mount,",6",:7,Y,Y,NA,,H,isolated,B,male
+5,2,1:25:40 PM,,mount,",6","8,",Y,Y,NA,pressed right side to wall,H,isolated,U,female
+5,2,11:13:50 AM,,mount,",6",:1,,,,,H,isolated,K,male
+5,2,12:00:00 AM,,mount,",6",:1,,,,,H,isolated,K,male
+5,2,1:34:18 PM,1:34:44 PM,insemination,",7","6,",y,n,n,,L,isolated,S,female
+5,2,2:30:31 PM,,mount,",8",",9",,,,,J,isolated,F,male
+5,2,11:55:17 AM,,mount,",8","6,",n,NA,y,,J,isolated,S,female
+5,2,2:12:23 PM,,mount,",9","5,",n,NA,y,,F,social,R,female
+5,2,12:26:28 PM,12:27:13 PM,insemination,",9","6,",n,NA,n,,F,social,S,female
+5,2,1:17:38 PM,,mount,",9","6,",Y,Y,NA,,F,social,S,female
+5,2,12:31:00 PM,,mount,:0,",5",,,,,I,isolated,E,male
+5,2,2:13:15 PM,,mount,:0,"6,",y,n,y,,I,isolated,S,female
+5,1,8:52:39 AM,,mount,:1,"8,",y,y,NA,,K,isolated,U,female
+5,1,9:13:52 AM,9:14:33 AM,insemination,:1,"8,",n,NA,n,,K,isolated,U,female
+5,1,9:32:24 AM,,mount,:1,"8,",y,y,NA,,K,isolated,U,female
+5,2,2:21:19 PM,2:22:13 PM,insemination,:1,7:00,y,n,n,,K,isolated,N,female
+5,2,9:54:01 AM,,mount,",1","3,",,,,,C,social,P,female
+5,2,2:41:43 PM,2:42:28 PM,insemination,",1","7,",y,n,n,,C,social,T,female
+5,2,10:30:28 AM,,mount,",1","9,",n,NA,y,,C,social,V,female
+5,2,9:52:50 AM,,mount,",3","7,",n,NA,y,,G,isolated,T,female
+6,1,7:00:36 AM,,mount,",8",",3",,,,,I,isolated,F,male
+6,1,7:00:45 AM,7:02:01 AM,insemination,",7","6,",y,n,n,,A,social,S,female
+6,1,7:01:00 AM,,insemination,:0,"8,",n,NA,n,,L,isolated,U,female
+6,1,7:01:12 AM,,mount,",9",",2",,,,,G,isolated,E,male
+6,1,7:01:23 AM,7:02:49 AM,insemination,",0","0,",n,NA,n,"male is acting strange, staying on female",D,social,M,female
+6,1,7:02:10 AM,7:03:57 AM,insemination,",8",3:00,n,NA,n,stayed on female a long time,I,isolated,P,female
+6,1,7:03:22 AM,,insemination,",5","6,",n,NA,n,,H,isolated,S,female
+6,1,7:03:39 AM,,mount,",1",:1,,,,,B,social,J,male
+6,1,7:05:13 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,7:05:43 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,7:05:51 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,7:06:19 AM,,mount,",2",",9",,,,"while ,9 is on ,6",E,social,G,male
+6,1,7:06:26 AM,,mount,",9",",6",,,,,G,isolated,K,male
+6,1,7:06:31 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,7:06:38 AM,7:09:48 AM,insemination,",7","7,",n,NA,n,,A,social,T,female
+6,1,7:07:30 AM,,mount,:1,",0",,,,"while ,0 is on 0,",J,isolated,D,male
+6,1,7:08:06 AM,,mount,",5",",1",,,,,H,isolated,B,male
+6,1,7:08:10 AM,7:09:46 AM,insemination,",5",0:00,n,NA,n,,H,isolated,X,female
+6,1,7:08:41 AM,,mount,:0,"8,",y,y,NA,,L,isolated,U,female
+6,1,7:09:49 AM,,mount,",1",",7",,,,,B,social,A,male
+6,1,7:10:40 AM,,insemination,",8",3:00,n,NA,n,,I,isolated,P,female
+6,1,7:11:28 AM,,insemination,",1","9,",n,NA,n,,B,social,V,female
+6,1,7:12:35 AM,,mount,",8","4,",y,n,y,,I,isolated,Q,female
+6,1,7:13:04 AM,,mount,",8","5,",n,NA,y,,I,isolated,R,female
+6,1,7:15:40 AM,,mount,",6",",2",,,,,K,isolated,E,male
+6,1,7:18:49 AM,,mount,",8","4,",n,NA,y,,I,isolated,Q,female
+6,1,7:19:00 AM,,mount,",8",3:00,n,NA,y,,I,isolated,P,female
+6,1,7:21:10 AM,,mount,:0,"8,",n,NA,y,,L,isolated,U,female
+6,1,7:21:38 AM,7:23:20 AM,insemination,:0,"8,",n,NA,n,,L,isolated,U,female
+6,1,7:22:29 AM,,mount,",5","6,",y,n,y,,H,isolated,S,female
+6,1,7:22:58 AM,,mount,",8","5,",n,NA,y,,I,isolated,R,female
+6,1,7:23:08 AM,,mount,",8",3:00,y,y,NA,,I,isolated,P,female
+6,1,7:23:22 AM,,mount,",8","2,",y,y,NA,,I,isolated,O,female
+6,1,7:23:29 AM,,mount,",8","2,",n,NA,y,,I,isolated,O,female
+6,1,7:23:41 AM,7:24:51 AM,insemination,",3","2,",n,NA,n,,F,social,O,female
+6,1,7:24:52 AM,,mount,",8","2,",y,n,y,,I,isolated,O,female
+6,1,7:25:30 AM,,mount,",8","5,",y,n,y,,I,isolated,R,female
+6,1,7:25:59 AM,,mount,",3","5,",n,NA,y,,F,social,R,female
+6,1,7:26:10 AM,,mount,",3","5,",n,NA,y,,F,social,R,female
+6,1,7:26:59 AM,,mount,",5",0:00,n,NA,y,,H,isolated,X,female
+6,1,7:27:32 AM,,insemination,",8","4,",y,n,n,,I,isolated,Q,female
+6,1,7:27:42 AM,7:28:45 AM,insemination,",1",0:00,n,NA,n,,B,social,X,female
+6,1,7:28:46 AM,,mount,",1",",5",,,,,B,social,H,male
+6,1,7:29:03 AM,7:29:24 AM,insemination,",5",0:00,n,NA,n,,H,isolated,X,female
+6,1,7:29:31 AM,,mount,:1,"0,",y,y,NA,,J,isolated,M,female
+6,1,7:32:28 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,7:33:24 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female
+6,1,7:33:32 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,7:33:39 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female
+6,1,7:33:49 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female
+6,1,7:33:53 AM,,mount,",5",0:00,y,y,NA,,H,isolated,X,female
+6,1,7:35:34 AM,,mount,",7",",1",,,,,A,social,B,male
+6,1,7:36:24 AM,,mount,",7",0:00,y,n,y,,A,social,X,female
+6,1,7:36:36 AM,,mount,",3","5,",n,NA,y,,F,social,R,female
+6,1,7:36:54 AM,,insemination,",6",0:00,y,n,n,,K,isolated,X,female
+6,1,7:38:05 AM,7:38:29 AM,insemination,:0,"8,",n,NA,n,,L,isolated,U,female
+6,1,7:42:04 AM,7:43:02 AM,insemination,",3","5,",n,NA,n,,F,social,R,female
+6,1,7:42:38 AM,,mount,",5","7,",n,NA,y,,H,isolated,T,female
+6,1,7:42:44 AM,,mount,",7",",5",,,,"while ,5 on female",A,social,H,male
+6,1,7:42:50 AM,,mount,",1",",7",,,,,B,social,A,male
+6,1,7:43:11 AM,,mount,",1","7,",n,NA,y,,B,social,T,female
+6,1,7:43:22 AM,,mount,",6",",2",,,,,K,isolated,E,male
+6,1,7:44:53 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,1,7:45:34 AM,,mount,",2",0:00,n,NA,y,,E,social,X,female
+6,1,7:45:47 AM,,mount,",9",0:00,n,NA,y,,G,isolated,X,female
+6,1,7:45:57 AM,,mount,",8","6,",n,NA,y,,I,isolated,S,female
+6,1,7:47:08 AM,,mount,",0",0:00,n,NA,y,,D,social,X,female
+6,1,7:51:34 AM,,mount,:0,"8,",n,NA,y,,L,isolated,U,female
+6,1,7:51:48 AM,,mount,",9",",6",,,,,G,isolated,K,male
+6,1,7:51:56 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,1,7:52:12 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,7:52:19 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,7:52:23 AM,7:53:08 AM,insemination,:0,"8,",y,n,n,,L,isolated,U,female
+6,1,8:05:22 AM,,mount,",1",",7",,,,,B,social,A,male
+6,1,8:10:31 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,1,8:12:52 AM,,mount,:1,"9,",n,NA,y,,J,isolated,V,female
+6,1,8:16:14 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,8:19:02 AM,,mount,",8",",3",,,,,I,isolated,F,male
+6,1,8:20:27 AM,,mount,",9",",6",,,,,G,isolated,K,male
+6,1,8:20:32 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,1,8:25:25 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,8:34:07 AM,,mount,",6",0:00,y,y,NA,,K,isolated,X,female
+6,1,8:37:28 AM,,mount,",8",",3",,,,,I,isolated,F,male
+6,1,8:38:48 AM,8:39:43 AM,insemination,",8","5,",n,NA,n,,I,isolated,R,female
+6,1,8:43:49 AM,,mount,",5",",7",n,NA,y,,H,isolated,A,male
+6,1,8:47:19 AM,,mount,",5","7,",n,NA,y,,H,isolated,T,female
+6,1,8:47:25 AM,,mount,",7",",5",,,,"while ,5 on 7,",A,social,H,male
+6,1,8:47:45 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,8:48:00 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,8:48:07 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,8:51:00 AM,,mount,",8",0:00,y,n,y,,I,isolated,X,female
+6,1,9:04:27 AM,9:04:53 AM,insemination,:0,"8,",n,NA,y,,L,isolated,U,female
+6,1,9:10:46 AM,,mount,",5",",1",,,,,H,isolated,B,male
+6,1,9:22:02 AM,,mount,",9",",6",,,,,G,isolated,K,male
+6,1,9:29:49 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,1,9:30:04 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,9:30:32 AM,,mount,",8","4,",n,NA,y,,I,isolated,Q,female
+6,1,9:31:40 AM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,9:32:23 AM,,mount,",6",0:00,n,NA,y,"possibly insemination, weird position, I don’t think so though",K,isolated,X,female
+6,1,9:36:13 AM,,mount,",5",",1",,,,,H,isolated,B,male
+6,1,9:36:45 AM,,mount,",1",",7",,,,,B,social,A,male
+6,1,9:59:52 AM,,mount,",5","7,",y,n,y,,H,isolated,T,female
+6,1,10:15:16 AM,,mount,",7",",5",,,,,A,social,H,male
+6,1,10:22:55 AM,,mount,",1","7,",n,NA,y,,B,social,T,female
+6,1,10:23:18 AM,,mount,",5",",1",,,,,H,isolated,B,male
+6,1,10:23:56 AM,,mount,",5",",1",,,,,H,isolated,B,male
+6,1,10:47:50 AM,,mount,",3","5,",n,NA,y,,F,social,R,female
+6,1,11:52:09 AM,,mount,",5","7,",N,NA,Y,,H,isolated,T,female
+6,1,11:52:27 AM,,mount,",1",",5",,,,,B,social,H,male
+6,1,12:05:59 PM,,mount,",1","7,",N,NA,Y,,B,social,T,female
+6,1,12:06:30 PM,,mount,",7",",1",,,,,A,social,B,male
+6,1,12:08:06 PM,,mount,",7",",1",,,,,A,social,B,male
+6,1,12:09:31 PM,,mount,",7","7,",N,NA,Y,,A,social,T,female
+6,1,12:29:07 PM,,mount,",5","7,",n,NA,y,,H,isolated,T,female
+6,1,12:31:38 PM,,mount,",5","7,",n,NA,y,,H,isolated,T,female
+6,1,12:36:28 PM,,mount,",2",",9",,,,,E,social,G,male
+6,1,12:37:39 PM,12:38:04 PM,insemination,:1,"0,",n,NA,n,,J,isolated,M,female
+6,1,12:40:23 PM,,insemination,",2","2,",n,NA,n,,E,social,O,female
+6,1,12:40:59 PM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,12:41:22 PM,12:41:42 PM,insemination,",9","2,",n,NA,n,,G,isolated,O,female
+6,1,12:42:36 PM,,mount,",1",",5",,,,,B,social,H,male
+6,1,12:43:34 PM,,mount,",1",",7",,,,,B,social,A,male
+6,1,12:43:42 PM,,mount,",7","7,",n,NA,y,,A,social,T,female
+6,1,12:45:59 PM,,mount,",5","7,",y,n,y,,H,isolated,T,female
+6,1,12:51:03 PM,,mount,",2",",6",,,,,E,social,K,male
+6,1,12:54:11 PM,,mount,",5","7,",n,NA,y,,H,isolated,T,female
+6,1,1:01:30 PM,,mount,",8",3:00,y,n,y,,I,isolated,P,female
+6,1,1:06:59 PM,,mount,",8","5,",n,NA,y,,I,isolated,R,female
+6,1,1:12:53 PM,,mount,",7",",5",,,,,A,social,H,male
+6,1,1:18:59 PM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,1:19:17 PM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,1:20:31 PM,,mount,",8",3:00,n,NA,y,,I,isolated,P,female
+6,1,1:25:30 PM,1:25:59 PM,insemination,",6","5,",n,NA,,,K,isolated,R,female
+6,1,1:32:34 PM,,mount,",2",",6",,,,,E,social,K,male
+6,1,1:33:52 PM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,1:44:16 PM,,mount,",5",",7",,,,,H,isolated,A,male
+6,1,1:47:52 PM,1:48:37 PM,insemination,",7",1:00,n,NA,,,A,social,W,female
+6,1,2:37:59 PM,,mount,",2","5,",y,y,NA,,E,social,R,female
+6,1,2:38:22 PM,,mount,",9",",2",,,,,G,isolated,E,male
+6,2,7:11:33 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,2,7:31:41 AM,,mount,",9",",2",,,,,G,isolated,E,male
+6,2,7:37:20 AM,,mount,",6",",2",,,,,K,isolated,E,male
+6,2,7:37:22 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,2,8:24:00 AM,8:25:41 AM,insemination,:0,"9,",n,NA,n,,L,isolated,V,female
+6,2,8:40:36 AM,,mount,",4",",3",,,,,C,social,F,male
+6,2,8:40:53 AM,,mount,:0,",4",,,,,L,isolated,C,male
+6,2,8:53:24 AM,8:54:36 AM,insemination,",7","1,",Y,N,N,80% sure of IDs this was in big cluster,A,social,N,female
+6,2,9:07:10 AM,,mount,",0",",7",,,,,D,social,A,male
+6,2,9:10:29 AM,,mount,",3",",4",,,,,F,social,C,male
+6,2,9:11:13 AM,,mount,",4",",3",,,,,C,social,F,male
+6,2,9:11:36 AM,9:12:30 AM,insemination,",3","9,",y,n,n,,F,social,V,female
+6,2,9:12:11 AM,,mount,:0,",4",,,,,L,isolated,C,male
+6,2,9:12:47 AM,,mount,",4",",3",,,,"interrupted above insemination of ,3 on 9,",C,social,F,male
+6,2,9:13:26 AM,9:14:31 AM,insemination,:0,"6,",y,n,n,,L,isolated,S,female
+6,2,9:14:02 AM,,mount,",4",",3",,,,,C,social,F,male
+6,2,9:15:20 AM,,mount,:0,",4",,,,,L,isolated,C,male
+6,2,9:25:08 AM,,mount,",7",",0",,,,,A,social,D,male
+6,2,9:25:25 AM,,mount,",4",:0,,,,,C,social,L,male
+6,2,9:26:07 AM,,mount,",4","9,",y,y,NA,,C,social,V,female
+6,2,9:31:54 AM,9:32:52 AM,insemination,:0,"9,",y,n,n,,L,isolated,V,female
+6,2,9:49:29 AM,9:49:57 AM,insemination,",4","9,",y,n,n,,C,social,V,female
+6,2,10:13:43 AM,,mount,",1","2,",n,NA,y,,B,social,O,female
+6,2,10:20:03 AM,,mount,",1","2,",n,NA,y,,B,social,O,female
+6,2,10:31:13 AM,,mount,:1,3:00,n,NA,y,,J,isolated,P,female
+6,2,11:09:48 AM,,mount,",9",",2",,,,,G,isolated,E,male
+6,2,11:14:04 AM,,mount,",6",",2",,,,,K,isolated,E,male
+6,2,11:21:29 AM,,mount,:0,"9,",n,NA,y,,L,isolated,V,female
+6,2,11:21:49 AM,,mount,",5",",1",,,,,H,isolated,B,male
+6,2,11:21:58 AM,,mount,",1",",5",,,,,B,social,H,male
+6,2,11:22:51 AM,,mount,",9",",2",,,,,G,isolated,E,male
+6,2,11:23:02 AM,,mount,",5","7,",n,NA,y,,H,isolated,T,female
+6,2,11:33:26 AM,,mount,",5","7,",n,NA,y,"7, is moving with difficulty, I think that she might have an injured leg",H,isolated,T,female
+6,2,11:34:02 AM,,mount,",2",",9",,,,,E,social,G,male
+6,2,11:40:21 AM,,mount,",9",",6",,,,,G,isolated,K,male
+6,2,11:40:50 AM,,mount,",4","9,",n,NA,y,,C,social,V,female
+6,2,11:43:22 AM,,mount,",4","9,",n,NA,y,,C,social,V,female
+6,2,11:43:42 AM,11:44:59 AM,insemination,",2","5,",y,n,n,,E,social,R,female
+6,2,11:44:17 AM,,mount,",6",",9",,,,,K,isolated,G,male
+6,2,11:45:16 AM,,mount,",6","5,",n,NA,y,,K,isolated,R,female
+6,2,11:46:54 AM,,mount,",6",",2",,,,,K,isolated,E,male
+6,2,11:51:28 AM,,mount,",9",",2",,,,,G,isolated,E,male
+6,2,11:52:48 AM,,mount,",2",",6",,,,,E,social,K,male
+6,2,11:53:26 AM,,mount,",9",",2",,,,,G,isolated,E,male
+6,2,12:00:17 PM,,mount,:1,"0,",n,NA,y,,J,isolated,M,female
+6,2,12:05:59 PM,,mount,",9",",5",,,,,G,isolated,H,male
+6,2,12:12:39 PM,,mount,",7","9,",,,,,A,social,V,female
+6,2,12:15:39 PM,,mount,",1","7,",,,,,B,social,T,female
+6,2,12:22:51 PM,,mount,",4","8,",n,NA,y,,C,social,U,female
+6,2,12:23:28 PM,,mount,",2",",9",,,,,E,social,G,male
+6,2,12:24:40 PM,,mount,",3",",4",,,,,F,social,C,male
+6,2,12:27:22 PM,,mount,",9",",6",,,,,G,isolated,K,male
+6,2,12:27:56 PM,,mount,",6",",9",,,,,K,isolated,G,male
+6,2,12:32:00 PM,,mount,",3","8,",y,y,NA,,F,social,U,female
+6,2,12:39:01 PM,12:41:19 PM,insemination,:0,"5,",n,NA,,,L,isolated,R,female
+6,2,1:12:02 PM,,mount,",3","8,",n,NA,y,,F,social,U,female
+6,2,1:15:22 PM,,mount,",3","8,",n,NA,y,,F,social,U,female
+6,2,1:15:37 PM,,mount,",4",",3",,,,,C,social,F,male
+6,2,1:17:48 PM,,mount,",0","0,",n,NA,y,,D,social,M,female
+6,2,1:21:07 PM,,mount,",4","5,",y,y,NA,,C,social,R,female
+6,2,1:22:07 PM,,mount,",3",",4",,,,,F,social,C,male
+6,2,1:31:29 PM,,mount,",4",",3",,,,,C,social,F,male
+6,2,1:34:55 PM,,mount,",3",",4",,,,,F,social,C,male
+6,2,1:47:51 PM,,mount,",9","4,",y,y,NA,,G,isolated,Q,female
+6,2,1:56:07 PM,,mount,",8",",7",,,,,I,isolated,A,male
+6,2,2:04:35 PM,,mount,",8",",7",,,,,I,isolated,A,male
+6,2,2:14:39 PM,,mount,",8",",7",,,,,I,isolated,A,male
+6,2,2:24:48 PM,,mount,",8",",7",,,,,I,isolated,A,male
+6,2,2:29:54 PM,,mount,",7",",8",,,,,A,social,I,male
+6,2,2:30:06 PM,,mount,",7",",8",,,,,A,social,I,male
+6,2,2:30:56 PM,,mount,",8",",7",,,,,I,isolated,A,male
+6,2,2:31:12 PM,2:31:40 PM,insemination,",3","4,",n,NA,n,,F,social,Q,female
+6,2,2:31:47 PM,,mount,",4",",3",,,,"while on 4,",C,social,F,male
+6,2,2:48:51 PM,,mount,",8",",7",,,,,I,isolated,A,male
+6,2,2:49:06 PM,,mount,",8",",7",,,,,I,isolated,A,male

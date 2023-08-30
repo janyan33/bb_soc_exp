@@ -62,6 +62,7 @@ male_mount_mod <- glmer(data = all_male_dat, partner_sex ~ treatment + (1|replic
                           , family = binomial())
 
 plot(simulateResiduals(male_mount_mod))
+summary(male_mount_mod)
 Anova(male_mount_mod)
 summary(male_mount_mod)
 
@@ -74,16 +75,20 @@ all_data_avoid$avoid_success[all_data_avoid$avoid_success == "N"] <- "n" # Turns
 
 all_data_avoid$avoid_success <- as.factor(all_data_avoid$avoid_success)
 
-avoid_model <- glmer(data = all_data_avoid, avoid_success ~ treatment + (1|replicate) + 
+avoid_model <- glmer(data = all_data_avoid, avoid_success ~ treatment + replicate + 
                     (1|replicate:patch_focal), family = binomial())
 
+# I changed replicate from a random to a fixed effect here, otherwise the model fails to converge
+
 plot(simulateResiduals(avoid_model))
-summary(avoid_model)
+Anova(avoid_model)
+
 
 ## 3) Insemination rate (inseminations per day)
 insem_model <- lmer(data = male_sum_dat, insem_rate ~ treatment + (1|replicate))
 
 plot(simulateResiduals(insem_model))
+summary(insem_model)
 Anova(insem_model)
 
 ## 3) Mount rate (mounts per day)

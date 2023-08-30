@@ -48,7 +48,7 @@ func_oppo_network <- function(assoc_mat){
   
 # Customize plots
   V(igraph)$color <- ifelse(V(igraph)$treatment == "social", "#e6722a", 
-                            ifelse(V(igraph)$treatment == "isolated", "#facc8f", "gray85"))
+                            ifelse(V(igraph)$treatment == "isolated", "#facc8f", "grey25"))
   
   V(igraph)$names<- FALSE
   V(igraph)$size <- V(igraph)$strength*12
@@ -88,8 +88,12 @@ oppo_sex_dat <- read.csv("oppo_sex_strength.csv") %>%
                 filter(sex == "male")# %>% 
                # unite(exp_rep, c("experiment", "replicate"))
 
+<<<<<<< HEAD
+ggplot(data = oppo_sex_dat, aes(x = oppo_sex_degree, y = inseminations)) + geom_smooth(method = "lm") + geom_point()
+=======
 ggplot(data = oppo_sex_dat, aes(x = opposite_sex_strength, y = inseminations, color = experiment)) +
        geom_smooth(method = "lm", se = FALSE, size = 3) + geom_point()
+>>>>>>> 8088595b0d25930cfe798cb80a877176af592290
 
 oppo_sex_dat$replicate <- as.factor(oppo_sex_dat$replicate)
 oppo_sex_dat$experiment <- as.factor(oppo_sex_dat$experiment)

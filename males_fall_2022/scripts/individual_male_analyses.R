@@ -50,6 +50,10 @@ ggplot(data = male_data, aes(x = treatment, y = oppo_sex_strength, fill = treatm
   My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8088595b0d25930cfe798cb80a877176af592290
 ################################## MODELS #########################################################
 ## 1) Proportion of mounts directed at other males
 all_data_male_mounts <- read.csv("males_fall_2022/data/all_data_combined.csv") %>% 
@@ -63,6 +67,7 @@ male_mount_mod <- glmer(data = all_data_male_mounts, partner_sex ~ treatment + (
                    (1|replicate:patch_focal), family = binomial())
 
 plot(simulateResiduals(male_mount_mod))
+summary(male_mount_mod)
 Anova(male_mount_mod)
 
 
@@ -88,12 +93,13 @@ insem_model <- lmer(data = male_data, insem_rate ~ treatment + (1|replicate))
 
 plot(simulateResiduals(insem_model))
 Anova(insem_model)
-
+summary(insem_model)
 
 ## 3) Mount rate (Mounts per day)
 mount_model <- lmer(data = male_data, mount_rate ~ treatment + (1|replicate))
 
 plot(simulateResiduals(mount_model))
+summary(mount_model)
 Anova(mount_model)
 
 
