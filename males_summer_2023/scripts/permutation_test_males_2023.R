@@ -63,16 +63,20 @@ func_attr <- function(igraph_objects){
   for (i in 1:length(igraph_objects)){
        igraph_objects[[i]] <- set_vertex_attr(igraph_objects[[i]], "replicate", value = i) # add rep column
   attr <- rbind(attr, vertex_attr(igraph_objects[[i]])) # add rep to growing data frame
+  attr <- attr %>% 
+          filter(treatment != "female")
   }
   return(attr)
 }
 
 ####### CALCULATING OBSERVED VALUE
 obs_igraphs <- lapply(assoc_matrices, func_create_igraph)
-obs_attr <- func_attr(obs_igraphs)
+obs_attr <- func_attr(obs_igraphs) %>% 
+            filter(treatment != "female")
 
 obs_lmm <- lmer(data = obs_attr, strength ~ treatment + (1|replicate)) # observed lmm
-obs_coef <- summary(obs_lmm)$coefficient[3,1] # store observed model coef
+obs_coef <- summary(obs_lmm)$coefficient[2,1] # store observed model coef
+
 
 ######### BUILDING LOOP (WORK IN PROGRESS)
 n_sim <- 999
@@ -85,7 +89,7 @@ for (i in 1:n_sim){
      new_attr <- func_attr(random_igraphs)
      
      shuf_lmm <- lmer(data = new_attr, strength ~ treatment + (1|replicate))
-     coefs[i] <- summary(shuf_lmm)$coefficient[3,1] # model coef for social treatment
+     coefs[i] <- summary(shuf_lmm)$coefficient[2,1] # model coef for social treatment
 }     
 
 # Getting p-value (two-tailed test)
@@ -97,6 +101,6 @@ hist(unlist(coefs), xlim = c(min(coefs), max(coefs)), ylim = c(0, 200), col = "a
      xlab = "Coefficient value for treatment(social)", main = NA)
 
 lines(x = c(obs_coef, obs_coef), col = "red", lty = "dashed", lwd = 2, y = c(0, 200))
-text(0.25, 150, "p = 0.89")
+text(0.4, 120, "p = 0.89")
 
 

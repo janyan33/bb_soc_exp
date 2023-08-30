@@ -8,13 +8,12 @@ My_Theme = theme(
   axis.text.y = element_text(size = 20))
 
 oppo_sex_dat <- read.csv("oppo_sex_strength.csv") %>% 
-                filter(sex == "male") %>% 
                 mutate(exp_rep = paste(experiment, replicate, sep = "_"))
 
 # Inseminations as a function of opposite-sex strength fig
-ggplot(data = oppo_sex_dat, aes(x = opposite_sex_strength, y = inseminations)) +
+ggplot(data = oppo_sex_dat, aes(x = opposite_sex_strength, y = inseminations, color = sex)) +
        geom_point() + geom_smooth(method = "lm", size = 1.5, alpha = 0.5) + My_Theme
 
 # Inseminations as a function of opposite-sex degree fig
-ggplot(data = oppo_sex_dat, aes(x = oppo_sex_degree, y = inseminations)) +
+ggplot(data = oppo_sex_dat, aes(x = oppo_sex_degree, y = inseminations, color = sex)) +
        geom_point() + geom_smooth(method = "lm", size = 1.5, alpha = 0.5) + My_Theme
