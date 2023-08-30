@@ -93,7 +93,7 @@ func_igraph_rep1 <- function(rep_groups){
 }
 
 ## Visualizing aggregation-based networks
-igraph_rep1 <- func_igraph_rep1(groups_agg_reps[[1]])
+igraph_rep1 <- func_igraph_rep1(groups_agg_reps[[6]])
 igraph_rep1 <- delete_vertices(igraph_rep1, "G")
 
 assoc_mat <- as.matrix(as_adjacency_matrix(igraph_rep1, attr = "weight"))
