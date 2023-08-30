@@ -10,7 +10,7 @@ library(netdiffuseR)
 
 My_Theme = theme(
   axis.title.x = element_text(size = 20),
-  axis.text.x = element_text(size = 18),
+  axis.text.x = element_text(size = 20),
   axis.title.y = element_text(size = 20), 
   axis.text.y = element_text(size = 20))
 
@@ -39,18 +39,16 @@ ggplot(data = male_data, aes(x = treatment, y = insem_rate, fill = treatment)) +
        geom_boxplot() + labs(y = "Inseminations per day", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-## 5) Mount rate
+## 4) Mount rate
 ggplot(data = male_data, aes(x = treatment, y = mount_rate, fill = treatment)) + 
        geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-## 6) Opposite sex networks
+## 5) Opposite sex networks
 ggplot(data = male_data, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + 
-  geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
+  geom_boxplot() + labs(y = "Opposite-sex strength", x = NULL) + 
   My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
-## Cor graph
-ggplot(data = male_data, aes(x = oppo_sex_strength, y = insem_rate)) + geom_point() + geom_smooth(method = "lm")
 
 ################################## MODELS #########################################################
 ## 1) Proportion of mounts directed at other males
@@ -83,7 +81,7 @@ avoid_model <- glmer(data = all_data_avoid, avoid_success ~ treatment + (1|repli
                                          (1|replicate:patch_focal), family = binomial())
 plot(simulateResiduals(avoid_model))
 summary(avoid_model)
-
+Anova(avoid_model)
 
 ## 3) Insemination rate (inseminations per day)
 insem_model <- lmer(data = male_data, insem_rate ~ treatment + (1|replicate))

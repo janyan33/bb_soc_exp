@@ -59,7 +59,7 @@ func_oppo_network <- function(assoc_mat){
 }
 
 igraph_list <- lapply(assoc_matrices, func_oppo_network)
-plot(igraph_list[[1]], vertex.label = NA)
+plot(igraph_list[[5]], vertex.label = NA)
 
 tkplot(igraph_list[[4]], vertex.label = NA)
 

@@ -10,10 +10,10 @@ library(netdiffuseR)
 library(ggpubr)
 
 My_Theme = theme(
-  axis.title.x = element_text(size = 18),
-  axis.text.x = element_text(size = 18),
-  axis.title.y = element_text(size = 18), 
-  axis.text.y = element_text(size = 18))
+  axis.title.x = element_text(size = 20),
+  axis.text.x = element_text(size = 20),
+  axis.title.y = element_text(size = 20), 
+  axis.text.y = element_text(size = 20))
 
 ## Loading data in 
 fem_sum_dat <- read.csv("females/data/fem_summary_data.csv") %>% 
@@ -39,7 +39,7 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = insem_rate, fill = treatment))
 
 #### 4) Opposite-sex association matrices
 ggplot(data = fem_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + geom_boxplot(alpha = 0.9) + My_Theme + 
-       labs(y = "Opposite-sex association strength", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
+       labs(y = "Opposite-sex strength", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
 
 
 

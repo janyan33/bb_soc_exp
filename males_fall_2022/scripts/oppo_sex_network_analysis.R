@@ -36,21 +36,21 @@ func_oppo_network <- function(assoc_mat){
   
   # Assign igraph attributes
   igraph <- set_vertex_attr(igraph, "sex", 
-                            value = ifelse(V(igraph)$name %in% LETTERS[1:8], "male", "female"))
+                            value = ifelse(V(igraph)$name %in% LETTERS[1:12], "male", "female"))
   
   igraph <- set_vertex_attr(igraph, "treatment", 
-                            value = ifelse(V(igraph)$name %in% LETTERS[1:4], "social",
-                                           ifelse(V(igraph)$name %in% LETTERS[5:8], "isolated", "female")))
+                            value = ifelse(V(igraph)$name %in% LETTERS[1:6], "social",
+                                           ifelse(V(igraph)$name %in% LETTERS[7:12], "isolated", "female")))
   
   igraph <- set_vertex_attr(igraph, "strength", value = strength(igraph))
   
   # Customize plots
-  V(igraph)$color <- ifelse(V(igraph)$treatment == "social", "#268008", 
-                            ifelse(V(igraph)$treatment == "isolated", "#B7E5A7", "gray85"))
+  V(igraph)$color <- ifelse(V(igraph)$treatment == "social", "deepskyblue4", 
+                            ifelse(V(igraph)$treatment == "isolated", "lightblue1", "gray85"))
   
   V(igraph)$names<- FALSE
-  V(igraph)$size <- V(igraph)$strength*12
-  E(igraph)$width <- E(igraph)$weight*10
+  V(igraph)$size <- V(igraph)$strength*8
+  E(igraph)$width <- E(igraph)$weight*6
   E(igraph)$color <- "dimgray"
   
   
@@ -61,7 +61,10 @@ igraph_list <- lapply(assoc_matrices, func_oppo_network) # DON'T USE THIS FUNCTI
 
 plot(igraph_list[[4]], vertex.label = NA) # DON'T USE THIS FUNCTION TO PLOT R1 (different coloured nodes)
 
-strength(igraph_list[[6]])
+
+tkplot(igraph_list[[5]], vertex.label = NA)
+
+strength(igraph_list[[2]])
 
 
 degree(igraph_list[[3]])

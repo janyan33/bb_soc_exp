@@ -63,6 +63,7 @@ male_mount_mod <- glmer(data = all_male_dat, partner_sex ~ treatment + (1|replic
 
 plot(simulateResiduals(male_mount_mod))
 Anova(male_mount_mod)
+summary(male_mount_mod)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful (NEED TO REVIST, TRY GLMMTMB)
 all_data_avoid <- all_male_dat %>% 
@@ -80,10 +81,17 @@ plot(simulateResiduals(avoid_model))
 summary(avoid_model)
 
 ## 3) Insemination rate (inseminations per day)
-insem_model <- glmer(data = male_sum_dat, oppo_sex_strength ~ treatment + (1|replicate))
+insem_model <- lmer(data = male_sum_dat, insem_rate ~ treatment + (1|replicate))
 
 plot(simulateResiduals(insem_model))
 Anova(insem_model)
+
+## 3) Mount rate (mounts per day)
+mount_model <- lmer(data = male_sum_dat, log(mount_rate) ~ treatment + (1|replicate))
+
+plot(simulateResiduals(mount_model))
+Anova(mount_model)
+
 
 ### OPPOSITE-SEX STRENGTH CORRELATION WITH INSEMINATION SUCCESS
 ggplot(data = male_sum_dat, aes(y = insem_rate, x = oppo_sex_strength)) + geom_point() + 
