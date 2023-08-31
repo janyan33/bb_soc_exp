@@ -20,12 +20,12 @@ My_Theme = theme(
 
 
 ####### LOADING OPPOSITE-SEX ASSOCIATION MATRICES IN
-assoc_mat_1 <- as.matrix(read.csv("males_summer_2023/opposite_sex_networks/assoc_mat_r1.csv", row.names = 1))
-assoc_mat_2 <- as.matrix(read.csv("males_summer_2023/opposite_sex_networks/assoc_mat_r2.csv", row.names = 1))
-assoc_mat_3 <- as.matrix(read.csv("males_summer_2023/opposite_sex_networks/assoc_mat_r3.csv", row.names = 1))
-assoc_mat_4 <- as.matrix(read.csv("males_summer_2023/opposite_sex_networks/assoc_mat_r4.csv", row.names = 1))
-assoc_mat_5 <- as.matrix(read.csv("males_summer_2023/opposite_sex_networks/assoc_mat_r5.csv", row.names = 1))
-assoc_mat_6 <- as.matrix(read.csv("males_summer_2023/opposite_sex_networks/assoc_mat_r6.csv", row.names = 1))
+assoc_mat_1 <- as.matrix(read.csv("males_fall_2022/data/assoc_mat_r1.csv", row.names = 1))
+assoc_mat_2 <- as.matrix(read.csv("males_fall_2022/data/assoc_mat_r2.csv", row.names = 1))
+assoc_mat_3 <- as.matrix(read.csv("males_fall_2022/data/assoc_mat_r3.csv", row.names = 1))
+assoc_mat_4 <- as.matrix(read.csv("males_fall_2022/data/assoc_mat_r4.csv", row.names = 1))
+assoc_mat_5 <- as.matrix(read.csv("males_fall_2022/data/assoc_mat_r5.csv", row.names = 1))
+assoc_mat_6 <- as.matrix(read.csv("males_fall_2022/data/assoc_mat_r6.csv", row.names = 1))
 
 assoc_matrices <- list(assoc_mat_1, assoc_mat_2, assoc_mat_3, assoc_mat_4, assoc_mat_5, assoc_mat_6) # Combine matrices into one list
 
@@ -33,10 +33,19 @@ assoc_matrices <- list(assoc_mat_1, assoc_mat_2, assoc_mat_3, assoc_mat_4, assoc
 # Function that shuffles MALES in association matrices
 func_shuffle_males <- function(assoc_mat){
   
-     shuf_ID <- sample(colnames(assoc_mat)[1:8])
-
-     colnames(assoc_mat)[1:8] <- shuf_ID
-     rownames(assoc_mat)[1:8] <- shuf_ID
+     if (length((assoc_mat)[1,]) == 23){
+       shuf_ID <- sample(colnames(assoc_mat)[1:7])
+       
+       colnames(assoc_mat)[1:7] <- shuf_ID
+       rownames(assoc_mat)[1:7] <- shuf_ID
+       
+     } else {
+       
+       shuf_ID <- sample(colnames(assoc_mat)[1:8])
+       
+       colnames(assoc_mat)[1:8] <- shuf_ID
+       rownames(assoc_mat)[1:8] <- shuf_ID
+     }
      
 return(assoc_mat)
 }
@@ -63,16 +72,19 @@ func_attr <- function(igraph_objects){
   for (i in 1:length(igraph_objects)){
        igraph_objects[[i]] <- set_vertex_attr(igraph_objects[[i]], "replicate", value = i) # add rep column
   attr <- rbind(attr, vertex_attr(igraph_objects[[i]])) # add rep to growing data frame
+  attr <- attr %>% 
+          filter(treatment != "female")
   }
   return(attr)
 }
 
 ####### CALCULATING OBSERVED VALUE
 obs_igraphs <- lapply(assoc_matrices, func_create_igraph)
-obs_attr <- func_attr(obs_igraphs)
+obs_attr <- func_attr(obs_igraphs) %>% 
+            filter(treatment != "female")
 
 obs_lmm <- lmer(data = obs_attr, strength ~ treatment + (1|replicate)) # observed lmm
-obs_coef <- summary(obs_lmm)$coefficient[3,1] # store observed model coef
+obs_coef <- summary(obs_lmm)$coefficient[2,1] # store observed model coef
 
 ######### BUILDING LOOP (WORK IN PROGRESS)
 n_sim <- 999
@@ -85,7 +97,7 @@ for (i in 1:n_sim){
      new_attr <- func_attr(random_igraphs)
      
      shuf_lmm <- lmer(data = new_attr, strength ~ treatment + (1|replicate))
-     coefs[i] <- summary(shuf_lmm)$coefficient[3,1] # model coef for social treatment
+     coefs[i] <- summary(shuf_lmm)$coefficient[2,1] # model coef for social treatment
 }     
 
 # Getting p-value (two-tailed test)
@@ -93,10 +105,9 @@ ifelse(obs_coef >= mean(coefs), p <- 2*mean(coefs >= obs_coef), p <- 2*mean(coef
 
 # Graphing histogram of results from loop
 coefs <- append(coefs, obs_coef)
-hist(unlist(coefs), xlim = c(min(coefs), max(coefs)), ylim = c(0, 200), col = "aliceblue", 
+hist(unlist(coefs), xlim = c(min(coefs), max(coefs)), ylim = c(0, 250), col = "aliceblue", 
      xlab = "Coefficient value for treatment(social)", main = NA)
 
-lines(x = c(obs_coef, obs_coef), col = "red", lty = "dashed", lwd = 2, y = c(0, 200))
-text(0.25, 150, "p = 0.89")
-
+lines(x = c(obs_coef, obs_coef), col = "red", lty = "dashed", lwd = 2, y = c(0, 250))
+text(0.8, 120, "p = 0.62")
 

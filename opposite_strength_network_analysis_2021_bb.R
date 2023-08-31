@@ -10,6 +10,7 @@ library(assortnet)
 library(janitor)
 library(ggsci)
 library(car)
+library(DHARMa)
 
 My_Theme = theme(
   axis.title.x = element_text(size = 18),
@@ -56,3 +57,21 @@ tkplot(igraph_list[[4]], vertex.label = NA)
 
 # Export strength values
 degree(igraph_list[[3]])
+
+
+
+# Analyze all 
+oppo_all <- read.csv("oppo_sex_strength.csv")
+
+ggplot(data = oppo_all, aes(x = opposite_sex_strength, y = inseminations, color = experiment)) + geom_point() + 
+       geom_smooth(method = "lm")
+
+oppo_sex_mod <- glmer(data = oppo_all, inseminations ~ opposite_sex_strength + sex + (1|experiment:replicate), 
+                      family = "poisson")
+
+plot(simulateResiduals(oppo_sex_mod))
+
+summary(oppo_sex_mod)
+
+
+

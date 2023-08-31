@@ -50,7 +50,7 @@ func_oppo_network <- function(assoc_mat){
                                         ifelse(V(igraph)$treatment == "isolated", "#B7E5A7", "gray85"))
   
                      V(igraph)$names<- FALSE
-                     V(igraph)$size <- V(igraph)$strength*12
+                     V(igraph)$size <- 3+V(igraph)$strength*12
                      E(igraph)$width <- E(igraph)$weight*10
                      E(igraph)$color <- "dimgray"
                      
@@ -61,6 +61,6 @@ func_oppo_network <- function(assoc_mat){
 igraph_list <- lapply(assoc_matrices, func_oppo_network)
 plot(igraph_list[[6]], vertex.label = NA)
 
-tkplot(igraph_list[[6]], vertex.label = NA)
+tkplot(igraph_list[[1]], vertex.label = NA)
 
-strength(igraph_list[[6]])
+strength(igraph_list[[2]])
