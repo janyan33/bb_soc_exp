@@ -97,6 +97,11 @@ mount_model <- lmer(data = male_sum_dat, log(mount_rate) ~ treatment + (1|replic
 plot(simulateResiduals(mount_model))
 Anova(mount_model)
 
+tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, mean)
+tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, sd)
+
+15.287093/sqrt(24)
+7.638545/sqrt(24)
 
 ### OPPOSITE-SEX STRENGTH CORRELATION WITH INSEMINATION SUCCESS
 ggplot(data = male_sum_dat, aes(y = insem_rate, x = oppo_sex_strength)) + geom_point() + 

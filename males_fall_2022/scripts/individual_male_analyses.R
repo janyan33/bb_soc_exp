@@ -36,7 +36,7 @@ ggplot(data = male_data, aes(x = treatment, y = avoid_success_rate, fill = treat
 
 ## 3) Insemination rate (inseminations per)
 ggplot(data = male_data, aes(x = treatment, y = insem_rate, fill = treatment)) + 
-       geom_boxplot() + labs(y = "Inseminations per day", x = NULL) + 
+       geom_boxplot(fatten = 3) + labs(y = "Inseminations per day", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4"))
 
 ## 4) Mount rate
@@ -98,6 +98,11 @@ plot(simulateResiduals(mount_model))
 summary(mount_model)
 Anova(mount_model)
 
+# Get mean +- SD for mounts
+tapply(male_data$mounts/2, male_data$treatment, mean)
+tapply(male_data$mounts/2, male_data$treatment, sd)
 
+6.877442/sqrt(36)
+4.389970/sqrt(34)
 
 
