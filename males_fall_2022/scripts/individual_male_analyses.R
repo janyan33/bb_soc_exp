@@ -68,20 +68,20 @@ summary(male_mount_mod)
 Anova(male_mount_mod)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful
-female_avoid_model <- glmer(data = male_data, cbind((attempted_avoid - mounts_evaded), mounts_evaded) ~ treatment*day + 
+female_avoid_model <- glmer(data = male_summary_data, cbind((attempted_avoid - mounts_evaded), mounts_evaded) ~ treatment*day + 
                             (1|replicate/ID), family = binomial())
 
 plot(simulateResiduals(female_avoid_model)) # Looks good
 summary(female_avoid_model)
-summary(female_avoid_model)
+Anova(female_avoid_model)
 
 ## 3) Insemination rate (inseminations per day) - I used glmmTMB instead of glmer here bc I got a singular fit with glmer
 insem_model <- glmmTMB(data = male_summary_data, inseminations ~ treatment*day + 
                       (1|replicate/ID), family = nbinom2())
 
 plot(simulateResiduals(insem_model))
-Anova(insem_model)
 summary(insem_model)
+Anova(insem_model)
 
 ## 3) Mount rate (Mounts per day)
 mount_model <- glmmTMB(data = male_summary_data, mounts ~ treatment*day + (1|replicate/ID), family = nbinom2())

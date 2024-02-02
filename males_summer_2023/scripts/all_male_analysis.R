@@ -28,71 +28,65 @@ male_sum_dat$replicate <- as.factor(male_sum_dat$replicate)
 ################################## VISUALIZING DATA ############################################## 
 ## 1) Proportion of mounts directed at other males
 ggplot(data = male_sum_dat, aes(x = treatment, y = male_mount_rate, fill = treatment)) + 
-       geom_boxplot() + labs(y = "Male mount rate", x = NULL) + ylim(0, 1) +
-       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008"))
+       geom_boxplot(outlier.color = NA) + labs(y = "Male mount rate", x = NULL) + ylim(0, 1) +
+       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
+       geom_jitter(width = 0.1, alpha = 0.5)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful
 ggplot(data = male_sum_dat, aes(x = treatment, y = avoid_success_rate, fill = treatment)) + 
-       geom_boxplot() + labs(y = "Female escape rate", x = NULL) + ylim(0, 1) +
-       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008"))
+       geom_boxplot(outlier.color = NA) + labs(y = "Female escape rate", x = NULL) + ylim(0, 1) +
+       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
+       geom_jitter(width = 0.1, alpha = 0.5)
 
 ## 3) Insemination rate (inseminations per day)
-ggplot(data = male_sum_dat, aes(x = treatment, y = insem_rate, fill = treatment)) + 
-       geom_boxplot() + labs(y = "Inseminations per day", x = NULL) + 
-       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + ylim(0, 6)
+ggplot(data = male_sum_dat, aes(x = treatment, y = inseminations, fill = treatment)) + 
+       geom_boxplot(outlier.color = NA) + labs(y = "Inseminations per day", x = NULL) + 
+       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + ylim(0, 6) + 
+       geom_jitter(width = 0.1, alpha = 0.5)
 
 ## 5) Mount rate (mounts per day)
 ggplot(data = male_sum_dat, aes(x = treatment, y = mount_rate, fill = treatment)) + 
-  geom_boxplot() + labs(y = "Mounts per day", x = NULL) + 
-  My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008"))
+       geom_boxplot(outlier.color = NA) + labs(y = "Mounts per day", x = NULL) + 
+       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
+       geom_jitter(width = 0.1, alpha = 0.5)
 
 ## 5) Opposite sex strength
 ggplot(data = male_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + 
-  geom_boxplot() + labs(y = "Opposite-sex strength", x = NULL) + 
-  My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008"))
+       geom_boxplot(outlier.color = NA) + labs(y = "Opposite-sex strength", x = NULL) + 
+       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
+       geom_jitter(width = 0.1, alpha = 0.5)
 
 ################################## MODELS #########################################################
-all_male_dat <- read.csv("males_summer_2023/data/male_all_data.csv")
-
-all_male_dat$behaviour <- as.factor(all_male_dat$behaviour)
-all_male_dat$partner_sex <- as.factor(all_male_dat$partner_sex)
+male_daily_data <- read.csv("males_summer_2023/data/male_summary_data.csv", stringsAsFactors = TRUE) %>% 
+                   filter(day == 1 | day == 2)
 
 # 1) Proportion of mounts directed at other males
-male_mount_mod <- glmer(data = all_male_dat, partner_sex ~ treatment + (1|replicate:patch_focal) + (1|replicate)
-                          , family = binomial())
+male_mount_mod <- glmer(data = male_daily_data, cbind(male_mounts, female_mounts) ~ treatment*day +
+                        (1|replicate/ID), 
+                        family = binomial())
 
 plot(simulateResiduals(male_mount_mod))
 summary(male_mount_mod)
 Anova(male_mount_mod)
-summary(male_mount_mod)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful (NEED TO REVIST, TRY GLMMTMB)
-all_data_avoid <- all_male_dat %>% 
-                  filter(partner_avoid == "y" | partner_avoid == "Y") # filters for only cases where females attempted to avoid
-
-all_data_avoid$avoid_success[all_data_avoid$avoid_success == "Y"] <- "y" # Turns uppercase to lowercase
-all_data_avoid$avoid_success[all_data_avoid$avoid_success == "N"] <- "n" # Turns uppercase to lowercase
-
-all_data_avoid$avoid_success <- as.factor(all_data_avoid$avoid_success)
-
-avoid_model <- glmer(data = all_data_avoid, avoid_success ~ treatment + replicate + 
-                    (1|replicate:patch_focal), family = binomial())
-
-# I changed replicate from a random to a fixed effect here, otherwise the model fails to converge
+avoid_model <- glmer(data = male_daily_data, cbind((attempt_avoid - success_avoid), success_avoid) ~ treatment*day + 
+                              (1|replicate/ID), family = binomial())
 
 plot(simulateResiduals(avoid_model))
+summary(avoid_model)
 Anova(avoid_model)
 
 
-## 3) Insemination rate (inseminations per day)
-insem_model <- lmer(data = male_sum_dat, insem_rate ~ treatment + (1|replicate))
+## 3) Insemination rate (number of inseminations)
+insem_model <- glmmTMB(data = male_daily_data, inseminations ~ treatment*day + (1|replicate/ID), family = poisson())
 
 plot(simulateResiduals(insem_model))
 summary(insem_model)
 Anova(insem_model)
 
-## 3) Mount rate (mounts per day)
-mount_model <- lmer(data = male_sum_dat, log(mount_rate) ~ treatment + (1|replicate))
+## 3) Mount rate (number of mounts)
+mount_model <- glmmTMB(data = male_daily_data, mounts ~ treatment*day + (1|replicate/ID), family = poisson())
 
 plot(simulateResiduals(mount_model))
 Anova(mount_model)
@@ -106,9 +100,3 @@ tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, sd)
 ### OPPOSITE-SEX STRENGTH CORRELATION WITH INSEMINATION SUCCESS
 ggplot(data = male_sum_dat, aes(y = insem_rate, x = oppo_sex_strength)) + geom_point() + 
       geom_smooth(method = "lm")
-
-
-
-
-
-
