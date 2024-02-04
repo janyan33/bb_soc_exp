@@ -14,6 +14,7 @@ My_Theme = theme(
   axis.title.y = element_text(size = 20), 
   axis.text.y = element_text(size = 20))
 
+## DATA FOR PLOTTING ONLY
 male_sum_dat <- read.csv("males_summer_2023/data/male_summary_data.csv") %>% 
                 filter(day == "both") %>% 
                 mutate(insem_rate = inseminations/2) %>% 
@@ -30,19 +31,20 @@ male_sum_dat$replicate <- as.factor(male_sum_dat$replicate)
 ggplot(data = male_sum_dat, aes(x = treatment, y = male_mount_rate, fill = treatment)) + 
        geom_boxplot(outlier.color = NA) + labs(y = "Male mount rate", x = NULL) + ylim(0, 1) +
        My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
-       geom_jitter(width = 0.1, alpha = 0.5)
+       geom_jitter(width = 0.1, alpha = 0.5, size = 2)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful
 ggplot(data = male_sum_dat, aes(x = treatment, y = avoid_success_rate, fill = treatment)) + 
-       geom_boxplot(outlier.color = NA) + labs(y = "Female escape rate", x = NULL) + ylim(0, 1) +
+       geom_boxplot(outlier.color = NA) + labs(y = "Female escape rate", x = NULL) + 
+       scale_y_continuous(limits = c(0,1)) +
        My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
-       geom_jitter(width = 0.1, alpha = 0.5)
+       geom_jitter(width = 0.15, height = 0, alpha = 0.5, size = 2)
 
 ## 3) Insemination rate (inseminations per day)
-ggplot(data = male_sum_dat, aes(x = treatment, y = inseminations, fill = treatment)) + 
+ggplot(data = male_sum_dat, aes(x = treatment, y = insem_rate, fill = treatment)) + 
        geom_boxplot(outlier.color = NA) + labs(y = "Inseminations per day", x = NULL) + 
-       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + ylim(0, 6) + 
-       geom_jitter(width = 0.1, alpha = 0.5)
+       My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + ylim(-.05, 6.5) + 
+       geom_jitter(width = 0.1, alpha = 0.5, size = 2)
 
 ## 5) Mount rate (mounts per day)
 ggplot(data = male_sum_dat, aes(x = treatment, y = mount_rate, fill = treatment)) + 
@@ -54,49 +56,47 @@ ggplot(data = male_sum_dat, aes(x = treatment, y = mount_rate, fill = treatment)
 ggplot(data = male_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + 
        geom_boxplot(outlier.color = NA) + labs(y = "Opposite-sex strength", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
-       geom_jitter(width = 0.1, alpha = 0.5)
+       geom_jitter(width = 0.1, alpha = 0.5, size = 2)
 
 ################################## MODELS #########################################################
 male_daily_data <- read.csv("males_summer_2023/data/male_summary_data.csv", stringsAsFactors = TRUE) %>% 
                    filter(day == 1 | day == 2)
 
 # 1) Proportion of mounts directed at other males
-male_mount_mod <- glmer(data = male_daily_data, cbind(male_mounts, female_mounts) ~ treatment*day +
+male_mount_mod <- glmmTMB(data = male_daily_data, cbind(male_mounts, female_mounts) ~ treatment*day +
                         (1|replicate/ID), 
-                        family = binomial())
+                        family = binomial()) # Used GLMMTMB bc glmer was giving me a singular fit
 
-plot(simulateResiduals(male_mount_mod))
+plot(simulateResiduals(male_mount_mod)) # Looks good
 summary(male_mount_mod)
 Anova(male_mount_mod)
 
-## 2) Proportion of mounts where females attempted to avoid that were successful (NEED TO REVIST, TRY GLMMTMB)
-avoid_model <- glmer(data = male_daily_data, cbind((attempt_avoid - success_avoid), success_avoid) ~ treatment*day + 
-                              (1|replicate/ID), family = binomial())
+## 2) Proportion of mounts where females attempted to avoid that were successful
+avoid_model <- glmmTMB(data = male_daily_data, cbind((attempt_avoid - success_avoid), success_avoid) ~ treatment*day + 
+                              (1|replicate/ID), family = binomial()) # Used GLMMTMB bc glmer gave me a singular fit
 
-plot(simulateResiduals(avoid_model))
+plot(simulateResiduals(avoid_model)) # Looks good
 summary(avoid_model)
 Anova(avoid_model)
-
 
 ## 3) Insemination rate (number of inseminations)
 insem_model <- glmmTMB(data = male_daily_data, inseminations ~ treatment*day + (1|replicate/ID), family = poisson())
 
-plot(simulateResiduals(insem_model))
+plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)
 Anova(insem_model)
 
 ## 3) Mount rate (number of mounts)
 mount_model <- glmmTMB(data = male_daily_data, mounts ~ treatment*day + (1|replicate/ID), family = poisson())
 
-plot(simulateResiduals(mount_model))
+plot(simulateResiduals(mount_model)) # Looks good
+summary(mount_model)
 Anova(mount_model)
 
+## Mean +/- SE for mount rate per male
 tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, mean)
 tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, sd)
 
 15.287093/sqrt(24)
 7.638545/sqrt(24)
 
-### OPPOSITE-SEX STRENGTH CORRELATION WITH INSEMINATION SUCCESS
-ggplot(data = male_sum_dat, aes(y = insem_rate, x = oppo_sex_strength)) + geom_point() + 
-      geom_smooth(method = "lm")
