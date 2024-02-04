@@ -8,6 +8,7 @@ library(igraph)
 library(ggsci)
 library(netdiffuseR)
 library(ggpubr)
+library(glmmTMB)
 
 My_Theme = theme(
   axis.title.x = element_text(size = 20),
@@ -58,7 +59,7 @@ insem_model <- glmmTMB(data = fem_model_data, inseminations ~ treatment*day + (1
 
 plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)
-Anova(insem_model, type = "II") # We use this result bc we want type II SS
+Anova(insem_model)
 
 ##### 1) Attempted avoidance rate #####
 attempt_model <- glmer(data = fem_model_data, cbind(attempt_avoid, (mounts - attempt_avoid)) ~
@@ -69,7 +70,7 @@ summary(attempt_model)
 Anova(attempt_model)
 
 ##### 2) Avoidance success rate #####
-success_model <- glmer(data = fem_model_data, cbind(success_avoid, (attempt_avoid - success_avoid)) ~
+success_model <- glmmTMB(data = fem_model_data, cbind(success_avoid, (attempt_avoid - success_avoid)) ~
                          treatment*day + (1|replicate/ID), family = binomial())
 
 plot(simulateResiduals(success_model))
