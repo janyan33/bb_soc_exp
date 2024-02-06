@@ -61,7 +61,7 @@ male_summary_data <- read.csv("males_fall_2022/data/combined_individual_data.csv
                      filter(day == 1 | day == 2) # include day 1 and 2 data and exclude the rows that sum both
 
 ## 1) Proportion of mounts directed at other males
-male_mount_mod <- glmer(data = male_summary_data, cbind(male_mounts, female_mounts) ~ 
+male_mount_mod <- glmmTMB(data = male_summary_data, cbind(male_mounts, female_mounts) ~ 
                                                   treatment*day + (1|replicate/ID), 
                                                   family = binomial())
 
@@ -70,7 +70,7 @@ summary(male_mount_mod)
 Anova(male_mount_mod)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful
-female_avoid_model <- glmer(data = male_summary_data, cbind((attempted_avoid - mounts_evaded), mounts_evaded) 
+female_avoid_model <- glmmTMB(data = male_summary_data, cbind((attempted_avoid - mounts_evaded), mounts_evaded) 
                                                       ~ treatment*day + (1|replicate/ID), 
                                                       family = binomial())
 
@@ -81,7 +81,7 @@ Anova(female_avoid_model)
 ## 3) Number of inseminations per male
 # Used glmmTMB instead of glmer here bc I got a singular fit with glmer
 insem_model <- glmmTMB(data = male_summary_data, inseminations ~ treatment*day + 
-                                                 (1|replicate/ID), family = nbinom2())
+                                                 (1|replicate/ID), family = poisson())
 
 plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)

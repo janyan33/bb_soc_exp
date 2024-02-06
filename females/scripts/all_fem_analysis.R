@@ -62,7 +62,7 @@ summary(insem_model)
 Anova(insem_model)
 
 ##### 1) Attempted avoidance rate #####
-attempt_model <- glmer(data = fem_model_data, cbind(attempt_avoid, (mounts - attempt_avoid)) ~
+attempt_model <- glmmTMB(data = fem_model_data, cbind(attempt_avoid, (mounts - attempt_avoid)) ~
                                               treatment*day + (1|replicate/ID), family = binomial())
                          
 plot(simulateResiduals(attempt_model)) # Looks good
