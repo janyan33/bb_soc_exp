@@ -4,9 +4,7 @@ library(lme4)
 library(DHARMa)
 library(janitor)
 library(car)
-library(igraph)
-library(ggsci)
-library(netdiffuseR)
+
 
 My_Theme = theme(
   axis.title.x = element_text(size = 20),
@@ -31,7 +29,7 @@ male_sum_dat$replicate <- as.factor(male_sum_dat$replicate)
 ggplot(data = male_sum_dat, aes(x = treatment, y = male_mount_rate, fill = treatment)) + 
        geom_boxplot(outlier.color = NA) + labs(y = "Male mount rate", x = NULL) + ylim(0, 1) +
        My_Theme + scale_fill_manual(values =c("#B7E5A7", "#268008")) + 
-       geom_jitter(width = 0.1, alpha = 0.5, size = 2)
+       geom_jitter(width = 0.1, alpha = 0.5, size = 2, height = 0)
 
 ## 2) Proportion of mounts where females attempted to avoid that were successful
 ggplot(data = male_sum_dat, aes(x = treatment, y = avoid_success_rate, fill = treatment)) + 
@@ -65,7 +63,7 @@ male_daily_data <- read.csv("males_summer_2023/data/male_summary_data.csv", stri
 # 1) Proportion of mounts directed at other males
 male_mount_mod <- glmmTMB(data = male_daily_data, cbind(male_mounts, female_mounts) ~ treatment*day +
                         (1|replicate/ID), 
-                        family = binomial()) # Used GLMMTMB bc glmer was giving me a singular fit
+                        family = binomial()) 
 
 plot(simulateResiduals(male_mount_mod)) # Looks good
 summary(male_mount_mod)
@@ -93,10 +91,26 @@ plot(simulateResiduals(mount_model)) # Looks good
 summary(mount_model)
 Anova(mount_model)
 
+compareCoefs(mount_model, se = TRUE, pvals = TRUE, type = 2)
+
+# Pairwise comparison for mount model
+library(emmeans)
+em_mount <- emmeans(mount_model, specs = ~ treatment*day)
+
+pairs(em_mount, simple = "treatment")
+
 ## Mean +/- SE for mount rate per male
 tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, mean)
 tapply(male_sum_dat$mounts/2, male_sum_dat$treatment, sd)
 
 15.287093/sqrt(24)
 7.638545/sqrt(24)
+
+## Mean +/- SE for insemination rate per male
+tapply(male_sum_dat$insem_rate, male_sum_dat$treatment, mean)
+tapply(male_sum_dat$insem_rate, male_sum_dat$treatment, sd)
+
+1.4024758/sqrt(24)
+0.8657639/sqrt(24)
+
 

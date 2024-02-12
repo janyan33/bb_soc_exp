@@ -39,7 +39,7 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success, fill = treatmen
       geom_jitter(size = 2, alpha = 0.3, width = 0.2, height = 0)
 
 #### 3) Insemination rate
-ggplot(data = fem_sum_dat, aes(x = treatment, y = insem_rate, fill = treatment)) + 
+ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations, fill = treatment)) + 
        geom_boxplot(alpha = 0.9, outlier.colour = NA) + My_Theme + 
        labs(y = "Inseminations per day", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414")) + 
        geom_jitter(size = 2, alpha = 0.3, width = 0.2)
@@ -60,6 +60,16 @@ insem_model <- glmmTMB(data = fem_model_data, inseminations ~ treatment*day + (1
 plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)
 Anova(insem_model)
+
+insem_em <- emmeans(insem_model, specs = ~ treatment*day)
+
+pairs(insem_em, simple = "treatment")
+
+tapply(fem_sum_dat$insem_rate, fem_sum_dat$treatment, mean)
+tapply(fem_sum_dat$insem_rate, fem_sum_dat$treatment, sd)
+
+0.7790276/sqrt(24)
+0.8337861/sqrt(24)
 
 ##### 1) Attempted avoidance rate #####
 attempt_model <- glmmTMB(data = fem_model_data, cbind(attempt_avoid, (mounts - attempt_avoid)) ~

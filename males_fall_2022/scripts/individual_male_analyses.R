@@ -2,12 +2,9 @@ library(tidyverse)
 library(ggplot2); theme_set(theme_classic())
 library(lme4)
 library(DHARMa)
-library(janitor)
 library(car)
-library(igraph)
-library(ggsci)
-library(netdiffuseR)
 library(glmmTMB)
+library(emmeans)
 
 My_Theme = theme(
   axis.title.x = element_text(size = 20),
@@ -15,7 +12,7 @@ My_Theme = theme(
   axis.title.y = element_text(size = 20), 
   axis.text.y = element_text(size = 20))
 
-## DATA FOR PLOTTING ONLY
+## DATA USED FOR PLOTTING ONLY
 male_data <- read.csv("males_fall_2022/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
              filter(day == "both") %>% 
              mutate(insem_rate = inseminations/2) %>% 
@@ -35,10 +32,10 @@ ggplot(data = male_data, aes(x = treatment, y = prop_male, fill = treatment)) +
 ggplot(data = male_data, aes(x = treatment, y = avoid_success_rate, fill = treatment)) + 
        geom_boxplot(outlier.colour = NA) + labs(y = "Female escape rate", x = NULL) + ylim(0, 1) +
        My_Theme + scale_fill_manual(values = c("lightblue1", "deepskyblue4")) +
-       geom_jitter(width = 0.1, alpha = 0.3, size = 2)
+       geom_jitter(width = 0.1, alpha = 0.3, size = 2, height = 0)
 
 ## 3) Insemination rate (inseminations per male)
-ggplot(data = male_data, aes(x = treatment, y = insem_rate, fill = treatment)) + 
+ggplot(data = male_data, aes(x = treatment, y = inseminations, fill = treatment)) + 
        geom_boxplot(fatten = 3, outlier.colour = NA) + labs(y = "Inseminations per day", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4")) + 
        geom_jitter(width = 0.1, alpha = 0.3, size = 2)
@@ -69,6 +66,9 @@ plot(simulateResiduals(male_mount_mod)) # Looks good
 summary(male_mount_mod)
 Anova(male_mount_mod)
 
+em_male_mount <- emmeans(male_mount_mod, specs = ~ treatment*day)
+pairs(em_male_mount, simple = "treatment") # no differences between treatments in either day
+
 ## 2) Proportion of mounts where females attempted to avoid that were successful
 female_avoid_model <- glmmTMB(data = male_summary_data, cbind((attempted_avoid - mounts_evaded), mounts_evaded) 
                                                       ~ treatment*day + (1|replicate/ID), 
@@ -96,11 +96,23 @@ plot(simulateResiduals(mount_model))
 summary(mount_model)
 Anova(mount_model)
 
+# Pairwise comparison for mount model
+em_mounts <- emmeans(mount_model, specs = ~ treatment*day)
+plot(em_mounts)
+pairs(em_mounts, simple = "treatment")
+
+
 # Get mean +- SD for mounts
-tapply(male_data$mounts, male_data$treatment, mean)
-tapply(male_data$mounts, male_data$treatment, sd)
+tapply(male_data$mount_rate, male_data$treatment, mean)
+tapply(male_data$mount_rate, male_data$treatment, sd)
 
 6.877442/sqrt(36)
 4.389970/sqrt(34)
 
+# Get mean +- SD for inseminations
+tapply(male_data$insem_rate, male_data$treatment, mean)
+tapply(male_data$insem_rate, male_data$treatment, sd)
+
+1.0159674/sqrt(36)
+0.7499257/sqrt(34)
 
