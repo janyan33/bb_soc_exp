@@ -25,6 +25,17 @@ fem_sum_dat$avoid_success <- as.numeric(fem_sum_dat$avoid_success)
 fem_sum_dat$replicate <- as.factor(fem_sum_dat$replicate)
 fem_sum_dat$treatment <- as.factor(fem_sum_dat$treatment)
 
+## DATA USED FOR ANALYSES
+fem_model_data <- read.csv("females/data/fem_summary_data.csv", stringsAsFactors = TRUE) %>% 
+                  filter(day == 1 | day == 2)
+
+fem_model_data <- fem_model_data %>% 
+                  mutate(male_aborts = (mounts - inseminations - success_avoid)) %>% 
+                  mutate(possible_aborts = (mounts - success_avoid)) # For abort rate model
+
+fem_model_data <- fem_model_data %>% 
+                  mutate(male_rate = (male_aborts/possible_aborts)) # For abort rate figure
+
 ######################################### FIGURES ###############################################
 ### 1) Attempted avoidance rate
 ggplot(data = fem_sum_dat, aes(x = treatment, y = prop_avoid, fill = treatment)) + 
@@ -50,10 +61,13 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = trea
        labs(y = "Opposite-sex strength", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414")) + 
        geom_jitter(size = 2, alpha = 0.3, width = 0.2)
 
-######################################### ANALYSES ##############################################
-fem_model_data <- read.csv("females/data/fem_summary_data.csv", stringsAsFactors = TRUE) %>% 
-                  filter(day == 1 | day == 2)
+#### 5) Rate at which males aborted mounts with social vs. isolated females
+ggplot(data = fem_model_data, aes(x = day, y = male_rate, fill = treatment)) + 
+       geom_boxplot(alpha = 0.9, outlier.colour = NA) + My_Theme + ylim(0, 1) +
+       labs(y = "Male rejection rate", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414")) + 
+       geom_point(position = position_jitterdodge(jitter.height = 0, jitter.width = 0.4), alpha = 0.3)
 
+######################################### ANALYSES ##############################################
 ##### 3) Insemination rate (number of inseminations per day) #####
 insem_model <- glmmTMB(data = fem_model_data, inseminations ~ treatment*day + (1|replicate/ID), family = poisson())
 
@@ -65,6 +79,7 @@ insem_em <- emmeans(insem_model, specs = ~ treatment*day)
 
 pairs(insem_em, simple = "treatment")
 
+## Get mean +/- SE for # of inseminations per female
 tapply(fem_sum_dat$insem_rate, fem_sum_dat$treatment, mean)
 tapply(fem_sum_dat$insem_rate, fem_sum_dat$treatment, sd)
 
@@ -89,24 +104,12 @@ summary(success_model)
 Anova(success_model)
 
 
-### ADDITIONAL POST-HOC ANALYSES
-fem_model_data <- fem_model_data %>% 
-  mutate(male_aborts = (mounts - inseminations - success_avoid)) %>% 
-  mutate(possible_aborts = (mounts - success_avoid))
-
-fem_model_data <- fem_model_data %>% 
-  mutate(male_rate = (male_aborts/possible_aborts)) # For plotting
-
-ggplot(data = fem_model_data, aes(x = day, y = avoid_success, fill = treatment)) + 
-  geom_boxplot(alpha = 0.9, outlier.colour = NA) + My_Theme + 
-  labs(y = "Avoidance success rate", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
-
-
+##### 4) Male abort rate
 abort_model <- glmmTMB(data = fem_model_data, cbind(male_aborts, (possible_aborts - male_aborts)) ~
                            treatment*day + (1|replicate/ID), family = binomial())
 
+summary(abort_model)
 Anova(abort_model)
 
 em_abort <- emmeans(abort_model, specs = ~treatment*day)
 pairs(em_abort, simple = "treatment")
-S

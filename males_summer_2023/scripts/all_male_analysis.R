@@ -84,6 +84,7 @@ plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)
 Anova(insem_model)
 
+
 ## 3) Mount rate (number of mounts)
 mount_model <- glmmTMB(data = male_daily_data, mounts ~ treatment*day + (1|replicate/ID), family = poisson())
 
