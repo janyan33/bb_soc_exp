@@ -87,6 +87,9 @@ plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)
 Anova(insem_model)
 
+em_insem <- emmeans(insem_model, specs = ~treatment*day)
+pairs(em_insem, simple = "treatment")
+
 ## 3) Number of mounts per day
 # Used glmmTMB instead of glmer here bc I got a singular fit with glmer
 mount_model <- glmmTMB(data = male_summary_data, mounts ~ treatment*day + 

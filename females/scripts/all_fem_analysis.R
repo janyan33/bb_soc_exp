@@ -89,3 +89,24 @@ summary(success_model)
 Anova(success_model)
 
 
+### ADDITIONAL POST-HOC ANALYSES
+fem_model_data <- fem_model_data %>% 
+  mutate(male_aborts = (mounts - inseminations - success_avoid)) %>% 
+  mutate(possible_aborts = (mounts - success_avoid))
+
+fem_model_data <- fem_model_data %>% 
+  mutate(male_rate = (male_aborts/possible_aborts)) # For plotting
+
+ggplot(data = fem_model_data, aes(x = day, y = avoid_success, fill = treatment)) + 
+  geom_boxplot(alpha = 0.9, outlier.colour = NA) + My_Theme + 
+  labs(y = "Avoidance success rate", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414"))
+
+
+abort_model <- glmmTMB(data = fem_model_data, cbind(male_aborts, (possible_aborts - male_aborts)) ~
+                           treatment*day + (1|replicate/ID), family = binomial())
+
+Anova(abort_model)
+
+em_abort <- emmeans(abort_model, specs = ~treatment*day)
+pairs(em_abort, simple = "treatment")
+S

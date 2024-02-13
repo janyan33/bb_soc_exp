@@ -99,7 +99,7 @@ replicate,day,treatment,ID,inseminations,mounts,attempt_avoid,success_avoid,prop
 5,2,social,I,0,2,2,1,1,0.5,
 5,both,social,I,2,4,3,2,0.75,0.666666667,0.9807631
 5,1,social,J,2,10,1,0,0.1,0,
-5,2,social,J,1,2,2,2,1,1,
+5,2,social,J,0,2,2,2,1,1,
 5,both,social,J,3,12,3,2,0.25,0.666666667,0.9706163
 5,1,social,K,1,4,3,3,0.75,1,
 5,2,social,K,1,7,5,3,0.714285714,0.6,
