@@ -35,10 +35,10 @@ ggplot(data = male_data, aes(x = treatment, y = avoid_success_rate, fill = treat
        geom_jitter(width = 0.1, alpha = 0.3, size = 2, height = 0)
 
 ## 3) Insemination rate (inseminations per male)
-ggplot(data = male_data, aes(x = treatment, y = inseminations, fill = treatment)) + 
+ggplot(data = male_summary_data, aes(x = day, y = inseminations, fill = treatment)) + 
        geom_boxplot(fatten = 3, outlier.colour = NA) + labs(y = "Inseminations per day", x = NULL) + 
        My_Theme + scale_fill_manual(values =c("lightblue1", "deepskyblue4")) + 
-       geom_jitter(width = 0.1, alpha = 0.3, size = 2)
+       geom_point(position = position_jitterdodge(jitter.height = 0.1, jitter.width = 0.4), alpha = 0.3)
 
 # 4) Mount rate
 ggplot(data = male_data, aes(x = treatment, y = mount_rate, fill = treatment)) + 

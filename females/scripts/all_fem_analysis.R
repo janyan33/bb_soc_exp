@@ -39,10 +39,10 @@ ggplot(data = fem_sum_dat, aes(x = treatment, y = avoid_success, fill = treatmen
       geom_jitter(size = 2, alpha = 0.3, width = 0.2, height = 0)
 
 #### 3) Insemination rate
-ggplot(data = fem_sum_dat, aes(x = treatment, y = inseminations, fill = treatment)) + 
+ggplot(data = fem_model_data, aes(x = day, y = inseminations, fill = treatment)) + 
        geom_boxplot(alpha = 0.9, outlier.colour = NA) + My_Theme + 
        labs(y = "Inseminations per day", x = NULL) + scale_fill_manual(values=c("#f9c784", "#e36414")) + 
-       geom_jitter(size = 2, alpha = 0.3, width = 0.2)
+       geom_point(position = position_jitterdodge(jitter.height = 0.1, jitter.width = 0.4), alpha = 0.3)
 
 #### 4) Opposite-sex association matrices
 ggplot(data = fem_sum_dat, aes(x = treatment, y = oppo_sex_strength, fill = treatment)) + 
