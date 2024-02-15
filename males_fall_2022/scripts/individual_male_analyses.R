@@ -12,13 +12,17 @@ My_Theme = theme(
   axis.title.y = element_text(size = 20), 
   axis.text.y = element_text(size = 20))
 
-## DATA USED FOR PLOTTING ONLY
+## DATA USED FOR PLOTTING ONLY (used for plotting because it combines day 1 and day 2 data)
 male_data <- read.csv("males_fall_2022/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
              filter(day == "both") %>% 
              mutate(insem_rate = inseminations/2) %>% 
              mutate(mount_rate = mounts/2)
 
 male_data$replicate <- as.factor(male_data$replicate)
+
+## DATA USED IN ANALYSES
+male_summary_data <- read.csv("males_fall_2022/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
+                     filter(day == 1 | day == 2) # include day 1 and 2 data and exclude the rows that sum both
 
 ################################## VISUALIZING DATA ############################################## 
 ## Plot data
@@ -53,69 +57,84 @@ ggplot(data = male_data, aes(x = treatment, y = oppo_sex_strength, fill = treatm
        geom_jitter(width = 0.1, alpha = 0.3, size = 2)
 
 ################################## MODELS #####################################
-## Load in data for analyses
-male_summary_data <- read.csv("males_fall_2022/data/combined_individual_data.csv", stringsAsFactors = TRUE) %>% 
-                     filter(day == 1 | day == 2) # include day 1 and 2 data and exclude the rows that sum both
-
-## 1) Proportion of mounts directed at other males
+####### 1) Proportion of mounts directed at other males
 male_mount_mod <- glmmTMB(data = male_summary_data, cbind(male_mounts, female_mounts) ~ 
                                                   treatment*day + (1|replicate/ID), 
                                                   family = binomial())
 
 plot(simulateResiduals(male_mount_mod)) # Looks good
-summary(male_mount_mod)
-Anova(male_mount_mod)
+Anova(male_mount_mod, type = 3) # Interaction significant so I put the Type III anova results in the Supp. (qualitative results the same)
 
+# Pairwise test looking at interaction
 em_male_mount <- emmeans(male_mount_mod, specs = ~ treatment*day)
 pairs(em_male_mount, simple = "treatment") # no differences between treatments in either day
 
-## 2) Proportion of mounts where females attempted to avoid that were successful
+###############################################################################
+####### 2) Proportion of mounts where females attempted to avoid that were successful
 female_avoid_model <- glmmTMB(data = male_summary_data, cbind((attempted_avoid - mounts_evaded), mounts_evaded) 
                                                       ~ treatment*day + (1|replicate/ID), 
                                                       family = binomial())
 
 plot(simulateResiduals(female_avoid_model)) # Looks good
-summary(female_avoid_model)
-Anova(female_avoid_model)
+Anova(female_avoid_model) # Type II
 
-## 3) Number of inseminations per male
-# Used glmmTMB instead of glmer here bc I got a singular fit with glmer
+
+###############################################################################
+####### 3) Number of inseminations per male
 insem_model <- glmmTMB(data = male_summary_data, inseminations ~ treatment*day + 
                                                  (1|replicate/ID), family = poisson())
 
 plot(simulateResiduals(insem_model)) # Looks good
 summary(insem_model)
-Anova(insem_model)
+Anova(insem_model, type = 3) # Interaction significant so I put the Type III anova results in the Supp. (qualitative results the same)
 
+# Pairwise test looking at interaction
 em_insem <- emmeans(insem_model, specs = ~treatment*day)
 pairs(em_insem, simple = "treatment")
 
-## 3) Number of mounts per day
+## Mean +- SD for inseminations
+male_data_1 <- male_summary_data %>% 
+               filter(day == 1)
+
+tapply(male_data_1$inseminations, male_data_1$treatment, mean)
+tapply(male_data_1$inseminations, male_data_1$treatment, sd)
+
+1.482972/sqrt(36)
+1.136417/sqrt(34)
+
+male_data_2 <- male_summary_data %>% 
+               filter(day == 2)
+
+tapply(male_data_2$inseminations, male_data_2$treatment, mean)
+tapply(male_data_2$inseminations, male_data_2$treatment, sd)
+
+1.1166134/sqrt(36)
+0.7836338/sqrt(34)
+
+###############################################################################
+####### 4) Number of mounts per day
 # Used glmmTMB instead of glmer here bc I got a singular fit with glmer
 mount_model <- glmmTMB(data = male_summary_data, mounts ~ treatment*day + 
                                                 (1|replicate/ID), family = nbinom2())
 
-plot(simulateResiduals(mount_model))
+plot(simulateResiduals(mount_model)) # Looks good
 summary(mount_model)
-Anova(mount_model)
+Anova(mount_model, type = 3)
 
 # Pairwise comparison for mount model
 em_mounts <- emmeans(mount_model, specs = ~ treatment*day)
-plot(em_mounts)
 pairs(em_mounts, simple = "treatment")
 
-
 # Get mean +- SD for mounts
-tapply(male_data$mount_rate, male_data$treatment, mean)
-tapply(male_data$mount_rate, male_data$treatment, sd)
+tapply(male_data_1$mounts, male_data_1$treatment, mean)
+tapply(male_data_1$mounts, male_data_1$treatment, sd)
+
+12.865945/sqrt(36)
+7.222526/sqrt(34)
+
+tapply(male_data_2$mounts, male_data_2$treatment, mean)
+tapply(male_data_2$mounts, male_data_2$treatment, sd)
 
 6.877442/sqrt(36)
 4.389970/sqrt(34)
-
-# Get mean +- SD for inseminations
-tapply(male_data$insem_rate, male_data$treatment, mean)
-tapply(male_data$insem_rate, male_data$treatment, sd)
-
-1.0159674/sqrt(36)
-0.7499257/sqrt(34)
 

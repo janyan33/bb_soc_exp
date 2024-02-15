@@ -2,12 +2,7 @@ library(tidyverse)
 library(ggplot2); theme_set(theme_classic())
 library(lme4)
 library(DHARMa)
-library(janitor)
 library(car)
-library(igraph)
-library(ggsci)
-library(netdiffuseR)
-library(ggpubr)
 library(glmmTMB)
 
 My_Theme = theme(
@@ -72,19 +67,31 @@ ggplot(data = fem_model_data, aes(x = day, y = male_rate, fill = treatment)) +
 insem_model <- glmmTMB(data = fem_model_data, inseminations ~ treatment*day + (1|replicate/ID), family = poisson())
 
 plot(simulateResiduals(insem_model)) # Looks good
-summary(insem_model)
-Anova(insem_model)
+Anova(insem_model, type = 3) # Type 3 bc sig interaction
 
 insem_em <- emmeans(insem_model, specs = ~ treatment*day)
 
 pairs(insem_em, simple = "treatment")
 
 ## Get mean +/- SE for # of inseminations per female
-tapply(fem_sum_dat$insem_rate, fem_sum_dat$treatment, mean)
-tapply(fem_sum_dat$insem_rate, fem_sum_dat$treatment, sd)
+fem_model_data_1 <- fem_model_data %>% 
+                    filter(day == 1)
 
-0.7790276/sqrt(24)
-0.8337861/sqrt(24)
+tapply(fem_model_data_1$inseminations, fem_model_data_1$treatment, mean)
+tapply(fem_model_data_1$inseminations, fem_model_data_1$treatment, sd)
+
+1.318074/sqrt(24)
+1.398109/sqrt(24)
+
+fem_model_data_2 <- fem_model_data %>% 
+                    filter(day == 2)
+
+tapply(fem_model_data_2$inseminations, fem_model_data_2$treatment, mean)
+tapply(fem_model_data_2$inseminations, fem_model_data_2$treatment, sd)
+
+0.9630868/sqrt(24)
+1.5580553/sqrt(24)
+
 
 ##### 1) Attempted avoidance rate #####
 attempt_model <- glmmTMB(data = fem_model_data, cbind(attempt_avoid, (mounts - attempt_avoid)) ~
@@ -92,7 +99,7 @@ attempt_model <- glmmTMB(data = fem_model_data, cbind(attempt_avoid, (mounts - a
                          
 plot(simulateResiduals(attempt_model)) # Looks good
 summary(attempt_model)
-Anova(attempt_model)
+Anova(attempt_model) # Type II bc no sig interaction
 
 ##### 2) Avoidance success rate #####
 success_model <- glmmTMB(data = fem_model_data, cbind(success_avoid, (attempt_avoid - success_avoid)) ~
@@ -103,13 +110,27 @@ plot(simulateResiduals(success_model))
 summary(success_model)
 Anova(success_model)
 
+#### 4) Rate of getting mounted
+mount_model <- glmmTMB(data = fem_model_data, mounts ~ treatment*day + (1|replicate) + (1|replicate/ID), 
+                       family = nbinom1())
 
-##### 4) Male abort rate
+plot(simulateResiduals(mount_model))
+summary(mount_model)
+Anova(mount_model) # Type II bc no sig interaction
+
+
+tapply(fem_model_data$mounts, fem_model_data$treatment, mean)
+tapply(fem_model_data$mounts, fem_model_data$treatment, sd)
+
+8.089235/sqrt(24)
+6.708699/sqrt(24)
+
+##### 5) Male abort rate
 abort_model <- glmmTMB(data = fem_model_data, cbind(male_aborts, (possible_aborts - male_aborts)) ~
                            treatment*day + (1|replicate/ID), family = binomial())
 
 summary(abort_model)
-Anova(abort_model)
+Anova(abort_model) # Type 3 bc
 
 em_abort <- emmeans(abort_model, specs = ~treatment*day)
 pairs(em_abort, simple = "treatment")
